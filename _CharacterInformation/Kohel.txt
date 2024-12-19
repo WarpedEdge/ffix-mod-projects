@@ -1,0 +1,37 @@
+// Kohel Pluto Knight
+ACTOR Model 37 GEO_SUB_F2_SSB (5509)
+
+MODEL_NAME: GEO_SUB_F2_SSB
+ANIMATION_NAME: ANH_SUB_F2_SSB_
+
+// For weapon positioning
+#! IncludeWeaponOffsets
+Position: -10.200000000, -10.600000000, 31.000000000
+Rotation: 285.076600000, 113.683500000, 244.101400000
+29.11.2024 08:34:57 |M| [WEAPON] GEO_WEP_B1_027.offset = (-10.200000000, -10.600000000, 31.000000000, 285.076600000, 113.683500000, 244.101400000)
+## Include the line below for weapon offset
+1, 1, 1;-10.200000000, -10.600000000, 31.000000000; 285.076600000, 113.683500000, 244.101400000;
+
+
+// Bone hierarchy
+bone000
+bone000/bone001
+bone000/bone001/bone002
+bone000/bone001/bone002/bone003
+bone000/bone001/bone002/bone003/bone004
+bone000/bone001/bone002/bone003/bone004/bone005 // Left Arm
+bone000/bone001/bone006
+bone000/bone001/bone006/bone007 // Face
+bone000/bone001/bone008
+bone000/bone001/bone008/bone009
+bone000/bone001/bone008/bone009/bone010 
+bone000/bone001/bone008/bone009/bone010/bone011 // Right Arm
+bone000/bone012
+bone000/bone012/bone013
+bone000/bone012/bone013/bone014
+bone000/bone012/bone013/bone014/bone015
+bone000/bone012/bone013/bone014/bone015/bone016 // Left Leg
+bone000/bone012/bone017
+bone000/bone012/bone017/bone018
+bone000/bone012/bone017/bone018/bone019
+bone000/bone012/bone017/bone018/bone019/bone020 // Right Leg

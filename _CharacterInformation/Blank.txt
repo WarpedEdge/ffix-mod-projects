@@ -1,0 +1,36 @@
+// Blank
+ACTORS (MAIN) Model 16 GEO_MAIN_B0_015 (42)
+ACTORS (MAIN) Model 17 GEO_MAIN_B0_016 (608) (Pluto Knight Variant)
+
+MODEL_NAME: GEO_MAIN_B0_015
+ANIMATION_NAME: ANH_MAIN_B0_015_
+
+// For weapon positioning
+N/A
+
+// Bone hierarchy
+
+bone000
+bone000/bone001
+bone000/bone001/bone002
+bone000/bone001/bone002/bone003 // Head
+bone000/bone001/bone002/bone003/bone004 // Head Bone to delete when copying animation
+bone000/bone001/bone005
+bone000/bone001/bone005/bone006
+bone000/bone001/bone005/bone006/bone007
+bone000/bone001/bone005/bone006/bone007/bone008 // Left Hand
+bone000/bone001/bone005/bone006/bone007/bone008/bone009 // Left Hand Weapon Bone to delete when copying animation
+bone000/bone001/bone010
+bone000/bone001/bone010/bone011
+bone000/bone001/bone010/bone011/bone012
+bone000/bone001/bone010/bone011/bone012/bone013 // Right Hand
+bone000/bone001/bone010/bone011/bone012/bone013/bone014 // Right Hand Weapon Bone to delete when copying animation
+bone000/bone015
+bone000/bone015/bone016
+bone000/bone015/bone016/bone017
+bone000/bone015/bone016/bone017/bone018
+bone000/bone015/bone016/bone017/bone018/bone019 //  Left Leg
+bone000/bone015/bone020
+bone000/bone015/bone020/bone021
+bone000/bone015/bone020/bone021/bone022
+bone000/bone015/bone020/bone021/bone022/bone023 // Right Leg
