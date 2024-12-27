@@ -10,6 +10,12 @@ ANIMATION_NAME: ANH_NPC_F0_RAS_
 1, 1, 1;10.000000000, 61.000000000, 93.000000000; 306.192700000, 7.930328000, 308.807500000
 # Reverse grip dagger
 1, 1, 1;0.500000000, 11.000000000, 37.000000000; 87.000110000, 0.000000000, 0.000000000
+
+// Animation Patches
+# Marcus
+AnimPatch:bone000/bone001/bone002/bone003/bone004/bone005/bone006;localRotation;Euler(295, 0, 0)
+AnimPatch:bone000/bone001/bone011/bone012/bone013/bone014/bone015;localRotation;Euler(295, 0, 0)
+
 // Bone hierarchy
 bone000
 bone000/bone001

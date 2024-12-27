@@ -5,7 +5,22 @@ MODEL_NAME: GEO_NPC_F0_CLM
 ANIMATION_NAME: ANH_NPC_F0_CLM_
 
 // For weapon positioning
+27.12.2024 03:52:41 |M| [WEAPON] GEO_WEP_B1_066.offset = (-13.000000000, -21.000000000, 22.000000000, 276.081800000, 170.774200000, 188.897200000)
+#Eiko Racket
+1, 1, 1;-13.000000000, -21.000000000, 22.000000000; 276.081800000, 170.774200000, 188.897200000
+# iteration 2 of racket
+27.12.2024 03:57:15 |M| [WEAPON] GEO_WEP_B1_066.offset = (-15.500000000, -9.500000000, 27.500000000, 278.244600000, 76.054310000, 254.085600000)
+1, 1, 1,;-15.500000000, -9.500000000, 27.500000000; 278.244600000, 76.054310000, 254.085600000
 
+// Animation Patches
+# Eiko
+AnimPatch:bone000/bone001/bone006;localPosition;(0, 0, 40)
+AnimPatch:bone000/bone015/bone017/bone018/bone019/bone020/bone021;localRotation;Euler(295, 0, 0)
+AnimPatch:bone000/bone015/bone022/bone023/bone024/bone025/bone026;localRotation;Euler(295, 0, 0)
+AnimPatch:bone000/bone001/bone002/bone003/bone004;localPosition;(0, 0, -40)
+AnimPatch:bone000/bone001/bone002/bone003/bone004/bone005;localPosition;(0, 0, 40)
+AnimPatch:bone000/bone001/bone011/bone012/bone013;localPosition;(0, 0, -40)
+AnimPatch:bone000/bone001/bone011/bone012/bone013/bone014;localPosition;(0, 0, 40)
 
 // Bone hierarchy
 bone000
