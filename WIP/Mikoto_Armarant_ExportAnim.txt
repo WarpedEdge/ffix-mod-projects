@@ -1,0 +1,104 @@
+// EXPORT ANIMATION
+// Write the configurations for exporting an animation, then save the file and press "E" again on the model viewer
+
+Animation:ANH_MAIN_B0_012_220
+ExportPath:StreamingAssets/Assets/Resources/Animations/539/33333.anim
+Animation:ANH_MAIN_B0_012_000
+ExportPath:StreamingAssets/Assets/Resources/Animations/539/44444.anim
+Animation:ANH_MAIN_B0_012_B
+ExportPath:StreamingAssets/Assets/Resources/Animations/539/55555.anim
+DeleteThisOnSuccess:true
+Reverse:false
+
+// Model
+AnimPatch:bone000;localPosition;(0, 100, 0)
+
+// Head
+AnimPatch:bone000/bone014/bone019/bone020;localPosition;(0, 10, -40)
+AnimPatch:bone000/bone014/bone019/bone020;localRotation;Euler(20, 0, 10)
+
+// Neck
+AnimPatch:bone000/bone014/bone019;localPosition;(0, 0, 5)
+
+// Torso
+AnimPatch:bone000/bone014;localPosition;(20, 20, 0)
+
+//Waist
+AnimPatch:bone000/bone001;localPosition;(0, 20, 0)
+
+// Right Leg - Thigh
+AnimPatch:bone000/bone001/bone010/bone011;localPosition;(0, 0, -15)
+
+// Right Leg - Knee
+AnimPatch:bone000/bone001/bone010/bone011/bone012;localPosition;(0, 0, -30)
+
+// Right Leg - Foot
+AnimPatch:bone000/bone001/bone010/bone011/bone012/bone013;localPosition;(0, 0, -50)
+
+// Left Leg - Thigh
+AnimPatch:bone000/bone001/bone006/bone007;localPosition;(0, 0, -15)
+
+// Left Leg - Knee
+AnimPatch:bone000/bone001/bone006/bone007/bone008;localPosition;(0, 0, -30)
+
+// Left Leg - Foot
+AnimPatch:bone000/bone001/bone006/bone007/bone008/bone009;localPosition;(0, 0, -50)
+
+// Right Arm - Shoulder
+AnimPatch:bone000/bone014/bone015/bone016;localRotation;Euler(10, 45, 20)
+AnimPatch:bone000/bone014/bone015/bone016;localPosition;(10, 10, 0)
+
+// Right Arm - Elbow
+AnimPatch:bone000/bone014/bone015/bone016/bone017;localRotation;Euler(30, -15, 0)
+AnimPatch:bone000/bone014/bone015/bone016/bone017;localPosition;(0, 0, -60)
+
+// Right Arm - Wrist
+AnimPatch:bone000/bone014/bone015/bone016/bone017/bone018;localRotation;Euler(-50, 20, 20)
+AnimPatch:bone000/bone014/bone015/bone016/bone017/bone018;localPosition;(0, 0, -80)
+
+// Left Arm - Shoulder
+AnimPatch:bone000/bone014/bone021/bone022;localRotation;Euler(35, 0, 10)
+AnimPatch:bone000/bone014/bone021/bone022;localPosition;(-10, 0, 0)
+
+// Left Arm - Elbow
+AnimPatch:bone000/bone014/bone021/bone022/bone023;localRotation;Euler(0, 15, 0)
+AnimPatch:bone000/bone014/bone021/bone022/bone023;localPosition;(0, 0, -60)
+
+// Left Arm - Wrist
+AnimPatch:bone000/bone014/bone021/bone022/bone023/bone024;localRotation;Euler(0, -30, -20)
+AnimPatch:bone000/bone014/bone021/bone022/bone023/bone024;localPosition;(0, 0, -80)
+
+
+//AnimPatch:bone000;localRotation;Euler(0, 0, 0)
+//AnimPatch:bone000;localRotation;Quaternion(0, 0, 0, 1)
+//AnimPatch:bone000;localPosition;(0, 0, 0)
+//AnimPatch:bone000;localScale;(1, 1, 1)
+FrameRate:30
+BoneHierarchy:
+bone000
+bone000/bone001
+bone000/bone001/bone006
+bone000/bone001/bone006/bone007
+bone000/bone001/bone006/bone007/bone008
+bone000/bone001/bone006/bone007/bone008/bone009
+bone000/bone001/bone010
+bone000/bone001/bone010/bone011
+bone000/bone001/bone010/bone011/bone012
+bone000/bone001/bone010/bone011/bone012/bone013
+bone000/bone014
+
+bone000/bone014/bone015
+
+bone000/bone014/bone015/bone016
+bone000/bone014/bone015/bone016/bone017
+bone000/bone014/bone015/bone016/bone017/bone018
+bone000/bone014/bone019
+bone000/bone014/bone019/bone020
+bone000/bone014/bone021
+
+bone000/bone014/bone021/bone022
+bone000/bone014/bone021/bone022/bone023
+bone000/bone014/bone021/bone022/bone023/bone024
+
+bone000/bone001/bone002/bone003/bone004
+bone000/bone001/bone002/bone003/bone004/bone005
