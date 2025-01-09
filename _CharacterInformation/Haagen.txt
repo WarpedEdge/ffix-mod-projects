@@ -12,6 +12,13 @@ Rotation: 285.076600000, 113.683500000, 244.101400000
 ## Include the line below for weapon offset
 1, 1, 1;-10.200000000, -10.600000000, 31.000000000; 285.076600000, 113.683500000, 244.101400000;
 
+// Animation Patches
+# Steiner
+AnimPatch:bone000/bone001/bone002;localPosition;(0, 0, -25)
+AnimPatch:bone000/bone001/bone006;localPosition;(0, 0, -25)
+AnimPatch:bone000/bone001/bone008;localPosition;(0, 0, -25)
+AnimPatch:bone000/bone001/bone002/bone003/bone004;localPosition;(0, 0, -25)
+AnimPatch:bone000/bone001/bone008/bone009/bone010;localPosition;(0, 0, -25)
 
 // Bone hierarchy
 bone000
