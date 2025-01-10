@@ -8,7 +8,6 @@ scripts = [
     "Python/phase2_adjust_export_path_line.py",
     "Python/phase3_bone_replace.py",
     "Python/phase4_combine_animations.py",
-    "Python/print_animation.py",
 ]
 
 # Function to execute a script

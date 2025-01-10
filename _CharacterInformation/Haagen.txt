@@ -13,12 +13,32 @@ Rotation: 285.076600000, 113.683500000, 244.101400000
 1, 1, 1;-10.200000000, -10.600000000, 31.000000000; 285.076600000, 113.683500000, 244.101400000;
 
 // Animation Patches
-# Steiner
+# Steiner IDLE
 AnimPatch:bone000/bone001/bone002;localPosition;(0, 0, -25)
 AnimPatch:bone000/bone001/bone006;localPosition;(0, 0, -25)
 AnimPatch:bone000/bone001/bone008;localPosition;(0, 0, -25)
 AnimPatch:bone000/bone001/bone002/bone003/bone004;localPosition;(0, 0, -25)
 AnimPatch:bone000/bone001/bone008/bone009/bone010;localPosition;(0, 0, -25)
+
+# Steiner IDLE (Revision) - IDLE,STAND_WEAK,
+AnimPatch:bone000/bone001/bone002;localPosition;(0, 0, -25)
+AnimPatch:bone000/bone001/bone006;localPosition;(0, 0, -25)
+AnimPatch:bone000/bone001/bone008;localPosition;(0, 0, -25)
+AnimPatch:bone000/bone001/bone002/bone003;localRotation;Euler(-15, 0, 0)
+AnimPatch:bone000/bone001/bone002/bone003/bone004;localPosition;(0, 0, -30)
+AnimPatch:bone000/bone001/bone002/bone003/bone004/bone005;localPosition;(-20, 0, -20)
+AnimPatch:bone000/bone001/bone008/bone009/bone010;localPosition;(0, 0, -18)
+
+# Steiner READY - IDLEREADY,STAND_READY
+AnimPatch:bone000/bone001/bone002;localPosition;(0, 0, -25)
+AnimPatch:bone000/bone001/bone006;localPosition;(0, 0, -25)
+AnimPatch:bone000/bone001/bone008;localPosition;(0, 0, -25)
+AnimPatch:bone000/bone001/bone002/bone003;localRotation;Euler(-30, 0, 0)
+AnimPatch:bone000/bone001/bone002/bone003/bone004/bone005;localRotation;Euler(-10, 30, 0)
+AnimPatch:bone000/bone001/bone008/bone009/bone010/bone011;localRotation;Euler(0, 30, 0)
+AnimPatch:bone000/bone001/bone002/bone003/bone004;localPosition;(0, 0, -30)
+AnimPatch:bone000/bone001/bone002/bone003/bone004/bone005;localPosition;(-20, 0, -20)
+AnimPatch:bone000/bone001/bone008/bone009/bone010;localPosition;(0, 0, -18)
 
 // Bone hierarchy
 bone000

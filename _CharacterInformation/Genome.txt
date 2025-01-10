@@ -8,6 +8,14 @@ ANIMATION_NAME: ANH_SUB_F0_NTA_
 # Lani's Axe
 1, 1, 1;-45.000000000, 243.000000000, 30.500000000; 75.636330000, 84.944080000, 73.850840000;
 // Animation Patches
+# Steiner
+AnimPatch:bone000/bone015/bone022;localPosition;(0, 0, -25)
+AnimPatch:bone000/bone015/bone022/bone023;localPosition;(0, 0, 10)
+AnimPatch:bone000/bone015/bone020;localPosition;(0, 0, -25)
+AnimPatch:bone000/bone015/bone016;localPosition;(0, 0, -25)
+AnimPatch:bone000/bone015/bone016/bone017;localPosition;(0, 0, 10)
+AnimPatch:bone000/bone015/bone022/bone023/bone024;localPosition;(0, 0, -25)
+AnimPatch:bone000/bone015/bone016/bone017/bone018/bone019;localPosition;(0, 0, -25)
 
 // Bone hierarchy
 bone000
