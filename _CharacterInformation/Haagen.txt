@@ -20,7 +20,7 @@ AnimPatch:bone000/bone001/bone008;localPosition;(0, 0, -25)
 AnimPatch:bone000/bone001/bone002/bone003/bone004;localPosition;(0, 0, -25)
 AnimPatch:bone000/bone001/bone008/bone009/bone010;localPosition;(0, 0, -25)
 
-# Steiner IDLE (Revision) - IDLE,STAND_WEAK,
+# Steiner IDLE (Revision) - IDLE
 AnimPatch:bone000/bone001/bone002;localPosition;(0, 0, -25)
 AnimPatch:bone000/bone001/bone006;localPosition;(0, 0, -25)
 AnimPatch:bone000/bone001/bone008;localPosition;(0, 0, -25)
@@ -28,6 +28,9 @@ AnimPatch:bone000/bone001/bone002/bone003;localRotation;Euler(-15, 0, 0)
 AnimPatch:bone000/bone001/bone002/bone003/bone004;localPosition;(0, 0, -30)
 AnimPatch:bone000/bone001/bone002/bone003/bone004/bone005;localPosition;(-20, 0, -20)
 AnimPatch:bone000/bone001/bone008/bone009/bone010;localPosition;(0, 0, -18)
+
+# same as above just changing last line for STAND_WEAK
+AnimPatch:bone000/bone001/bone008/bone009/bone010;localPosition;(0, 0, -30)
 
 # Steiner READY - IDLEREADY,STAND_READY
 AnimPatch:bone000/bone001/bone002;localPosition;(0, 0, -25)
