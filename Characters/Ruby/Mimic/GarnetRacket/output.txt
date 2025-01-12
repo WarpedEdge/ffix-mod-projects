@@ -34,8 +34,6 @@ Animation:ANH_MAIN_B0_003_050
 ExportPath:WarpedEdgeMod/StreamingAssets/Assets/Resources/Animations/GEO_SUB_F0_RBY/ANH_SUB_F0_RBY_BTL_MOVEBACKWARD.anim
 Animation:ANH_MAIN_B0_003_040
 ExportPath:WarpedEdgeMod/StreamingAssets/Assets/Resources/Animations/GEO_SUB_F0_RBY/ANH_SUB_F0_RBY_BTL_MOVEFORWARD.anim
-Animation:ANH_MAIN_B0_003_100
-ExportPath:WarpedEdgeMod/StreamingAssets/Assets/Resources/Animations/GEO_SUB_F0_RBY/ANH_SUB_F0_RBY_BTL_READY_ATTACK.anim
 Animation:ANH_MAIN_B0_003_200
 ExportPath:WarpedEdgeMod/StreamingAssets/Assets/Resources/Animations/GEO_SUB_F0_RBY/ANH_SUB_F0_RBY_BTL_READY_CAST.anim
 Animation:ANH_MAIN_B0_003_400
@@ -44,14 +42,6 @@ Animation:ANH_MAIN_B0_003_010
 ExportPath:WarpedEdgeMod/StreamingAssets/Assets/Resources/Animations/GEO_SUB_F0_RBY/ANH_SUB_F0_RBY_BTL_READY_STAND.anim
 Animation:ANH_MAIN_B0_003_600
 ExportPath:WarpedEdgeMod/StreamingAssets/Assets/Resources/Animations/GEO_SUB_F0_RBY/ANH_SUB_F0_RBY_BTL_SPECIAL_CAST.anim
-Animation:ANH_MAIN_B0_003_601
-ExportPath:WarpedEdgeMod/StreamingAssets/Assets/Resources/Animations/GEO_SUB_F0_RBY/ANH_SUB_F0_RBY_BTL_SPECIAL_CAST_EXTRA1.anim
-Animation:ANH_MAIN_B0_003_602
-ExportPath:WarpedEdgeMod/StreamingAssets/Assets/Resources/Animations/GEO_SUB_F0_RBY/ANH_SUB_F0_RBY_BTL_SPECIAL_CAST_EXTRA2.anim
-Animation:ANH_MAIN_B0_003_603
-ExportPath:WarpedEdgeMod/StreamingAssets/Assets/Resources/Animations/GEO_SUB_F0_RBY/ANH_SUB_F0_RBY_BTL_SPECIAL_CAST_EXTRA3.anim
-Animation:ANH_MAIN_B0_003_604
-ExportPath:WarpedEdgeMod/StreamingAssets/Assets/Resources/Animations/GEO_SUB_F0_RBY/ANH_SUB_F0_RBY_BTL_SPECIAL_CAST_EXTRA4.anim
 Animation:ANH_MAIN_B0_003_001
 ExportPath:WarpedEdgeMod/StreamingAssets/Assets/Resources/Animations/GEO_SUB_F0_RBY/ANH_SUB_F0_RBY_BTL_STAND_READY.anim
 Animation:ANH_MAIN_B0_003_002
@@ -67,6 +57,13 @@ ExportPath:WarpedEdgeMod/StreamingAssets/Assets/Resources/Animations/GEO_SUB_F0_
 Animation:ANH_MAIN_B0_003_020
 ExportPath:WarpedEdgeMod/StreamingAssets/Assets/Resources/Animations/GEO_SUB_F0_RBY/ANH_SUB_F0_RBY_BTL_WEAK_STAND.anim
 
+Reverse:false
+//AnimPatch:bone000;localRotation;Euler(0, 0, 0)
+//AnimPatch:bone000;localRotation;Quaternion(0, 0, 0, 1)
+//AnimPatch:bone000;localPosition;(0, 0, 0)
+//AnimPatch:bone000;localScale;(1, 1, 1)
+FrameRate:30
+BoneHierarchy:
 DeleteThisOnSuccess:true
 Reverse:false
 //AnimPatch:bone000;localRotation;Euler(0, 0, 0)
@@ -96,3 +93,9 @@ bone000/bone001/bone008/bone009/bone010/bone011
 bone000/bone001/bone002
 bone000/bone001/bone002/bone003
 
+
+
+bone000/bone001/bone004
+bone000/bone001/bone004/bone005
+bone000/bone001/bone004/bone005/bone006
+bone000/bone001/bone004/bone005/bone006/bone007
