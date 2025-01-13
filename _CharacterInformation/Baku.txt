@@ -1,0 +1,41 @@
+// Baku
+ACTORS Model 1 GEO_SUB_F0_BAK (5464)
+MONSTERS Model 95 GEO_MON_B3_105 (301) # Enemy Baku
+MONSTERS Model 96 GEO_MON_B3_106 (359) # King Leo
+MONSTERS Model 97 GEO_MON_B3_106 (428) # Enemy Dragon Baku
+
+MODEL_NAME: GEO_SUB_F2_SSB
+ANIMATION_NAME: ANH_SUB_F2_SSB_
+
+// For weapon positioning
+
+
+// Bone hierarchy
+bone000
+bone000/bone001
+bone000/bone002
+bone000/bone002/bone003
+bone000/bone002/bone003/bone004
+bone000/bone002/bone003/bone004/bone005
+bone000/bone002/bone003/bone004/bone005/bone006 // Left Hand
+bone000/bone002/bone007
+bone000/bone002/bone007/bone008 // Face
+bone000/bone002/bone007/bone008/bone009
+bone000/bone002/bone007/bone008/bone009/bone010 // Ponytail
+bone000/bone002/bone007/bone008/bone011 // Face 2?
+bone000/bone002/bone012
+bone000/bone002/bone012/bone013
+bone000/bone002/bone012/bone013/bone014
+bone000/bone002/bone012/bone013/bone014/bone015
+bone000/bone002/bone012/bone013/bone014/bone015/bone016 // Right Hand
+bone000/bone017
+bone000/bone017/bone018
+bone000/bone017/bone018/bone019
+bone000/bone017/bone018/bone019/bone020
+bone000/bone017/bone018/bone019/bone020/bone021 // Left Leg
+bone000/bone017/bone018/bone022
+bone000/bone017/bone018/bone022/bone023 // Satchel
+bone000/bone017/bone024
+bone000/bone017/bone024/bone025
+bone000/bone017/bone024/bone025/bone026
+bone000/bone017/bone024/bone025/bone026/bone027 // Right Leg
