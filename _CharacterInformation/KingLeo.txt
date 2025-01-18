@@ -1,0 +1,38 @@
+// King Leo
+MONSTERS Model 96 GEO_MON_B3_106 (359)
+
+MODEL_NAME: GEO_SUB_F2_SSB
+ANIMATION_NAME: ANH_SUB_F2_SSB_
+
+// For weapon positioning
+
+// His bones in the model viewer all seem to be be off for example bone 19 is actually 23 when equipping weapons. 
+// Bone hierarchy
+bone000
+bone000/bone001
+bone000/bone001/bone002
+bone000/bone001/bone002/bone003
+bone000/bone001/bone002/bone003/bone004
+bone000/bone001/bone002/bone003/bone004/bone005 // Right Leg
+bone000/bone001/bone002/bone006 // goes back up leg?
+bone000/bone001/bone007
+bone000/bone001/bone007/bone008
+bone000/bone001/bone007/bone008/bone009
+bone000/bone001/bone007/bone008/bone009/bone010 // Left Leg
+bone000/bone001/bone007/bone011 // goes back up leg?
+bone000/bone001/bone012
+bone000/bone001/bone012/bone013 // Tail of cape
+bone000/bone014
+bone000/bone014/bone015
+bone000/bone014/bone015/bone016
+bone000/bone014/bone015/bone016/bone017
+bone000/bone014/bone015/bone016/bone017/bone018
+bone000/bone014/bone015/bone016/bone017/bone018/bone019 // Right Hand 
+bone000/bone014/bone020
+bone000/bone014/bone020/bone021
+bone000/bone014/bone020/bone021/bone022 // Face
+bone000/bone014/bone023 // For some reason this is actually showing weapon bone in model viewer
+bone000/bone014/bone023/bone024
+bone000/bone014/bone023/bone024/bone025
+bone000/bone014/bone023/bone024/bone025/bone026 // Left Arm
+bone000/bone014/bone027 // Center torse or hoodie

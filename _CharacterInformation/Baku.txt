@@ -1,14 +1,18 @@
 // Baku
 ACTORS Model 1 GEO_SUB_F0_BAK (5464)
-MONSTERS Model 95 GEO_MON_B3_105 (301) # Enemy Baku
-MONSTERS Model 96 GEO_MON_B3_106 (359) # King Leo
 MONSTERS Model 97 GEO_MON_B3_106 (428) # Enemy Dragon Baku
 
-MODEL_NAME: GEO_SUB_F2_SSB
-ANIMATION_NAME: ANH_SUB_F2_SSB_
+MODEL_NAME: GEO_SUB_F0_BAK
+ANIMATION_NAME: ANH_SUB_F0_BAK_
 
 // For weapon positioning
+N/A
 
+// Animation Patches
+# Steiner
+AnimPatch:bone000/bone002/bone003/bone004;localPosition;(0, 0, 70)
+AnimPatch:bone000/bone002/bone012/bone013;localPosition;(0, 0, 70)
+AnimPatch:bone000/bone002/bone007/bone008;localPosition;(0, 0, 50)
 
 // Bone hierarchy
 bone000
@@ -17,7 +21,7 @@ bone000/bone002
 bone000/bone002/bone003
 bone000/bone002/bone003/bone004
 bone000/bone002/bone003/bone004/bone005
-bone000/bone002/bone003/bone004/bone005/bone006 // Left Hand
+bone000/bone002/bone003/bone004/bone005/bone006 // Left Arm
 bone000/bone002/bone007
 bone000/bone002/bone007/bone008 // Face
 bone000/bone002/bone007/bone008/bone009
