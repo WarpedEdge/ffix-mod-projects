@@ -1,13 +1,11 @@
 // EXPORT ANIMATION
 // Write the configurations for exporting an animation, then save the file and press "E" again on the model viewer
 
-Animation:ANH_NPC_F0_RTC_ROGER
-ExportPath:StreamingAssets/Assets/Resources/Animations/121/878.anim
-DeleteThisOnSuccess:false
+Animation:ANH_NPC_F0_RTC_LIFFA
+ExportPath:StreamingAssets/Assets/Resources/Animations/121/858.anim
+DeleteThisOnSuccess:true
 Reverse:false
-
-AnimPatch:bone000;localRotation;Euler(0, 180, 0)
-
+//AnimPatch:bone000;localRotation;Euler(0, 0, 0)
 //AnimPatch:bone000;localRotation;Quaternion(0, 0, 0, 1)
 //AnimPatch:bone000;localPosition;(0, 0, 0)
 //AnimPatch:bone000;localScale;(1, 1, 1)
