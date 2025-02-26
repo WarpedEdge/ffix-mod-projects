@@ -1,15 +1,46 @@
 # References starting with MODEL are from ModelViewer
 # Model Weapon Scaling of 1, 1, 1 is default size
-CHARACTER_NAME: ""
-MODEL_TYPE: ""
-MODEL_NUMBER:
-MODEL_FOLDER:
-MODEL_NAME: ""
-MODEL_ANIMATION_NAME: ""
+CHARACTER_NAME: "Lani"
+CHARACTER_ID:
+CHARACTER_FACE_ID:
+MODEL_TYPE: "ACTORS Model"
+MODEL_NUMBER: 24
+MODEL_FOLDER: 368
+MODEL_NAME: "GEO_SUB_F0_SBW"
+MODEL_ANIMATION_NAME: "ANH_SUB_F0_SBW_"
 MODEL_WEAPON_POSITION: ""
 MODEL_WEAPON_ROTATION: ""
 MODEL_WEAPON_SCALE: "1, 1, 1"
 MODEL_BONE_HIERARCHY:
-```
-
-```
+"""
+bone000
+bone000/bone001
+bone000/bone001/bone002
+bone000/bone001/bone002/bone003
+bone000/bone001/bone004
+bone000/bone001/bone004/bone005
+bone000/bone001/bone004/bone005/bone006
+bone000/bone001/bone004/bone005/bone006/bone007 // Right Leg
+bone000/bone001/bone004/bone008
+bone000/bone001/bone009
+bone000/bone001/bone009/bone010
+bone000/bone001/bone009/bone010/bone011
+bone000/bone001/bone009/bone010/bone011/bone012 // Left Arm
+bone000/bone001/bone009/bone013
+bone000/bone014
+bone000/bone014/bone015
+bone000/bone014/bone015/bone016
+bone000/bone014/bone015/bone016/bone017
+bone000/bone014/bone015/bone016/bone017/bone018
+bone000/bone014/bone015/bone016/bone017/bone018/bone019 // Right Hand
+bone000/bone014/bone020
+bone000/bone014/bone020/bone021 // Face
+bone000/bone014/bone020/bone021/bone022 // Head
+bone000/bone014/bone023
+bone000/bone014/bone023/bone024
+bone000/bone014/bone023/bone024/bone025
+bone000/bone014/bone023/bone024/bone025/bone026
+bone000/bone014/bone023/bone024/bone025/bone026/bone027 // Left Hand
+bone000/bone028
+bone000/bone028/bone029 // Skirt
+"""

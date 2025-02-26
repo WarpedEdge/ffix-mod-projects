@@ -10,44 +10,23 @@ ANIMATION_NAME: ANH_SUB_F0_NTC_
 
 // Animation Patches
 # Marcus
-// Head
 AnimPatch:bone000/bone014/bone019/bone020;localPosition;(0, 0, -25)
-// Right Arm - Shoulder
 AnimPatch:bone000/bone014/bone015/bone016;localPosition;(0, 10, -50)
-// Left Arm - Shoulder
 AnimPatch:bone000/bone014/bone021/bone022;localPosition;(0, 10, -50)
-//Waist
 AnimPatch:bone000/bone001;localPosition;(0, -30, 0)
-// Right Leg - Thigh
 AnimPatch:bone000/bone001/bone010/bone011;localPosition;(0, 0, -25)
-// Right Leg - Knee
 AnimPatch:bone000/bone001/bone010/bone011/bone012;localPosition;(0, 0, -20)
-// Right Leg - Foot
 AnimPatch:bone000/bone001/bone010/bone011/bone012/bone013;localPosition;(-5, 0, 40)
-// Left Leg - Thigh
 AnimPatch:bone000/bone001/bone006/bone007;localPosition;(0, 0, -25)
-// Left Leg - Knee
 AnimPatch:bone000/bone001/bone006/bone007/bone008;localPosition;(0, 0, -20)
-// Left Leg - Foot
 AnimPatch:bone000/bone001/bone006/bone007/bone008/bone009;localPosition;(5, 0, 40)
 
 # Zidane Dagger
-// Right Arm - Shoulder
 AnimPatch:bone000/bone014/bone015/bone016;localPosition;(0, 0, -10)
-
-// Right Arm - Elbow
 AnimPatch:bone000/bone014/bone015/bone016/bone017;localPosition;(0, 0, -5)
-
-// Right Arm - Wrist
 AnimPatch:bone000/bone014/bone015/bone016/bone017/bone018;localPosition;(0, 0, -10)
-
-// Left Arm - Shoulder
 AnimPatch:bone000/bone014/bone021/bone022;localPosition;(0, -10, -10)
-
-// Left Arm - Elbow
 AnimPatch:bone000/bone014/bone021/bone022/bone023;localPosition;(0, 0, -5)
-
-// Left Arm - Wrist
 AnimPatch:bone000/bone014/bone021/bone022/bone023/bone024;localPosition;(0, 0, -10)
 
 // Bone hierarchy

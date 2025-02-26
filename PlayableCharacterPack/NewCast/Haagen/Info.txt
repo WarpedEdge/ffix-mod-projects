@@ -1,15 +1,73 @@
 # References starting with MODEL are from ModelViewer
 # Model Weapon Scaling of 1, 1, 1 is default size
-CHARACTER_NAME: ""
-MODEL_TYPE: ""
-MODEL_NUMBER:
-MODEL_FOLDER:
-MODEL_NAME: ""
-MODEL_ANIMATION_NAME: ""
-MODEL_WEAPON_POSITION: ""
-MODEL_WEAPON_ROTATION: ""
+CHARACTER_NAME: "Haagen"
+CHARACTER_ID:
+CHARACTER_FACE_ID:
+MODEL_TYPE: "ACTOR"
+MODEL_NUMBER: 25
+MODEL_FOLDER: 5488
+MODEL_NAME: "GEO_SUB_F0_SSB"
+MODEL_ANIMATION_NAME: "ANH_SUB_F0_SSB_"
+MODEL_WEAPON_POSITION: "-10.200000000, -10.600000000, 31.000000000"
+MODEL_WEAPON_ROTATION: "285.076600000, 113.683500000, 244.101400000"
 MODEL_WEAPON_SCALE: "1, 1, 1"
 MODEL_BONE_HIERARCHY:
-```
+"""
+bone000
+bone000/bone001
+bone000/bone001/bone002
+bone000/bone001/bone002/bone003
+bone000/bone001/bone002/bone003/bone004
+bone000/bone001/bone002/bone003/bone004/bone005 // Left Arm
+bone000/bone001/bone006
+bone000/bone001/bone006/bone007 // Face
+bone000/bone001/bone008
+bone000/bone001/bone008/bone009
+bone000/bone001/bone008/bone009/bone010
+bone000/bone001/bone008/bone009/bone010/bone011 // Right Arm
+bone000/bone012
+bone000/bone012/bone013
+bone000/bone012/bone013/bone014
+bone000/bone012/bone013/bone014/bone015
+bone000/bone012/bone013/bone014/bone015/bone016 // Left Leg
+bone000/bone012/bone017
+bone000/bone012/bone017/bone018
+bone000/bone012/bone017/bone018/bone019
+bone000/bone012/bone017/bone018/bone019/bone020 // Right Leg
+"""
 
-```
+# Bone Patches
+
+# Steiner IDLE - IDLE
+AnimPatch:bone000/bone001/bone002;localPosition;(0, 0, -25)
+AnimPatch:bone000/bone001/bone006;localPosition;(0, 0, -25)
+AnimPatch:bone000/bone001/bone008;localPosition;(0, 0, -25)
+AnimPatch:bone000/bone001/bone002/bone003;localRotation;Euler(-15, 0, 0)
+AnimPatch:bone000/bone001/bone002/bone003/bone004;localPosition;(0, 0, -30)
+AnimPatch:bone000/bone001/bone002/bone003/bone004/bone005;localPosition;(-20, 0, -20)
+AnimPatch:bone000/bone001/bone008/bone009/bone010;localPosition;(0, 0, -18)
+
+# same as above just changing last line for STAND_WEAK
+AnimPatch:bone000/bone001/bone008/bone009/bone010;localPosition;(0, 0, -30)
+
+# Steiner READY - IDLEREADY,STAND_READY
+AnimPatch:bone000/bone001/bone002;localPosition;(0, 0, -25)
+AnimPatch:bone000/bone001/bone006;localPosition;(0, 0, -25)
+AnimPatch:bone000/bone001/bone008;localPosition;(0, 0, -25)
+AnimPatch:bone000/bone001/bone002/bone003;localRotation;Euler(-30, 0, 0)
+AnimPatch:bone000/bone001/bone002/bone003/bone004/bone005;localRotation;Euler(-10, 30, 0)
+AnimPatch:bone000/bone001/bone008/bone009/bone010/bone011;localRotation;Euler(0, 30, 0)
+AnimPatch:bone000/bone001/bone002/bone003/bone004;localPosition;(0, 0, -30)
+AnimPatch:bone000/bone001/bone002/bone003/bone004/bone005;localPosition;(-20, 0, -20)
+AnimPatch:bone000/bone001/bone008/bone009/bone010;localPosition;(0, 0, -18)
+
+# Steiner Attacks
+AnimPatch:bone000/bone001/bone002;localPosition;(0, 0, -25)
+AnimPatch:bone000/bone001/bone006;localPosition;(0, 0, -25)
+AnimPatch:bone000/bone001/bone008;localPosition;(0, 0, -25)
+AnimPatch:bone000/bone001/bone002/bone003;localRotation;Euler(-30, 20, 0)
+AnimPatch:bone000/bone001/bone008/bone009;localRotation;Euler(0, 0, 0)
+AnimPatch:bone000/bone001/bone002/bone003/bone004;localPosition;(0, 0, -30)
+AnimPatch:bone000/bone001/bone002/bone003/bone004/bone005;localPosition;(-20, 0, -10)
+AnimPatch:bone000/bone001/bone008/bone009/bone010;localPosition;(0, 0, -18)
+AnimPatch:bone000/bone001/bone008/bone009/bone010;localPosition;(0, 0, -30)

@@ -1,13 +1,17 @@
 # References starting with MODEL are from ModelViewer
 CHARACTER_NAME: "Armarant"
+CHARACTER_ID:
+CHARACTER_FACE_ID:
 MODEL_TYPE: "ACTORS (MAIN)"
 MODEL_NUMBER: 13
 MODEL_FOLDER: 444
 MODEL_NAME: "GEO_MAIN_B0_012"
 MODEL_ANIMATION_NAME: "ANH_MAIN_B0_012_"
-
+MODEL_WEAPON_POSITION: ""
+MODEL_WEAPON_ROTATION: ""
+MODEL_WEAPON_SCALE: "1, 1, 1"
 MODEL_BONE_HIERARCHY:
-```
+"""
 bone000
 bone000/bone001
 bone000/bone001/bone002
@@ -35,4 +39,4 @@ bone000/bone010/bone011/bone019/bone020/bone021/bone022/bone023 // Left Arm
 bone000/bone010/bone024
 bone000/bone010/bone024/bone025
 bone000/bone010/bone024/bone025/bone026 // Belt
-```
+"""

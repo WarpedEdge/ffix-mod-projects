@@ -1,12 +1,42 @@
 # References starting with MODEL are from ModelViewer
-CHARACTER_NAME: ""
-MODEL_TYPE: ""
-MODEL_NUMBER:
-MODEL_FOLDER:
-MODEL_NAME: ""
-MODEL_ANIMATION_NAME: ""
-
+CHARACTER_NAME: "Beatrix"
+CHARACTER_ID:
+CHARACTER_FACE_ID:
+MODEL_TYPE: "ACTORS (MAIN)"
+MODEL_NUMBER: 18
+MODEL_FOLDER: 358
+MODEL_NAME: "GEO_MAIN_B0_017"
+MODEL_ANIMATION_NAME: "ANH_MAIN_B0_017_"
+MODEL_WEAPON_POSITION: ""
+MODEL_WEAPON_ROTATION: ""
+MODEL_WEAPON_SCALE: "1, 1, 1"
 MODEL_BONE_HIERARCHY:
-```
-
-```
+"""
+bone000
+bone000/bone001
+bone000/bone001/bone002 // Waist
+bone000/bone001/bone003
+bone000/bone001/bone003/bone004
+bone000/bone001/bone003/bone004/bone005
+bone000/bone001/bone003/bone004/bone005/bone006 // Right Leg
+bone000/bone001/bone007
+bone000/bone001/bone007/bone008
+bone000/bone001/bone007/bone008/bone009
+bone000/bone001/bone007/bone008/bone009/bone010 // Left Leg
+bone000/bone011
+bone000/bone011/bone012
+bone000/bone011/bone012/bone013
+bone000/bone011/bone012/bone013/bone014
+bone000/bone011/bone012/bone013/bone014/bone015
+bone000/bone011/bone012/bone013/bone014/bone015/bone016 // Right Hand Weapon Bone
+bone000/bone011/bone017
+bone000/bone011/bone017/bone018 // Face
+bone000/bone011/bone017/bone018/bone019
+bone000/bone011/bone017/bone018/bone020
+bone000/bone011/bone017/bone018/bone021 // Head
+bone000/bone011/bone022
+bone000/bone011/bone022/bone023
+bone000/bone011/bone022/bone023/bone024
+bone000/bone011/bone022/bone023/bone024/bone025
+bone000/bone011/bone022/bone023/bone024/bone025/bone026 // Left Hand Weapon Bone
+"""

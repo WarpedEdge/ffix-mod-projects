@@ -1,15 +1,57 @@
 # References starting with MODEL are from ModelViewer
 # Model Weapon Scaling of 1, 1, 1 is default size
-CHARACTER_NAME: ""
-MODEL_TYPE: ""
-MODEL_NUMBER:
-MODEL_FOLDER:
-MODEL_NAME: ""
-MODEL_ANIMATION_NAME: ""
-MODEL_WEAPON_POSITION: ""
-MODEL_WEAPON_ROTATION: ""
+CHARACTER_NAME: "Jeame"
+CHARACTER_ID:
+CHARACTER_FACE_ID:
+MODEL_TYPE: "NPC"
+MODEL_NUMBER: 17
+MODEL_FOLDER: 447
+MODEL_NAME: "GEO_NPC_F0_CLM"
+MODEL_ANIMATION_NAME: "ANH_NPC_F0_CLM_"
+MODEL_WEAPON_POSITION: "-15.500000000, -9.500000000, 27.500000000"
+MODEL_WEAPON_ROTATION: "278.244600000, 76.054310000, 254.085600000"
 MODEL_WEAPON_SCALE: "1, 1, 1"
 MODEL_BONE_HIERARCHY:
-```
+"""
+bone000
+bone000/bone001
+bone000/bone001/bone002
+bone000/bone001/bone002/bone003
+bone000/bone001/bone002/bone003/bone004
+bone000/bone001/bone002/bone003/bone004/bone005 // Left Arm
+bone000/bone001/bone006
+bone000/bone001/bone006/bone007 // Face
+bone000/bone001/bone006/bone007/bone008 // Head
+bone000/bone001/bone006/bone007/bone008/bone009
+bone000/bone001/bone006/bone007/bone008/bone009/bone010 // PonyTail
+bone000/bone001/bone011
+bone000/bone001/bone011/bone012
+bone000/bone001/bone011/bone012/bone013
+bone000/bone001/bone011/bone012/bone013/bone014 // Right Arm
+bone000/bone015
+bone000/bone015/bone016
+bone000/bone015/bone017
+bone000/bone015/bone017/bone018
+bone000/bone015/bone017/bone018/bone019
+bone000/bone015/bone017/bone018/bone019/bone020
+bone000/bone015/bone017/bone018/bone019/bone020/bone021 // Left Leg
+bone000/bone015/bone022
+bone000/bone015/bone022/bone023
+bone000/bone015/bone022/bone023/bone024
+bone000/bone015/bone022/bone023/bone024/bone025
+bone000/bone015/bone022/bone023/bone024/bone025/bone026 // Right Leg
+bone000/bone015/bone027
+bone000/bone015/bone027/bone028
+bone000/bone015/bone027/bone028/bone029
+bone000/bone015/bone027/bone028/bone029/bone030 // Tail
+"""
 
-```
+# Bone Patches
+# Eiko
+AnimPatch:bone000/bone001/bone006;localPosition;(0, 0, 40)
+AnimPatch:bone000/bone015/bone017/bone018/bone019/bone020/bone021;localRotation;Euler(295, 0, 0)
+AnimPatch:bone000/bone015/bone022/bone023/bone024/bone025/bone026;localRotation;Euler(295, 0, 0)
+AnimPatch:bone000/bone001/bone002/bone003/bone004;localPosition;(0, 0, -40)
+AnimPatch:bone000/bone001/bone002/bone003/bone004/bone005;localPosition;(0, 0, 40)
+AnimPatch:bone000/bone001/bone011/bone012/bone013;localPosition;(0, 0, -40)
+AnimPatch:bone000/bone001/bone011/bone012/bone013/bone014;localPosition;(0, 0, 40)

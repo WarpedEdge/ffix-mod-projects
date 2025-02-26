@@ -1,15 +1,39 @@
 # References starting with MODEL are from ModelViewer
 # Model Weapon Scaling of 1, 1, 1 is default size
-CHARACTER_NAME: ""
-MODEL_TYPE: ""
-MODEL_NUMBER:
-MODEL_FOLDER:
-MODEL_NAME: ""
-MODEL_ANIMATION_NAME: ""
-MODEL_WEAPON_POSITION: ""
-MODEL_WEAPON_ROTATION: ""
+CHARACTER_NAME: "Ruby"
+CHARACTER_ID:
+CHARACTER_FACE_ID:
+MODEL_TYPE: "Actor Model"
+MODEL_NUMBER: 23
+MODEL_FOLDER: 48
+MODEL_NAME: "GEO_SUB_F0_RBY"
+MODEL_ANIMATION_NAME: "ANH_SUB_F0_RBY_"
+MODEL_WEAPON_POSITION: "-3.500000000, -7.000000000, 23.500000000"
+MODEL_WEAPON_ROTATION: "270.000000000, 5.999999000, 0.000000000"
 MODEL_WEAPON_SCALE: "1, 1, 1"
 MODEL_BONE_HIERARCHY:
-```
-
-```
+"""
+bone000
+bone000/bone001
+bone000/bone001/bone002
+bone000/bone001/bone002/bone003 // Face
+bone000/bone001/bone004
+bone000/bone001/bone004/bone005
+bone000/bone001/bone004/bone005/bone006
+bone000/bone001/bone004/bone005/bone006/bone007 // Left Arm
+bone000/bone001/bone008
+bone000/bone001/bone008/bone009
+bone000/bone001/bone008/bone009/bone010
+bone000/bone001/bone008/bone009/bone010/bone011 // Right Arm
+bone000/bone012
+bone000/bone012/bone013
+bone000/bone012/bone013/bone014
+bone000/bone012/bone013/bone014/bone015
+bone000/bone012/bone013/bone014/bone015/bone016 // Left Leg
+bone000/bone012/bone017
+bone000/bone012/bone017/bone018
+bone000/bone012/bone017/bone018/bone019
+bone000/bone012/bone017/bone018/bone019/bone020 // Right Leg
+bone000/bone012/bone021 // Skirt?
+bone000/bone012/bone022 // Skirt?
+"""

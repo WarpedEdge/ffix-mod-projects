@@ -1,15 +1,53 @@
 # References starting with MODEL are from ModelViewer
 # Model Weapon Scaling of 1, 1, 1 is default size
-CHARACTER_NAME: ""
-MODEL_TYPE: ""
-MODEL_NUMBER:
-MODEL_FOLDER:
-MODEL_NAME: ""
-MODEL_ANIMATION_NAME: ""
-MODEL_WEAPON_POSITION: ""
-MODEL_WEAPON_ROTATION: ""
+CHARACTER_NAME: "Gerome"
+CHARACTER_ID:
+CHARACTER_FACE_ID:
+MODEL_TYPE: "ACTOR"
+MODEL_NUMBER: 19
+MODEL_FOLDER: 62
+MODEL_NAME: "GEO_SUB_F0_NTA"
+MODEL_ANIMATION_NAME: "ANH_SUB_F0_NTA_"
+MODEL_WEAPON_POSITION: "-45.000000000, 243.000000000, 30.500000000"
+MODEL_WEAPON_ROTATION: "75.636330000, 84.944080000, 73.850840000"
 MODEL_WEAPON_SCALE: "1, 1, 1"
 MODEL_BONE_HIERARCHY:
-```
+"""
+bone000
+bone000/bone001
+bone000/bone001/bone002
+bone000/bone001/bone002/bone003
+bone000/bone001/bone002/bone003/bone004
+bone000/bone001/bone002/bone003/bone004/bone005 // Tail
+bone000/bone001/bone002/bone006 // Cloth?
+bone000/bone001/bone007
+bone000/bone001/bone007/bone008
+bone000/bone001/bone007/bone008/bone009
+bone000/bone001/bone007/bone008/bone009/bone010 // Right Leg
+bone000/bone001/bone011
+bone000/bone001/bone011/bone012
+bone000/bone001/bone011/bone012/bone013
+bone000/bone001/bone011/bone012/bone013/bone014 // Left Leg
+bone000/bone015
+bone000/bone015/bone016
+bone000/bone015/bone016/bone017
+bone000/bone015/bone016/bone017/bone018
+bone000/bone015/bone016/bone017/bone018/bone019 // Right Arm
+bone000/bone015/bone020
+bone000/bone015/bone020/bone021 // Face
+bone000/bone015/bone022
+bone000/bone015/bone022/bone023
+bone000/bone015/bone022/bone023/bone024
+bone000/bone015/bone022/bone023/bone024/bone025 // Left Arm
+"""
 
-```
+# Bone Patches
+# Steiner
+AnimPatch:bone000/bone015/bone022;localPosition;(0, 0, -25)
+AnimPatch:bone000/bone015/bone022/bone023;localPosition;(0, 0, 10)
+AnimPatch:bone000/bone015/bone020;localPosition;(0, 0, -25)
+AnimPatch:bone000/bone015/bone016;localPosition;(0, 0, -25)
+AnimPatch:bone000/bone015/bone016/bone017;localPosition;(0, 0, 10)
+AnimPatch:bone000/bone015/bone022/bone023/bone024;localPosition;(0, 0, -25)
+AnimPatch:bone000/bone015/bone016/bone017/bone018/bone019;localPosition;(0, 0, -25)
+

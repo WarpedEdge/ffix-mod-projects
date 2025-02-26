@@ -1,15 +1,63 @@
 # References starting with MODEL are from ModelViewer
 # Model Weapon Scaling of 1, 1, 1 is default size
-CHARACTER_NAME: ""
-MODEL_TYPE: ""
-MODEL_NUMBER:
-MODEL_FOLDER:
-MODEL_NAME: ""
-MODEL_ANIMATION_NAME: ""
-MODEL_WEAPON_POSITION: ""
-MODEL_WEAPON_ROTATION: ""
+CHARACTER_NAME: "Mikoto"
+CHARACTER_ID:
+CHARACTER_FACE_ID:
+MODEL_TYPE: "Actor Model"
+MODEL_NUMBER: 21
+MODEL_FOLDER: 539
+MODEL_NAME: "GEO_SUB_F0_NTC"
+MODEL_ANIMATION_NAME: "ANH_SUB_F0_NTC_"
+# For left hand dagger
+MODEL_WEAPON_POSITION: "9.500000000, 6.000000000, 40.000000000"
+MODEL_WEAPON_ROTATION: "81.796090000, 146.622200000, 324.902200000"
 MODEL_WEAPON_SCALE: "1, 1, 1"
 MODEL_BONE_HIERARCHY:
-```
+"""
+bone000
+bone000/bone001
+bone000/bone001/bone002
+bone000/bone001/bone002/bone003
+bone000/bone001/bone002/bone003/bone004
+bone000/bone001/bone002/bone003/bone004/bone005 // Tail
+bone000/bone001/bone006
+bone000/bone001/bone006/bone007
+bone000/bone001/bone006/bone007/bone008
+bone000/bone001/bone006/bone007/bone008/bone009 // Right Leg
+bone000/bone001/bone010
+bone000/bone001/bone010/bone011
+bone000/bone001/bone010/bone011/bone012
+bone000/bone001/bone010/bone011/bone012/bone013 // Left Leg
+bone000/bone014
+bone000/bone014/bone015
+bone000/bone014/bone015/bone016
+bone000/bone014/bone015/bone016/bone017
+bone000/bone014/bone015/bone016/bone017/bone018 // Right Arm
+bone000/bone014/bone019
+bone000/bone014/bone019/bone020 // Face
+bone000/bone014/bone021
+bone000/bone014/bone021/bone022
+bone000/bone014/bone021/bone022/bone023
+bone000/bone014/bone021/bone022/bone023/bone024 // Left Arm
+"""
 
-```
+# Bone Patches
+# Marcus
+AnimPatch:bone000/bone014/bone019/bone020;localPosition;(0, 0, -25)
+AnimPatch:bone000/bone014/bone015/bone016;localPosition;(0, 10, -50)
+AnimPatch:bone000/bone014/bone021/bone022;localPosition;(0, 10, -50)
+AnimPatch:bone000/bone001;localPosition;(0, -30, 0)
+AnimPatch:bone000/bone001/bone010/bone011;localPosition;(0, 0, -25)
+AnimPatch:bone000/bone001/bone010/bone011/bone012;localPosition;(0, 0, -20)
+AnimPatch:bone000/bone001/bone010/bone011/bone012/bone013;localPosition;(-5, 0, 40)
+AnimPatch:bone000/bone001/bone006/bone007;localPosition;(0, 0, -25)
+AnimPatch:bone000/bone001/bone006/bone007/bone008;localPosition;(0, 0, -20)
+AnimPatch:bone000/bone001/bone006/bone007/bone008/bone009;localPosition;(5, 0, 40)
+
+# Zidane Dagger
+AnimPatch:bone000/bone014/bone015/bone016;localPosition;(0, 0, -10)
+AnimPatch:bone000/bone014/bone015/bone016/bone017;localPosition;(0, 0, -5)
+AnimPatch:bone000/bone014/bone015/bone016/bone017/bone018;localPosition;(0, 0, -10)
+AnimPatch:bone000/bone014/bone021/bone022;localPosition;(0, -10, -10)
+AnimPatch:bone000/bone014/bone021/bone022/bone023;localPosition;(0, 0, -5)
+AnimPatch:bone000/bone014/bone021/bone022/bone023/bone024;localPosition;(0, 0, -10)
