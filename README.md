@@ -1,33 +1,17 @@
-# FFIX Mod Stuff
+# FFIX-MOD-PROJECTS
 
-This repository is a collection of resources, templates, and assets designed for modding Final Fantasy IX. Below is an explanation of the purpose of each folder in the repository.
+## Purpose:
+Just a public repo where I store all things related to my mod projects for anyone to grab, use, etc.
 
-## Folder Structure and Purpose
+## Folder Structure
 
-### BattleParametersDone
-This folder is used for storing extra battle parameters to be utilized as submods.
+### _Archive
+All old files that can at any time be subjected to be deleted
 
-### Characters
-- **_CharacterInformation**: Contains details about the bone hierarchy, model names/numbers, weapon offsets, and other related data for characters.
-- **Merges**: Includes completed files that mimic another character's animations. For example, `HaagenKohel_Blank` means HaagenKohel is using Blank's animations.
+### PlayableCharacterPack
+All files related to the mod PlayableCharacterPack. This includes finished, WIP, or concepts.
 
-### Examples
-Houses images and files used as examples for the Wiki page.
+The actual bundle of the mod that goes into your `Final Fantasy IX` folder will be in the `Versions` directory, but using the Memoria launcher to download it is the recommended way.
 
-### Face Atlas
-A collection of stored face atlas files created for character faces.
-
-### MemoriaExportAnimations
-Contains character-specific battle information. This includes all `_BTL_{{}}` exports for each character.
-
-### Models
-This folder includes images of each character, showcasing their bone mappings for reference.
-
-### Portraits
-Stores 132x190 portraits of each character in different art styles:
-- **Original**: From the original game.
-- **DFFOO**: Based on Dissidia Final Fantasy Opera Omnia art style.
-- **Custom**: User-made custom portraits.
-
-### Templates
-Provides templates for creating mods. These files serve as starting points or guides for modding.
+### WikiFiles
+All references that would be used in the `Wiki` section of this repo.
