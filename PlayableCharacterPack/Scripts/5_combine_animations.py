@@ -19,7 +19,7 @@ def get_directory_choice(prompt, items):
         print("Invalid choice. Please try again.")
 
 
-def gather_phase_final_info():
+def gather_info():
     """
     Prompts for:
       1. Cast directory (e.g. NewCast) from one level up.
@@ -142,7 +142,7 @@ def combine_animations(character_folder_path):
 
 
 def main():
-    char_folder_path = gather_phase_final_info()
+    char_folder_path = gather_info()
     if not char_folder_path:
         print("Error gathering target folder. Exiting.")
         return

@@ -19,7 +19,7 @@ def get_directory_choice(prompt, directories):
         print("Invalid choice. Please try again.")
 
 
-def gather_phase3_info():
+def gather_info():
     """
     1. Ask for the Cast directory (e.g. NewCast) from one level up.
     2. Ask for the target directory within that Cast (e.g. Aria). (Aria's folder contains BoneMerges and AnimRaw.)
@@ -123,7 +123,7 @@ def update_bone_hierarchy(new_bone_hierarchy, character_folder_path):
 
 
 def main():
-    new_bone_hierarchy, animraw_char_path = gather_phase3_info()
+    new_bone_hierarchy, animraw_char_path = gather_info()
     if new_bone_hierarchy is None or animraw_char_path is None:
         print("Error gathering necessary info. Exiting.")
         return
