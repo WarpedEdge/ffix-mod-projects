@@ -1,6 +1,3 @@
-// EXPORT ANIMATION
-// Write the configurations for exporting an animation, then save the file and press "E" again on the model viewer
-
 Animation:ANH_MAIN_B0_002_102
 ExportPath:WarpedEdgeMod/StreamingAssets/Assets/Resources/Animations/GEO_NPC_F1_OFF/ANH_NPC_F1_OFF_BTL_ATTACK1.anim
 Animation:ANH_MAIN_B0_002_103
@@ -77,10 +74,6 @@ Animation:ANH_MAIN_B0_002_020
 ExportPath:WarpedEdgeMod/StreamingAssets/Assets/Resources/Animations/GEO_NPC_F1_OFF/ANH_NPC_F1_OFF_BTL_WEAK_STAND.anim
 DeleteThisOnSuccess:true
 Reverse:false
-//AnimPatch:bone000;localRotation;Euler(0, 0, 0)
-//AnimPatch:bone000;localRotation;Quaternion(0, 0, 0, 1)
-//AnimPatch:bone000;localPosition;(0, 0, 0)
-//AnimPatch:bone000;localScale;(1, 1, 1)
 FrameRate:30
 BoneHierarchy:
 bone000
@@ -102,7 +95,7 @@ bone000/bone001/bone008/bone009/bone010/bone011
 
 
 bone000/bone010/bone018
-bone000/bone010/bone018/bone019 // Face
+bone000/bone010/bone018/bone019
 
 
 
