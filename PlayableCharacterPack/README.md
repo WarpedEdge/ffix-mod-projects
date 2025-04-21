@@ -3,9 +3,8 @@
 ## Disclaimer: 
 ### Some Items that have currently used any form of `gen AI` are as follows:
  - Portraits for newer characters
- - Weapon textures (Mainly just for testing)
 
-These items are only placeholders, and I plan on getting some help from real artists whether by assistance or commissioning them.
+These items are only placeholders, and I already commissioned them, but they take time.
 
 ## Folder Structure
 
