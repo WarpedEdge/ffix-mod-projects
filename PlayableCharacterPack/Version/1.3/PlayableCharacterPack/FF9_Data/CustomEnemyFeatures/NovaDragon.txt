@@ -1,6 +1,0 @@
->SA 0 Counter
-MorphFeature
-Ability AsTarget
-[code=Condition] IsCounterableCommand && CasterIsPlayer != TargetIsPlayer && (AbilityCategory & 8) != 0 && GetRandom(0, 100) < 33 [/code]
-[code=Counter] 0 [/code]
-DisableSA 36 54 56
