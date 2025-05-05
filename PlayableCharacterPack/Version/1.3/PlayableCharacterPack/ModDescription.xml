@@ -1,0 +1,68 @@
+<Mod>
+	<Name>Playable Character Pack</Name>
+<Version>1.3</Version>
+<InstallationPath>PlayableCharacterPack</InstallationPath>
+<ReleaseDate>5 May 2025</ReleaseDate>
+<Author>Tirlititi and WarpedEdge</Author>
+<Description>Adds new playable characters to the roster
+	Current List of playable characters [Name/ID]:
+	- Kuja (12)
+	- Fratley (13)
+	- Lani (14)
+	- Haagen (15)
+	- Kohel (16)
+	- Aria (17)
+	- Ophelia (18)
+
+	You can press Alt+F2 or Ctrl+Alt+Shift+F2 if on Linux in-game to access the party menu (changing the party at any time is a feature of Memoria, not related to this mod).
+
+	You should set the priority of this mod to be higher than the priority of the Moguri mod but lower than other mods.
+
+	For Modders: Besides the characters ID ranges listed above, We use the 10000-10999 range for Commands, Spells, Items, etc. For mod compatibility, please use a range other mods are not using unless you are overwriting them on purpose. </Description>
+
+<PatchNotes>Requires Memoria v2025.04.19 or later
+
+
+	Release 1.3 Adds the following characters with their own unique abilities and skills:
+	- Haagen: Typical Pluto Knight model wielding a Sword
+	- Kohel: Different Pluto Knight model wielding a Spear
+	- Aria: Different Alexandrian Knight using a different model wielding Claws
+	- Ophelia: Typical Alexandrian Knight model wielding a Sword
+
+	New Costume:
+	- Blank - Pluto Knight Armor
+
+	Upcoming Release 1.4 will feature:
+	- Dan: Burmecian soldier Dan wielding Daggers
+	- Jeame: A Cleyra Dancer wielding Rackets
+	- Puck: Our little rat prince wielding both rods and staves
+
+	Future Release 1.5 will feature:
+	- Mikoto: Female Terran like Zidane wielding Daggers
+	- Gerome: Male Terran like Zidane wielding a Axe
+	- Ruby: Tantalus crew member wielding a Racket
+	- Baku: Leader of Tantalus wielding a Sword
+
+	Currently this mod is not compatible with Trance Seek, but I plan on getting it to eventually.</PatchNotes>
+<Category>Gameplay</Category>
+<Website>https://steamcommunity.com/app/377840/discussions/0/3497635791229563331/</Website>
+<DownloadUrl>https://www.dropbox.com/s/b5pbed8pshd3l4t/PC_PlayableCharacterPack.zip?dl=1</DownloadUrl>
+<PreviewFile>Preview.png</PreviewFile>
+<PreviewFileUrl>https://i.imgur.com/vZ8DbNQ.png</PreviewFileUrl>
+<Header>Costumes</Header>
+<SubMod>
+	<Name>Zidane Pluto outfit</Name>
+<InstallationPath>Costumes/ZidaneArmor</InstallationPath>
+<Description>When enabled, Zidane's battle model will wear Pluto knight armor from the story.</Description>
+</SubMod>
+<SubMod>
+	<Name>Garnet White Mage robe</Name>
+<InstallationPath>Costumes/GarnetHooded</InstallationPath>
+<Description>When enabled, Garnet's battle model will wear the traditional White Mage robe.</Description>
+</SubMod>
+<SubMod>
+<Name>Blank Pluto outfit</Name>
+<InstallationPath>Costumes/BlankArmor</InstallationPath>
+<Description>When enabled, Blank's battle model will wear the Pluto knight armor from the story.</Description>
+</SubMod>
+</Mod>

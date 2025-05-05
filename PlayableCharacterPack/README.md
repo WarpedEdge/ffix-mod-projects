@@ -26,5 +26,8 @@ Houses the necessary information for the newly playable characters being planned
 ### Templates
 Self-Explanatory
 
+### Version
+This is where each mod version will be stored in its complete form.
+
 ### Weapons
 Houses the textures of original and customized weapons that are being created. Currently making new weapons I have to use models from existing weapons, but change the textures to make the look "new".

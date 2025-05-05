@@ -1,0 +1,20 @@
+#! IncludeHitSfx
+#! IncludeCustomTexture
+# This file contains a set of game weapons.
+# -----------------------------------------------
+# Comment;Id;Category;StatusIndex;Model;ScriptId;Power;Elements;Rate;Offset1;Offset2;HitSfx;CustomTexture
+# String;Int32;Byte;Int32;String;Int32;Int32;Byte;Int32;Int16;Int16;Byte;String[]
+# -----------------------------------------------
+Battle Axe;10000;5;0;<null>;10000;24;0;0;0;0;13;
+Gem Axe;10001;5;0;<null>;10000;32;0;0;0;0;9;
+Peridot Axe;10002;5;0;<null>;10000;40;4;0;0;0;21;
+Ruby Axe;10003;5;0;<null>;10000;54;0;0;0;0;24;
+Pele;10004;5;0;<null>;10000;70;7;0;0;0;25;
+Topaz Axe;10005;5;29;<null>;10000;82;1;20;0;0;23;
+Staff of the Magi;10006;6;0;GEO_WEP_B1_086;1;50;64;0;0;0;75;CustomWeapons/SageStaffTexture.png
+Iron Spear;10007;5;0;<null>;1;29;0;0;0;0;33;
+Pike;10008;5;0;GEO_WEP_B1_042;1;11;0;0;0;524;32;CustomWeapons/Pike.png
+Halberd;10009;5;0;GEO_WEP_B1_042;1;15;0;0;0;524;33;CustomWeapons/Halberd.png
+Fang Claws;10010;5;0;GEO_WEP_B1_056;1;10;0;0;-39;257;41;CustomWeapons/FangClaws.png
+Iron Claws;10011;5;0;GEO_WEP_B1_057;1;15;0;0;-39;257;1;CustomWeapons/IronClaws.png
+Blood Rippers;10012;5;0;GEO_WEP_B1_055;6;21;0;0;-39;257;19;CustomWeapons/BloodRippers.png

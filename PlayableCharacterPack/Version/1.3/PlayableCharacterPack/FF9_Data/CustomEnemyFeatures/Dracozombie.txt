@@ -1,0 +1,7 @@
+>SA 0 Zombie
+MorphFeature
+Ability AsTarget WhenBattleScriptStart EvenImmobilized
+[code=Condition] TargetHP > 0 [/code]
+[code=TargetPermanentStatus] CombineStatuses(TargetPermanentStatus, BattleStatus_Zombie) [/code]
+Ability AsTarget WhenEffectDone EvenImmobilized
+[code=TargetPermanentStatus] RemoveStatuses(TargetPermanentStatus, BattleStatus_Zombie) [/code]

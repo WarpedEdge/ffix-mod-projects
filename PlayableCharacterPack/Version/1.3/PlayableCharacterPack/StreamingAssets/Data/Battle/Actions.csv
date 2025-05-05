@@ -1,0 +1,67 @@
+#! IncludeCastingTitleType
+# This file contains character actions.
+# -----------------------------------------------
+# Comment;id;menuWindow;targets;defaultAlly;forDead;defaultOnDead;defaultCamera;animationId1;animationId2;scriptId;power;elements;rate;category;statusIndex;mp;type;commandTitle
+# String;Int32;UInt8;UInt8;Boolean;Boolean;Boolean;Boolean;Int16;UInt16;Int32;Int32;UInt8;Int32;UInt8;Int32;Int32;UInt8;UInt8
+# -----------------------------------------------
+Waterga;10000;None(0);All(6);0;0;0;0;427;10;9;78;16;0;19;0;45;0;0;# Waterga
+Earthquake;10001;None(0);All(6);0;0;0;0;58;10;9;66;8;0;18;0;18;0;255;# Earthquake
+Aero;10002;None(0);SingleAny(0);0;0;0;0;180;10;9;18;32;0;19;0;8;0;255;# Aero
+Aera;10003;None(0);SingleAny(0);0;0;0;0;502;10;9;34;32;0;19;0;14;0;255;# Aera
+Aeraga;10004;None(0);SingleAny(0);0;0;0;0;173;10;9;80;32;0;19;0;26;0;255;# Aeraga
+Rainbow Wind;10005;None(0);SingleAny(0);0;0;0;0;181;10;9;86;247;0;19;0;38;0;255;# Rainbow Wind
+Green Fury;10006;None(0);Self(13);1;0;0;0;10;10;0;0;0;0;0;0;0;0;255;# Green Fury
+Hunt;10007;None(0);SingleEnemy(2);0;0;0;0;10000;10;10001;0;0;0;0;0;0;0;255;# Hunt
+Quarter;10008;None(0);ManyAny(3);0;0;0;0;99;98;17;60;0;70;19;0;20;0;255;# Quarter
+Flare Star;10009;None(0);All(6);0;0;0;0;436;10;9;126;0;0;18;0;52;0;255;# Flare Star
+Ultima;10010;None(0);All(6);0;0;0;0;492;10;9;255;0;0;18;0;100;0;255;# Ultima
+Rampage;10011;None(0);Self(13);1;0;0;0;10001;10;10002;0;0;0;0;0;0;0;255;# Rampage
+Weighted Strike;10012;None(0);SingleAny(0);0;0;0;0;10002;10;19;12;0;0;12;18;9;0;255;# Weighted Strike
+Cleave;10013;None(0);AllEnemy(8);0;0;0;0;10003;10;19;11;0;40;12;0;12;0;255;# Cleave
+Battle Salve;10014;Hp(1);SingleAlly(1);1;0;0;0;10004;10;10;13;0;0;4;0;12;1;255;# Battle Salve
+Tactical Retreat;10015;None(0);Self(13);1;0;0;0;10005;10;57;0;0;0;68;0;0;0;199;# Tactical Retreat
+Loose Grip;10016;None(0);SingleAny(0);0;0;0;0;267;10;19;10;0;20;12;31;18;0;255;# Loose Grip
+Earthsplitter;10017;None(0);AllEnemy(8);0;0;0;0;10006;10;19;25;8;0;12;0;70;0;255;# Earthsplitter
+Feel my fury!;10018;Buffs(4);Self(13);1;0;0;0;10007;10;103;0;0;0;68;10000;0;0;255;# Feel my fury!
+Feel our fury!;10019;Buffs(4);AllAlly(7);1;0;0;0;10007;10;103;0;0;0;68;10000;0;0;255;# Feel our fury!
+Impale & Brace;10020;None(0);SingleEnemy(2);0;0;0;0;10008;10;19;8;0;0;12;0;10;0;255;# Impale & Brace
+Shelter Formation;10021;Buffs(4);AllAlly(7);1;0;0;0;123;10;103;0;0;255;68;10001;18;0;255;# Shelter Formation
+Turtle Formation;10022;Buffs(4);AllAlly(7);1;0;0;0;63;10;103;0;0;255;68;10002;22;0;255;# Turtle Formation
+Blitz Formation;10023;Buffs(4);AllAlly(7);1;0;0;0;399;10;103;0;0;255;68;10003;35;0;255;# Blitz Formation
+Expose Openings;10024;None(0);AllEnemy(8);0;0;0;0;250;10;90;0;0;0;4;0;26;0;255;# Expose Openings
+Expose Weakness;10025;None(0);AllEnemy(8);0;0;0;0;196;10;51;0;255;0;4;0;26;0;255;# Expose Weakness
+Javelin;10026;None(0);SingleEnemy(2);0;0;0;0;10009;10;19;7;0;0;12;0;0;0;255;# Javelin
+Spear Raid;10027;None(0);AllEnemy(8);0;0;0;0;10010;10;19;12;0;0;12;0;0;0;255;# Spear Raid
+Thunder Strike;10028;None(0);SingleAny(0);0;0;0;0;10011;10;20;10;4;20;18;12;9;0;255;# Thunder Strike
+Holy Strike;10029;None(0);SingleAny(0);0;0;0;0;10012;10;20;12;64;40;18;9;12;0;255;# Holy Strike
+At Ease;10030;Debuffs(3);Self(13);1;0;0;0;10013;10;12;0;0;255;68;5;14;0;255;# At Ease
+Shockwave;10031;None(0);All(6);0;0;0;0;404;10;9;24;4;20;23;18;22;0;255;# Shockwave
+Imperial Storm;10032;None(0);All(6);0;0;0;0;415;10;9;50;4;0;23;0;40;0;255;# Imperial Storm
+Volt Stasis;10033;None(0);SingleAny(0);0;0;0;0;10014;10;9;70;4;30;22;18;32;0;255;# Volt Stasis
+Grenade;10034;None(0);SingleEnemy(2);0;0;0;0;10015;10;10003;10;0;0;24;0;0;0;255;# Grenade
+Fire Grenade;10035;None(0);SingleEnemy(2);0;0;0;0;10015;10;10003;10;1;0;24;0;0;0;255;# Fire Grenade
+Ice Grenade;10036;None(0);SingleEnemy(2);0;0;0;0;10015;10;10003;10;2;0;24;0;0;0;255;# Ice Grenade
+Thunder Grenade;10037;None(0);SingleEnemy(2);0;0;0;0;10015;10;10003;10;4;0;24;0;0;0;255;# Thunder Grenade
+Earth Grenade;10038;None(0);SingleEnemy(2);0;0;0;0;10015;10;10003;10;8;0;24;0;0;0;255;# Earth Grenade
+Water Grenade;10039;None(0);SingleEnemy(2);0;0;0;0;10015;10;10003;10;16;0;24;0;0;0;255;# Water Grenade
+Wind Grenade;10040;None(0);SingleEnemy(2);0;0;0;0;10015;10;10003;10;32;0;24;0;0;0;255;# Wind Grenade
+Holy Grenade;10041;None(0);SingleEnemy(2);0;0;0;0;10015;10;10003;10;64;0;24;0;0;0;255;# Holy Grenade
+Shadow Grenade;10042;None(0);SingleEnemy(2);0;0;0;0;10015;10;10003;10;128;0;24;0;0;0;255;# Shadow Grenade
+Grenade+;10043;None(0);AllEnemy(8);0;0;0;0;10015;10;10003;12;0;0;24;0;0;0;255;# Grenade+
+Fire Grenade+;10044;None(0);AllEnemy(8);0;0;0;0;10015;10;10003;12;1;0;24;0;0;0;255;# Fire Grenade+
+Ice Grenade+;10045;None(0);AllEnemy(8);0;0;0;0;10015;10;10003;12;2;0;24;0;0;0;255;# Ice Grenade+
+Thunder Grenade+;10046;None(0);AllEnemy(8);0;0;0;0;10015;10;10003;12;4;0;24;0;0;0;255;# Thunder Grenade+
+Earth Grenade+;10047;None(0);AllEnemy(8);0;0;0;0;10015;10;10003;12;8;0;24;0;0;0;255;# Earth Grenade+
+Water Grenade+;10048;None(0);AllEnemy(8);0;0;0;0;10015;10;10003;12;16;0;24;0;0;0;255;# Water Grenade+
+Wind Grenade+;10049;None(0);AllEnemy(8);0;0;0;0;10015;10;10003;12;32;0;24;0;0;0;255;# Wind Grenade+
+Holy Grenade+;10050;None(0);AllEnemy(8);0;0;0;0;10015;10;10003;12;64;0;24;0;0;0;255;# Holy Grenade+
+Shadow Grenade+;10051;None(0);AllEnemy(8);0;0;0;0;10015;10;10003;12;128;0;24;0;0;0;255;# Shadow Grenade+
+Chilling Slash;10052;None(0);SingleAny(0);0;0;0;0;10016;10;20;10;2;0;16;0;5;0;255;# Chilling Slash
+Coldfront;10053;None(0);All(6);0;0;0;0;10017;10;20;12;2;0;19;0;12;0;255;# Coldfront
+Glacial Break;10054;None(0);SingleEnemy(2);0;0;0;0;10018;10;20;16;2;0;19;0;18;0;255;# Glacial Break
+Icebound;10055;None(0);SingleEnemy(2);0;0;0;0;10019;10;11;0;2;40;18;28;20;0;255;# Icebound
+Frozen Oath;10056;Buffs(4);Self(13);1;0;0;0;10020;10;103;0;0;255;70;26;20;0;255;# Frozen Oath
+Eternal Winter;10057;None(0);AllEnemy(8);0;0;0;0;10021;10;20;25;2;25;23;19;36;0;255;# Eternal Winter
+Climhazzard;10058;None(0);AllEnemy(8);0;0;0;0;397;417;20;20;0;0;12;0;32;0;255;# Climhazzard
+Blizzard Trifecta;10059;None(0);SingleEnemy(2);0;0;0;0;10022;10;20;13;2;0;18;0;70;0;255;# Blizzard Trifecta
+Mark;10060;None(0);SingleEnemy(2);0;0;0;0;10023;10;51;0;2;255;12;0;0;0;255;# Mark
