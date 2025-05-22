@@ -1,0 +1,110 @@
+>SA 10000 ############# Common ############# Adversity
+Permanent [code=MaxHP] 10 * MaxHP [/code]
+Permanent [code=MaxHPLimit] 99999 [/code]
+Permanent [code=MaxMP] 10 * MaxMP [/code]
+Permanent [code=MaxMPLimit] 9999 [/code]
+Permanent [code=MPCostFactor] 5 * MPCostFactor [/code]
+Ability AsTarget WhenBattleScriptEnd EvenImmobilized
+[code=Condition] (EffectTargetFlags & CalcFlag_HpDamageOrHeal) == CalcFlag_HpAlteration [/code]
+[code=HPDamage] 10 * HPDamage [/code]
+
+>SA 10002 Auto-Protect
+StatusInit AutoStatus Protect
+
+>SA 10003 Auto-Shell
+StatusInit AutoStatus Shell
+
+>SA 10004 Cheat Fate
+StatusInit ResistStatus Doom
+
+>SA 10005 Fidget
+Ability EvenImmobilized
+[code=Condition] AbilityId == BattleAbilityId_Attack [/code]
+[code=CasterRow] CasterRow ^ 1 [/code]
+
+>SA 10006 Catalysis -- TODO --
+
+>SA 10009 Utsusemi -- TODO --
+
+>SA 10010 Power Volley -- TODO --
+
+
+
+>SA Global+ ############# Kuja ############# Kuja's attack is ranged
+Command EvenImmobilized
+[code=Condition] IsTheCaster [/code]
+[code=IsShortRanged] CasterCharacterIndex == 12 ? false : IsShortRanged [/code]
+
+>SA Global+ Ultima breaks damage limit
+Ability WhenBattleScriptStart EvenImmobilized
+[code=Condition] AbilityId == 10010 [/code]
+[code=CasterMaxDamageLimit] 10 * CasterMaxDamageLimit + 9 [/code]
+Ability WhenEffectDone EvenImmobilized
+[code=Condition] AbilityId == 10010 [/code]
+[code=CasterMaxDamageLimit] CasterMaxDamageLimit / 10 [/code]
+
+
+>SA 10001 ############# Fratley ############# Dragoon Team
+Command
+[code=Condition] IsCasterWellDefined && CommandId == BattleCommandId_DragonAct && IsATBCommand [/code]
+[code=Counter] CasterCharacterIndex != CharacterId_Freya ? BattleAbilityId_Void : (AbilityId == BattleAbilityId_WhiteDraw ? BattleAbilityId_ReisWind : (AbilityId == BattleAbilityId_ReisWind ? BattleAbilityId_WhiteDraw : (AbilityId == BattleAbilityId_CherryBlossom ? BattleAbilityId_CherryBlossom : BattleAbilityId_Lancer))) [/code]
+
+
+>SA Global+ ############# Haagen ############# Battle Salve also adds Regen
+Ability EvenImmobilized
+[code=Condition] AbilityId == 10014 [/code]
+[code=TargetCurrentStatus] CombineStatuses(TargetCurrentStatus, BattleStatus_Regen) [/code]
+
+
+>SA Global+ ############# Kohel ############# Impale & Brace ~~ Physical strike then Defend ~~
+Ability EvenImmobilized WhenEffectDone
+[code=Condition] AbilityId == 10020 [/code]
+[code=CasterCurrentStatus] CombineStatuses(CasterCurrentStatus, BattleStatus_Defend) [/code]
+
+
+>SA Global+ ############# Aria ############# Grenade drops
+BattleResult WhenRewardSingle
+[code=Condition] CharacterIndex == 17 && Level > 5 && HP > 0 && !CheckAnyStatus(PlayerStatus, BattleStatus_BattleEnd) && (GetRandom(0, 100) < 50 || GetItemCount(10013) == 0) [/code]
+[code=BonusItemAdd] (GetItemCount(10013) < 10 || GetRandom(0, 100) < 50) ? 10013 : 10014 + GetRandom(0, 8) [/code]
+
+>SA 10007 Pyrotechnics
+Ability WhenCalcDamage EvenImmobilized
+[code=Condition] ScriptId == 10003 [/code]
+[code=Attack] 2 * Attack [/code]
+
+>SA 10008 Chemistry
+BattleResult WhenRewardSingle
+[code=Condition] CharacterIndex == 17 && HP > 0 && !CheckAnyStatus(PlayerStatus, BattleStatus_BattleEnd) && GetRandom(0, 100) < 75 [/code]
+[code=BonusItemAdd] 10028 + GetRandom(0, 6) [/code]
+
+
+>AA 10052 ############# Ophelia ############# Chilling Slash ~~ 0 MP Trance ~~
+[code=MPCost] CheckAnyStatus(CasterCurrentStatus, BattleStatus_Trance) ? 0 : MPCost [/code]
+
+>AA 10053 Coldfront ~~ 0 MP Trance ~~
+[code=MPCost] CheckAnyStatus(CasterCurrentStatus, BattleStatus_Trance) ? 0 : MPCost [/code]
+
+>AA 10054 Glacial Break ~~ 0 MP Trance ~~
+[code=MPCost] CheckAnyStatus(CasterCurrentStatus, BattleStatus_Trance) ? 0 : MPCost [/code]
+
+>AA 10055 Icebound ~~ 0 MP Trance ~~
+[code=MPCost] CheckAnyStatus(CasterCurrentStatus, BattleStatus_Trance) ? 0 : MPCost [/code]
+
+>AA 10056 Frozen Oath ~~ 0 MP Trance ~~
+[code=MPCost] CheckAnyStatus(CasterCurrentStatus, BattleStatus_Trance) ? 0 : MPCost [/code]
+
+>AA 10057 Eternal Winter ~~ 0 MP Trance ~~
+[code=MPCost] CheckAnyStatus(CasterCurrentStatus, BattleStatus_Trance) ? 0 : MPCost [/code]
+
+>AA 151 Climhazzard ~~ 0 MP Trance ~~
+[code=MPCost]  CasterCharacterIndex == 18 && CheckAnyStatus(CasterCurrentStatus, BattleStatus_Trance) ? 0 : MPCost [/code]
+
+>AA 10059 Blizzard Trifecta ~~ 0 MP Trance ~~
+[code=MPCost] CheckAnyStatus(CasterCurrentStatus, BattleStatus_Trance) ? 0 : MPCost [/code]
+
+
+>SA Global+ ############# Gerome ############# Bloodlust ~~ Add Drain effect ~~
+Ability EvenImmobilized WhenBattleScriptEnd
+[code=Condition] AbilityId == BattleAbilityId_Attack && (AbilityCategory & 32) != 0 && CheckAnyStatus(CasterCurrentStatus, BattleStatus_Berserk) [/code]
+[code=IsDrain] true [/code]
+

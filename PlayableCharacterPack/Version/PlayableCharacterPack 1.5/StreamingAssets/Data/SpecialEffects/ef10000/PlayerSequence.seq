@@ -1,0 +1,25 @@
+// Player sequence of Hunt
+
+WaitAnimation: Char=Caster
+Message: Text=[CastName] ; Priority=1 ; Title=True ; Reflect=True
+SetupReflect: Delay=SFXLoaded
+LoadSFX: SFX=Scan ; Reflect=True ; UseCamera=False
+WaitSFXLoaded: SFX=Scan ; Reflect=True
+LoadSFX: SFX=Focus ; Char=FirstTarget ; Reflect=True ; UseCamera=False
+WaitSFXLoaded: SFX=Focus ; Reflect=True
+PlayAnimation: Char=Caster ; Anim=Idle
+PlaySFX: SFX=Scan ; HideMeshes=0x00800000,0x00B7BE00,0x0097BD05,0x0098BD00,0x0098BD01,0x0098BD03,0x0098BD04 ; Reflect=True
+Wait: Time=35
+PlaySFX: SFX=Focus ; SkipSequence=True ; Reflect=True
+Wait: Time=5
+PlaySFX: SFX=Focus ; SkipSequence=True ; Reflect=True
+Wait: Time=5
+PlaySFX: SFX=Focus ; SkipSequence=True ; Reflect=True
+Wait: Time=5
+PlaySFX: SFX=Focus ; SkipSequence=True ; Reflect=True
+Wait: Time=5
+PlaySFX: SFX=Focus ; SkipSequence=True ; Reflect=True
+WaitSFXDone: SFX=Scan ; Reflect=True
+WaitSFXDone: SFX=Focus ; Reflect=True
+ActivateReflect
+WaitReflect

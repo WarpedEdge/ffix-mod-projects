@@ -1,0 +1,6 @@
+>SA 0 Snort Counter
+MorphFeature
+Ability AsTarget
+[code=Condition] IsCounterableCommand && CasterIsPlayer != TargetIsPlayer && (AbilityCategory & 8) != 0 && CheckAnyStatus(CasterCurrentStatus | CasterPermanentStatus, BattleStatus_Float) [/code]
+[code=Counter] 5 [/code]
+DisableSA 36 54 56

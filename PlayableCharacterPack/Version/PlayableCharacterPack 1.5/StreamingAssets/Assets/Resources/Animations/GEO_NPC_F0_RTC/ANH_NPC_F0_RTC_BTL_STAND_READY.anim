@@ -1,0 +1,626 @@
+{
+    "name": "ANH_MAIN_B0_006_001",
+    "frameRate": 30,
+    "transform": [
+    {
+        "bone": "bone000",
+        "localRotation": [
+            { "time": 0, "x": 0, "y": -0.7071068, "z": 0, "w": 0.7071068, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": 0},
+            { "time": 0.03333334, "x": 0, "y": -0.7071068, "z": 0, "w": 0.7071068, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": 0},
+            { "time": 0.06666667, "x": 0, "y": -0.7071068, "z": 0, "w": 0.7071068, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": 0},
+            { "time": 0.1, "x": 0, "y": -0.7071068, "z": 0, "w": 0.7071068, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": 0},
+            { "time": 0.1333333, "x": 0, "y": -0.7071068, "z": 0, "w": 0.7071068, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": 0},
+            { "time": 0.1666667, "x": 0, "y": -0.7071068, "z": 0, "w": 0.7071068, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": 0}
+        ],
+        "localPosition": [
+            { "time": 0, "x": 20, "y": -143, "z": -3, "xInnerTangent": 210, "yInnerTangent": 180, "zInnerTangent": -210, "xOuterTangent": 210, "yOuterTangent": 180, "zOuterTangent": -210},
+            { "time": 0.03333334, "x": 27, "y": -137, "z": -10, "xInnerTangent": 210, "yInnerTangent": 180, "zInnerTangent": -210, "xOuterTangent": 60, "yOuterTangent": 60, "zOuterTangent": -89.99999},
+            { "time": 0.06666667, "x": 29, "y": -135, "z": -13, "xInnerTangent": 60, "yInnerTangent": 60, "zInnerTangent": -89.99999, "xOuterTangent": -540.0001, "yOuterTangent": -480, "zOuterTangent": 570.0001},
+            { "time": 0.1, "x": 11, "y": -151, "z": 6, "xInnerTangent": -540.0001, "yInnerTangent": -480, "zInnerTangent": 570.0001, "xOuterTangent": -359.9999, "yOuterTangent": -329.9999, "zOuterTangent": 120},
+            { "time": 0.1333333, "x": -1, "y": -162, "z": 10, "xInnerTangent": -359.9999, "yInnerTangent": -329.9999, "zInnerTangent": 120, "xOuterTangent": -120, "yOuterTangent": 180, "zOuterTangent": 210},
+            { "time": 0.1666667, "x": -5, "y": -156, "z": 17, "xInnerTangent": -120, "yInnerTangent": 180, "zInnerTangent": 210, "xOuterTangent": -120, "yOuterTangent": 180, "zOuterTangent": 210}
+        ],
+        "localScale": [
+            { "time": 0, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0}
+        ]
+    },
+    {
+        "bone": "bone000/bone001",
+        "localRotation": [
+            { "time": 0, "x": 0.3946953, "y": 0.6145579, "z": -0.4319464, "w": 0.5291092, "xInnerTangent": 0.3747546, "yInnerTangent": 0.7938265, "zInnerTangent": -0.2851912, "wInnerTangent": -1.535501, "xOuterTangent": 0.3747546, "yOuterTangent": 0.7938265, "zOuterTangent": -0.2851912, "wOuterTangent": -1.535501},
+            { "time": 0.03333334, "x": 0.4071871, "y": 0.6410188, "z": -0.4414528, "w": 0.4779259, "xInnerTangent": 0.6302475, "yInnerTangent": 0.5739095, "zInnerTangent": -0.08384854, "wInnerTangent": -1.369572, "xOuterTangent": 0.6302475, "yOuterTangent": 0.5739095, "zOuterTangent": -0.08384854, "wOuterTangent": -1.369572},
+            { "time": 0.06666667, "x": 0.4367118, "y": 0.6528186, "z": -0.4375363, "w": 0.4378044, "xInnerTangent": 0.04916403, "yInnerTangent": 0.3334101, "zInnerTangent": -0.1331484, "wInnerTangent": -0.6507575, "xOuterTangent": 0.04916403, "yOuterTangent": 0.3334101, "zOuterTangent": -0.1331484, "wOuterTangent": -0.6507575},
+            { "time": 0.1, "x": 0.4104647, "y": 0.6632462, "z": -0.4503293, "w": 0.434542, "xInnerTangent": -1.325034, "yInnerTangent": 0.5763271, "zInnerTangent": -0.6131042, "wInnerTangent": -0.3471329, "xOuterTangent": -1.325034, "yOuterTangent": 0.5763271, "zOuterTangent": -0.6131042, "wOuterTangent": -0.3471329},
+            { "time": 0.1333333, "x": 0.3483761, "y": 0.6912404, "z": -0.4784099, "w": 0.4146622, "xInnerTangent": -1.611414, "yInnerTangent": 1.094967, "zInnerTangent": -0.5238811, "wInnerTangent": -1.096481, "xOuterTangent": -1.611414, "yOuterTangent": 1.094967, "zOuterTangent": -0.5238811, "wOuterTangent": -1.096481},
+            { "time": 0.1666667, "x": 0.303037, "y": 0.736244, "z": -0.4852547, "w": 0.3614433, "xInnerTangent": -1.360172, "yInnerTangent": 1.350108, "zInnerTangent": -0.2053446, "wInnerTangent": -1.596568, "xOuterTangent": -1.360172, "yOuterTangent": 1.350108, "zOuterTangent": -0.2053446, "wOuterTangent": -1.596568}
+        ],
+        "localPosition": [
+            { "time": 0, "x": 0, "y": 0, "z": 0, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 0, "y": 0, "z": 0, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 0, "y": 0, "z": 0, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1, "x": 0, "y": 0, "z": 0, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 0, "y": 0, "z": 0, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 0, "y": 0, "z": 0, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0}
+        ],
+        "localScale": [
+            { "time": 0, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": -8.940696E-07, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": -8.940696E-07},
+            { "time": 0.06666667, "x": 1, "y": 1, "z": 0.9999999, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": -1.136868E-13, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": -1.136868E-13},
+            { "time": 0.1, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 8.940695E-07, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 8.940695E-07},
+            { "time": 0.1333333, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0}
+        ]
+    },
+    {
+        "bone": "bone000/bone001/bone002",
+        "localRotation": [
+            { "time": 0, "x": 0.869929, "y": 0.008938257, "z": -0.4795633, "w": -0.114729, "xInnerTangent": -0.1193583, "yInnerTangent": 0.02165219, "zInnerTangent": -0.2145266, "wInnerTangent": 0.002202094, "xOuterTangent": -0.1193583, "yOuterTangent": 0.02165219, "zOuterTangent": -0.2145266, "wOuterTangent": 0.002202094},
+            { "time": 0.03333334, "x": 0.8659504, "y": 0.009659996, "z": -0.4867142, "w": -0.1146556, "xInnerTangent": -0.2023119, "yInnerTangent": 0.04570815, "zInnerTangent": -0.3556099, "wInnerTangent": 0.005218238, "xOuterTangent": -0.2023119, "yOuterTangent": 0.04570815, "zOuterTangent": -0.3556099, "wOuterTangent": 0.005218238},
+            { "time": 0.06666667, "x": 0.8564416, "y": 0.01198547, "z": -0.5032706, "w": -0.1143811, "xInnerTangent": -0.326406, "yInnerTangent": 0.07472683, "zInnerTangent": -0.5513968, "wInnerTangent": 0.002754852, "xOuterTangent": -0.326406, "yOuterTangent": 0.07472683, "zOuterTangent": -0.5513968, "wOuterTangent": 0.002754852},
+            { "time": 0.1, "x": 0.84419, "y": 0.01464179, "z": -0.523474, "w": -0.114472, "xInnerTangent": -0.3613266, "yInnerTangent": 0.07242921, "zInnerTangent": -0.5830693, "wInnerTangent": 0.006255471, "xOuterTangent": -0.3613266, "yOuterTangent": 0.07242921, "zOuterTangent": -0.5830693, "wOuterTangent": 0.006255471},
+            { "time": 0.1333333, "x": 0.8323531, "y": 0.01681408, "z": -0.5421419, "w": -0.1139641, "xInnerTangent": -0.2863062, "yInnerTangent": 0.05751034, "zInnerTangent": -0.4444197, "wInnerTangent": 0.0106268, "xOuterTangent": -0.2863062, "yOuterTangent": 0.05751034, "zOuterTangent": -0.4444197, "wOuterTangent": 0.0106268},
+            { "time": 0.1666667, "x": 0.8251029, "y": 0.01847581, "z": -0.553102, "w": -0.1137635, "xInnerTangent": -0.2175057, "yInnerTangent": 0.04985182, "zInnerTangent": -0.3288013, "wInnerTangent": 0.006017983, "xOuterTangent": -0.2175057, "yOuterTangent": 0.04985182, "zOuterTangent": -0.3288013, "wOuterTangent": 0.006017983}
+        ],
+        "localPosition": [
+            { "time": 0, "x": 0, "y": 0, "z": 62, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 0, "y": 0, "z": 62, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 0, "y": 0, "z": 62, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1, "x": 0, "y": 0, "z": 62, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 0, "y": 0, "z": 62, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 0, "y": 0, "z": 62, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0}
+        ],
+        "localScale": [
+            { "time": 0, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0}
+        ]
+    },
+    {
+        "bone": "bone000/bone001/bone002/bone003",
+        "localRotation": [
+            { "time": 0, "x": -0.3262165, "y": 0.1113218, "z": -0.2392495, "w": 0.9077169, "xInnerTangent": 0.3483957, "yInnerTangent": 2.739416, "zInnerTangent": 0.5121602, "wInnerTangent": -0.2214968, "xOuterTangent": 0.3483957, "yOuterTangent": 2.739416, "zOuterTangent": 0.5121602, "wOuterTangent": -0.2214968},
+            { "time": 0.03333334, "x": -0.3146033, "y": 0.2026357, "z": -0.2221775, "w": 0.9003336, "xInnerTangent": 1.061902, "yInnerTangent": 2.030193, "zInnerTangent": 0.1420918, "wInnerTangent": -0.02342999, "xOuterTangent": 1.061902, "yOuterTangent": 2.030193, "zOuterTangent": 0.1420918, "wOuterTangent": -0.02342999},
+            { "time": 0.06666667, "x": -0.255423, "y": 0.246668, "z": -0.2297767, "w": 0.9061549, "xInnerTangent": 0.4516523, "yInnerTangent": -0.3239321, "zInnerTangent": 0.8171849, "wInnerTangent": 0.390577, "xOuterTangent": 0.4516523, "yOuterTangent": -0.3239321, "zOuterTangent": 0.8171849, "wOuterTangent": 0.390577},
+            { "time": 0.1, "x": -0.2844932, "y": 0.1810402, "z": -0.1676985, "w": 0.9263721, "xInnerTangent": -0.5737137, "yInnerTangent": -1.808323, "zInnerTangent": 1.45992, "wInnerTangent": 0.4814055, "xOuterTangent": -0.5737137, "yOuterTangent": -1.808323, "zOuterTangent": 1.45992, "wOuterTangent": 0.4814055},
+            { "time": 0.1333333, "x": -0.2936706, "y": 0.1261132, "z": -0.1324487, "w": 0.9382486, "xInnerTangent": 6.1753, "yInnerTangent": -2.245049, "zInnerTangent": -1.822359, "wInnerTangent": 0.3283999, "xOuterTangent": 6.1753, "yOuterTangent": -2.245049, "zOuterTangent": -1.822359, "wOuterTangent": 0.3283999},
+            { "time": 0.1666667, "x": 0.1271935, "y": 0.03137032, "z": -0.2891891, "w": 0.9482654, "xInnerTangent": 12.62592, "yInnerTangent": -2.842286, "zInnerTangent": -4.702213, "wInnerTangent": 0.3005058, "xOuterTangent": 12.62592, "yOuterTangent": -2.842286, "zOuterTangent": -4.702213, "wOuterTangent": 0.3005058}
+        ],
+        "localPosition": [
+            { "time": 0, "x": 0, "y": 0, "z": 53, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 0, "y": 0, "z": 53, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 0, "y": 0, "z": 53, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1, "x": 0, "y": 0, "z": 53, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 0, "y": 0, "z": 53, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 0, "y": 0, "z": 53, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0}
+        ],
+        "localScale": [
+            { "time": 0, "x": 1, "y": 1, "z": 1, "xInnerTangent": -1.788139E-06, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": -1.788139E-06, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 0.9999999, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 1, "y": 1, "z": 1, "xInnerTangent": 8.940696E-07, "yInnerTangent": -8.940695E-07, "zInnerTangent": 0, "xOuterTangent": 8.940696E-07, "yOuterTangent": -8.940695E-07, "zOuterTangent": 0},
+            { "time": 0.1, "x": 1, "y": 0.9999999, "z": 1, "xInnerTangent": 0, "yInnerTangent": 2.273737E-13, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 2.273737E-13, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": -8.940697E-07, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": -8.940697E-07},
+            { "time": 0.1666667, "x": 1, "y": 0.9999999, "z": 0.9999999, "xInnerTangent": 0, "yInnerTangent": -1.788139E-06, "zInnerTangent": -1.788139E-06, "xOuterTangent": 0, "yOuterTangent": -1.788139E-06, "zOuterTangent": -1.788139E-06}
+        ]
+    },
+    {
+        "bone": "bone000/bone001/bone002/bone003/bone004",
+        "localRotation": [
+            { "time": 0, "x": -0.5901241, "y": 0.004906387, "z": -0.0002136449, "w": 0.8072976, "xInnerTangent": -0.9696131, "yInnerTangent": 0.0001388742, "zInnerTangent": 0.005987048, "wInnerTangent": -0.7394742, "xOuterTangent": -0.9696131, "yOuterTangent": 0.0001388742, "zOuterTangent": 0.005987048, "wOuterTangent": -0.7394742},
+            { "time": 0.03333334, "x": -0.6224445, "y": 0.004911016, "z": -1.407659E-05, "w": 0.7826485, "xInnerTangent": -1.6645, "yInnerTangent": 0.01581727, "zInnerTangent": -0.005685975, "wInnerTangent": -1.413761, "xOuterTangent": -1.6645, "yOuterTangent": 0.01581727, "zOuterTangent": -0.005685975, "wOuterTangent": -1.413761},
+            { "time": 0.06666667, "x": -0.7010908, "y": 0.005960872, "z": -0.0005927099, "w": 0.7130469, "xInnerTangent": -0.8382735, "yInnerTangent": 0.007620045, "zInnerTangent": -0.003033317, "wInnerTangent": -0.7186577, "xOuterTangent": -0.8382735, "yOuterTangent": 0.007620045, "zOuterTangent": -0.003033317, "wOuterTangent": -0.7186577},
+            { "time": 0.1, "x": -0.6783294, "y": 0.005419019, "z": -0.0002162977, "w": 0.734738, "xInnerTangent": 0.5031028, "yInnerTangent": -0.008183698, "zInnerTangent": 0.004462007, "wInnerTangent": 0.4724684, "xOuterTangent": 0.5031028, "yOuterTangent": -0.008183698, "zOuterTangent": 0.004462007, "wOuterTangent": 0.4724684},
+            { "time": 0.1333333, "x": -0.6675506, "y": 0.005415292, "z": -0.0002952427, "w": 0.7445448, "xInnerTangent": -2.258099, "yInnerTangent": 0.02718228, "zInnerTangent": -0.000560359, "wInnerTangent": -2.630137, "xOuterTangent": -2.258099, "yOuterTangent": 0.02718228, "zOuterTangent": -0.000560359, "wOuterTangent": -2.630137},
+            { "time": 0.1666667, "x": -0.8288693, "y": 0.007231171, "z": -0.000253655, "w": 0.5593956, "xInnerTangent": -4.839564, "yInnerTangent": 0.05447638, "zInnerTangent": 0.001247632, "wInnerTangent": -5.554478, "xOuterTangent": -4.839564, "yOuterTangent": 0.05447638, "zOuterTangent": 0.001247632, "wOuterTangent": -5.554478}
+        ],
+        "localPosition": [
+            { "time": 0, "x": 0, "y": 0, "z": 54, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 0, "y": 0, "z": 54, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 0, "y": 0, "z": 54, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1, "x": 0, "y": 0, "z": 54, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 0, "y": 0, "z": 54, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 0, "y": 0, "z": 54, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0}
+        ],
+        "localScale": [
+            { "time": 0, "x": 1, "y": 1, "z": 0.9999999, "xInnerTangent": 0, "yInnerTangent": 3.576278E-06, "zInnerTangent": 1.788139E-06, "xOuterTangent": 0, "yOuterTangent": 3.576278E-06, "zOuterTangent": 1.788139E-06},
+            { "time": 0.03333334, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 8.940696E-07, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 8.940696E-07},
+            { "time": 0.06666667, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": -2.273737E-13, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": -2.273737E-13, "zOuterTangent": 0},
+            { "time": 0.1, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": -4.547474E-13, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": -4.547474E-13, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": -1.788139E-06, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": -1.788139E-06, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0}
+        ]
+    },
+    {
+        "bone": "bone000/bone001/bone002/bone003/bone004/bone005",
+        "localRotation": [
+            { "time": 0, "x": 0.1471894, "y": -0.006890947, "z": -0.1396262, "w": 0.9791794, "xInnerTangent": 1.979374, "yInnerTangent": 1.058398, "zInnerTangent": -2.883321, "wInnerTangent": -0.9436547, "xOuterTangent": 1.979374, "yOuterTangent": 1.058398, "zOuterTangent": -2.883321, "wOuterTangent": -0.9436547},
+            { "time": 0.03333334, "x": 0.2131685, "y": 0.02838897, "z": -0.2357369, "w": 0.9477243, "xInnerTangent": 2.026189, "yInnerTangent": 1.135994, "zInnerTangent": -2.285017, "wInnerTangent": -1.019209, "xOuterTangent": 2.026189, "yOuterTangent": 1.135994, "zOuterTangent": -2.285017, "wOuterTangent": -1.019209},
+            { "time": 0.06666667, "x": 0.2822687, "y": 0.06884198, "z": -0.2919607, "w": 0.9112322, "xInnerTangent": 0.982888, "yInnerTangent": -0.5768939, "zInnerTangent": 2.19231, "wInnerTangent": 0.12623, "xOuterTangent": 0.982888, "yOuterTangent": -0.5768939, "zOuterTangent": 2.19231, "wOuterTangent": 0.12623},
+            { "time": 0.1, "x": 0.2786944, "y": -0.01007063, "z": -0.08958293, "w": 0.9561396, "xInnerTangent": -1.068813, "yInnerTangent": -2.057426, "zInnerTangent": 6.353631, "wInnerTangent": 0.824055, "xOuterTangent": -1.068813, "yOuterTangent": -2.057426, "zOuterTangent": 6.353631, "wOuterTangent": 0.824055},
+            { "time": 0.1333333, "x": 0.2110145, "y": -0.06831975, "z": 0.1316147, "w": 0.9661692, "xInnerTangent": -2.498956, "yInnerTangent": 0.001348317, "zInnerTangent": 3.103864, "wInnerTangent": 0.4583198, "xOuterTangent": -2.498956, "yOuterTangent": 0.001348317, "zOuterTangent": 3.103864, "wOuterTangent": 0.4583198},
+            { "time": 0.1666667, "x": 0.1120973, "y": -0.009980747, "z": 0.1173413, "w": 0.9866943, "xInnerTangent": -2.967515, "yInnerTangent": 1.75017, "zInnerTangent": -0.4282022, "wInnerTangent": 0.615753, "xOuterTangent": -2.967515, "yOuterTangent": 1.75017, "zOuterTangent": -0.4282022, "wOuterTangent": 0.615753}
+        ],
+        "localPosition": [
+            { "time": 0, "x": 0, "y": 0, "z": 53, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 0, "y": 0, "z": 53, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 0, "y": 0, "z": 53, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1, "x": 0, "y": 0, "z": 53, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 0, "y": 0, "z": 53, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 0, "y": 0, "z": 53, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0}
+        ],
+        "localScale": [
+            { "time": 0, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0}
+        ]
+    },
+    {
+        "bone": "bone000/bone001/bone006",
+        "localRotation": [
+            { "time": 0, "x": 0.1376201, "y": 0, "z": 0, "w": 0.9904851, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": 0},
+            { "time": 0.03333334, "x": 0.1376201, "y": 0, "z": 0, "w": 0.9904851, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": 0},
+            { "time": 0.06666667, "x": 0.1376201, "y": 0, "z": 0, "w": 0.9904851, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": 0},
+            { "time": 0.1, "x": 0.1376201, "y": 0, "z": 0, "w": 0.9904851, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": 0},
+            { "time": 0.1333333, "x": 0.1376201, "y": 0, "z": 0, "w": 0.9904851, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": 0},
+            { "time": 0.1666667, "x": 0.1376201, "y": 0, "z": 0, "w": 0.9904851, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": 0}
+        ],
+        "localPosition": [
+            { "time": 0, "x": 0, "y": 0, "z": 62, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 0, "y": 0, "z": 62, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 0, "y": 0, "z": 62, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1, "x": 0, "y": 0, "z": 62, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 0, "y": 0, "z": 62, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 0, "y": 0, "z": 62, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0}
+        ],
+        "localScale": [
+            { "time": 0, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0}
+        ]
+    },
+    {
+        "bone": "bone000/bone001/bone006/bone007",
+        "localRotation": [
+            { "time": 0, "x": -0.06578849, "y": -0.02743593, "z": 0.03120411, "w": 0.9969682, "xInnerTangent": 0.7600248, "yInnerTangent": -0.9802584, "zInnerTangent": -0.1847048, "wInnerTangent": 0.002667904, "xOuterTangent": 0.7600248, "yOuterTangent": -0.9802584, "zOuterTangent": -0.1847048, "wOuterTangent": 0.002667904},
+            { "time": 0.03333334, "x": -0.04045433, "y": -0.06011121, "z": 0.02504728, "w": 0.9970571, "xInnerTangent": 0.7997617, "yInnerTangent": -0.9960656, "zInnerTangent": -0.04294317, "wInnerTangent": -0.02793699, "xOuterTangent": 0.7997617, "yOuterTangent": -0.9960656, "zOuterTangent": -0.04294317, "wOuterTangent": -0.02793699},
+            { "time": 0.06666667, "x": -0.01247105, "y": -0.09384031, "z": 0.02834123, "w": 0.9951057, "xInnerTangent": 0.04919875, "yInnerTangent": -0.1294829, "zInnerTangent": 0.6713583, "wInnerTangent": -0.03843516, "xOuterTangent": 0.04919875, "yOuterTangent": -0.1294829, "zOuterTangent": 0.6713583, "wOuterTangent": -0.03843516},
+            { "time": 0.1, "x": -0.03717442, "y": -0.0687434, "z": 0.0698045, "w": 0.9944947, "xInnerTangent": -0.4196357, "yInnerTangent": 0.8711721, "zInnerTangent": 1.353839, "wInnerTangent": -0.05448192, "xOuterTangent": -0.4196357, "yOuterTangent": 0.8711721, "zOuterTangent": 1.353839, "wOuterTangent": -0.05448192},
+            { "time": 0.1333333, "x": -0.04044676, "y": -0.03576217, "z": 0.1185971, "w": 0.9914736, "xInnerTangent": 1.355031, "yInnerTangent": 0.3877751, "zInnerTangent": 1.285377, "wInnerTangent": -0.1353407, "xOuterTangent": 1.355031, "yOuterTangent": 0.3877751, "zOuterTangent": 1.285377, "wOuterTangent": -0.1353407},
+            { "time": 0.1666667, "x": 0.05316098, "y": -0.04289173, "z": 0.1554963, "w": 0.985472, "xInnerTangent": 2.808233, "yInnerTangent": -0.2138867, "zInnerTangent": 1.106975, "wInnerTangent": -0.180046, "xOuterTangent": 2.808233, "yOuterTangent": -0.2138867, "zOuterTangent": 1.106975, "wOuterTangent": -0.180046}
+        ],
+        "localPosition": [
+            { "time": 0, "x": 0, "y": 0, "z": 15, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 0, "y": 0, "z": 15, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 0, "y": 0, "z": 15, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1, "x": 0, "y": 0, "z": 15, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 0, "y": 0, "z": 15, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 0, "y": 0, "z": 15, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0}
+        ],
+        "localScale": [
+            { "time": 0, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 1, "y": 1, "z": 1, "xInnerTangent": -8.940695E-07, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": -8.940695E-07, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1, "x": 0.9999999, "y": 1, "z": 1, "xInnerTangent": -8.940695E-07, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": -8.940695E-07, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 0.9999999, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 0.9999999, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0}
+        ]
+    },
+    {
+        "bone": "bone000/bone001/bone008",
+        "localRotation": [
+            { "time": 0, "x": 0.8699291, "y": -0.008938286, "z": 0.4795632, "w": -0.1147291, "xInnerTangent": -0.03619372, "yInnerTangent": -0.002604006, "zInnerTangent": 0.06426483, "wInnerTangent": -0.004804506, "xOuterTangent": -0.03619372, "yOuterTangent": -0.002604006, "zOuterTangent": 0.06426483, "wOuterTangent": -0.004804506},
+            { "time": 0.03333334, "x": 0.8687226, "y": -0.009025087, "z": 0.4817053, "w": -0.1148892, "xInnerTangent": -0.05967914, "yInnerTangent": -0.01082579, "zInnerTangent": 0.1072633, "wInnerTangent": 0.001100935, "xOuterTangent": -0.05967914, "yOuterTangent": -0.01082579, "zOuterTangent": 0.1072633, "wOuterTangent": 0.001100935},
+            { "time": 0.06666667, "x": 0.8659505, "y": -0.009660006, "z": 0.4867141, "w": -0.1146557, "xInnerTangent": -0.09809284, "yInnerTangent": -0.02573236, "zInnerTangent": 0.173563, "wInnerTangent": -0.000271685, "xOuterTangent": -0.09809284, "yOuterTangent": -0.02573236, "zOuterTangent": 0.173563, "wOuterTangent": -0.000271685},
+            { "time": 0.1, "x": 0.8621831, "y": -0.01074058, "z": 0.4932762, "w": -0.1149073, "xInnerTangent": -0.1173779, "yInnerTangent": -0.03376298, "zInnerTangent": 0.2057835, "wInnerTangent": 0.006539227, "xOuterTangent": -0.1173779, "yOuterTangent": -0.03376298, "zOuterTangent": 0.2057835, "wOuterTangent": 0.006539227},
+            { "time": 0.1333333, "x": 0.8581253, "y": -0.01191087, "z": 0.500433, "w": -0.1142197, "xInnerTangent": -0.1129183, "yInnerTangent": -0.02350817, "zInnerTangent": 0.1938276, "wInnerTangent": 0.001770481, "xOuterTangent": -0.1129183, "yOuterTangent": -0.02350817, "zOuterTangent": 0.1938276, "wOuterTangent": 0.001770481},
+            { "time": 0.1666667, "x": 0.8546552, "y": -0.01230779, "z": 0.506198, "w": -0.1147893, "xInnerTangent": -0.1041019, "yInnerTangent": -0.01190753, "zInnerTangent": 0.1729524, "wInnerTangent": -0.01708724, "xOuterTangent": -0.1041019, "yOuterTangent": -0.01190753, "zOuterTangent": 0.1729524, "wOuterTangent": -0.01708724}
+        ],
+        "localPosition": [
+            { "time": 0, "x": 0, "y": 0, "z": 62, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 0, "y": 0, "z": 62, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 0, "y": 0, "z": 62, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1, "x": 0, "y": 0, "z": 62, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 0, "y": 0, "z": 62, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 0, "y": 0, "z": 62, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0}
+        ],
+        "localScale": [
+            { "time": 0, "x": 1, "y": 0.9999999, "z": 1, "xInnerTangent": 0, "yInnerTangent": 1.788139E-06, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 1.788139E-06, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 8.940696E-07, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 8.940696E-07, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": -8.940695E-07, "zInnerTangent": -8.940695E-07, "xOuterTangent": 0, "yOuterTangent": -8.940695E-07, "zOuterTangent": -8.940695E-07},
+            { "time": 0.1, "x": 1, "y": 0.9999999, "z": 0.9999999, "xInnerTangent": 0, "yInnerTangent": -8.940695E-07, "zInnerTangent": -8.940695E-07, "xOuterTangent": 0, "yOuterTangent": -8.940695E-07, "zOuterTangent": -8.940695E-07},
+            { "time": 0.1333333, "x": 1, "y": 0.9999999, "z": 0.9999999, "xInnerTangent": 0, "yInnerTangent": 8.940697E-07, "zInnerTangent": 8.940697E-07, "xOuterTangent": 0, "yOuterTangent": 8.940697E-07, "zOuterTangent": 8.940697E-07},
+            { "time": 0.1666667, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 1.788139E-06, "zInnerTangent": 1.788139E-06, "xOuterTangent": 0, "yOuterTangent": 1.788139E-06, "zOuterTangent": 1.788139E-06}
+        ]
+    },
+    {
+        "bone": "bone000/bone001/bone008/bone009",
+        "localRotation": [
+            { "time": 0, "x": -0.1422005, "y": -0.2847552, "z": 0.05518288, "w": 0.946387, "xInnerTangent": 0.8249183, "yInnerTangent": 2.561494, "zInnerTangent": 0.8979031, "wInnerTangent": 0.692144, "xOuterTangent": 0.8249183, "yOuterTangent": 2.561494, "zOuterTangent": 0.8979031, "wOuterTangent": 0.692144},
+            { "time": 0.03333334, "x": -0.1147033, "y": -0.199372, "z": 0.08511298, "w": 0.9694585, "xInnerTangent": 0.08444467, "yInnerTangent": 2.478938, "zInnerTangent": 0.7916349, "wInnerTangent": 0.4659936, "xOuterTangent": 0.08444467, "yOuterTangent": 2.478938, "zOuterTangent": 0.7916349, "wOuterTangent": 0.4659936},
+            { "time": 0.06666667, "x": -0.1365709, "y": -0.1194926, "z": 0.1079585, "w": 0.9774532, "xInnerTangent": -1.420941, "yInnerTangent": 1.700161, "zInnerTangent": 0.8244635, "wInnerTangent": -0.08328078, "xOuterTangent": -1.420941, "yOuterTangent": 1.700161, "zOuterTangent": 0.8244635, "wOuterTangent": -0.08328078},
+            { "time": 0.1, "x": -0.2094327, "y": -0.08602798, "z": 0.1400772, "w": 0.9639064, "xInnerTangent": -1.384775, "yInnerTangent": 2.231791, "zInnerTangent": 1.20678, "wInnerTangent": -0.3428623, "xOuterTangent": -1.384775, "yOuterTangent": 2.231791, "zOuterTangent": 1.20678, "wOuterTangent": -0.3428623},
+            { "time": 0.1333333, "x": -0.2288893, "y": 0.02929342, "z": 0.1884106, "w": 0.9545957, "xInnerTangent": -0.1128455, "yInnerTangent": 2.393278, "zInnerTangent": 1.503487, "wInnerTangent": -0.3094071, "xOuterTangent": -0.1128455, "yOuterTangent": 2.393278, "zOuterTangent": 1.503487, "wOuterTangent": -0.3094071},
+            { "time": 0.1666667, "x": -0.2169557, "y": 0.07352389, "z": 0.2403097, "w": 0.9432793, "xInnerTangent": 0.3580065, "yInnerTangent": 1.326914, "zInnerTangent": 1.556973, "wInnerTangent": -0.3394944, "xOuterTangent": 0.3580065, "yOuterTangent": 1.326914, "zOuterTangent": 1.556973, "wOuterTangent": -0.3394944}
+        ],
+        "localPosition": [
+            { "time": 0, "x": 0, "y": 0, "z": 53, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 0, "y": 0, "z": 53, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 0, "y": 0, "z": 53, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1, "x": 0, "y": 0, "z": 53, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 0, "y": 0, "z": 53, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 0, "y": 0, "z": 53, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0}
+        ],
+        "localScale": [
+            { "time": 0, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1, "x": 1, "y": 1, "z": 1, "xInnerTangent": -8.940697E-07, "yInnerTangent": -8.940697E-07, "zInnerTangent": 0, "xOuterTangent": -8.940697E-07, "yOuterTangent": -8.940697E-07, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 0.9999999, "y": 0.9999999, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 1, "y": 1, "z": 1, "xInnerTangent": 1.788139E-06, "yInnerTangent": 1.788139E-06, "zInnerTangent": 0, "xOuterTangent": 1.788139E-06, "yOuterTangent": 1.788139E-06, "zOuterTangent": 0}
+        ]
+    },
+    {
+        "bone": "bone000/bone001/bone008/bone009/bone010",
+        "localRotation": [
+            { "time": 0, "x": -0.6972423, "y": -0.007042147, "z": 0.0006395739, "w": 0.7168006, "xInnerTangent": -1.04547, "yInnerTangent": -0.01753902, "zInnerTangent": 0.00512147, "wInnerTangent": -1.06912, "xOuterTangent": -1.04547, "yOuterTangent": -0.01753902, "zOuterTangent": 0.00512147, "wOuterTangent": -1.06912},
+            { "time": 0.03333334, "x": -0.7320913, "y": -0.007626781, "z": 0.0008102896, "w": 0.6811633, "xInnerTangent": -0.4123905, "yInnerTangent": -0.008632403, "zInnerTangent": 0.003788441, "wInnerTangent": -0.4172346, "xOuterTangent": -0.4123905, "yOuterTangent": -0.008632403, "zOuterTangent": 0.003788441, "wOuterTangent": -0.4172346},
+            { "time": 0.06666667, "x": -0.724735, "y": -0.00761764, "z": 0.0008921367, "w": 0.688985, "xInnerTangent": 1.935743, "yInnerTangent": 0.02464858, "zInnerTangent": -0.007897987, "wInnerTangent": 1.747857, "xOuterTangent": 1.935743, "yOuterTangent": 0.02464858, "zOuterTangent": -0.007897987, "wOuterTangent": 1.747857},
+            { "time": 0.1, "x": -0.6030418, "y": -0.005983542, "z": 0.0002837571, "w": 0.7976871, "xInnerTangent": 2.394908, "yInnerTangent": 0.02480875, "zInnerTangent": -0.004932646, "wInnerTangent": 2.040497, "xOuterTangent": 2.394908, "yOuterTangent": 0.02480875, "zOuterTangent": -0.004932646, "wOuterTangent": 2.040497},
+            { "time": 0.1333333, "x": -0.5650744, "y": -0.005963723, "z": 0.0005632935, "w": 0.8250182, "xInnerTangent": 1.235933, "yInnerTangent": 0.006859429, "zInnerTangent": -0.0009091306, "wInnerTangent": 0.8410121, "xOuterTangent": 1.235933, "yOuterTangent": 0.006859429, "zOuterTangent": -0.0009091306, "wOuterTangent": 0.8410121},
+            { "time": 0.1666667, "x": -0.5206463, "y": -0.005526247, "z": 0.0002231484, "w": 0.8537546, "xInnerTangent": 1.332845, "yInnerTangent": 0.01312429, "zInnerTangent": -0.01020435, "wInnerTangent": 0.8620924, "xOuterTangent": 1.332845, "yOuterTangent": 0.01312429, "zOuterTangent": -0.01020435, "wOuterTangent": 0.8620924}
+        ],
+        "localPosition": [
+            { "time": 0, "x": 0, "y": 0, "z": 54, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 0, "y": 0, "z": 54, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 0, "y": 0, "z": 54, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1, "x": 0, "y": 0, "z": 54, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 0, "y": 0, "z": 54, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 0, "y": 0, "z": 54, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0}
+        ],
+        "localScale": [
+            { "time": 0, "x": 1, "y": 0.9999999, "z": 1, "xInnerTangent": 0, "yInnerTangent": 1.788139E-06, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 1.788139E-06, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": -8.940696E-07, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": -8.940696E-07},
+            { "time": 0.06666667, "x": 1, "y": 0.9999999, "z": 0.9999999, "xInnerTangent": 0, "yInnerTangent": -8.940696E-07, "zInnerTangent": -1.136868E-13, "xOuterTangent": 0, "yOuterTangent": -8.940696E-07, "zOuterTangent": -1.136868E-13},
+            { "time": 0.1, "x": 1, "y": 0.9999999, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 8.940695E-07, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 8.940695E-07},
+            { "time": 0.1333333, "x": 1, "y": 0.9999999, "z": 1, "xInnerTangent": -8.940697E-07, "yInnerTangent": 8.940697E-07, "zInnerTangent": 0, "xOuterTangent": -8.940697E-07, "yOuterTangent": 8.940697E-07, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 0.9999999, "y": 1, "z": 1, "xInnerTangent": -1.788139E-06, "yInnerTangent": 1.788139E-06, "zInnerTangent": 0, "xOuterTangent": -1.788139E-06, "yOuterTangent": 1.788139E-06, "zOuterTangent": 0}
+        ]
+    },
+    {
+        "bone": "bone000/bone001/bone008/bone009/bone010/bone011",
+        "localRotation": [
+            { "time": 0, "x": -0.1062053, "y": -0.007267028, "z": -0.7302105, "w": 0.6748779, "xInnerTangent": -1.082816, "yInnerTangent": 0.7204251, "zInnerTangent": -1.311911, "wInnerTangent": -1.741276, "xOuterTangent": -1.082816, "yOuterTangent": 0.7204251, "zOuterTangent": -1.311911, "wOuterTangent": -1.741276},
+            { "time": 0.03333334, "x": -0.1422991, "y": 0.01674714, "z": -0.7739409, "w": 0.6168354, "xInnerTangent": -1.235651, "yInnerTangent": 0.5826497, "zInnerTangent": -1.217696, "wInnerTangent": -1.837985, "xOuterTangent": -1.235651, "yOuterTangent": 0.5826497, "zOuterTangent": -1.217696, "wOuterTangent": -1.837985},
+            { "time": 0.06666667, "x": -0.188582, "y": 0.03157629, "z": -0.8113903, "w": 0.5523456, "xInnerTangent": -0.2317972, "yInnerTangent": -0.7685403, "zInnerTangent": 0.321215, "wInnerTangent": 0.3243371, "xOuterTangent": -0.2317972, "yOuterTangent": -0.7685403, "zOuterTangent": 0.321215, "wOuterTangent": 0.3243371},
+            { "time": 0.1, "x": -0.1577523, "y": -0.03448888, "z": -0.7525266, "w": 0.6384579, "xInnerTangent": 0.7072455, "yInnerTangent": -1.827528, "zInnerTangent": 4.555706, "wInnerTangent": 4.390613, "xOuterTangent": 0.7072455, "yOuterTangent": -1.827528, "zOuterTangent": 4.555706, "wOuterTangent": 4.390613},
+            { "time": 0.1333333, "x": -0.1414323, "y": -0.0902589, "z": -0.5076766, "w": 0.8450531, "xInnerTangent": 0.581392, "yInnerTangent": -1.015191, "zInnerTangent": 7.159528, "wInnerTangent": 4.650643, "xOuterTangent": 0.581392, "yOuterTangent": -1.015191, "zOuterTangent": 7.159528, "wOuterTangent": 4.650643},
+            { "time": 0.1666667, "x": -0.1189928, "y": -0.1021683, "z": -0.2752247, "w": 0.9485008, "xInnerTangent": 0.6731851, "yInnerTangent": -0.3572814, "zInnerTangent": 6.973556, "wInnerTangent": 3.103431, "xOuterTangent": 0.6731851, "yOuterTangent": -0.3572814, "zOuterTangent": 6.973556, "wOuterTangent": 3.103431}
+        ],
+        "localPosition": [
+            { "time": 0, "x": 0, "y": 0, "z": 53, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 0, "y": 0, "z": 53, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 0, "y": 0, "z": 53, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1, "x": 0, "y": 0, "z": 53, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 0, "y": 0, "z": 53, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 0, "y": 0, "z": 53, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0}
+        ],
+        "localScale": [
+            { "time": 0, "x": 1, "y": 0.9999999, "z": 1, "xInnerTangent": 0, "yInnerTangent": 1.788139E-06, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 1.788139E-06, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 8.940696E-07, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 8.940696E-07, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0}
+        ]
+    },
+    {
+        "bone": "bone000/bone012",
+        "localRotation": [
+            { "time": 0, "x": -0.4370404, "y": 0.5531451, "z": 0.5112771, "w": 0.4915506, "xInnerTangent": 0.7827141, "yInnerTangent": 0.9333747, "zInnerTangent": 0.602653, "wInnerTangent": -1.083699, "xOuterTangent": 0.7827141, "yOuterTangent": 0.9333747, "zOuterTangent": 0.602653, "wOuterTangent": -1.083699},
+            { "time": 0.03333334, "x": -0.4109499, "y": 0.5842575, "z": 0.5313655, "w": 0.4554273, "xInnerTangent": 0.5615186, "yInnerTangent": 0.7593396, "zInnerTangent": 0.3762656, "wInnerTangent": -0.8677514, "xOuterTangent": 0.5615186, "yOuterTangent": 0.7593396, "zOuterTangent": 0.3762656, "wOuterTangent": -0.8677514},
+            { "time": 0.06666667, "x": -0.3996058, "y": 0.6037677, "z": 0.5363615, "w": 0.4337005, "xInnerTangent": 0.3417273, "yInnerTangent": 0.4151675, "zInnerTangent": 0.1999882, "wInnerTangent": -0.4999776, "xOuterTangent": 0.3417273, "yOuterTangent": 0.4151675, "zOuterTangent": 0.1999882, "wOuterTangent": -0.4999776},
+            { "time": 0.1, "x": -0.3881681, "y": 0.6119354, "z": 0.5446981, "w": 0.4220955, "xInnerTangent": 1.56712, "yInnerTangent": 0.7538707, "zInnerTangent": 1.020872, "wInnerTangent": -1.313148, "xOuterTangent": 1.56712, "yOuterTangent": 0.7538707, "zOuterTangent": 1.020872, "wOuterTangent": -1.313148},
+            { "time": 0.1333333, "x": -0.2951311, "y": 0.6540257, "z": 0.6044196, "w": 0.3461573, "xInnerTangent": 2.300298, "yInnerTangent": 1.336511, "zInnerTangent": 1.186156, "wInnerTangent": -2.527373, "xOuterTangent": 2.300298, "yOuterTangent": 1.336511, "zOuterTangent": 1.186156, "wOuterTangent": -2.527373},
+            { "time": 0.1666667, "x": -0.2348149, "y": 0.7010361, "z": 0.6237751, "w": 0.2536039, "xInnerTangent": 1.809488, "yInnerTangent": 1.410311, "zInnerTangent": 0.5806661, "wInnerTangent": -2.776602, "xOuterTangent": 1.809488, "yOuterTangent": 1.410311, "zOuterTangent": 0.5806661, "wOuterTangent": -2.776602}
+        ],
+        "localPosition": [
+            { "time": 0, "x": 0, "y": 0, "z": 0, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 0, "y": 0, "z": 0, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 0, "y": 0, "z": 0, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1, "x": 0, "y": 0, "z": 0, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 0, "y": 0, "z": 0, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 0, "y": 0, "z": 0, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0}
+        ],
+        "localScale": [
+            { "time": 0, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": -1.788139E-06, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": -1.788139E-06, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 1, "y": 0.9999999, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 8.940696E-07, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 8.940696E-07, "zOuterTangent": 0},
+            { "time": 0.1, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0}
+        ]
+    },
+    {
+        "bone": "bone000/bone012/bone013",
+        "localRotation": [
+            { "time": 0, "x": -0.04336026, "y": -0.7057096, "z": 0.04336026, "w": 0.7058426, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": 0},
+            { "time": 0.03333334, "x": -0.04336026, "y": -0.7057096, "z": 0.04336026, "w": 0.7058426, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": 0},
+            { "time": 0.06666667, "x": -0.04336026, "y": -0.7057096, "z": 0.04336026, "w": 0.7058426, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": 0},
+            { "time": 0.1, "x": -0.04336026, "y": -0.7057096, "z": 0.04336026, "w": 0.7058426, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": 0},
+            { "time": 0.1333333, "x": -0.04336026, "y": -0.7057096, "z": 0.04336026, "w": 0.7058426, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": 0},
+            { "time": 0.1666667, "x": -0.04336026, "y": -0.7057096, "z": 0.04336026, "w": 0.7058426, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": 0}
+        ],
+        "localPosition": [
+            { "time": 0, "x": 0, "y": 0, "z": 32, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 0, "y": 0, "z": 32, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 0, "y": 0, "z": 32, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1, "x": 0, "y": 0, "z": 32, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 0, "y": 0, "z": 32, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 0, "y": 0, "z": 32, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0}
+        ],
+        "localScale": [
+            { "time": 0, "x": 1, "y": 0.9999999, "z": 0.9999999, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 1, "y": 0.9999999, "z": 0.9999999, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 1, "y": 0.9999999, "z": 0.9999999, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1, "x": 1, "y": 0.9999999, "z": 0.9999999, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 1, "y": 0.9999999, "z": 0.9999999, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 1, "y": 0.9999999, "z": 0.9999999, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0}
+        ]
+    },
+    {
+        "bone": "bone000/bone012/bone013/bone014",
+        "localRotation": [
+            { "time": 0, "x": -0.187714, "y": 0.5389894, "z": 0.1995732, "w": 0.7965077, "xInnerTangent": -1.629255, "yInnerTangent": -0.7588022, "zInnerTangent": 1.102744, "wInnerTangent": -0.2410519, "xOuterTangent": -1.629255, "yOuterTangent": -0.7588022, "zOuterTangent": 1.102744, "wOuterTangent": -0.2410519},
+            { "time": 0.03333334, "x": -0.2420225, "y": 0.513696, "z": 0.2363314, "w": 0.7884726, "xInnerTangent": -0.6401584, "yInnerTangent": -0.2402928, "zInnerTangent": 0.3269427, "wInnerTangent": -0.09459614, "xOuterTangent": -0.6401584, "yOuterTangent": -0.2402928, "zOuterTangent": 0.3269427, "wOuterTangent": -0.09459614},
+            { "time": 0.06666667, "x": -0.2303912, "y": 0.5229699, "z": 0.2213694, "w": 0.7902012, "xInnerTangent": 0.8221816, "yInnerTangent": 1.543045, "zInnerTangent": -1.302131, "wInnerTangent": -0.577669, "xOuterTangent": 0.8221816, "yOuterTangent": 1.543045, "zOuterTangent": -1.302131, "wOuterTangent": -0.577669},
+            { "time": 0.1, "x": -0.1872104, "y": 0.6165657, "z": 0.1495226, "w": 0.7499613, "xInnerTangent": 2.362345, "yInnerTangent": 1.930312, "zInnerTangent": -3.409952, "wInnerTangent": -0.5283405, "xOuterTangent": 2.362345, "yOuterTangent": 1.930312, "zOuterTangent": -3.409952, "wOuterTangent": -0.5283405},
+            { "time": 0.1333333, "x": -0.07290149, "y": 0.6516574, "z": -0.005960744, "w": 0.7549785, "xInnerTangent": 2.138371, "yInnerTangent": -0.07811576, "zInnerTangent": -2.348176, "wInnerTangent": 0.6015131, "xOuterTangent": 2.138371, "yOuterTangent": -0.07811576, "zOuterTangent": -2.348176, "wOuterTangent": 0.6015131},
+            { "time": 0.1666667, "x": -0.0446523, "y": 0.611358, "z": -0.007022441, "w": 0.7900622, "xInnerTangent": 0.8474759, "yInnerTangent": -1.208983, "zInnerTangent": -0.03185091, "wInnerTangent": 1.05251, "xOuterTangent": 0.8474759, "yOuterTangent": -1.208983, "zOuterTangent": -0.03185091, "wOuterTangent": 1.05251}
+        ],
+        "localPosition": [
+            { "time": 0, "x": 0, "y": 0, "z": 32, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 0, "y": 0, "z": 32, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 0, "y": 0, "z": 32, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1, "x": 0, "y": 0, "z": 32, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 0, "y": 0, "z": 32, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 0, "y": 0, "z": 32, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0}
+        ],
+        "localScale": [
+            { "time": 0, "x": 1, "y": 1, "z": 0.9999999, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 1.788139E-06, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 1.788139E-06},
+            { "time": 0.03333334, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 8.940696E-07, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 8.940696E-07},
+            { "time": 0.06666667, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 1.788139E-06, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 1.788139E-06},
+            { "time": 0.1333333, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": -3.576279E-06, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": -3.576279E-06}
+        ]
+    },
+    {
+        "bone": "bone000/bone012/bone013/bone014/bone015",
+        "localRotation": [
+            { "time": 0, "x": 0.3085793, "y": 0, "z": 0, "w": 0.9511986, "xInnerTangent": 3.714692, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": -1.485536, "xOuterTangent": 3.714692, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": -1.485536},
+            { "time": 0.03333334, "x": 0.4324023, "y": 0, "z": 0, "w": 0.9016808, "xInnerTangent": 3.444815, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": -1.626044, "xOuterTangent": 3.444815, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": -1.626044},
+            { "time": 0.06666667, "x": 0.5382336, "y": 0, "z": 0, "w": 0.8427957, "xInnerTangent": 2.624073, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": -1.608588, "xOuterTangent": 2.624073, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": -1.608588},
+            { "time": 0.1, "x": 0.6073406, "y": 0, "z": 0, "w": 0.7944416, "xInnerTangent": -0.8609147, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": 0.5101957, "xOuterTangent": -0.8609147, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": 0.5101957},
+            { "time": 0.1333333, "x": 0.4808393, "y": 0, "z": 0, "w": 0.8768087, "xInnerTangent": -2.696783, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": 1.643216, "xOuterTangent": -2.696783, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": 1.643216},
+            { "time": 0.1666667, "x": 0.4275551, "y": 0, "z": 0, "w": 0.9039893, "xInnerTangent": -1.598528, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": 0.8154184, "xOuterTangent": -1.598528, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": 0.8154184}
+        ],
+        "localPosition": [
+            { "time": 0, "x": 0, "y": 0, "z": 51, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 0, "y": 0, "z": 51, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 0, "y": 0, "z": 51, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1, "x": 0, "y": 0, "z": 51, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 0, "y": 0, "z": 51, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 0, "y": 0, "z": 51, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0}
+        ],
+        "localScale": [
+            { "time": 0, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0}
+        ]
+    },
+    {
+        "bone": "bone000/bone012/bone013/bone014/bone015/bone016",
+        "localRotation": [
+            { "time": 0, "x": 0.01425325, "y": -0.03435642, "z": 0.2459765, "w": 0.9685618, "xInnerTangent": -2.668559, "yInnerTangent": 1.02574, "zInnerTangent": -2.078269, "wInnerTangent": 0.3859234, "xOuterTangent": -2.668559, "yOuterTangent": 1.02574, "zOuterTangent": -2.078269, "wOuterTangent": 0.3859234},
+            { "time": 0.03333334, "x": -0.07469872, "y": -0.0001650845, "z": 0.1767009, "w": 0.9814259, "xInnerTangent": -3.183458, "yInnerTangent": 1.361662, "zInnerTangent": -1.880324, "wInnerTangent": 0.03835738, "xOuterTangent": -3.183458, "yOuterTangent": 1.361662, "zOuterTangent": -1.880324, "wOuterTangent": 0.03835738},
+            { "time": 0.06666667, "x": -0.1979773, "y": 0.05642104, "z": 0.1206215, "w": 0.971119, "xInnerTangent": -2.842399, "yInnerTangent": 0.4774141, "zInnerTangent": -0.5443829, "wInnerTangent": -0.4163467, "xOuterTangent": -2.842399, "yOuterTangent": 0.4774141, "zOuterTangent": -0.5443829, "wOuterTangent": -0.4163467},
+            { "time": 0.1, "x": -0.264192, "y": 0.03166252, "z": 0.1404087, "w": 0.9536695, "xInnerTangent": 0.1970467, "yInnerTangent": -1.259338, "zInnerTangent": -0.06532604, "wInnerTangent": 0.06538963, "xOuterTangent": 0.1970467, "yOuterTangent": -1.259338, "zOuterTangent": -0.06532604, "wOuterTangent": 0.06538963},
+            { "time": 0.1333333, "x": -0.1848408, "y": -0.0275348, "z": 0.1162665, "w": 0.9754783, "xInnerTangent": 0.2305873, "yInnerTangent": 0.4983465, "zInnerTangent": -0.6220682, "wInnerTangent": 0.1143989, "xOuterTangent": 0.2305873, "yOuterTangent": 0.4983465, "zOuterTangent": -0.6220682, "wOuterTangent": 0.1143989},
+            { "time": 0.1666667, "x": -0.2488195, "y": 0.06488562, "z": 0.09893748, "w": 0.9612961, "xInnerTangent": -1.91936, "yInnerTangent": 2.772613, "zInnerTangent": -0.51987, "wInnerTangent": -0.4254663, "xOuterTangent": -1.91936, "yOuterTangent": 2.772613, "zOuterTangent": -0.51987, "wOuterTangent": -0.4254663}
+        ],
+        "localPosition": [
+            { "time": 0, "x": 0, "y": 0, "z": 42, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 0, "y": 0, "z": 42, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 0, "y": 0, "z": 42, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1, "x": 0, "y": 0, "z": 42, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 0, "y": 0, "z": 42, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 0, "y": 0, "z": 42, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0}
+        ],
+        "localScale": [
+            { "time": 0, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": -1.788139E-06, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": -1.788139E-06, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 1, "y": 0.9999999, "z": 1, "xInnerTangent": -8.940696E-07, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": -8.940696E-07, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 0.9999999, "y": 1, "z": 1, "xInnerTangent": -1.136868E-13, "yInnerTangent": 8.940696E-07, "zInnerTangent": 0, "xOuterTangent": -1.136868E-13, "yOuterTangent": 8.940696E-07, "zOuterTangent": 0},
+            { "time": 0.1, "x": 1, "y": 1, "z": 1, "xInnerTangent": 2.682209E-06, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 2.682209E-06, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 1, "y": 1, "z": 1, "xInnerTangent": -3.576279E-06, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": -3.576279E-06, "yOuterTangent": 0, "zOuterTangent": 0}
+        ]
+    },
+    {
+        "bone": "bone000/bone012/bone017",
+        "localRotation": [
+            { "time": 0, "x": -0.04336021, "y": 0.7057096, "z": -0.04336021, "w": 0.7058426, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": 0},
+            { "time": 0.03333334, "x": -0.04336021, "y": 0.7057096, "z": -0.04336021, "w": 0.7058426, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": 0},
+            { "time": 0.06666667, "x": -0.04336021, "y": 0.7057096, "z": -0.04336021, "w": 0.7058426, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": 0},
+            { "time": 0.1, "x": -0.04336021, "y": 0.7057096, "z": -0.04336021, "w": 0.7058426, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": 0},
+            { "time": 0.1333333, "x": -0.04336021, "y": 0.7057096, "z": -0.04336021, "w": 0.7058426, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": 0},
+            { "time": 0.1666667, "x": -0.04336021, "y": 0.7057096, "z": -0.04336021, "w": 0.7058426, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": 0}
+        ],
+        "localPosition": [
+            { "time": 0, "x": 0, "y": 0, "z": 32, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 0, "y": 0, "z": 32, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 0, "y": 0, "z": 32, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1, "x": 0, "y": 0, "z": 32, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 0, "y": 0, "z": 32, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 0, "y": 0, "z": 32, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0}
+        ],
+        "localScale": [
+            { "time": 0, "x": 1, "y": 1, "z": 0.9999999, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 1, "y": 1, "z": 0.9999999, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 1, "y": 1, "z": 0.9999999, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1, "x": 1, "y": 1, "z": 0.9999999, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 1, "y": 1, "z": 0.9999999, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 1, "y": 1, "z": 0.9999999, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0}
+        ]
+    },
+    {
+        "bone": "bone000/bone012/bone017/bone018",
+        "localRotation": [
+            { "time": 0, "x": 0.03264824, "y": -0.7583975, "z": -0.09828644, "w": 0.6435116, "xInnerTangent": 0.9507986, "yInnerTangent": -1.386226, "zInnerTangent": 0.538771, "wInnerTangent": -1.760645, "xOuterTangent": 0.9507986, "yOuterTangent": -1.386226, "zOuterTangent": 0.538771, "wOuterTangent": -1.760645},
+            { "time": 0.03333334, "x": 0.06434152, "y": -0.804605, "z": -0.0803274, "w": 0.5848234, "xInnerTangent": 0.942452, "yInnerTangent": -1.006153, "zInnerTangent": 0.6451811, "wInnerTangent": -1.34938, "xOuterTangent": 0.942452, "yOuterTangent": -1.006153, "zOuterTangent": 0.6451811, "wOuterTangent": -1.34938},
+            { "time": 0.06666667, "x": 0.09547837, "y": -0.8254743, "z": -0.05527436, "w": 0.5535529, "xInnerTangent": 0.7394933, "yInnerTangent": 0.8081477, "zInnerTangent": 1.115828, "wInnerTangent": 0.988687, "xOuterTangent": 0.7394933, "yOuterTangent": 0.8081477, "zOuterTangent": 1.115828, "wOuterTangent": 0.988687},
+            { "time": 0.1, "x": 0.1136411, "y": -0.7507285, "z": -0.005938829, "w": 0.6507359, "xInnerTangent": -0.430286, "yInnerTangent": 2.064626, "zInnerTangent": 0.183972, "wInnerTangent": 2.519341, "xOuterTangent": -0.430286, "yOuterTangent": 2.064626, "zOuterTangent": 0.183972, "wOuterTangent": 2.519341},
+            { "time": 0.1333333, "x": 0.06679264, "y": -0.6878326, "z": -0.04300955, "w": 0.721509, "xInnerTangent": -0.9199777, "yInnerTangent": 1.863924, "zInnerTangent": -2.089385, "wInnerTangent": 1.699108, "xOuterTangent": -0.9199777, "yOuterTangent": 1.863924, "zOuterTangent": -2.089385, "wOuterTangent": 1.699108},
+            { "time": 0.1666667, "x": 0.05230923, "y": -0.6264669, "z": -0.1452311, "w": 0.7640098, "xInnerTangent": -0.4345025, "yInnerTangent": 1.840972, "zInnerTangent": -3.066648, "wInnerTangent": 1.275024, "xOuterTangent": -0.4345025, "yOuterTangent": 1.840972, "zOuterTangent": -3.066648, "wOuterTangent": 1.275024}
+        ],
+        "localPosition": [
+            { "time": 0, "x": 0, "y": 0, "z": 32, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 0, "y": 0, "z": 32, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 0, "y": 0, "z": 32, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1, "x": 0, "y": 0, "z": 32, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 0, "y": 0, "z": 32, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 0, "y": 0, "z": 32, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0}
+        ],
+        "localScale": [
+            { "time": 0, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": -8.940696E-07, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": -8.940696E-07},
+            { "time": 0.06666667, "x": 1, "y": 1, "z": 0.9999999, "xInnerTangent": 0, "yInnerTangent": -8.940695E-07, "zInnerTangent": -1.136868E-13, "xOuterTangent": 0, "yOuterTangent": -8.940695E-07, "zOuterTangent": -1.136868E-13},
+            { "time": 0.1, "x": 1, "y": 0.9999999, "z": 1, "xInnerTangent": 0, "yInnerTangent": 2.273737E-13, "zInnerTangent": 8.940695E-07, "xOuterTangent": 0, "yOuterTangent": 2.273737E-13, "zOuterTangent": 8.940695E-07},
+            { "time": 0.1333333, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 8.940697E-07, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 8.940697E-07, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0}
+        ]
+    },
+    {
+        "bone": "bone000/bone012/bone017/bone018/bone019",
+        "localRotation": [
+            { "time": 0, "x": 0.3491375, "y": 0, "z": 0, "w": 0.9370715, "xInnerTangent": 0.6012672, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": -0.2314049, "xOuterTangent": 0.6012672, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": -0.2314049},
+            { "time": 0.03333334, "x": 0.3691798, "y": 0, "z": 0, "w": 0.929358, "xInnerTangent": -0.5099943, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": 0.1796159, "xOuterTangent": -0.5099943, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": 0.1796159},
+            { "time": 0.06666667, "x": 0.3151379, "y": 0, "z": 0, "w": 0.9490459, "xInnerTangent": -5.537694, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": 1.05963, "xOuterTangent": -5.537694, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": 1.05963},
+            { "time": 0.1, "x": 5.541921E-08, "y": 0, "z": 0, "w": 1, "xInnerTangent": -1.642911, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": 0.4438205, "xOuterTangent": -1.642911, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": 0.4438205},
+            { "time": 0.1333333, "x": 0.2056104, "y": 0, "z": 0, "w": 0.9786339, "xInnerTangent": 4.08932, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": -0.5681787, "xOuterTangent": 4.08932, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": -0.5681787},
+            { "time": 0.1666667, "x": 0.2726214, "y": 0, "z": 0, "w": 0.9621214, "xInnerTangent": 2.010328, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": -0.4953754, "xOuterTangent": 2.010328, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": -0.4953754}
+        ],
+        "localPosition": [
+            { "time": 0, "x": 0, "y": 0, "z": 51, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 0, "y": 0, "z": 51, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 0, "y": 0, "z": 51, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1, "x": 0, "y": 0, "z": 51, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 0, "y": 0, "z": 51, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 0, "y": 0, "z": 51, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0}
+        ],
+        "localScale": [
+            { "time": 0, "x": 1, "y": 0.9999999, "z": 0.9999999, "xInnerTangent": 0, "yInnerTangent": 1.788139E-06, "zInnerTangent": 1.788139E-06, "xOuterTangent": 0, "yOuterTangent": 1.788139E-06, "zOuterTangent": 1.788139E-06},
+            { "time": 0.03333334, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 8.940696E-07, "zInnerTangent": 8.940696E-07, "xOuterTangent": 0, "yOuterTangent": 8.940696E-07, "zOuterTangent": 8.940696E-07},
+            { "time": 0.06666667, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0}
+        ]
+    },
+    {
+        "bone": "bone000/bone012/bone017/bone018/bone019/bone020",
+        "localRotation": [
+            { "time": 0, "x": -0.3088276, "y": 0.05065478, "z": -0.1561475, "w": 0.9368445, "xInnerTangent": -2.101531, "yInnerTangent": 0.9512928, "zInnerTangent": -1.941453, "wInnerTangent": -1.257652, "xOuterTangent": -2.101531, "yOuterTangent": 0.9512928, "zOuterTangent": -1.941453, "wOuterTangent": -1.257652},
+            { "time": 0.03333334, "x": -0.3788786, "y": 0.08236454, "z": -0.2208626, "w": 0.8949228, "xInnerTangent": -0.9773728, "yInnerTangent": 0.729031, "zInnerTangent": -1.263345, "wInnerTangent": -0.6992572, "xOuterTangent": -0.9773728, "yOuterTangent": 0.729031, "zOuterTangent": -1.263345, "wOuterTangent": -0.6992572},
+            { "time": 0.06666667, "x": -0.3739858, "y": 0.09925685, "z": -0.2403705, "w": 0.8902274, "xInnerTangent": 4.416039, "yInnerTangent": -0.6689675, "zInnerTangent": -0.3058782, "wInnerTangent": 1.066762, "xOuterTangent": 4.416039, "yOuterTangent": -0.6689675, "zOuterTangent": -0.3058782, "wOuterTangent": 1.066762},
+            { "time": 0.1, "x": -0.08447603, "y": 0.0377667, "z": -0.2412545, "w": 0.9660403, "xInnerTangent": 4.400068, "yInnerTangent": -3.049369, "zInnerTangent": -2.115193, "wInnerTangent": 0.3715438, "xOuterTangent": 4.400068, "yOuterTangent": -3.049369, "zOuterTangent": -2.115193, "wOuterTangent": 0.3715438},
+            { "time": 0.1333333, "x": -0.08064785, "y": -0.1040344, "z": -0.3813834, "w": 0.914997, "xInnerTangent": 0.3119205, "yInnerTangent": -3.020123, "zInnerTangent": -1.450772, "wInnerTangent": -0.6209762, "xOuterTangent": 0.3119205, "yOuterTangent": -3.020123, "zOuterTangent": -1.450772, "wOuterTangent": -0.6209762},
+            { "time": 0.1666667, "x": -0.06368133, "y": -0.1635748, "z": -0.3379726, "w": 0.9246418, "xInnerTangent": 0.5089955, "yInnerTangent": -1.786212, "zInnerTangent": 1.302323, "wInnerTangent": 0.289346, "xOuterTangent": 0.5089955, "yOuterTangent": -1.786212, "zOuterTangent": 1.302323, "wOuterTangent": 0.289346}
+        ],
+        "localPosition": [
+            { "time": 0, "x": 0, "y": 0, "z": 42, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 0, "y": 0, "z": 42, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 0, "y": 0, "z": 42, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1, "x": 0, "y": 0, "z": 42, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 0, "y": 0, "z": 42, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 0, "y": 0, "z": 42, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0}
+        ],
+        "localScale": [
+            { "time": 0, "x": 1, "y": 1, "z": 1, "xInnerTangent": -1.788139E-06, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": -1.788139E-06, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 0.9999999, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 1, "y": 1, "z": 1, "xInnerTangent": 8.940696E-07, "yInnerTangent": -8.940695E-07, "zInnerTangent": 0, "xOuterTangent": 8.940696E-07, "yOuterTangent": -8.940695E-07, "zOuterTangent": 0},
+            { "time": 0.1, "x": 1, "y": 0.9999999, "z": 1, "xInnerTangent": 0, "yInnerTangent": -8.940695E-07, "zInnerTangent": -8.940697E-07, "xOuterTangent": 0, "yOuterTangent": -8.940695E-07, "zOuterTangent": -8.940697E-07},
+            { "time": 0.1333333, "x": 1, "y": 0.9999999, "z": 0.9999999, "xInnerTangent": 0, "yInnerTangent": 8.940697E-07, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 8.940697E-07, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 1.788139E-06, "zInnerTangent": 1.788139E-06, "xOuterTangent": 0, "yOuterTangent": 1.788139E-06, "zOuterTangent": 1.788139E-06}
+        ]
+    },
+    {
+        "bone": "bone000/bone012/bone021",
+        "localRotation": [
+            { "time": 0, "x": 0.8122506, "y": 0, "z": 0, "w": 0.5833086, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": 0},
+            { "time": 0.03333334, "x": 0.8122506, "y": 0, "z": 0, "w": 0.5833086, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": 0},
+            { "time": 0.06666667, "x": 0.8122506, "y": 0, "z": 0, "w": 0.5833086, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": 0},
+            { "time": 0.1, "x": 0.8122506, "y": 0, "z": 0, "w": 0.5833086, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": 0},
+            { "time": 0.1333333, "x": 0.8122506, "y": 0, "z": 0, "w": 0.5833086, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": 0},
+            { "time": 0.1666667, "x": 0.8122506, "y": 0, "z": 0, "w": 0.5833086, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "wInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0, "wOuterTangent": 0}
+        ],
+        "localPosition": [
+            { "time": 0, "x": 0, "y": 0, "z": 32, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 0, "y": 0, "z": 32, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 0, "y": 0, "z": 32, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1, "x": 0, "y": 0, "z": 32, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 0, "y": 0, "z": 32, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 0, "y": 0, "z": 32, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0}
+        ],
+        "localScale": [
+            { "time": 0, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0}
+        ]
+    },
+    {
+        "bone": "bone000/bone012/bone021/bone022/bone024",
+        "localRotation": [
+            { "time": 0, "x": -0.6781806, "y": 0.01517353, "z": -0.01417411, "w": 0.7346019, "xInnerTangent": -0.6010383, "yInnerTangent": -0.005296301, "zInnerTangent": -0.03586644, "wInnerTangent": -0.5710834, "xOuterTangent": -0.6010383, "yOuterTangent": -0.005296301, "zOuterTangent": -0.03586644, "wOuterTangent": -0.5710834},
+            { "time": 0.03333334, "x": -0.6982152, "y": 0.01499698, "z": -0.01536966, "w": 0.7155658, "xInnerTangent": -0.8300024, "yInnerTangent": 0.01841563, "zInnerTangent": -0.04657815, "wInnerTangent": -0.8301795, "xOuterTangent": -0.8300024, "yOuterTangent": 0.01841563, "zOuterTangent": -0.04657815, "wOuterTangent": -0.8301795},
+            { "time": 0.06666667, "x": -0.7335141, "y": 0.01640124, "z": -0.01727932, "w": 0.6792566, "xInnerTangent": -0.8288231, "yInnerTangent": 0.04826176, "zInnerTangent": -0.06874026, "wInnerTangent": -0.879583, "xOuterTangent": -0.8288231, "yOuterTangent": 0.04826176, "zOuterTangent": -0.06874026, "wOuterTangent": -0.879583},
+            { "time": 0.1, "x": -0.7534701, "y": 0.01821444, "z": -0.01995235, "w": 0.6569269, "xInnerTangent": 0.671889, "yInnerTangent": 0.03971605, "zInnerTangent": -0.02469752, "wInnerTangent": 0.6790809, "xOuterTangent": 0.671889, "yOuterTangent": 0.03971605, "zOuterTangent": -0.02469752, "wOuterTangent": 0.6790809},
+            { "time": 0.1333333, "x": -0.6887215, "y": 0.01904897, "z": -0.01892583, "w": 0.7245287, "xInnerTangent": 1.403579, "yInnerTangent": -0.01948329, "zInnerTangent": 0.06282407, "wInnerTangent": 1.411084, "xOuterTangent": 1.403579, "yOuterTangent": -0.01948329, "zOuterTangent": 0.06282407, "wOuterTangent": 1.411084},
+            { "time": 0.1666667, "x": -0.6598982, "y": 0.01691555, "z": -0.01576407, "w": 0.7509992, "xInnerTangent": 0.8646995, "yInnerTangent": -0.06400271, "zInnerTangent": 0.09485253, "wInnerTangent": 0.7941163, "xOuterTangent": 0.8646995, "yOuterTangent": -0.06400271, "zOuterTangent": 0.09485253, "wOuterTangent": 0.7941163}
+        ],
+        "localPosition": [
+            { "time": 0, "x": 0, "y": 0, "z": 45, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 0, "y": 0, "z": 45, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 0, "y": 0, "z": 45, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1, "x": 0, "y": 0, "z": 45, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1333333, "x": 0, "y": 0, "z": 45, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 0, "y": 0, "z": 45, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0}
+        ],
+        "localScale": [
+            { "time": 0, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.03333334, "x": 1, "y": 1, "z": 1, "xInnerTangent": 0, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": 0, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.06666667, "x": 1, "y": 1, "z": 1, "xInnerTangent": -8.940695E-07, "yInnerTangent": 0, "zInnerTangent": 0, "xOuterTangent": -8.940695E-07, "yOuterTangent": 0, "zOuterTangent": 0},
+            { "time": 0.1, "x": 0.9999999, "y": 1, "z": 1, "xInnerTangent": -8.940695E-07, "yInnerTangent": -8.940697E-07, "zInnerTangent": -8.940697E-07, "xOuterTangent": -8.940695E-07, "yOuterTangent": -8.940697E-07, "zOuterTangent": -8.940697E-07},
+            { "time": 0.1333333, "x": 0.9999999, "y": 0.9999999, "z": 0.9999999, "xInnerTangent": 8.940697E-07, "yInnerTangent": -8.940697E-07, "zInnerTangent": 0, "xOuterTangent": 8.940697E-07, "yOuterTangent": -8.940697E-07, "zOuterTangent": 0},
+            { "time": 0.1666667, "x": 1, "y": 0.9999999, "z": 1, "xInnerTangent": 1.788139E-06, "yInnerTangent": 0, "zInnerTangent": 1.788139E-06, "xOuterTangent": 1.788139E-06, "yOuterTangent": 0, "zOuterTangent": 1.788139E-06}
+        ]
+    }]
+}
