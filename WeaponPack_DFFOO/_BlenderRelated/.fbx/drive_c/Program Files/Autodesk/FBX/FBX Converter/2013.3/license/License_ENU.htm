@@ -1,0 +1,1743 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 14 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Times New Roman","serif";}
+h1
+	{mso-style-link:"Heading 1 Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	page-break-after:avoid;
+	text-autospace:none;
+	font-size:9.0pt;
+	font-family:"Times New Roman","serif";
+	font-weight:normal;
+	font-style:italic;}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{mso-style-link:"Comment Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"Header Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"Footer Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Times New Roman","serif";}
+span.MsoCommentReference
+	{font-family:"Times New Roman","serif";}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{mso-style-link:"Body Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:9.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{mso-style-link:"Document Map Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	background:navy;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Tahoma","sans-serif";}
+p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
+	{mso-style-link:"Plain Text Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Courier New";}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:8.0pt;
+	font-family:"Times New Roman","serif";}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-link:"Heading 1";
+	font-family:"Cambria","serif";
+	font-weight:bold;}
+span.HeaderChar
+	{mso-style-name:"Header Char";
+	mso-style-link:Header;
+	font-family:"Times New Roman","serif";}
+span.FooterChar
+	{mso-style-name:"Footer Char";
+	mso-style-link:Footer;
+	font-family:"Times New Roman","serif";}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-link:"Balloon Text";
+	font-family:"Times New Roman","serif";}
+span.PlainTextChar
+	{mso-style-name:"Plain Text Char";
+	mso-style-link:"Plain Text";
+	font-family:"Courier New";}
+p.DeltaViewTableHeading, li.DeltaViewTableHeading, div.DeltaViewTableHeading
+	{mso-style-name:"DeltaView Table Heading";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.DeltaViewTableBody, li.DeltaViewTableBody, div.DeltaViewTableBody
+	{mso-style-name:"DeltaView Table Body";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.DeltaViewAnnounce, li.DeltaViewAnnounce, div.DeltaViewAnnounce
+	{mso-style-name:"DeltaView Announce";
+	margin-right:0in;
+	margin-left:0in;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+span.BodyTextChar
+	{mso-style-name:"Body Text Char";
+	mso-style-link:"Body Text";
+	font-family:"Times New Roman","serif";}
+span.DeltaViewInsertion
+	{mso-style-name:"DeltaView Insertion";
+	color:blue;
+	text-decoration:underline;}
+span.DeltaViewDeletion
+	{mso-style-name:"DeltaView Deletion";
+	color:red;
+	text-decoration:line-through;}
+span.DeltaViewMoveSource
+	{mso-style-name:"DeltaView Move Source";
+	color:#00C000;
+	text-decoration:line-through;}
+span.DeltaViewMoveDestination
+	{mso-style-name:"DeltaView Move Destination";
+	color:#00C000;
+	text-decoration:underline;}
+span.CommentTextChar
+	{mso-style-name:"Comment Text Char";
+	mso-style-link:"Comment Text";
+	font-family:"Times New Roman","serif";}
+span.DeltaViewChangeNumber
+	{mso-style-name:"DeltaView Change Number";
+	color:black;
+	vertical-align:super;}
+span.DeltaViewDelimiter
+	{mso-style-name:"DeltaView Delimiter";}
+span.DocumentMapChar
+	{mso-style-name:"Document Map Char";
+	mso-style-link:"Document Map";
+	font-family:"Tahoma","sans-serif";}
+span.DeltaViewFormatChange
+	{mso-style-name:"DeltaView Format Change";
+	color:black;}
+span.DeltaViewMovedDeletion
+	{mso-style-name:"DeltaView Moved Deletion";
+	color:#C08080;
+	text-decoration:line-through;}
+span.DeltaViewComment
+	{mso-style-name:"DeltaView Comment";
+	font-family:"Times New Roman","serif";
+	color:black;}
+span.DeltaViewStyleChangeText
+	{mso-style-name:"DeltaView Style Change Text";
+	color:black;
+	text-decoration:underline;}
+span.DeltaViewStyleChangeLabel
+	{mso-style-name:"DeltaView Style Change Label";
+	color:black;}
+span.DeltaViewInsertedComment
+	{mso-style-name:"DeltaView Inserted Comment";
+	font-family:"Times New Roman","serif";
+	color:blue;
+	text-decoration:underline;}
+span.DeltaViewDeletedComment
+	{mso-style-name:"DeltaView Deleted Comment";
+	font-family:"Times New Roman","serif";
+	color:red;
+	text-decoration:line-through;}
+span.zzmpTrailerItem
+	{mso-style-name:zzmpTrailerItem;
+	font-family:"Times New Roman","serif";
+	color:black;
+	position:relative;
+	top:0pt;
+	letter-spacing:0pt;
+	text-decoration:none;
+	vertical-align:baseline;}
+.MsoChpDefault
+	{font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+.MsoPapDefault
+	{margin-bottom:10.0pt;
+	line-height:115%;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US style='text-justify-trim:punctuation'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal align=center style='margin-bottom:6.0pt;text-align:center'><a
+name="_DV_M0"></a><b><span style='font-size:9.0pt;line-height:115%;font-family:
+"Arial","sans-serif"'>Autodesk</span></b></p>
+
+<p class=MsoNormal align=center style='margin-bottom:6.0pt;text-align:center'><a
+name="_DV_M1"></a><b><span style='font-size:9.0pt;line-height:115%;font-family:
+"Arial","sans-serif"'>LICENSE AND SERVICES AGREEMENT</span></b></p>
+
+<p class=MsoNormal align=center style='margin-bottom:6.0pt;text-align:center'><b><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>Autodesk<sup>®</sup>
+FBX Converter 2013</span></b></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M2"></a><b><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>READ
+CAREFULLY:</span></b><span style='font-size:9.0pt;line-height:115%;font-family:
+"Arial","sans-serif"'>  AUTODESK LICENSES THE SOFTWARE AND OTHER LICENSED
+MATERIALS ONLY ON THE CONDITION THAT LICENSEE ACCEPTS ALL OF THE TERMS
+CONTAINED OR REFERENCED IN THIS AGREEMENT.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M3"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>By
+selecting the “I accept” button or other button or mechanism designed to
+acknowledge agreement to the terms of an electronic copy of this Agreement, or
+by installing, downloading, accessing, or otherwise copying or using all or any
+portion of the Autodesk Materials, (i) you accept this Agreement on behalf of
+the entity for which you are authorized to act (e.g., an employer) and
+acknowledge that such entity is legally bound by this Agreement (and you agree
+to act in a manner consistent with this Agreement) or, if there is no such
+entity for which you are authorized to act, you accept this Agreement on behalf
+of yourself as an individual and acknowledge that you are legally bound by this
+Agreement, and (ii) you represent and warrant that you have the right, power
+and authority to act on behalf of and bind such entity (if any) or yourself. 
+You may not accept this Agreement on behalf of another entity unless you are an
+employee or other agent of such other entity with the right, power and
+authority to act on behalf of such other entity.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M4"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>If
+Licensee is unwilling to accept this Agreement, or you do not have the right,
+power and authority to act on behalf of and bind such entity or yourself as an
+individual (if there is no such entity), (a) DO NOT SELECT THE “I ACCEPT”
+BUTTON OR OTHERWISE CLICK ON ANY BUTTON OR OTHER MECHANISM DESIGNED TO
+ACKNOWLEDGE AGREEMENT, AND DO NOT INSTALL, DOWNLOAD, ACCESS, OR OTHERWISE COPY
+OR USE ALL OR ANY PORTION OF THE AUTODESK MATERIALS; AND (b) WITHIN THIRTY (30)
+DAYS FROM THE DATE OF ACQUIRING THE AUTODESK MATERIALS, LICENSEE MAY RETURN THE
+AUTODESK MATERIALS (INCLUDING ANY COPIES) TO THE ENTITY FROM WHICH THEY WERE
+ACQUIRED FOR A REFUND OF THE APPLICABLE LICENSE FEES PAID BY THE LICENSEE.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M5"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>The
+words “Autodesk,” “Agreement” and “Licensee” and other capitalized terms used in
+this Agreement are defined terms.  The definitions can be found in Exhibit A
+(if the terms are not defined in the main body of the Agreement).</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;page-break-after:avoid'><a
+name="_DV_M6"></a><span style='font-size:9.0pt;line-height:115%;font-family:
+"Arial","sans-serif"'>1.             <b>License</b></span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M7"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>1.1</span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>        </span><u><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>License
+Grant</span></u><span style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>. 
+Subject to and conditioned on Licensee’s continuous compliance with this
+Agreement and payment of the applicable fees, Autodesk grants Licensee a
+nonexclusive, nonsublicensable, nontransferable, limited license to Install and
+Access the Licensed Materials, in each case solely (a) in the Territory, (b) <span
+style='color:black'>within the scope of the License Type and Permitted </span>Number<span
+style='color:black'> specified in the applicable License Identification, and
+(c) in accordance with the other terms of this Agreement.  Various License
+Types are described in Exhibit B.  </span>In any case where the License
+Identification does not specify a License Type or Permitted Number, or there is
+no License Identification, the License Type will, by default, be the Evaluation
+License and the Permitted Number will, by default, be one (1).</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M8"></a><a
+name="_DV_M9"></a><a name="_DV_M10"></a><a name="_DV_M11"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>1.2          <u>Additional
+Terms</u>.  The Licensed Materials (or portions thereof) may be subject to
+terms (e.g., terms accompanying such Licensed Materials or made available in
+connection with ordering, installing, downloading, accessing, using or copying
+such Licensed Materials) that are in addition to or different from the terms
+set forth in this Agreement, and Licensee agrees to comply with such terms<a
+name="_DV_C2"><span class=DeltaViewInsertion><span style='color:black;
+text-decoration:none'><span style='color:black'>.</span></span></span></a></span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M12"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>1.3          <u>Other
+Materials</u>.  If Autodesk provides or makes available to Licensee any
+additional materials associated with the Licensed Materials, including any
+corrections, patches, service packs, updates or upgrades to, or new versions
+of, the Licensed Materials or any Supplemental Materials or User Documentation
+for the Licensed Materials, (a) such additional materials may include or be
+subject to other terms in addition to or different from the terms set forth in
+this Agreement (including, without limitation, additional or different fees,
+license terms, or restrictions on use), and Licensee agrees to comply with such
+terms, or (b) if there are no other terms for such additional materials, they
+will  be subject to the same terms (including, without limitation, the
+licenses, applicable License Type and Permitted Number, and other terms of this
+Agreement) as the Licensed Materials to which such additional materials apply. 
+In no event will the foregoing result in any rights with respect to Excluded
+Materials.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M13"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>1.4          <u>Authorized
+Users</u>.  Licensee may permit the Licensed Materials to be Installed and/or
+Accessed only by Licensee’s Personnel (except as otherwise designated in the
+applicable License Type), and any such Installation or Access will be subject
+to any other requirements imposed by this Agreement and the applicable License
+Type and Permitted Number.  Licensee will be responsible for compliance with
+this Agreement by Licensee’s Personnel and any other persons who may have
+Access to the Autodesk Materials through Licensee (whether or not such Access
+is authorized by Autodesk or within the scope of the applicable License Type
+and Permitted Number).</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M14"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>1.5          <u>Third-Party
+Licensed Materials</u>.  The Autodesk Materials may contain or be accompanied
+by third-party software, data or other materials that are subject to and
+provided in accordance with terms that are in addition to or different from the
+terms set forth in this Agreement.  Such terms may be included or referenced in
+or with such third-party software, data or other materials (e.g., in the “About
+box”) or a web page specified by Autodesk (the URL for which may be obtained on
+Autodesk’s website or on request to Autodesk).  Licensee agrees to comply with
+such terms.  In addition, Licensee will take sole responsibility for obtaining
+and complying with any licenses that may be necessary to use third-party
+software, data or other materials that Licensee uses or obtains for use in
+conjunction with the Licensed Materials.  Licensee acknowledges and agrees that
+Autodesk has no responsibility for, and makes no representations or warranties
+regarding, such third-party software, data or other materials or Licensee’s use
+of such third-party software, data or other materials.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M15"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>1.6          <u>Subscription</u>. 
+Autodesk may offer, and Licensee may elect to acquire, Subscriptions for the
+Licensed Materials licensed to Licensee under this Agreement (and such
+Subscriptions may include rights in addition to or different from those set
+forth in this Agreement).  Any Subscriptions are subject to Autodesk’s terms
+therefor, which terms are set forth in the applicable Subscription Program
+Terms.  Licensee agrees that if it requests, accepts, or makes use of any
+Subscription, Licensee will be bound by such terms, as they may be modified
+from time to time in accordance with the applicable Subscription Program Terms
+(and such terms, as so modified from time to time, are a part of and
+incorporated by reference into this Agreement), and Licensee agrees to comply
+with such terms.  Licensee acknowledges that Autodesk may require a further
+acceptance of such terms as a condition to providing Subscriptions.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M16"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>1.7          <u>Services</u>. 
+Autodesk may provide, and Licensee may elect to receive or benefit from,
+certain Services from time to time.  Any Services are subject to Autodesk’s
+terms therefor, which terms are set forth in the applicable Services Terms. 
+Licensee agrees that if it requests, accepts, or makes use of any Services,
+Licensee will be bound by such terms, as they may be modified from time to time
+in accordance with the applicable Services Terms (and such terms, as so
+modified from time to time, are a part of and incorporated by reference into
+this Agreement), and Licensee agrees to comply with such terms.  Licensee
+acknowledges that Autodesk may require a further acceptance of such terms as a
+condition to providing Services.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M17"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>1.8          <u>Archival
+Copy</u>.  Licensee’s license under Section 1.1 (License Grant) includes the
+right to make a single archival copy of the Licensed Materials in the Territory,
+provided that (a) the single-copy limitation will not apply to copies made as
+an incidental part of a routine backup of Licensee’s entire computer system on
+which the Licensed Materials are Installed in accordance with this Agreement,
+where such backup includes the making of copies of substantially all other
+software on such computer system and (b) any archival copy may be Accessed or
+Installed (other than on a backup storage medium from which the Licensed
+Materials cannot be Accessed) only when and for so long as the primary copy of
+the Licensed Materials is inaccessible and inoperable.  Copies of the Licensed
+Materials that are Installed and are in excess of the Permitted Number at any
+time while the primary copy of the Licensed Materials is also Accessible are
+not &quot;archival copies&quot; as permitted under this Section 1.9 (Archival
+Copy).</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M18"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>1.9          <u>Nature
+of Licenses</u>.  Licensee acknowledges and agrees that when Licensee acquires
+a license of Licensed Materials, a Subscription or Services, Licensee’s
+acquisition is neither contingent on the delivery of any future features or
+functionality nor subject to any public or other comments (oral, written or
+otherwise) made by Autodesk regarding future features or functionality.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M19"></a><a
+name="_DV_M20"></a><span style='font-size:9.0pt;line-height:115%;font-family:
+"Arial","sans-serif"'>2.             <b>License Limitations/Prohibitions</b></span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M21"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>2.1          <u>Limitations
+and Exclusions</u>.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;text-indent:.5in'><a
+name="_DV_M22"></a><span style='font-size:9.0pt;line-height:115%;font-family:
+"Arial","sans-serif"'>2.1.1       <u>No License Granted/Unauthorized Activities</u>. 
+The parties acknowledge and agree that, notwithstanding anything to the
+contrary in this Agreement, no license is granted (whether expressly, by
+implication or otherwise) under this Agreement (and this Agreement expressly
+excludes any right) (a) to Excluded Materials, (b) to any Autodesk Materials
+that Licensee did not acquire lawfully or that Licensee acquired in violation
+of or in a manner inconsistent with this Agreement, (c) for Installation of or
+Access to the Licensed Materials beyond the applicable license term (whether a
+fixed term or Subscription period) or outside the scope of the applicable
+License Type or Permitted Number, (d) for Installation of the Licensed
+Materials on any Computer other than a Computer owned or leased, and controlled
+by Licensee, unless otherwise authorized in writing by Autodesk, (e) to
+distribute, rent, loan, lease, sell, sublicense, <a name="_DV_M23"></a>transfer
+or otherwise provide all or any portion of the Autodesk Materials to any person
+or entity except as expressly set forth in this Agreement or as expressly
+authorized in writing by Autodesk, (f) to provide or make available any features
+or functionality of the Autodesk Materials to any person or entity (other than
+to and for Licensee itself for the purpose specified in the applicable License
+Type), whether or not over a network and whether or not on a hosted basis, (g)
+except as otherwise expressly provided with respect to a specific License Type,
+to Install or Access or allow the Installation of or Access to the Autodesk
+Materials over the Internet or other non-local network, including, without
+limitation, use in connection with a wide area network (WAN), virtual private
+network (VPN), virtualization, Web hosting, time-sharing, service bureau,
+software as a service, cloud or other service or technology, (h) to remove,
+alter or obscure any proprietary notices, labels or marks in the Autodesk
+Materials, (i) to decompile, disassemble or otherwise reverse engineer the
+Autodesk Materials, or (j) to translate, adapt, arrange, or create derivative
+works based on, or otherwise modify the Autodesk Materials for any purpose.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;text-indent:.5in'><a
+name="_DV_M24"></a><span style='font-size:9.0pt;line-height:115%;font-family:
+"Arial","sans-serif"'>2.1.2       <u>Licensed Materials as a Single Product</u>. 
+The Licensed Materials are licensed to Licensee as a single product and the
+applicable components may not be separated for Installation or Access (and all
+such components must be Installed and Accessed on the same Computer except as
+authorized in writing by Autodesk).</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;text-indent:.5in'><a
+name="_DV_M25"></a><span style='font-size:9.0pt;line-height:115%;font-family:
+"Arial","sans-serif"'>2.1.3       <u>Territory</u>.  Except as otherwise
+authorized in writing by Autodesk, the licenses granted in this Agreement are
+granted only for the Territory.  Nothing in this Agreement permits Licensee
+(including, without limitation, Licensee’s Personnel, if any) to Install or
+Access the Licensed Materials outside of the Territory.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;text-indent:.5in'><a
+name="_DV_M26"></a><span style='font-size:9.0pt;line-height:115%;font-family:
+"Arial","sans-serif"'>2.1.4       <u>Effect of Unauthorized Use</u>.  Licensee
+will not engage in, and will not permit or assist any third party to engage in
+any of the uses or activities prohibited (or any uses or activities
+inconsistent with the limitations described) in this Section 2.1 (Limitations
+and Exclusions) (collectively, “Unauthorized Uses”).  Any such Unauthorized
+Use, and any Installation<span style='color:black'> of or Access to the
+Licensed Materials provided under this Agreement, outside of the scope of the
+applicable license grants (including, without limitation, outside the
+applicable License Type and/or Permitted Number) or otherwise not in accordance
+with this Agreement, constitute or result in infringement of Autodesk’s
+intellectual property rights as well as a breach of this Agreement.  Licensee
+will notify Autodesk promptly of any such Unauthorized Uses or other
+unauthorized Installation or Access.</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M27"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>2.2          <u>Circumvention</u>. 
+</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;text-indent:.5in'><a
+name="_DV_M28"></a><span style='font-size:9.0pt;line-height:115%;font-family:
+"Arial","sans-serif"'>2.2.1       Licensee may not (i) utilize any equipment,
+device, software, or other means to (or designed to) circumvent or remove any
+form of technical protection used by Autodesk in connection with the Autodesk
+Materials, or (ii) Install or Access the Autodesk Materials with any product
+code, authorization code, serial number, or other copy-protection device not
+supplied by Autodesk directly or through a Reseller.  Without limitation of the
+generality of the foregoing, Licensee may not utilize any equipment, device,
+software, or other means to (or designed to) circumvent or remove any tool or
+technical protection measure provided or made available by Autodesk for
+managing, monitoring or controlling Installation of or Access to Autodesk
+Materials.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;text-indent:.5in'><a
+name="_DV_M29"></a><span style='font-size:9.0pt;line-height:115%;font-family:
+"Arial","sans-serif"'>2.2.2       Licensee may not utilize any equipment,
+device, software, or other means to (or designed to) circumvent or remove any
+usage restrictions, or to enable functionality disabled by Autodesk, in
+connection with the Excluded Materials.  Licensee may not bypass or delete any
+functionality or technical limitations of the Autodesk Materials that (or that
+are designed to) prevent or inhibit the unauthorized copying of, Installation
+or Access to the Excluded Materials.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M30"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>2.3          <u>Exceptions
+to Prohibitions</u>.  The prohibitions contained in this Agreement, including,
+without limitation, this Section 2 (License Limitations/Prohibitions), will not
+apply to the extent that applicable law (including, without limitation, laws
+implementing EC Directive 91/250 on the legal protection of computer programs
+and laws of other jurisdictions relating to similar subject matter) does not
+allow such prohibitions to be enforced.  In addition, this Agreement describes
+certain legal rights.  Licensee may have other rights under the laws of the
+state or country where the Licensed Materials are acquired, and this Agreement
+does not change Licensee’s rights under the laws of such state or country if
+and to the extent the laws of such state or country do not permit this
+Agreement to do so.  Licensee will bear the burden of proof in demonstrating
+that applicable law does not allow enforcement of any such prohibitions or does
+not permit this Agreement to change particular rights in such state or country.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;page-break-after:avoid'><a
+name="_DV_M31"></a><span style='font-size:9.0pt;line-height:115%;font-family:
+"Arial","sans-serif"'>3.             <b>All Rights Reserved</b></span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M32"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>Autodesk
+and its licensors retain title to and ownership of, and all other rights with
+respect to, the Autodesk Materials and all copies thereof, including, without
+limitation, any related copyrights, trademarks, trade secrets, patents, and
+other intellectual property rights.  Licensee has only the limited licenses
+granted with respect to the Licensed Materials expressly set forth in this
+Agreement, and Licensee has no other rights, implied or otherwise.  Licensee
+acknowledges and agrees that the Autodesk Materials are licensed, not sold, and
+that rights to Install and Access the Licensed Materials are acquired only
+under the license from Autodesk.  The structure and organization of Software
+included in the Autodesk Materials, any source code or similar materials
+relating to such Software, and any other Licensed Materials identified as
+confidential or proprietary are valuable trade secrets of, and confidential and
+proprietary information to, Autodesk and its suppliers, and (a) may not be
+distributed, disclosed or otherwise provided to third parties, and (b) may be
+used only internally and only in conjunction with and for Licensee’s own
+authorized internal use of the Licensed Materials.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;page-break-after:avoid'><a
+name="_DV_M33"></a><span style='font-size:9.0pt;line-height:115%;font-family:
+"Arial","sans-serif"'>4.             <b>Privacy; Use of Information;
+Connectivity</b></span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M34"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>4.1          <u>Privacy
+and Use of Information</u>.  Licensee acknowledges and agrees that Licensee
+(and third parties acting on Licensee’s behalf) may provide, and Autodesk and
+its Resellers (and third parties acting on behalf of Autodesk and its
+Resellers) may obtain, certain information and data with respect to Licensee
+(including, without limitation, personal information) and Licensee’s business
+in connection with this Agreement, including, without limitation, information
+and data provided to or obtained by Autodesk and its Resellers (or third
+parties acting on behalf of Autodesk and its Resellers) through the Customer
+Information Form and otherwise, in connection with ordering, registration,
+activation, updating, validating entitlement to, auditing, monitoring
+Installation of and Access to Autodesk Materials, Subscriptions and Services
+and managing the relationship with Licensee.  Licensee hereby consents to
+Autodesk maintaining, using, storing and disclosing such information and data
+(including, without limitation, personal information, if any) in conformity
+with Autodesk’s policies on privacy and data protection, as such policies may
+be updated from time to time, including without limitation Autodesk’s Privacy
+Policy, as currently located at http://usa.autodesk.com/company/legal-notices-trademarks/privacy-policy. 
+Without limitation of the generality of the foregoing, Licensee acknowledges
+that and agrees that: (a) Autodesk may from time to time prompt Licensee (and
+third parties acting on Licensee’s behalf) to provide express agreement to the
+terms of Autodesk’s Privacy Policy and/or express agreement to specific uses of
+information and data (including, without limitation, personal information); (b)
+Autodesk may provide information and data, including, without limitation, information
+and data about Licensee’s use of Autodesk Materials, Subscriptions, and
+Licensee’s support requests, to Autodesk affiliates, Resellers and other third
+parties in connection with the provision, maintenance, administration or usage
+of Licensed Materials, Subscription or Services or in connection with
+enforcement of any agreements relating to Licensed Materials, Subscription or
+Services; and (c) Autodesk may make cross-border transfers of such information
+and data, including to jurisdictions with privacy or data protection laws that
+are less protective of Licensee than the jurisdiction in which Licensee is
+domiciled.<a name="_DV_M36"></a>  Licensee acknowledges and agrees that such
+policies may be changed from time to time by Autodesk and that, effective upon
+posting on Autodesk’s website or other written notice from Autodesk, Licensee
+will be subject to such changes.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M37"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>4.2          <u>Connectivity</u>. 
+Certain Licensed Materials may facilitate or require Licensee’s access to and
+use of content and services that are hosted on websites maintained by Autodesk
+or by third parties.  In some cases, such content and services may appear to be
+a feature or function within, or extension of, the Licensed Materials on
+Licensee’s Computer even though hosted on such websites.  Accessing such
+content or services and use of Licensed Materials may cause Licensee’s
+Computer, without additional notice, to connect automatically to the Internet
+(transitorily, intermittently or on a regular basis) and to communicate with an
+Autodesk or third-party website—for example, for purposes of providing Licensee
+with additional information, features and functionality or to validate that the
+Licensed Materials and/or content or services are being used as permitted under
+this Agreement or other applicable terms.  Such connectivity to Autodesk
+websites is governed by Autodesk’s policies on privacy and data protection
+described in Section 4 (Privacy; Use of Information; Connectivity).  Such
+connectivity to websites of third parties is governed by the terms (including
+the disclaimers and notices) found on such sites or otherwise associated with
+the third-party content or services.  Autodesk does not control, endorse, or
+accept responsibility for any such third-party content or services, and any
+dealings between Licensee and any third party in connection with such content
+or services, including, without limitation, such third party’s privacy
+policies, use of personal information, delivery of and payment for goods and
+services, and any other terms associated with such dealings, are solely between
+Licensee and such third party.  Autodesk may at any time, for any reason,
+modify or discontinue the availability of any third-party content or services. 
+Access to and use of certain content and services (whether of Autodesk or third
+parties) may require assent to separate terms and/or payment of additional
+fees.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;page-break-after:avoid'><a
+name="_DV_M38"></a><span style='font-size:9.0pt;line-height:115%;font-family:
+"Arial","sans-serif"'>5.             <b>Limited Warranty and Disclaimers</b></span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M39"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>5.1          <u>Limited
+Warranty</u>.  Autodesk warrants that, as of the date on which the Licensed
+Materials are delivered to Licensee and for ninety (90) days thereafter
+(“Warranty Period”), the Licensed Materials will provide the general features
+and functions described in the User Documentation portion of the Licensed
+Materials.  Autodesk's entire liability and Licensee’s exclusive remedy during
+the Warranty Period (“Limited Warranty”) will be, with the exception of any
+statutory warranty or remedy that cannot be excluded or limited under law, at
+Autodesk's option, (i) to attempt to correct or work around errors, if any, or
+(ii) to refund the license fees, if any, paid by Licensee and terminate this
+Agreement or the license specific to such Licensed Materials.  Such refund is
+subject to the return, during the Warranty Period, of the Autodesk Materials,
+with a copy of Licensee’s License Identification, to Licensee’s local Autodesk
+office or the Reseller from which Licensee acquired the Autodesk Materials. 
+THE LIMITED WARRANTY SET FORTH IN THIS SECTION GIVES LICENSEE SPECIFIC LEGAL
+RIGHTS.  LICENSEE MAY HAVE ADDITIONAL LEGAL RIGHTS UNDER LAW WHICH VARY FROM
+JURISDICTION TO JURISDICTION.  AUTODESK DOES NOT SEEK TO LIMIT LICENSEE’S
+WARRANTY RIGHTS TO ANY EXTENT NOT PERMITTED BY LAW.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M40"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>5.2          <u>Disclaimer</u>. 
+EXCEPT FOR THE EXPRESS LIMITED WARRANTY PROVIDED IN SECTION 5.1 (LIMITED
+WARRANTY), AND TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, AUTODESK AND
+ITS SUPPLIERS MAKE, AND LICENSEE RECEIVES, NO WARRANTIES, REPRESENTATIONS, OR
+CONDITIONS OF ANY KIND, EXPRESS OR IMPLIED (INCLUDING, WITHOUT LIMITATION, ANY
+IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR
+NONINFRINGEMENT, OR WARRANTIES OTHERWISE IMPLIED BY STATUTE OR FROM A COURSE OF
+DEALING OR USAGE OF TRADE) WITH RESPECT TO ANY AUTODESK MATERIALS,
+SUBSCRIPTION, OR SERVICES (PURSUANT TO SUBSCRIPTION OR OTHERWISE).  ANY
+STATEMENTS OR REPRESENTATIONS ABOUT THE AUTODESK MATERIALS<a name="_DV_C4">,
+SUBSCRIPTION OR SERVICES</a><a name="_DV_M41"></a> AND THEIR FEATURES OR
+FUNCTIONALITY IN THE LICENSED MATERIALS OR ANY COMMUNICATION WITH LICENSEE ARE
+FOR INFORMATION PURPOSES ONLY, AND DO NOT CONSTITUTE A WARRANTY,
+REPRESENTATION, OR CONDITION.  WITHOUT LIMITING THE FOREGOING, AUTODESK DOES
+NOT WARRANT:  (a) THAT THE OPERATION OR OUTPUT OF THE LICENSED MATERIALS <a
+name="_DV_C5">OR SERVICES</a><a name="_DV_M42"></a> WILL BE UNINTERRUPTED,
+ERROR-FREE, <a name="_DV_C6">SECURE,</a><a name="_DV_M43"></a> ACCURATE,
+RELIABLE, OR COMPLETE, WHETHER OR NOT UNDER SUBSCRIPTION OR SUPPORT BY AUTODESK
+OR ANY THIRD PARTY; (b) THAT ERRORS WILL BE CORRECTED BY AUTODESK OR ANY THIRD
+PARTY; OR (c) THAT AUTODESK OR ANY THIRD PARTY WILL RESOLVE ANY PARTICULAR
+SUPPORT REQUEST OR THAT SUCH RESOLUTION WILL MEET LICENSEE’S REQUIREMENTS OR
+EXPECTATIONS.  NOTHING IN THE FOREGOING RESTRICTS THE EFFECT OF WARRANTIES OR
+CONDITIONS WHICH MAY BE IMPLIED BY LAW WHICH CANNOT BE EXCLUDED, RESTRICTED OR
+MODIFIED NOTWITHSTANDING A CONTRACTUAL RESTRICTION TO THE CONTRARY.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;page-break-after:avoid'><a
+name="_DV_M44"></a><span style='font-size:9.0pt;line-height:115%;font-family:
+"Arial","sans-serif"'>6.             <b>Warnings</b></span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M45"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>6.1          <u>Functionality
+Limitations</u>.  The Licensed Materials<a name="_DV_C7"> and Services</a><a
+name="_DV_M46"></a> (except for Licensed Materials designed for non-commercial
+use, such as Autodesk Materials designed to be used for household or other
+consumer purposes or licensed only for purposes of educational or individual
+learning) are commercial professional tools intended to be used by trained
+professionals only.  Particularly in the case of commercial professional use,
+the Licensed Materials <a name="_DV_C8">and Services</a><a name="_DV_M47"></a> are
+not a substitute for Licensee’s professional judgment or independent testing. 
+The Licensed Materials and Services<a name="_DV_M48"></a> are intended only to
+assist Licensee with its design, analysis, simulation, estimation, testing
+and/or other activities and are not a substitute for Licensee’s own independent
+design, analysis, simulation, estimation, testing, and/or other activities,
+including those with respect to product stress, safety and utility.  Due to the
+large variety of potential applications for the Licensed Materials<a
+name="_DV_C10"> and Services</a><a name="_DV_M49"></a>, the Licensed Materials <a
+name="_DV_C11">and Services </a><a name="_DV_M50"></a>have not been tested in
+all situations under which they may be used.  Autodesk will not be liable in
+any manner whatsoever for the results obtained through use of the Licensed
+Materials<a name="_DV_C12"> or Services</a><a name="_DV_M51"></a>.  Persons
+using the Licensed Materials<a name="_DV_C13"> or Services</a><a name="_DV_M52"></a>
+are responsible for the supervision, management, and control of the Licensed
+Materials and Services and<a name="_DV_M53"></a> the results of using the
+Licensed Materials<a name="_DV_C15"> and Services</a><a name="_DV_M54"></a>. 
+This responsibility includes, without limitation, the determination of
+appropriate uses for the Licensed Materials and <a name="_DV_C16">Services and </a><a
+name="_DV_M55"></a>the selection of the Licensed Materials<a name="_DV_C17">,
+Services</a><a name="_DV_M56"></a> and other computer programs and materials to
+help achieve intended results.  Persons using the Licensed Materials<a
+name="_DV_C18"> or Services</a><a name="_DV_M57"></a> are also responsible for
+establishing the adequacy of independent procedures for testing the
+reliability, accuracy,<a name="_DV_M58"></a> completeness, and other
+characteristics of any output of the Licensed Materials<a name="_DV_C19"> or
+Services</a><a name="_DV_M59"></a>, including, without limitation, all items
+designed with the assistance of the Licensed Materials<a name="_DV_C20"> or
+Services</a><a name="_DV_M60"></a>.  Licensee further acknowledges and agrees
+that the Licensed Materials form part of Licensee’s total unique hardware and
+software environment to deliver specific functionality, and that the Licensed
+Materials <a name="_DV_C21">and Services </a><a name="_DV_M61"></a>provided by
+Autodesk may not achieve the results Licensee desires within Licensee’s design,
+analysis, simulation, estimation, and/or testing constraints.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M62"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>6.2          <u>Activation
+Codes and Security</u>.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M63"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>6.2.1       <u>Activation
+Code Required for Installation/Access and Continued Use</u>.  Installation of
+and Access to the Licensed Materials require, and the continued use thereof may
+from time to time require, activation codes issued by Autodesk.  Registration
+may be required before an activation code is issued by Autodesk.  Licensee will
+provide Autodesk and its Reseller with any information required for such
+registration and agrees that any information provided to Autodesk or its
+Reseller will be accurate and current.  Licensee will also maintain and update
+Licensee’s registration information, on an ongoing basis, through customer data
+registration processes, including, without limitation, the Customer Information
+Form, that may be provided by Autodesk.  Licensee acknowledges and agrees that
+Autodesk may use such information in accordance with its privacy policy (as
+described or referenced in Section 4 (Privacy; Use of Information;
+Connectivity)).</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M64"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>6.2.2       <u>Disabling
+Access</u>.  LICENSEE ACKNOWLEDGES AND AGREES THAT INSTALLATION OF AND ACCESS
+TO LICENSED MATERIALS MAY BE DISABLED BY THE ACTIVATION, SECURITY, AND
+TECHNICAL PROTECTION MECHANISMS IF LICENSEE TRIES TO TRANSFER ALL OR A PART OF
+THE LICENSED MATERIALS TO ANOTHER COMPUTER, IF LICENSEE TAMPERS WITH THE TECHNICAL
+PROTECTION MECHANISMS OR DATE-SETTING MECHANISMS ON A COMPUTER OR IN THE
+LICENSED MATERIALS, IF LICENSEE USES THE LICENSED MATERIALS PAST AN APPLICABLE
+SUBSCRIPTION PERIOD OR FIXED TERM, OR IF LICENSEE UNDERTAKES CERTAIN OTHER
+ACTIONS THAT AFFECT THE SECURITY MODE OR UNDER OTHER CIRCUMSTANCES AND THAT, IN
+ANY SUCH EVENT, LICENSEE’S ACCESS TO LICENSEE’S WORK PRODUCT AND OTHER DATA MAY
+BE AFFECTED.  MORE INFORMATION IS CONTAINED IN THE APPLICABLE LICENSED
+MATERIALS OR AVAILABLE FROM AUTODESK ON REQUEST.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M65"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>6.2.3       <u>Effect
+of Activation Codes</u>.  Licensee acknowledges and agrees that receipt of an
+activation code (whether or not provided to Licensee in error) will not
+constitute evidence of or affect the scope of Licensee’s license rights.  Those
+rights will be only as set forth in this Agreement and the applicable License
+Identification.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M66"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>6.3          <u>Affected
+Data</u>.  Work product and other data created with Licensed Materials made
+available under certain License Types, including licenses that limit the
+permitted purpose to educational purposes or personal learning purposes, may
+contain certain notices and limitations that make the work product and other
+data usable only in certain circumstances (e.g., only in the education field). 
+In addition, if Licensee combines or links work product or other data created
+with such Licensed Materials with work product or other data otherwise created,
+then such other work product or data may also be affected by these notices and
+limitations.  Autodesk will have no responsibility or liability whatsoever if
+Licensee combines or links work product or other data created with such
+Licensed Materials with work product or other data otherwise created.  In
+addition, Licensee will not <a name="_DV_M67"></a><span style='color:black'>remove,
+</span>alter or obscure<span style='color:black'> any such notices or
+limitations.</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;page-break-after:avoid'><a
+name="_DV_M68"></a><span style='font-size:9.0pt;line-height:115%;font-family:
+"Arial","sans-serif"'>7.             <b>Limitations of Liability</b></span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M69"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>7.1          <u>Limitation
+on Type and Amount of Liability</u>.  IN NO EVENT WILL AUTODESK OR ITS
+SUPPLIERS HAVE ANY LIABILITY (DIRECTLY OR INDIRECTLY) FOR ANY INCIDENTAL,
+SPECIAL, INDIRECT, CONSEQUENTIAL OR PUNITIVE DAMAGES; FOR LOSS OF PROFITS, USE,
+REVENUE, OR DATA; OR FOR BUSINESS INTERRUPTION (REGARDLESS OF THE LEGAL THEORY
+FOR SEEKING SUCH DAMAGES OR OTHER LIABILITY).  IN ADDITION, THE LIABILITY OF
+AUTODESK AND ITS SUPPLIERS ARISING OUT OF OR RELATING TO ANY AUTODESK
+MATERIALS, SUBSCRIPTION OR SERVICES WILL NOT EXCEED THE AMOUNT PAID OR PAYABLE
+BY LICENSEE FOR SUCH AUTODESK MATERIALS, SUBSCRIPTION, OR SERVICES,
+RESPECTIVELY.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M70"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>7.2          <u>Application
+of and Basis for Limitations</u>.  THE LIMITATIONS OF LIABILITY IN THIS SECTION
+7 (LIMITATIONS OF LIABILITY) WILL APPLY TO THE MAXIMUM EXTENT PERMITTED BY
+APPLICABLE LAW TO ANY DAMAGES OR OTHER LIABILITY, HOWEVER CAUSED AND REGARDLESS
+OF THE THEORY OF LIABILITY, WHETHER DERIVED FROM CONTRACT, TORT (INCLUDING,
+WITHOUT LIMITATION, NEGLIGENCE) OR OTHERWISE, EVEN IF AUTODESK HAS BEEN ADVISED
+OF THE POSSIBILITY OF SUCH LIABILITY AND REGARDLESS OF WHETHER THE LIMITED
+REMEDIES AVAILABLE HEREUNDER FAIL OF THEIR ESSENTIAL PURPOSE.  ALSO, LICENSEE
+AGREES THAT THE LICENSE, SUBSCRIPTION AND SERVICES FEES AND OTHER FEES CHARGED
+BY AUTODESK AND PAID BY LICENSEE ARE BASED ON AND REFLECTIVE OF THE ALLOCATION
+OF RISK CONTEMPLATED BY THIS SECTION 7 (LIMITATIONS OF LIABILITY) AND THAT THE
+LIABILITY LIMITATIONS IN THIS SECTION 7 (LIMITATIONS OF LIABILITY) ARE AN
+ESSENTIAL ELEMENT OF THE AGREEMENT BETWEEN THE PARTIES.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;page-break-after:avoid'><a
+name="_DV_M71"></a><span style='font-size:9.0pt;line-height:115%;font-family:
+"Arial","sans-serif"'>8.             <b>Term and Termination</b></span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M72"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>8.1          <u>Term;
+Termination or Suspension</u>.  Each license under this Agreement, with respect
+to each specific set of Licensed Materials covered by this Agreement, will
+become effective as of the latest to occur of: (a) this Agreement becoming
+effective, (b) payment by Licensee of the applicable fees, excluding licenses
+(such as evaluation licenses) where no fees are required, (c) delivery of the
+specific Licensed Materials, and (d) in the case of Autodesk Materials provided
+in connection with a Subscription, upon commencement of the applicable
+Subscription period. Each of Autodesk or Licensee may terminate this Agreement,<a
+name="_DV_M73"></a> Licensee’s license as to Licensed Materials, Licensee’s
+Subscription, and/or the provision of Services relating to the Licensed
+Materials if the other party is in breach of this Agreement and fails to cure
+such breach within ten (10) days after written notice of the breach<a
+name="_DV_C22"><span class=DeltaViewInsertion><span style='color:black;
+text-decoration:none'><span style='color:black'>; </span></span></span><span
+class=DeltaViewInsertion><span style='color:black;text-decoration:none'><span
+style='color:black'>however,</span></span></span><span
+class=DeltaViewInsertion><span style='color:black;text-decoration:none'><span
+style='color:black'> if Licensee is in breach of Section 1 (License) or Section
+2</span></span></span><span class=DeltaViewInsertion><span style='color:black;
+text-decoration:none'><span style='color:black'> </span></span></span><span
+class=DeltaViewInsertion><span style='color:black;text-decoration:none'><span
+style='color:black'>(License Limitations/Prohibitions</span></span></span><span
+class=DeltaViewInsertion><span style='color:black;text-decoration:none'><span
+style='color:black'>)</span></span></span><span class=DeltaViewInsertion><span
+style='color:black;text-decoration:none'><span style='color:black'>, Autodesk
+may terminate this Agreement, Licensee’s li<span style='color:black'>cense as
+to Licensed Materials, Licensee’s Subscription, and/or the provision of
+Services relating to the Licensed Materials immediately upon written notice of
+the breach</span></span></span></span></a><a name="_DV_M74"></a>.  In addition,
+Autodesk may, as an alternative to termination, suspend Licensee’s license as
+to the Licensed Materials, Licensee’s Subscription, the provision of Services
+relating to the Licensed Materials, and/or other Autodesk obligations or
+Licensee rights under this Agreement (or under other terms, if any, relating to
+materials associated with the Licensed Materials), if Licensee fails to make a
+payment to Autodesk or a Reseller or otherwise fails to comply with the
+provisions of this Agreement or other terms relating to any such license,
+Subscription, Services, or other associated materials.  Autodesk may also
+terminate this Agreement if Licensee becomes subject to bankruptcy proceedings,
+becomes insolvent, or makes an arrangement with Licensee’s creditors.  This
+Agreement will terminate automatically without further notice or action by
+Autodesk if Licensee goes into liquidation.<a name="_DV_C23"><span
+class=DeltaViewInsertion><span style='color:black;text-decoration:none'><span
+style='color:black'>  In the context of any bankruptcy proceeding, Licensee
+acknowledges and agrees this Agreement is and shall be treated as an executory
+contract that may not be assumed and/or assigned <span style='color:black'>without
+Autodesk's prior written consent, which consent may be withheld in Autodesk's
+sole and absolute discretion whether pursuant to Section 365(c)(1) of Title 11
+of the United States Code or any other applicable law respecting the treatment
+of executory<span style='color:black'> contracts within bankruptcy.</span></span></span></span></span></a><a
+name="_DV_M75"></a>  Licensee acknowledges and agrees that Autodesk may assign
+or sub-contract any of its rights or obligations under this Agreement.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M76"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>8.2          <u>Effect
+of Termination of Agreement or License</u>.  Upon termination or expiration of
+this Agreement, the licenses granted hereunder will terminate.  Upon
+termination or expiration of any license granted to Licensee, Licensee must
+cease all use of Autodesk Materials to which such license applies, any
+Subscription (including, without limitation, associated services), and any
+Services and Uninstall all copies of the Autodesk Materials.  At Autodesk’s
+request, Licensee agrees to destroy or return to Autodesk or the Reseller from
+which they were acquired all Autodesk Materials.  Autodesk reserves the right
+to require Licensee to show satisfactory proof that all copies of the Autodesk
+Materials have been Uninstalled and, if so requested by Autodesk, destroyed or
+returned to Autodesk or the Reseller from which they were acquired.  If
+Licensee’s Subscription is terminated or expires, but this Agreement and
+Licensee’s license to the Licensed Materials remains in effect, any rights of
+Licensee based on the Subscription will terminate.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M77"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>8.3          <u>Survival</u>. 
+Sections 1.3 (Additional Terms), 1.4 (Other Materials), 1.5 (Authorized Users),
+1.6 (Third-Party Licensed Materials), 2.1.1 (No License Granted/Unauthorized
+Activities), 2.1.4 (Effect of Unauthorized Use), 2.2 (Circumvention), 3 (All
+Rights Reserved), 4 (Privacy; Use of Information; Connectivity), 5.2
+(Disclaimer), 6 (Warnings), 7 (Limitations of Liability), 8 (Term and
+Termination), and 9 (General Provisions) and Exhibit A will survive any<a
+name="_DV_M78"></a> termination or expiration of this Agreement.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;page-break-after:avoid'><a
+name="_DV_M79"></a><span style='font-size:9.0pt;line-height:115%;font-family:
+"Arial","sans-serif"'>9.             <b>General Provisions</b></span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M80"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>9.1          <u>Notices</u>. 
+Notices in connection with this Agreement by either party will be in writing
+and will be sent by electronic mail, postal service, or a delivery service
+(such as UPS, FedEx or DHL), except that Licensee may not provide notice to
+Autodesk of an Autodesk breach or provide notice of termination of this
+Agreement by electronic mail.  Notices from Autodesk to Licensee will be
+effective (a) in the case of notices by email, one (1) day after sending to the
+email address provided to Autodesk, or (b) in the case of notices by mail or
+delivery service, five (5) days after sending by regular post or delivery
+service to the address provided to Autodesk.  Licensee hereby consents to
+service of process being effected on Licensee by registered mail sent to the
+address set forth on Licensee’s Customer Information Form (or, if no Customer
+Information Form has been provided, Licensee’s last address known by Autodesk)
+if so permitted by applicable law.  Notices from Licensee to Autodesk will be
+effective (a) in the case of notices by email, one (1) day after sending to
+(and receipt by Autodesk at) CopyrightAgent@autodesk.com, or (b) in the case of
+notices by mail or delivery service, when received by Autodesk at Autodesk,
+Inc., 111 McInnis Parkway, San Rafael, California 94903, USA, Attention: <a
+name="_DV_C27"><span class=DeltaViewInsertion><span style='color:black;
+text-decoration:none'><span style='color:black'>Copyright</span></span></span><span
+class=DeltaViewInsertion><span style='color:black;text-decoration:none'><span
+style='color:black'> </span></span></span><span class=DeltaViewInsertion><span
+style='color:black;text-decoration:none'><span style='color:black'>Agent</span></span></span></a><a
+name="_DV_M81"></a>.  If Licensee has a Subscription, either party may also
+provide notice as set forth in the Subscription Program Terms.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M82"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>9.2          <u>Governing
+Law and Jurisdiction</u>.  This Agreement will be governed by and construed in
+accordance with the laws of (a) Switzerland if Licensee acquired the Autodesk
+Materials in a country in Europe, Africa or the Middle East, (b) Singapore if
+Licensee acquired the Autodesk Materials in a country in Asia, Oceania or the
+Asia-Pacific region, or (c) the State of California (and, to the extent
+controlling, the federal laws of the United States) if Licensee acquired the
+Autodesk Materials in a country in the Americas (including the Caribbean) or
+any other country not specified in this Section 9.2.  The laws of such
+jurisdictions shall govern without reference to the conflicts-of-laws rules
+thereof.  The UN Convention on Contracts for the International Sale of Goods
+and the Uniform Computer Information Transaction Act shall not apply to (and
+are excluded from the laws governing) this Agreement.  In addition, each party
+agrees that any claim, action or dispute arising under or relating to this
+Agreement will be brought exclusively in (and the parties will be subject to
+the exclusive jurisdiction of) the Superior Court of the State of California,
+County of Marin, or the United States District Court for the Northern District
+of California in San Francisco, except that if Licensee has<a name="_DV_M83"></a>
+acquired the Autodesk Materials in (a) a country in Europe, Africa or the
+Middle East, any such claim or dispute will be brought exclusively in (and the
+parties will be subject to the exclusive jurisdiction of) the courts of
+Switzerland, or (b) a country in Asia, Oceania or the Asia-Pacific region, any
+such claim or dispute will be brought exclusively in (and the parties will be
+subject to the exclusive jurisdiction of) the courts of Singapore.  Nothing in
+the foregoing will prevent Autodesk from bringing an action for infringement of
+intellectual property rights in any country where such infringement is alleged
+to occur.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M84"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>9.3          <u>No
+Assignment; Insolvency</u>.  Licensee may not assign this Agreement or any
+rights hereunder (whether by purchase of stock or assets, merger, change of
+control, operation of law, or otherwise) without Autodesk's prior written
+consent, which may be withheld in Autodesk's sole and absolute discretion, and
+any purported assignment by Licensee will be void.  In the context of any
+bankruptcy or similar proceeding, this Agreement is and will be treated as an
+executory contract of the type described by Section 365(c)(1) of Title 11 of
+the United States Code and may not be assigned without Autodesk's prior written
+consent, which may be withheld in Autodesk's sole and absolute discretion.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M85"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>9.4          <u>Autodesk
+Subsidiaries and Affiliates</u>.  Licensee acknowledges and agrees that
+Autodesk may arrange to have its subsidiaries and affiliates engage in
+activities in connection with this Agreement, including, without limitation,
+delivering Autodesk Materials and providing Subscriptions and Services,
+provided that Autodesk (and not such subsidiaries and affiliates) will remain
+subject to the obligations of Autodesk under this Agreement.  Licensee also
+agrees that Autodesk’s subsidiaries and affiliates may enforce (including
+taking actions for breach of) this Agreement.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M86"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>9.5          <u>Severability</u>. 
+If and to the extent any provision of this Agreement is held illegal, invalid,
+or unenforceable in whole or in part under applicable law, such provision or
+such portion thereof will be ineffective as to the jurisdiction in which it is
+illegal, invalid, or unenforceable to the extent of its illegality, invalidity,
+or unenforceability and will be deemed modified to the extent necessary to
+conform to applicable law so as to give the maximum effect to the intent of the
+parties.  The illegality, invalidity, or unenforceability of such provision in
+that jurisdiction will not in any way affect the legality, validity, or
+enforceability of such provision or any other provision of this Agreement in
+any other jurisdiction.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M87"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>9.6          <u>No
+Waiver</u>.  No term or provision of this Agreement will be considered waived,
+and no breach excused, unless such waiver is in writing signed on behalf of the
+party against which the waiver is asserted.  No waiver (whether express or
+implied) will constitute consent to, waiver of, or excuse of any other,
+different, or subsequent breach.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M88"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>9.7          <u>Audits</u>. 
+Licensee agrees that Autodesk has the right to require an audit (electronic or
+otherwise) of the Autodesk Materials and the Installation thereof and Access
+thereto.  As part of any such audit, Autodesk or its authorized representative
+will have the right, on fifteen (15) days’ prior notice to Licensee, to inspect
+Licensee’s records, systems and facilities, including machine IDs, serial
+numbers and related information, to verify that the use of any and all Autodesk
+Materials is in conformance with this Agreement.  Licensee will provide full
+cooperation to enable any such audit.  If Autodesk determines that Licensee’s
+use is not in conformity with the Agreement, Licensee will obtain immediately
+and pay for<a name="_DV_M89"></a> valid license<a name="_DV_C31">(s)</a><a
+name="_DV_M90"></a> to bring Licensee’s use into compliance with this Agreement
+and other applicable terms and pay the reasonable costs of the audit.  In
+addition to such payment rights, Autodesk reserves the right to seek any other
+remedies available at law or in equity, whether under this Agreement or
+otherwise.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M91"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>9.8          <u>Language</u>. 
+The English language version of this Agreement is legally binding in case of
+any inconsistencies between the English version and any translations.  If
+Licensee purchased the license for the Licensed Materials in Canada, Licensee
+agrees to the following: The parties hereto confirm that it is their wish that
+this Agreement, as well as other documents relating hereto, including notices,
+have been and shall be written in the English language only. </span><span
+lang=FR-CA style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>Les
+parties ci-dessus confirment leur désir que cet accord ainsi que tous les
+documents, y compris tous avis qui s'y rattachent, soient rédigés en langue
+anglaise.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M92"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>9.9          <u>Construction</u>. 
+Ambiguities in this Agreement will not be construed against the drafter.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M93"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>9.10        <u>Force
+Majeure</u>.  Autodesk will not be liable for any loss, damage or penalty
+resulting from delays or failures in performance resulting from acts of God,
+supplier delay or other causes beyond Autodesk's reasonable control.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M94"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>9.11        <u>U.S.
+Government Rights</u>.  <a name="_DV_C33"><span class=DeltaViewInsertion><span
+style='color:black;text-decoration:none'><span style='color:black'>For U.S.
+Government procurements, all Autodesk Materials are deemed to be commercial
+computer software as defined in FAR 12.212 and subject to restricted rights a<span
+style='color:black'>s defined in FAR Section 52.227-19 &quot;Commercial
+Computer Software - Restricted Rights&quot; and DFARS 227.7202, “Rights in
+Commercial Computer Software or Commercial Computer Software Documentation”, as
+applicable, and any successor regulations. Any use, modific<span
+style='color:black'>ation, reproduction release, performance, display or
+disclosure of the Autodesk Materials by the U.S. Government shall be solely in
+accordance with</span></span></span></span></span></a><a name="_DV_M97"></a>
+license rights and restrictions described herein.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M98"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>9.12        <u>Export
+Control</u>.  Licensee acknowledges<a name="_DV_C34"><span
+class=DeltaViewInsertion><span style='color:black;text-decoration:none'><span
+style='color:black'> and agrees</span></span></span></a><a name="_DV_M99"></a>
+that the Autodesk Materials <a name="_DV_C36"><span class=DeltaViewInsertion><span
+style='color:black;text-decoration:none'><span style='color:black'>and Services
+(including any data submitted by Licensee in connection with a Service and any
+Licensee-specific output generated by a Service) </span></span></span><span
+class=DeltaViewInsertion><span style='color:black;text-decoration:none'><span
+style='color:black'>are subject to</span></span></span><span
+class=DeltaViewInsertion><span style='color:black;text-decoration:none'><span
+style='color:black'> c<span style='color:black'>ompliance with United States
+and other applicable country</span></span></span></span></a><a name="_DV_M100"></a>
+export control <a name="_DV_C37"><span class=DeltaViewInsertion><span
+style='color:black;text-decoration:none'><span style='color:black'>and trade
+sanctions </span></span></span></a><a name="_DV_M101"></a>laws<a name="_DV_C38"><span
+class=DeltaViewInsertion><span style='color:black;text-decoration:none'><span
+style='color:black'>, rules</span></span></span></a><a name="_DV_M102"></a> and
+regulations<a name="_DV_C40"><span class=DeltaViewInsertion><span
+style='color:black;text-decoration:none'><span style='color:black'>, including,
+without limitation the regulation<span style='color:black'>s promulgated by the
+U.S. Department of Commerce and the U.S. Department of the Treasury (</span></span></span></span><span
+class=DeltaViewInsertion><span style='color:black;text-decoration:none'><span
+style='color:black'>collectively, </span></span></span><span
+class=DeltaViewInsertion><span style='color:black;text-decoration:none'><span
+style='color:black'>&quot;Export Control Laws&quot;)</span></span></span></a><a
+name="_DV_M103"></a>.  Licensee represents, warrants and covenants that neither
+Licensee nor Licensee’s Personnel (<a name="_DV_C42"><span
+class=DeltaViewInsertion><span style='color:black;text-decoration:none'><span
+style='color:black'>i</span></span></span></a><a name="_DV_M104"></a>) are <a
+name="_DV_C44"><span class=DeltaViewInsertion><span style='color:black;
+text-decoration:none'><span style='color:black'>a citizen</span></span></span></a><a
+name="_DV_M106"></a> or<a name="_DV_M107"></a> resident <a name="_DV_C47"><span
+class=DeltaViewInsertion><span style='color:black;text-decoration:none'><span
+style='color:black'>of, or </span></span></span><span class=DeltaViewInsertion><span
+style='color:black;text-decoration:none'><span style='color:black'>located </span></span></span><span
+class=DeltaViewInsertion><span style='color:black;text-decoration:none'><span
+style='color:black'>with</span></span></span><span class=DeltaViewInsertion><span
+style='color:black;text-decoration:none'><span style='color:black'>in,</span></span></span><span
+class=DeltaViewInsertion><span style='color:black;text-decoration:none'><span
+style='color:black'> a nation that is subject to U.S. trade sanctions or other
+significant trade restrictions (including, without limitation, Cuba, Iran, <span
+style='color:black'>Sudan, Syria and North Korea),</span></span></span></span><span
+class=DeltaViewInsertion><span style='color:black;text-decoration:none'><span
+style='color:black'> (</span></span></span><span class=DeltaViewInsertion><span
+style='color:black;text-decoration:none'><span style='color:black'>ii</span></span></span><span
+class=DeltaViewInsertion><span style='color:black;text-decoration:none'><span
+style='color:black'>) are </span></span></span><span class=DeltaViewInsertion><span
+style='color:black;text-decoration:none'><span style='color:black'>identified</span></span></span></a><a
+name="_DV_M108"></a> on any of the U.S. government <a name="_DV_C49"><span
+class=DeltaViewInsertion><span style='color:black;text-decoration:none'><span
+style='color:black'>restricted party </span></span></span><span
+class=DeltaViewInsertion><span style='color:black;text-decoration:none'><span
+style='color:black'>lists </span></span></span><span class=DeltaViewInsertion><span
+style='color:black;text-decoration:none'><span style='color:black'>(including,
+without limitation, the U.S. Treasury Department's List of Specially Designated
+Nationals and Blocked Persons,<span style='color:black'> the U.S. Department of
+Commerce’s Denied Party List, Entity List and Unverified List and the U.S.
+Department of State’s proliferation-related lists),</span></span></span></span><span
+class=DeltaViewInsertion><span style='color:black;text-decoration:none'><span
+style='color:black'> (</span></span></span><span class=DeltaViewInsertion><span
+style='color:black;text-decoration:none'><span style='color:black'>iii</span></span></span></a><a
+name="_DV_M109"></a>) will, unless otherwise authorized under <a name="_DV_C51"><span
+class=DeltaViewInsertion><span style='color:black;text-decoration:none'><span
+style='color:black'>the E</span></span></span><span class=DeltaViewInsertion><span
+style='color:black;text-decoration:none'><span style='color:black'>xport </span></span></span><span
+class=DeltaViewInsertion><span style='color:black;text-decoration:none'><span
+style='color:black'>C</span></span></span><span class=DeltaViewInsertion><span
+style='color:black;text-decoration:none'><span style='color:black'>ontrol </span></span></span><span
+class=DeltaViewInsertion><span style='color:black;text-decoration:none'><span
+style='color:black'>Laws</span></span></span></a><a name="_DV_M110"></a>, use
+Autodesk Materials<a name="_DV_C52"><span class=DeltaViewInsertion><span
+style='color:black;text-decoration:none'><span style='color:black'> or Services</span></span></span></a><a
+name="_DV_M111"></a> in any restricted end use, including, without limitation,
+design, analysis, simulation, estimation, testing, or other activities related
+to nuclear, chemical/biological weapons, rocket systems or unmanned air
+vehicles applications<a name="_DV_C53"><span class=DeltaViewInsertion><span
+style='color:black;text-decoration:none'><span style='color:black'>, </span></span></span><span
+class=DeltaViewInsertion><span style='color:black;text-decoration:none'><span
+style='color:black'>or</span></span></span><span class=DeltaViewInsertion><span
+style='color:black;text-decoration:none'><span style='color:black'> (iv) will
+use the Autodesk Materials or Services to disclose, transfer, download, export,
+or re-export, directly or indirectly, any Licensee-specific output generated by
+the Autode<span style='color:black'>sk Materials or Services, Licensee content,
+third party content, or any other content or material to any country, entity,
+or party that is ineligible to receive such items under the Export Control Laws
+or other laws or regulations to which Licensee may be <span style='color:black'>subject</span></span></span></span></span></a><a
+name="_DV_M112"></a>.  Licensee understands that the requirements and
+restrictions of <a name="_DV_C55"><span class=DeltaViewInsertion><span
+style='color:black;text-decoration:none'><span style='color:black'>the Export
+Control</span></span></span><span class=DeltaViewInsertion><span
+style='color:black;text-decoration:none'><span style='color:black'> </span></span></span><span
+class=DeltaViewInsertion><span style='color:black;text-decoration:none'><span
+style='color:black'>L</span></span></span><span class=DeltaViewInsertion><span
+style='color:black;text-decoration:none'><span style='color:black'>aw</span></span></span><span
+class=DeltaViewInsertion><span style='color:black;text-decoration:none'><span
+style='color:black'>s</span></span></span></a><a name="_DV_M113"></a> as
+applicable to Licensee may vary depending on the Autodesk Materials <a
+name="_DV_C57"><span class=DeltaViewInsertion><span style='color:black;
+text-decoration:none'><span style='color:black'>or Services provided under t<span
+style='color:black'>his Agreement</span></span></span></span></a><a
+name="_DV_M114"></a> and may change over time<a name="_DV_C59"><span
+class=DeltaViewInsertion><span style='color:black;text-decoration:none'><span
+style='color:black'>.  Licensee shall be solely responsible for (i)</span></span></span><span
+class=DeltaViewInsertion><span style='color:black;text-decoration:none'><span
+style='color:black'> determin</span></span></span><span
+class=DeltaViewInsertion><span style='color:black;text-decoration:none'><span
+style='color:black'>ing</span></span></span></a><a name="_DV_M115"></a> the
+precise controls applicable to the Autodesk Materials<a name="_DV_C61"><span
+class=DeltaViewInsertion><span style='color:black;text-decoration:none'><span
+style='color:black'> or Services, and (ii) complying with the<span
+style='color:black'> Export Control Laws and monitoring any modifications to
+them</span></span></span></span></a><a name="_DV_M116"></a>.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M117"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>9.13        <u>Entire
+Agreement</u>.  This Agreement and any other terms referenced in this Agreement
+(such as the Subscription Program Terms and the Services Terms) constitute the
+entire agreement between the parties (and merges and supersedes any prior or
+contemporaneous agreements, discussions, communications, agreements,
+representations, warranties, advertising or understandings) with respect to the
+subject matter hereof, except that particular Autodesk Materials may be subject
+to additional or different terms associated with such Autodesk Materials.  The
+parties acknowledge that, in entering into this Agreement, they are not relying
+on any agreements, discussions, communications, agreements, representations,
+warranties, advertising or understandings other than as expressly set forth in
+this Agreement.  Licensee acknowledges and agrees that Autodesk may add to or
+change the Subscription Program Terms and the Services Terms from time to time,
+provided that Autodesk will provide written notice of the additions or changes
+(and may allow Licensee not to renew, may permit Licensee to terminate, and may
+offer other options with respect to Subscriptions or Services) before the
+additions or changes are effective as to Licensee.  In the event of a conflict
+between this Agreement and any other terms of Autodesk (including, without
+limitation, the Subscription Program Terms, the Services Terms, or such
+additional or different terms), the other terms will apply.  Terms stipulated
+by Licensee in any communication by Licensee which purport to vary this
+Agreement or such other terms will be void and of no effect unless agreed in a
+writing signed by an authorized representative of Autodesk.  Any other
+modifications to this Agreement will also be invalid unless agreed to in a
+writing signed by an authorized representative of Autodesk.</span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:6.0pt;text-align:center'><a
+name="_DV_M118"></a><b><span style='font-size:9.0pt;line-height:115%;
+font-family:"Arial","sans-serif"'>&nbsp;</span></b></p>
+
+<p class=MsoNormal align=center style='margin-bottom:6.0pt;text-align:center'><b><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>&nbsp;</span></b></p>
+
+<p class=MsoNormal align=center style='margin-bottom:6.0pt;text-align:center'><b><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>&nbsp;</span></b></p>
+
+<p class=MsoNormal align=center style='margin-bottom:6.0pt;text-align:center'><b><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>Exhibit
+A</span></b></p>
+
+<p class=MsoNormal align=center style='margin-bottom:6.0pt;text-align:center'><a
+name="_DV_M119"></a><b><u><span style='font-size:9.0pt;line-height:115%;
+font-family:"Arial","sans-serif"'>Definitions</span></u></b></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M120"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>1.             “<u>Access</u>”
+or “<u>Accessible</u>” means, with respect to a computer program or other
+materials, (a) to use or execute the computer program or other materials or (b)
+to use or otherwise benefit from the features or functionality of the computer
+program or other materials.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M121"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>2.             “<u>Agreement</u>”
+means this License and Services Agreement, including all exhibits and schedules
+thereto, as the License and Services Agreement may be amended from time to time
+in accordance with the terms thereof.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M122"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>3.             “<u>Authorized
+User</u>” means any individual person who Installs or Accesses, or is
+authorized to Install or Access, any of the Licensed Materials.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M123"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>4.             “<u>Autodesk</u>”
+means Autodesk, Inc., a Delaware corporation, except that if, Licensee acquires
+a license to the Autodesk Materials in (a) a country in Europe, Africa or the
+Middle East, “Autodesk” means Autodesk  Development Sàrl or (b) a country in
+Asia, Oceania or the Asia-Pacific region, “Autodesk” means Autodesk Asia Pte
+Ltd.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M124"></a><a
+name="_DV_M125"></a><span style='font-size:9.0pt;line-height:115%;font-family:
+"Arial","sans-serif"'>5.             “<u>Autodesk Materials</u>” means any
+materials distributed or made available by Autodesk, directly or indirectly,
+including Software, Supplemental Materials, User Documentation and Excluded
+Materials (whether or not licensed to Licensee).</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M126"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>6.             “<u>Computer</u>”
+means (i) a single electronic device, with one or more central processing units
+(CPUs), that accepts information in digital or similar form and manipulates the
+information for a specific result based on a sequence of instructions, or (ii)
+a software implementation of such a device (or so-called virtual machine).</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M127"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>7.             “<u>Customer
+Information Form</u>”<a name="_DV_M128"></a> means a form completed by or on
+behalf of Licensee and submitted to Autodesk or a Reseller, directly or
+indirectly, in connection with Licensee’s order for a license of Autodesk
+Materials, Subscription or Services.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M129"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>8.             “<u>Educational
+Purposes</u>” means purposes directly related to learning, teaching, training,
+and research and development that are part of the instructional functions performed
+by a primary or secondary educational institution or any degree-granting or
+certificate-granting institution or any learning, teaching or training
+facilities, but does not include commercial, professional or for-profit
+instructional or other purposes.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M130"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>9.             “<u>Evaluation
+Purposes</u>” means purposes of evaluation and demonstration of the
+capabilities of the Software or Supplemental Materials but excludes competitive
+analysis and any commercial, professional, or other for-profit purposes.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M131"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>10.          “<u>Excluded
+Materials</u>” means any materials, including Software, Supplemental Materials
+or User Documentation (and including, without limitation, any computer
+programs, modules or components of a computer program, functionality or
+features of a computer program, explanatory printed or electronic materials,
+content or other materials, if any), that may be provided or become available
+to Licensee, by any means, or that are on any media delivered to Licensee, for
+which (a) Licensee does not have a License Identification, or (b) Licensee has
+not paid (and continued to pay) the applicable fees.  Licensee acknowledges
+that Excluded Materials are included on media or via download for convenience
+of the licensing mechanism used by Autodesk, and inclusion does not in any way
+authorize, expressly or impliedly, a right to use such Excluded Materials.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M132"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>11.          “<u>Faculty</u>”
+means Personnel of a primary or secondary educational institution or any
+degree-granting or certificate-granting educational institution or any
+learning, teaching or training facilities and who upon request by Autodesk is
+able to provide proof of such status.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M133"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>12.          “<u>Install</u>”
+and “<u>Installation</u>” means, with respect to a computer program or other
+materials, to copy the program or other materials onto a hard disk or other
+storage medium.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M134"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>13.          “<u>License
+Identification</u>” means one or more designations by Autodesk that set forth
+the License Type (among other things) for Licensee’s license of the Licensed
+Materials.  The License Identification may be (a) located (i) in the Licensed
+Materials (e.g., in an “About” box, license information dialog box, or text
+file of Software), (ii) on or with Autodesk packaging, or (iii) in a written
+confirmation or other notice issued to Licensee by Autodesk and transmitted via
+email, facsimile, physical delivery, or otherwise, or (b) obtained from
+Autodesk on request.  For clarification, License Identification does not
+include a designation, confirmation, packaging or other document provided by a
+Reseller or other third party.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M135"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>14.          “<u>License
+Type</u>” means a type of license specified by Autodesk for Autodesk Materials,
+including the types set forth in Exhibit B.  License Type includes the terms
+specified by Autodesk for each type of license, including the applicable terms
+set forth in Exhibit B.  License Type is determined by Autodesk and may be
+specified in the applicable License Identification.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M136"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>15.          “<u>Licensed
+Materials</u>” means Software, Supplemental Materials and User Documentation
+(a) downloaded by clicking on the “I accept” button or other button or
+mechanism associated with this Agreement or by otherwise indicating assent to
+this Agreement, (b) delivered prepackaged with this Agreement, or (c) otherwise
+accompanied by this Agreement, provided that (i) in the case of Software, the
+Software is identified in an applicable License Identification, and (ii)
+Licensee has paid (and continues to pay) the applicable fees.  Licensed
+Materials also includes Supplemental Materials and User Documentation that
+Autodesk provides or makes available to Licensee for use with Software licensed
+under this Agreement if there are no separate terms for such materials
+specified by Autodesk.  Licensed Materials includes, without limitation, any
+error corrections, patches, service packs, updates and upgrades to, and new
+versions of, the Licensed Materials that Autodesk provides or makes available
+to Licensee under Licensee’s then-current license.  Licensee acknowledges that
+availability new versions may be subject to additional fees and the
+Subscription Program Terms.  In addition, Licensed Materials includes, without
+limitation, any other Autodesk Materials that Licensee receives or retains
+pursuant to the Subscription Program Terms, but only for so long as and to the
+extent expressly authorized by the Subscription Program Terms.  Notwithstanding
+the foregoing (or any other provision of this Agreement), Licensed Materials in
+all cases excludes Excluded Materials.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M137"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>16.          “<u>Licensee</u>”
+means (a) the company or other legal entity on behalf of which Autodesk
+Materials are acquired, if the Autodesk Materials are acquired on behalf of
+such an entity (e.g., by an employee, independent contractor, or other
+authorized representative), or (b) if there is no such entity, the individual
+who accepts this Agreement (e.g., by selecting the “I accept” button or other
+button or mechanism associated with this Agreement or otherwise indicating
+assent to this Agreement, or by installing, downloading, accessing, or
+otherwise copying or using all or any portion of the Autodesk Materials).  For
+clarification, “Licensee” refers only to a single, specifically identified
+legal entity or individual, and does not include any subsidiary or affiliate of
+any such legal entity or individual or any other related person.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M138"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>17.          “<u>Licensee’s
+Internal Business Needs</u>” means, in reference to Licensed Materials, the use
+of such Licensed Materials (and the features and functionality thereof) by
+Licensee’s own Personnel to meet the internal requirements of Licensee’s
+business in the ordinary course of such business, provided that Internal
+Business Needs will in no event include providing or making available such
+Licensed Materials (or the features or functionality thereof) to any third
+party.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M139"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>18.          “<u>Networked
+Basis</u>” means a computing environment that includes a Computer acting as a
+file server which allows the Licensed Materials Installed on such Computer to
+be uploaded and Installed to, and operated, viewed or otherwise Accessed from,
+other Computers through a local area network connection or through a VPN
+connection subject to compliance with the VPN Requirements.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M140"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>19.          “<u>Permitted
+Number</u>” means a maximum number (e.g., number of authorized users, number of
+concurrent users, number of computers, sessions, etc.) applicable to a license
+of the Licensed Materials and to the License Type associated with such
+license.  Such number is determined by Autodesk and may be specified in the
+applicable License Identification.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M141"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>20.          “<u>Personal
+Learning Purposes</u>” means (i) personal learning as a Student or (ii) in the
+case of a non-Student, personal learning, excluding (a) in-person or online classroom
+learning in any degree-granting or certificate granting program, and (b)
+learning related to any commercial, professional or other for-profit purposes.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M142"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>21.          “<u>Personnel</u>”
+means (a) Licensee’s individual employees and (b) individual persons who are
+independent contractors working on Licensee’s premises and who Install and
+Access the Licensed Materials only on and through Computers owned or leased and
+controlled by Licensee.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M143"></a><a
+name="_DV_M144"></a><span style='font-size:9.0pt;line-height:115%;font-family:
+"Arial","sans-serif"'>22.          “<u>Reseller</u>” means a distributor or
+reseller authorized directly or indirectly by Autodesk to distribute authentic
+Autodesk Materials to Licensee.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M145"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>23.          ”<u>Services</u>”
+means services (including the results of services) provided or made available
+by Autodesk, including, without limitation, support services, storage,
+simulation and testing services, training and other benefits, but excluding
+services provided or made available as part of Subscription.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M146"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>24.          “<u>Services
+Terms</u>” means the terms for Services set forth at a location where a user
+may order or register for, or that is displayed in connection with ordering or
+registering for, such Services (e.g., a web page) or, if there are no such
+terms, at http://usa.autodesk.com/company/legal-notices-trademarks/terms-of-use 
+or any successor or supplemental web page of Autodesk.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M147"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>25.          “<u>Software</u>”
+means a computer program, or a module or component of a computer program,
+distributed or made available by Autodesk.  The term “Software” may also refer
+to functions and features of a computer program.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M148"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>26.          “<u>Stand-alone
+Basis</u>” means (i) the Licensed Materials are Installed on a single Computer
+and (ii) the Licensed Materials cannot be Installed on, or operated, viewed or
+otherwise Accessed from or through, any other Computer (e.g., through a network
+connection of any kind).</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M149"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>27.          “<u>Student</u>”
+means an individual person who is, (i) at the time of Installation of Licensed
+Materials, enrolled (a) at a recognized degree-granting or certificate-granting
+educational institution for three (3) or more credit hours in a degree-granting
+or certificate granting education program or (b) in a nine (9) month or longer
+certificate program and (ii) upon request by Autodesk is able to provide proof
+of such enrollment.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M150"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>28.          “<u>Subscription</u>”
+is the program offered generally by Autodesk under which Autodesk provides
+(among other things) updates and upgrades to, new versions of, and certain
+other support, services and training relating to Autodesk Materials.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M151"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>29.          “<u>Subscription
+Program Terms</u>” means the terms for Subscriptions set forth at
+http://usa.autodesk.com/company/legal-notices-trademarks/support-terms-and-conditions
+or any successor or supplemental web page of Autodesk (the URL for which may be
+obtained on Autodesk’s website or on request).</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M152"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>30.          “<u>Supplemental
+Materials</u>”<a name="_DV_M153"></a> means materials, other than Software and
+related User Documentation, that are distributed or made available by Autodesk
+for use with Software.  Supplemental Materials include, without limitation, (a)
+content, such as sample drawings and designs, modules for drawings and designs,
+and representations of elements used in drawings and designs (e.g., buildings,
+parts of buildings, fixtures, furniture, bridges, roads, characters,
+backgrounds, settings and animations), (b) background materials, such as
+building codes and descriptions of building practices, (c) tools for rendering
+the output of the Software, such as fonts, and (d) other similar developer
+materials.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M154"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>31.          “<u>Territory</u>”
+(a) means the country<a name="_DV_C62"><span class=DeltaViewInsertion><span
+style='color:black;text-decoration:none'><span style='color:black'>, countries
+or jurisdiction</span></span></span><span class=DeltaViewInsertion><span
+style='color:black;text-decoration:none'><span style='color:black'>(</span></span></span><span
+class=DeltaViewInsertion><span style='color:black;text-decoration:none'><span
+style='color:black'>s</span></span></span><span class=DeltaViewInsertion><span
+style='color:black;text-decoration:none'><span style='color:black'>)</span></span></span></a><a
+name="_DV_M155"></a> specified in the License Identification, or (b) if there
+is no such License Identification, or no country<a name="_DV_C63"><span
+class=DeltaViewInsertion><span style='color:black;text-decoration:none'><span
+style='color:black'> or jurisdiction</span></span></span></a><a name="_DV_M156"></a>
+is specified in the License Identification, means the country in which Licensee
+acquires a license to the Autodesk Materials.  If the License Identification
+specifies, or Licensee acquires the Autodesk Materials in, a member country of
+the European Union or the European Free Trade Association, Territory means all
+the countries of the European Union and the European Free Trade Association.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M157"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>32.          “Uninstall”
+means to remove or disable a copy of Autodesk Materials from a hard drive or
+other storage medium through any means or otherwise to destroy or make unusable
+a copy of the Autodesk Materials.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M158"></a><a
+name="_DV_M159"></a><a name="_DV_M160"></a><a name="_DV_M161"></a><a
+name="_DV_M162"></a><a name="_DV_M163"></a><a name="_DV_M164"></a><a
+name="_DV_M165"></a><a name="_DV_M166"></a><span style='font-size:9.0pt;
+line-height:115%;font-family:"Arial","sans-serif"'>33.          “<u>User
+Documentation</u>”<a name="_DV_M167"></a> means the explanatory or
+instructional materials for Software or Supplemental Materials (including
+materials regarding use of the Software or Supplemental Materials), whether in
+printed or electronic form, that Autodesk or a Reseller incorporates in the
+Software or Supplemental Materials (or the packaging for the Software or
+Supplemental Materials) or otherwise provides to its customers when or after
+such customers license, acquire or Install the Software or Supplemental
+Materials.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M168"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>34.          “<u>VPN
+Requirements</u>”<a name="_DV_M169"></a> means (i) the Licensed Materials are
+Accessed through a secure virtual private network (“VPN”); (ii) the maximum
+number of concurrent users Accessing the Licensed Materials (on a Networked
+Basis or through the VPN) does not exceed the Permitted Number at any time;
+(iii) all copies of the Licensed Materials are Installed and Accessed
+exclusively in conjunction with the technical protection device (if any) supplied
+with the Licensed Materials; and (iv) the VPN connection is secure and complies
+with current industry standard encryption and protection mechanisms.</span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:6.0pt;text-align:center'><b><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>&nbsp;</span></b></p>
+
+<p class=MsoNormal align=center style='margin-bottom:6.0pt;text-align:center'><b><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>&nbsp;</span></b></p>
+
+<p class=MsoNormal align=center style='margin-bottom:6.0pt;text-align:center'><a
+name="_DV_M170"></a><b><span style='font-size:9.0pt;line-height:115%;
+font-family:"Arial","sans-serif"'>Exhibit B</span></b></p>
+
+<p class=MsoNormal align=center style='margin-bottom:6.0pt;text-align:center'><a
+name="_DV_M171"></a><b><u><span style='font-size:9.0pt;line-height:115%;
+font-family:"Arial","sans-serif"'>License Types</span></u></b></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M172"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>1.             <u>Stand-alone
+(Individual) License</u>.  If the License Identification identifies the License
+Type as a “Stand-alone License” or as an “Individual License,” Licensee may
+Install a single primary copy of the specific release of the Licensed Materials
+designated in the applicable License Identification on one (1) Computer, on a
+Stand-alone Basis, and permit Access to such primary copy of the Licensed
+Materials solely by Licensee’s Personnel, and solely for Licensee’s Internal
+Business Needs.  Licensee may also Install a single additional copy of such
+Licensed Materials on one (1) additional Computer, on a Stand-alone Basis;
+provided that (i) such additional copy of the Licensed Materials is Accessed
+solely by the same person as the primary copy; (ii) such person is Licensee (if
+Licensee is an individual) or an employee of Licensee; (iii) such person
+Accesses the additional copy solely to perform work while away from that
+person’s usual work location and solely for Licensee’s Internal Business Needs;
+and (iv) the primary and additional copies are not Accessed at the same time. 
+Stand-alone (Individual) License is for a perpetual term, except as otherwise
+provided in this Agreement.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M173"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>2.             <u>Multi-seat
+Stand-alone License</u>.<a name="_DV_M174"></a>  If the License Identification
+identifies the License Type as a “Multi-seat Stand-alone License,” Licensee may
+Install primary copies of the specific release of the Licensed Materials
+designated in the applicable License Identification on up to the Permitted
+Number of Computers, on a Stand-alone Basis, and permit Access to such copies
+of the Licensed Materials solely by Licensee’s Personnel, and solely for
+Licensee’s Internal Business Needs.  Licensee may also Install additional
+copies of such Licensed Materials on additional Computers in an amount up to
+the Permitted Number of Computers, on a Stand-alone Basis; provided that (i)
+each additional copy of such Licensed Materials is Accessed solely by the same
+person as the primary copy; (ii) such person is Licensee (if Licensee is an
+individual) or an employee of Licensee; (iii) such person Accesses the
+additional copy solely to perform work while away from that person’s usual work
+location and solely for Licensee’s Internal Business Needs; and (iv) the
+primary and additional copies are not Accessed at the same time.  Multi-seat
+Stand-alone License is for a perpetual term, except as otherwise provided in
+this Agreement.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M175"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>3.             <u>Network
+License</u>.  If the License Identification identifies the License Type for the
+Licensed Materials as a “Network License,” Licensee may Install copies of the
+specific release of the Licensed Materials designated in the applicable License
+Identification on a Computer and permit Access to such Licensed Materials on
+multiple Computers, on a Networked Basis, solely by Licensee’s Personnel,
+solely for Licensee’s Internal Business Needs, only so long as the maximum
+number of concurrent Authorized Users does not exceed the Permitted Number of
+Authorized Users.  Licensee may, at Licensee’s option, also Install the
+Licensed Materials on a Hot Backup Server; provided that Licensee may Access
+the Licensed Materials on the Hot Backup Server only during the time period
+when, and solely for as long as, the primary Installed copy of the Licensed
+Materials is inoperable and only subject to the same terms and conditions as
+are applicable to the primary Installed copy.  A “Hot Backup Server” means a
+file server Computer that has a second copy of the Software and Supplemental
+Materials Installed but that is not permitted to be Accessible except when the
+primary Installed copy of the Software and Supplemental Materials are
+inoperable and only for so long as such primary Installed copy is inoperable. 
+A Network License is for a perpetual term, except as otherwise provided in this
+Agreement.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M176"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>4.             <u>Educational
+Stand-alone (Individual) License</u>.  If the License Identification identifies
+the License Type as an “Educational Stand-alone (Individual) License,” Licensee
+may Install a copy of the specific release of the Licensed Materials designated
+in the applicable License Identification on one (1) Computer, subject to
+certain functional limitations described in Section 6.3 (Affected Data), on a
+Stand-alone Basis, and permit Access to such copy of the Licensed Materials
+solely by Students (and such Students are deemed to be Personnel of Licensee
+for purposes of the Educational Stand-alone (Individual) License) and Faculty
+at degree-granting or certificate-granting educational institutions, solely for
+Educational Purposes and only at and from locations that are not operated for
+commercial, professional or for-profit purposes.  An Educational Stand-alone
+(Individual) License is for a perpetual term, except as otherwise provided in
+this Agreement.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M177"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>5.             <u>Educational
+Multi-seat Stand-alone License</u>.  If the License Identification identifies
+the License Type as an “Educational Multi-seat Stand-alone License,” Licensee
+may Install copies of the specific release of the Licensed Materials designated
+in the applicable License Identification on up to the Permitted Number of
+Computers, subject to certain functional limitations described in Section 6.3
+(Affected Data), on a Stand-alone Basis, and permit Access to such copies of
+the Licensed Materials solely by Students (and such Students are deemed to be
+“Personnel” of Licensee for purposes of the Educational Multi-seat Stand-alone
+License) and Faculty at degree-granting or certificate-granting educational
+institutions, solely for Educational Purposes, and only at and from locations
+that are not operated for commercial, professional or for-profit purposes.  An
+Educational Multi-seat Stand-alone License is for a perpetual term, except as
+otherwise provided in this Agreement.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M178"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>6.             <u>Educational
+Network License</u>.  If the License Identification identifies the License Type
+as an “Educational Network License,” Licensee may Install copies of the
+specific release of the Licensed Materials designated in the applicable License
+Identification on a single file server Computer, subject to certain functional
+limitations described in Section 6.3 (Affected Data), and Access such Licensed
+Materials on multiple Computers on a Networked Basis, and permit Access to such
+copies of the Licensed Materials solely by Students (such Students are deemed
+to be “Personnel” of Licensee for purposes of the Educational Network License)
+and Faculty at degree-granting or certificate-granting educational
+institutions, solely for Educational Purposes, only so long as the maximum
+number of concurrent Authorized Users does not exceed the Permitted Number of
+Authorized Users, and only at and from locations that are not operated for
+commercial, professional or for-profit purposes.  An Educational Network
+License is for a perpetual term, except as otherwise provided in this Agreement.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M179"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>7.             <u>Student
+License.</u>  If the License Identification identifies the License Type as a
+“Student License” in the applicable License Identification, Licensee may
+Install a copy of the specific release of the Licensed Materials designated in
+the applicable License Identification on one (1) Computer, subject to certain
+functional limitations described in Section 6.3 (Affected Data), on a
+Stand-alone Basis, and permit Access to such copy of the Licensed Materials
+solely by a Student or Faculty, solely for Personal Learning Purposes, and only
+at and from locations that are not labs or classrooms and are not operated for
+commercial, professional or for-profit purposes.  A Student License is for a
+fixed term specified in the applicable License Identification.  If no such term
+is specified, the term is thirty-six (36) months from Installation or as
+otherwise authorized in writing by Autodesk.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M180"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>8.             <u>Personal
+Learning License</u>.  If the License Identification identifies the License
+Type as a “Personal Learning License” in the applicable License Identification,
+Licensee may Install a copy of the specific release of the Licensed Materials
+designated in the applicable License Identification on one (1) Computer,
+subject to certain functional limitations described in Section 6.3 (Affected
+Data), on a Stand-alone Basis, and permit Access to such copy of the Licensed
+Materials solely by Licensee, as an individual, solely for Personal Learning
+Purposes and only at and from locations that are not labs or classrooms and are
+not operated for commercial, professional or for-profit purposes.  A Personal
+Learning License Stand-alone is for a fixed term specified in the applicable
+License Identification.  If no such term is specified, the term is thirteen
+(13) months from Installation.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M181"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>9.             <u>Evaluation/Demonstration/Trial</u>. 
+If Autodesk identifies the License Type as a “demonstration”, “evaluation”,
+“trial,” “not for resale” or “NFR” version (each, an “Evaluation License”) in
+the applicable License Identification, Licensee may Install a copy of the
+specific release of the Licensed Materials designated in the applicable License
+Identification on one (1) Computer, subject to certain functional limitations
+described in Section 6.3 (Affected Data), on a Stand-alone Basis, and permit
+Access to such copy of the Licensed Materials, solely by Licensee’s Personnel,
+solely for Evaluation Purposes, only so long as the maximum number of concurrent
+Authorized Users does not exceed one (1), and only from Licensee’s work
+location.  An Evaluation License is for a fixed term specified in the
+applicable License Identification.  If no such term is specified, the term is
+thirty (30) days from Installation or as otherwise authorized in writing by
+Autodesk.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M182"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>10.          <u>Fixed
+Term/Limited Duration/Rental License</u>.  If Autodesk identifies a license in
+the applicable License Identification as being for a specified period or
+limited duration or as having a fixed term (other than the licenses in B.7,
+B.8, or B.9) or as a rental license, Licensee’s right to Install and Access the
+Licensed Materials will continue only for the period, duration or term
+specified in the License Identification.  Such Installation and Access will be
+in accordance with and subject to the applicable License Type and Permitted
+Number.  If Autodesk identifies a license in the applicable License
+Identification as being for a specified period or limited duration, or as
+having a fixed term, or a rental license but no period, duration or term is
+specified in the License Identification, the period, duration or term will be
+ninety (90) days from Installation.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><a name="_DV_M183"></a><span
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>11.          <u>Session
+Specific Network License</u>.  If the License Identification identifies the
+License Type as a &quot;Session Specific Network License&quot;, Licensee may
+install one (1) copy of the specific release of the Licensed Materials
+designated in the applicable License Identification on a Computer and permit
+Access to such Licensed Materials from multiple Computers through a Supported
+Virtualization Application, on a Networked Basis, solely by Licensee's
+Personnel , solely for Licensee's Internal Business needs, only so long as the
+maximum number of concurrent Sessions does not exceed the Permitted Number. 
+For purposes of this Session Specific Network License, (a) a “Session” is
+defined as a single interactive information exchange between two Computers that
+are connected through a Supported Virtualization Application, and (b) “Supported
+Virtualization Application(s)” are those third party virtualization
+applications or methods that are specifically identified as supported by
+Autodesk in the User Documentation for the Licensed Materials.  With respect to
+the applicable Supported Virtualization Application, Licensee agrees to
+activate any available session tracking mechanism, not disable any such session
+tracking mechanism and to retain all records generated by such session tracking
+mechanism.  A Session Specific Network License is for a perpetual term, except
+as otherwise provided in this Agreement.</span></p>
+
+</div>
+
+</body>
+
+</html>

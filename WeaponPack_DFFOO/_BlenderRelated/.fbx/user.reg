@@ -1,0 +1,1448 @@
+WINE REGISTRY Version 2
+;; All keys relative to REGISTRY\\User\\S-1-5-21-550082548-471025320-1000-1000
+
+#arch=win64
+
+[AppEvents\\Schemes\\Apps\\Explorer\\Navigating\\.Current] 1741726954
+#time=1db92c8e972f6b0
+@=""
+
+[Control Panel\\Accessibility\\AudioDescription] 1741726953
+#time=1db92c8e8e59dec
+"Locale"=dword:00000000
+"On"="0"
+
+[Control Panel\\Accessibility\\Blind Access] 1741726953
+#time=1db92c8e8e59aae
+"On"="0"
+
+[Control Panel\\Accessibility\\Keyboard Preference] 1741726953
+#time=1db92c8e8e59608
+"On"="1"
+
+[Control Panel\\Accessibility\\ShowSounds] 1741726953
+#time=1db92c8e8e59b9e
+"On"="0"
+
+[Control Panel\\Colors] 1741726954
+#time=1db92c8e98028f8
+"ActiveBorder"="255 255 255"
+"ActiveTitle"="50 150 250"
+"AppWorkSpace"="128 128 128"
+"Background"="37 111 149"
+"ButtonAlternateFace"="255 255 255"
+"ButtonDkShadow"="106 106 106"
+"ButtonFace"="245 245 245"
+"ButtonHilight"="255 255 255"
+"ButtonLight"="227 227 227"
+"ButtonShadow"="166 166 166"
+"ButtonText"="0 0 0"
+"GradientActiveTitle"="50 150 250"
+"GradientInactiveTitle"="128 128 128"
+"GrayText"="166 166 166"
+"Hilight"="48 150 250"
+"HilightText"="255 255 255"
+"HotTrackingColor"="224 224 224"
+"InactiveBorder"="255 255 255"
+"InactiveTitle"="128 128 128"
+"InactiveTitleText"="200 200 200"
+"InfoText"="0 0 0"
+"InfoWindow"="255 255 255"
+"Menu"="255 255 255"
+"MenuBar"="255 255 255"
+"MenuHilight"="48 150 250"
+"MenuText"="0 0 0"
+"Scrollbar"="255 255 255"
+"TitleText"="0 0 0"
+"Window"="255 255 255"
+"WindowFrame"="158 158 158"
+"WindowText"="0 0 0"
+
+[Control Panel\\Desktop] 1741726954
+#time=1db92c8e9802f88
+"ActiveWndTrackTimeout"=dword:00000000
+"BlockSendInputResets"="0"
+"CaretWidth"=dword:00000001
+"ClickLockTime"=dword:000004b0
+"DoubleClickHeight"="4"
+"DoubleClickWidth"="4"
+"DragFullWindows"="0"
+"DragHeight"="4"
+"DragWidth"="4"
+"FocusBorderHeight"=dword:00000001
+"FocusBorderWidth"=dword:00000001
+"FontSmoothing"="2"
+"FontSmoothingGamma"=dword:00000000
+"FontSmoothingOrientation"=dword:00000001
+"FontSmoothingType"=dword:00000001
+"ForegroundFlashCount"=dword:00000003
+"ForegroundLockTimeout"=dword:00000000
+"IconTitleWrap"="1"
+"LowPowerActive"="0"
+"MenuShowDelay"="400"
+"UserPreferencesMask"=hex:30,00,02,80,12,00,00,00
+"Wallpaper"=""
+"WheelScrollChars"="3"
+"WheelScrollLines"="3"
+
+[Control Panel\\Desktop\\WindowMetrics] 1741726954
+#time=1db92c8e9802ee8
+"BorderWidth"="1"
+"CaptionFont"=hex:0a,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,00,\
+  00,00,00,01,00,00,00,00,54,00,61,00,68,00,6f,00,6d,00,61,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+"CaptionHeight"="25"
+"CaptionWidth"="18"
+"IconFont"=hex:08,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,00,00,\
+  00,00,01,00,00,00,00,54,00,61,00,68,00,6f,00,6d,00,61,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+"IconSpacing"="-1125"
+"IconTitleWrap"="1"
+"IconVerticalSpacing"="-1125"
+"MenuFont"=hex:08,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,00,00,\
+  00,00,01,00,00,00,00,54,00,61,00,68,00,6f,00,6d,00,61,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+"MenuHeight"="18"
+"MenuWidth"="18"
+"MessageFont"=hex:08,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,00,\
+  00,00,00,01,00,00,00,00,54,00,61,00,68,00,6f,00,6d,00,61,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+"PaddedBorderWidth"="0"
+"ScrollHeight"="17"
+"ScrollWidth"="17"
+"SmCaptionFont"=hex:08,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,\
+  00,00,00,00,01,00,00,00,00,54,00,61,00,68,00,6f,00,6d,00,61,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+"SmCaptionHeight"="17"
+"SmCaptionWidth"="17"
+"StatusFont"=hex:08,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,00,\
+  00,00,00,01,00,00,00,00,54,00,61,00,68,00,6f,00,6d,00,61,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[Control Panel\\International] 1741726953
+#time=1db92c8e8e1e594
+"iCalendarType"="1"
+"iCountry"="1"
+"iCurrDigits"="2"
+"iCurrency"="0"
+"iDate"="0"
+"iDigits"="2"
+"iFirstDayOfWeek"="6"
+"iFirstWeekOfYear"="0"
+"iLZero"="1"
+"iMeasure"="1"
+"iNegCurr"="0"
+"iNegNumber"="1"
+"iPaperSize"="1"
+"iTime"="0"
+"iTimePrefix"="0"
+"iTLZero"="0"
+"Locale"="00000409"
+"LocaleName"="en-US"
+"NumShape"="1"
+"s1159"="AM"
+"s2359"="PM"
+"sCountry"="United States"
+"sCurrency"="$"
+"sDate"="/"
+"sDecimal"="."
+"sGrouping"="3;0"
+"sLanguage"="ENU"
+"sList"=","
+"sLongDate"="dddd, MMMM d, yyyy"
+"sMonDecimalSep"="."
+"sMonGrouping"="3;0"
+"sMonThousandSep"=","
+"sNativeDigits"="0123456789"
+"sNegativeSign"="-"
+"sPositiveSign"=""
+"sShortDate"="M/d/yyyy"
+"sShortTime"="h:mm tt"
+"sThousand"=","
+"sTime"=":"
+"sTimeFormat"="h:mm:ss tt"
+"sYearMonth"="MMMM yyyy"
+
+[Control Panel\\International\\Geo] 1741726953
+#time=1db92c8e8e1e5ee
+"Name"="US"
+"Nation"="244"
+
+[Control Panel\\International\\\xd83c\xdf0e\xd83c\xdf0f\xd83c\xdf0d] 1741726953
+#time=1db92c8e8e1e0bc
+"Currencies"="USD"
+
+[Control Panel\\Keyboard] 1741726953
+#time=1db92c8e8e5964e
+"KeyboardDelay"="1"
+"KeyboardSpeed"="31"
+
+[Control Panel\\Mouse] 1741726953
+#time=1db92c8e8e59c70
+"ActiveWindowTracking"=dword:00000000
+"DoubleClickHeight"="4"
+"DoubleClickSpeed"="500"
+"DoubleClickWidth"="4"
+"MouseHoverHeight"="4"
+"MouseHoverTime"="400"
+"MouseHoverWidth"="4"
+"MouseSensitivity"="10"
+"MouseSpeed"="1"
+"MouseThreshold1"="6"
+"MouseThreshold2"="10"
+"SnapToDefaultButton"="0"
+"SwapMouseButtons"="0"
+
+[Control Panel\\Sound] 1741726953
+#time=1db92c8e8e58d2a
+"Beep"="Yes"
+
+[Environment] 1741726954
+#time=1db92c8e94a6e20
+"TEMP"="C:\\users\\steamuser\\AppData\\Local\\Temp"
+"TMP"="C:\\users\\steamuser\\AppData\\Local\\Temp"
+
+[Keyboard Layout\\Preload] 1741726953
+#time=1db92c8e8e58992
+"1"="00000409"
+
+[Software\\Autodesk\\FBX Converter 2013.3\\FBXExplorer] 1746729703
+#time=1dbc048d8617092
+"Compare_Data_Type"="true"
+"Epsilon_Selected"="0"
+"firstUse"="false"
+"Load_Raw_Data"="false"
+"Load_Structure_Only"="false"
+"Max_Data_Line"=dword:00000064
+"Max_Data_Line_To_Load"=dword:00000014
+"Use_Suffix"="true"
+
+[Software\\Autodesk\\FBX Converter 2013.3\\FBXExplorer\\arExcludedFields] 1746729703
+#time=1dbc048d86162fa
+"size"=dword:00000005
+
+[Software\\Autodesk\\FBX Converter 2013.3\\FBXExplorer\\arExcludedFields\\1] 1746729703
+#time=1dbc048d8615f9e
+"ExcludedField"="\\FBX file\\FBXHeaderExtension\\Creator"
+
+[Software\\Autodesk\\FBX Converter 2013.3\\FBXExplorer\\arExcludedFields\\2] 1746729703
+#time=1dbc048d861605c
+"ExcludedField"="\\FBX file\\FBXHeaderExtension\\CreationTimeStamp"
+
+[Software\\Autodesk\\FBX Converter 2013.3\\FBXExplorer\\arExcludedFields\\3] 1746729703
+#time=1dbc048d8616110
+"ExcludedField"="\\FBX file\\Creator"
+
+[Software\\Autodesk\\FBX Converter 2013.3\\FBXExplorer\\arExcludedFields\\4] 1746729703
+#time=1dbc048d86161c4
+"ExcludedField"="\\FBX file\\FileId"
+
+[Software\\Autodesk\\FBX Converter 2013.3\\FBXExplorer\\arExcludedFields\\5] 1746729703
+#time=1dbc048d861626e
+"ExcludedField"="\\FBX file\\CreationTime"
+
+[Software\\Autodesk\\FBX Converter 2013.3\\FBXExplorer\\arSuffixs] 1746729703
+#time=1dbc048d8617010
+"size"=dword:00000010
+
+[Software\\Autodesk\\FBX Converter 2013.3\\FBXExplorer\\arSuffixs\\1] 1746729703
+#time=1dbc048d8616502
+"SuffixField"="[\\Model] %1"
+
+[Software\\Autodesk\\FBX Converter 2013.3\\FBXExplorer\\arSuffixs\\10] 1746729703
+#time=1dbc048d8616b56
+"SuffixField"="[\\Pose] %1 %2"
+
+[Software\\Autodesk\\FBX Converter 2013.3\\FBXExplorer\\arSuffixs\\11] 1746729703
+#time=1dbc048d8616c00
+"SuffixField"="[\\Constraint] %1"
+
+[Software\\Autodesk\\FBX Converter 2013.3\\FBXExplorer\\arSuffixs\\12] 1746729703
+#time=1dbc048d8616cb4
+"SuffixField"="[\\AnimProperty] %1"
+
+[Software\\Autodesk\\FBX Converter 2013.3\\FBXExplorer\\arSuffixs\\13] 1746729703
+#time=1dbc048d8616d68
+"SuffixField"="[\\Material] %1"
+
+[Software\\Autodesk\\FBX Converter 2013.3\\FBXExplorer\\arSuffixs\\14] 1746729703
+#time=1dbc048d8616e26
+"SuffixField"="[\\Device] %1"
+
+[Software\\Autodesk\\FBX Converter 2013.3\\FBXExplorer\\arSuffixs\\15] 1746729703
+#time=1dbc048d8616eda
+"SuffixField"="[\\C] %1 %2 %3 %4"
+
+[Software\\Autodesk\\FBX Converter 2013.3\\FBXExplorer\\arSuffixs\\16] 1746729703
+#time=1dbc048d8616f84
+"SuffixField"="[\\P] %1"
+
+[Software\\Autodesk\\FBX Converter 2013.3\\FBXExplorer\\arSuffixs\\2] 1746729703
+#time=1dbc048d86165b6
+"SuffixField"="[\\Property] %1"
+
+[Software\\Autodesk\\FBX Converter 2013.3\\FBXExplorer\\arSuffixs\\3] 1746729703
+#time=1dbc048d861666a
+"SuffixField"="[\\Connect] %2 %3"
+
+[Software\\Autodesk\\FBX Converter 2013.3\\FBXExplorer\\arSuffixs\\4] 1746729703
+#time=1dbc048d861671e
+"SuffixField"="[\\Name] %1"
+
+[Software\\Autodesk\\FBX Converter 2013.3\\FBXExplorer\\arSuffixs\\5] 1746729703
+#time=1dbc048d86167d2
+"SuffixField"="[\\ObjectType] %1"
+
+[Software\\Autodesk\\FBX Converter 2013.3\\FBXExplorer\\arSuffixs\\6] 1746729703
+#time=1dbc048d8616886
+"SuffixField"="[\\GlobalShading] %1"
+
+[Software\\Autodesk\\FBX Converter 2013.3\\FBXExplorer\\arSuffixs\\7] 1746729703
+#time=1dbc048d8616930
+"SuffixField"="[\\Channel] %1"
+
+[Software\\Autodesk\\FBX Converter 2013.3\\FBXExplorer\\arSuffixs\\8] 1746729703
+#time=1dbc048d86169e4
+"SuffixField"="[\\Take] %1"
+
+[Software\\Autodesk\\FBX Converter 2013.3\\FBXExplorer\\arSuffixs\\9] 1746729703
+#time=1dbc048d8616a8e
+"SuffixField"="[\\Deformer] %1 %2"
+
+[Software\\Autodesk\\FBX Converter 2013.3\\FBXViewer] 1746729703
+#time=1dbc048d86158d2
+"webDownloadPath"="C:/users/steamuser/Documents/FBX Converter 2013.3/WebDownload/"
+
+[Software\\Microsoft\\Internet Explorer\\Main] 1741726954
+#time=1db92c8e97182c6
+"Search Page"="https://www.google.com"
+"Start Page"="https://www.winehq.org"
+
+[Software\\Microsoft\\Internet Explorer\\Main\\FeatureControl] 1741726954
+#time=1db92c8e930a256
+
+[Software\\Microsoft\\Internet Explorer\\Settings] 1741726954
+#time=1db92c8e971835c
+"Text Color"="0,0,0"
+
+[Software\\Microsoft\\Protected Storage System Provider] 1741726954
+#time=1db92c8e972f700
+
+[Software\\Microsoft\\SystemCertificates\\CA\\Certificates] 1741726955
+#time=1db92c8e9f59520
+
+[Software\\Microsoft\\SystemCertificates\\CA\\CRLs] 1741726955
+#time=1db92c8e9f59584
+
+[Software\\Microsoft\\SystemCertificates\\CA\\CTLs] 1741726955
+#time=1db92c8e9f595e8
+
+[Software\\Microsoft\\SystemCertificates\\My\\Certificates] 1741726955
+#time=1db92c8e9f59a70
+
+[Software\\Microsoft\\SystemCertificates\\My\\CRLs] 1741726955
+#time=1db92c8e9f59aca
+
+[Software\\Microsoft\\SystemCertificates\\My\\CTLs] 1741726955
+#time=1db92c8e9f59b2e
+
+[Software\\Microsoft\\SystemCertificates\\Trust\\Certificates] 1741726955
+#time=1db92c8e9f59de0
+
+[Software\\Microsoft\\SystemCertificates\\Trust\\CRLs] 1741726955
+#time=1db92c8e9f59e44
+
+[Software\\Microsoft\\SystemCertificates\\Trust\\CTLs] 1741726955
+#time=1db92c8e9f59ebc
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced] 1741726954
+#time=1db92c8e9720d0e
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\FileExts] 1741726954
+#time=1db92c8e9720d68
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders] 1741726954
+#time=1db92c8e949f4a4
+"Administrative Tools"="C:\\users\\steamuser\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Administrative Tools"
+"AppData"="C:\\users\\steamuser\\AppData\\Roaming"
+"Cache"="C:\\users\\steamuser\\AppData\\Local\\Microsoft\\Windows\\INetCache"
+"Cookies"="C:\\users\\steamuser\\AppData\\Local\\Microsoft\\Windows\\INetCookies"
+"Desktop"="C:\\users\\steamuser\\Desktop"
+"Favorites"="C:\\users\\steamuser\\Favorites"
+"Fonts"="C:\\windows\\Fonts"
+"History"="C:\\users\\steamuser\\AppData\\Local\\Microsoft\\Windows\\History"
+"Local AppData"="C:\\users\\steamuser\\AppData\\Local"
+"My Music"="C:\\users\\steamuser\\Music"
+"My Pictures"="C:\\users\\steamuser\\Pictures"
+"My Videos"="C:\\users\\steamuser\\Videos"
+"NetHood"="C:\\users\\steamuser\\AppData\\Roaming\\Microsoft\\Windows\\Network Shortcuts"
+"Personal"="C:\\users\\steamuser\\Documents"
+"PrintHood"="C:\\users\\steamuser\\AppData\\Roaming\\Microsoft\\Windows\\Printer Shortcuts"
+"Programs"="C:\\users\\steamuser\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs"
+"Recent"="C:\\users\\steamuser\\AppData\\Roaming\\Microsoft\\Windows\\Recent"
+"SendTo"="C:\\users\\steamuser\\AppData\\Roaming\\Microsoft\\Windows\\SendTo"
+"Start Menu"="C:\\users\\steamuser\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu"
+"StartUp"="C:\\users\\steamuser\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp"
+"Templates"="C:\\users\\steamuser\\AppData\\Roaming\\Microsoft\\Windows\\Templates"
+"{374DE290-123F-4565-9164-39C4925E467B}"="C:\\users\\steamuser\\Downloads"
+"{4C5C32FF-BB9D-43B0-B5B4-2D72E54EAAA4}"="C:\\users\\steamuser\\Saved Games"
+"{56784854-C6CB-462B-8169-88E350ACB882}"="C:\\users\\steamuser\\Contacts"
+"{7D1D3A04-DEBB-4115-95CF-2F29DA2920DA}"="C:\\users\\steamuser\\Searches"
+"{A520A1A4-1780-4FF6-BD18-167343C5AF16}"="C:\\users\\steamuser\\AppData\\LocalLow"
+"{BFB9D5E0-C6A9-404C-B2B2-AE6DB6AF4968}"="C:\\users\\steamuser\\Links"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders] 1741726954
+#time=1db92c8e949f4cc
+"__WineVistaPaths"=dword:00000001
+"Administrative Tools"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Administrative Tools"
+"AppData"=str(2):"%USERPROFILE%\\AppData\\Roaming"
+"Cache"=str(2):"%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\INetCache"
+"Cookies"=str(2):"%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\INetCookies"
+"Desktop"=str(2):"%USERPROFILE%\\Desktop"
+"Favorites"=str(2):"%USERPROFILE%\\Favorites"
+"Fonts"=str(2):"C:\\windows\\Fonts"
+"History"=str(2):"%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\History"
+"Local AppData"=str(2):"%USERPROFILE%\\AppData\\Local"
+"My Music"=str(2):"%USERPROFILE%\\Music"
+"My Pictures"=str(2):"%USERPROFILE%\\Pictures"
+"My Videos"=str(2):"%USERPROFILE%\\Videos"
+"NetHood"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Network Shortcuts"
+"Personal"=str(2):"%USERPROFILE%\\Documents"
+"PrintHood"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Printer Shortcuts"
+"Programs"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs"
+"Recent"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Recent"
+"SendTo"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\SendTo"
+"Start Menu"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu"
+"StartUp"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp"
+"Templates"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Templates"
+"{374DE290-123F-4565-9164-39C4925E467B}"=str(2):"%USERPROFILE%\\Downloads"
+"{4C5C32FF-BB9D-43B0-B5B4-2D72E54EAAA4}"=str(2):"%USERPROFILE%\\Saved Games"
+"{56784854-C6CB-462B-8169-88E350ACB882}"=str(2):"%USERPROFILE%\\Contacts"
+"{7D1D3A04-DEBB-4115-95CF-2F29DA2920DA}"=str(2):"%USERPROFILE%\\Searches"
+"{A520A1A4-1780-4FF6-BD18-167343C5AF16}"=str(2):"%USERPROFILE%\\AppData\\LocalLow"
+"{BFB9D5E0-C6A9-404C-B2B2-AE6DB6AF4968}"=str(2):"%USERPROFILE%\\Links"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings] 1741726955
+#time=1db92c8e9fe7596
+"ProxyEnable"=dword:00000000
+"User Agent"="Mozilla/4.0 (compatible; MSIE 8.0; Win32)"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap] 1741726954
+#time=1db92c8e96a13c4
+@=""
+"IntranetName"=dword:00000001
+"ProxyByPass"=dword:00000001
+"UNCAsIntranet"=dword:00000001
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\Domains] 1741726954
+#time=1db92c8e96a12f2
+@=""
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\ProtocolDefaults] 1741726954
+#time=1db92c8e96a1202
+@=""
+"@ivt"=dword:00000001
+"file"=dword:00000003
+"ftp"=dword:00000003
+"http"=dword:00000003
+"https"=dword:00000003
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\Ranges] 1741726954
+#time=1db92c8e96a13ec
+@=""
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones] 1741726954
+#time=1db92c8e96ae100
+@=""
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\0] 1741726954
+#time=1db92c8e96a43f8
+@=""
+"1001"=dword:00000000
+"1004"=dword:00000000
+"1200"=dword:00000000
+"1201"=dword:00000001
+"1400"=dword:00000000
+"1402"=dword:00000000
+"1405"=dword:00000000
+"1406"=dword:00000000
+"1407"=dword:00000000
+"1601"=dword:00000000
+"1604"=dword:00000000
+"1605"=dword:00000000
+"1606"=dword:00000000
+"1607"=dword:00000000
+"1608"=dword:00000000
+"1609"=dword:00000001
+"1800"=dword:00000000
+"1802"=dword:00000000
+"1803"=dword:00000000
+"1804"=dword:00000000
+"1805"=dword:00000000
+"1A00"=dword:00000000
+"1A02"=dword:00000000
+"1A03"=dword:00000000
+"1A04"=dword:00000000
+"1A05"=dword:00000000
+"1A06"=dword:00000000
+"1A10"=dword:00000000
+"1C00"=dword:00020000
+"1E05"=dword:00030000
+"CurrentLevel"=dword:00000000
+"Description"="Your computer"
+"DisplayName"="My Computer"
+"Flags"=dword:00000021
+"Icon"="explorer.exe#0100"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\1] 1741726954
+#time=1db92c8e96a74d6
+@=""
+"1001"=dword:00000001
+"1004"=dword:00000003
+"1200"=dword:00000000
+"1201"=dword:00000003
+"1400"=dword:00000000
+"1402"=dword:00000000
+"1405"=dword:00000000
+"1406"=dword:00000001
+"1407"=dword:00000000
+"1601"=dword:00000000
+"1604"=dword:00000000
+"1605"=dword:00000000
+"1606"=dword:00000000
+"1607"=dword:00000000
+"1608"=dword:00000000
+"1609"=dword:00000001
+"1800"=dword:00000001
+"1802"=dword:00000000
+"1803"=dword:00000000
+"1804"=dword:00000001
+"1805"=dword:00000000
+"1A00"=dword:00020000
+"1A02"=dword:00000000
+"1A03"=dword:00000000
+"1A04"=dword:00000000
+"1A05"=dword:00000000
+"1A06"=dword:00000000
+"1A10"=dword:00000000
+"1C00"=dword:00020000
+"1E05"=dword:00020000
+"CurrentLevel"=dword:00010500
+"Description"="This zone contains all Web sites that are on your organization's intranet."
+"DisplayName"="Local intranet"
+"Flags"=dword:000000db
+"Icon"="shell32.dll#0018"
+"MinLevel"=dword:00010000
+"RecommendedLevel"=dword:00010500
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\2] 1741726954
+#time=1db92c8e96aac30
+@=""
+"1001"=dword:00000000
+"1004"=dword:00000001
+"1200"=dword:00000000
+"1201"=dword:00000001
+"1400"=dword:00000000
+"1402"=dword:00000000
+"1405"=dword:00000000
+"1406"=dword:00000000
+"1407"=dword:00000000
+"1601"=dword:00000000
+"1604"=dword:00000000
+"1605"=dword:00000000
+"1606"=dword:00000000
+"1607"=dword:00000000
+"1608"=dword:00000000
+"1609"=dword:00000001
+"1800"=dword:00000000
+"1802"=dword:00000000
+"1803"=dword:00000000
+"1804"=dword:00000000
+"1805"=dword:00000000
+"1A00"=dword:00000000
+"1A02"=dword:00000000
+"1A03"=dword:00000000
+"1A04"=dword:00000000
+"1A05"=dword:00000000
+"1A06"=dword:00000000
+"1A10"=dword:00000000
+"1C00"=dword:00030000
+"1E05"=dword:00030000
+"CurrentLevel"=dword:00010000
+"Description"="This zone contains Web sites that you trust not to damage your computer or data."
+"DisplayName"="Trusted sites"
+"Flags"=dword:00000047
+"Icon"="inetcpl.cpl#00004480"
+"MinLevel"=dword:00010000
+"RecommendedLevel"=dword:00010000
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3] 1741726954
+#time=1db92c8e96ae006
+@=""
+"1001"=dword:00000001
+"1004"=dword:00000003
+"1200"=dword:00000000
+"1201"=dword:00000003
+"1400"=dword:00000000
+"1402"=dword:00000000
+"1405"=dword:00000000
+"1406"=dword:00000003
+"1407"=dword:00000000
+"1601"=dword:00000001
+"1604"=dword:00000000
+"1605"=dword:00000000
+"1606"=dword:00000000
+"1607"=dword:00000000
+"1608"=dword:00000000
+"1609"=dword:00000001
+"1800"=dword:00000001
+"1802"=dword:00000000
+"1803"=dword:00000000
+"1804"=dword:00000001
+"1805"=dword:00000001
+"1A00"=dword:00020000
+"1A02"=dword:00000000
+"1A03"=dword:00000000
+"1A04"=dword:00000003
+"1A05"=dword:00000001
+"1A06"=dword:00000000
+"1A10"=dword:00000001
+"1C00"=dword:00010000
+"1E05"=dword:00020000
+"CurrentLevel"=dword:00011000
+"Description"="This zone contains all Web sites you haven't placed in other zones"
+"DisplayName"="Internet"
+"Flags"=dword:00000001
+"Icon"="inetcpl.cpl#001313"
+"MinLevel"=dword:00011000
+"RecommendedLevel"=dword:00011000
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4] 1741726954
+#time=1db92c8e96b10d0
+@=""
+"1001"=dword:00000003
+"1004"=dword:00000003
+"1200"=dword:00000003
+"1201"=dword:00000003
+"1400"=dword:00000003
+"1402"=dword:00000003
+"1405"=dword:00000003
+"1406"=dword:00000003
+"1407"=dword:00000003
+"1601"=dword:00000001
+"1604"=dword:00000001
+"1605"=dword:00000000
+"1606"=dword:00000003
+"1607"=dword:00000003
+"1608"=dword:00000003
+"1609"=dword:00000001
+"1800"=dword:00000003
+"1802"=dword:00000001
+"1803"=dword:00000003
+"1804"=dword:00000003
+"1805"=dword:00000001
+"1A00"=dword:00010000
+"1A02"=dword:00000003
+"1A03"=dword:00000003
+"1A04"=dword:00000003
+"1A05"=dword:00000003
+"1A06"=dword:00000003
+"1A10"=dword:00000003
+"1C00"=dword:00000000
+"1E05"=dword:00010000
+"CurrentLevel"=dword:00012000
+"Description"="This zone contains Web sites that could potentially damage your computer or data."
+"DisplayName"="Restricted sites"
+"Flags"=dword:00000003
+"Icon"="inetcpl.cpl#00004481"
+"MinLevel"=dword:00012000
+"RecommendedLevel"=dword:00012000
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Run] 1741726954
+#time=1db92c8e9720db8
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\ThemeManager] 1741726954
+#time=1db92c8e97fb404
+"ColorName"="Blue"
+"DllName"="C:\\windows\\resources\\themes\\light\\light.msstyles"
+"FlatMenu"=dword:00000000
+"GradientCaption"=dword:00000001
+"IconTitleFont"=hex:f5,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,\
+  00,00,00,00,01,00,00,00,22,54,00,61,00,68,00,6f,00,6d,00,61,00,00,00,6c,00,\
+  20,00,44,00,6c,00,67,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+"LoadedBefore"="1"
+"NonClientMetrics"=hex:f8,01,00,00,01,00,00,00,10,00,00,00,10,00,00,00,12,00,\
+  00,00,12,00,00,00,f5,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,bc,02,00,\
+  00,00,00,00,01,00,00,00,22,54,00,61,00,68,00,6f,00,6d,00,61,00,00,00,6c,00,\
+  20,00,44,00,6c,00,67,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,0f,00,\
+  00,00,0f,00,00,00,f5,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,\
+  00,00,00,00,01,00,00,00,22,54,00,61,00,68,00,6f,00,6d,00,61,00,00,00,6c,00,\
+  20,00,44,00,6c,00,67,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,12,00,\
+  00,00,12,00,00,00,f5,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,\
+  00,00,00,00,01,00,00,00,22,54,00,61,00,68,00,6f,00,6d,00,61,00,00,00,6c,00,\
+  20,00,44,00,6c,00,67,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,f5,ff,\
+  ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,00,00,00,00,01,00,00,00,\
+  22,54,00,61,00,68,00,6f,00,6d,00,61,00,00,00,6c,00,20,00,44,00,6c,00,67,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,f5,ff,ff,ff,00,00,00,00,00,00,\
+  00,00,00,00,00,00,90,01,00,00,00,00,00,01,00,00,00,22,54,00,61,00,68,00,6f,\
+  00,6d,00,61,00,00,00,6c,00,20,00,44,00,6c,00,67,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00
+"SizeName"="NormalSize"
+"ThemeActive"="1"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\ThemeManager\\Control Panel\\Colors] 1741726954
+#time=1db92c8e97fb21a
+"ActiveBorder"="212 208 200"
+"ActiveTitle"="10 36 106"
+"AppWorkSpace"="128 128 128"
+"Background"="58 110 165"
+"ButtonAlternateFace"="181 181 181"
+"ButtonDkShadow"="64 64 64"
+"ButtonFace"="212 208 200"
+"ButtonHilight"="255 255 255"
+"ButtonLight"="212 208 200"
+"ButtonShadow"="128 128 128"
+"ButtonText"="0 0 0"
+"GradientActiveTitle"="166 202 240"
+"GradientInactiveTitle"="192 192 192"
+"GrayText"="128 128 128"
+"Hilight"="10 36 106"
+"HilightText"="255 255 255"
+"HotTrackingColor"="0 0 200"
+"InactiveBorder"="212 208 200"
+"InactiveTitle"="128 128 128"
+"InactiveTitleText"="212 208 200"
+"InfoText"="0 0 0"
+"InfoWindow"="255 255 225"
+"Menu"="212 208 200"
+"MenuBar"="212 208 200"
+"MenuHilight"="10 36 106"
+"MenuText"="0 0 0"
+"Scrollbar"="212 208 200"
+"TitleText"="255 255 255"
+"Window"="255 255 255"
+"WindowFrame"="0 0 0"
+"WindowText"="0 0 0"
+
+[Software\\Microsoft\\Windows\\Shell\\Associations\\UrlAssociations\\ftp\\UserChoice] 1741726954
+#time=1db92c8e97302c2
+"ProgId"="ftp"
+
+[Software\\Microsoft\\Windows\\Shell\\Associations\\UrlAssociations\\http\\UserChoice] 1741726954
+#time=1db92c8e9730574
+"ProgId"="http"
+
+[Software\\Microsoft\\Windows\\Shell\\Associations\\UrlAssociations\\https\\UserChoice] 1741726954
+#time=1db92c8e9730916
+"ProgId"="https"
+
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon] 1741726954
+#time=1db92c8e9720f5c
+
+[Software\\Valve\\Steam] 1741726955
+#time=1db92c8e9e5995e
+"SteamExe"="C:\\Program Files (x86)\\Steam\\Steam.exe"
+"SteamPath"="C:\\Program Files (x86)\\Steam"
+
+[Software\\Valve\\Steam\\ActiveProcess] 1741726954
+#time=1db92c8e9762e8e
+"PID"=dword:0000fffe
+"SteamClientDll"="C:\\Program Files (x86)\\Steam\\steamclient.dll"
+"SteamClientDll64"="C:\\Program Files (x86)\\Steam\\steamclient64.dll"
+"SteamPath"="C:\\Program Files (x86)\\Steam"
+
+[Software\\Wine\\AppDefaults\\Avengers.exe\\DllOverrides] 1741726954
+#time=1db92c8e9761a0c
+"atiadlxx"="builtin"
+
+[Software\\Wine\\AppDefaults\\BlackOps3.exe\\DllOverrides] 1741726954
+#time=1db92c8e9760a30
+"atiadlxx"="builtin"
+
+[Software\\Wine\\AppDefaults\\DarkSoulsIII.exe\\X11 Driver] 1741726954
+#time=1db92c8e975e316
+"LimitNumberOfResolutions"="32"
+
+[Software\\Wine\\AppDefaults\\DIRT5.exe\\DllOverrides] 1741726954
+#time=1db92c8e9760f80
+"atiadlxx"="builtin"
+
+[Software\\Wine\\AppDefaults\\ffxvi.exe\\DllOverrides] 1741726954
+#time=1db92c8e976265a
+"atiadlxx"="builtin"
+
+[Software\\Wine\\AppDefaults\\gotg.exe\\DllOverrides] 1741726954
+#time=1db92c8e97614b2
+"atiadlxx"="builtin"
+
+[Software\\Wine\\AppDefaults\\GW2.Main_Win64_Retail.exe\\DllOverrides] 1741726954
+#time=1db92c8e9761ebc
+"atiadlxx"="builtin"
+
+[Software\\Wine\\AppDefaults\\h1_mp64_ship.exe\\DllOverrides] 1741726954
+#time=1db92c8e9760562
+"atiadlxx"="builtin"
+
+[Software\\Wine\\AppDefaults\\h1_sp64_ship.exe\\DllOverrides] 1741726954
+#time=1db92c8e97602f6
+"atiadlxx"="builtin"
+
+[Software\\Wine\\AppDefaults\\iw7_ship.exe\\DllOverrides] 1741726954
+#time=1db92c8e97607ce
+"atiadlxx"="builtin"
+
+[Software\\Wine\\AppDefaults\\Maine-Win64-Shipping.exe\\DllOverrides] 1741726954
+#time=1db92c8e975f004
+"SpeechSynthWrapper"="disabled"
+
+[Software\\Wine\\AppDefaults\\msedgewebview2.exe] 1741726954
+#time=1db92c8e97617aa
+"Version"="win81"
+
+[Software\\Wine\\AppDefaults\\NFS16.exe\\DllOverrides] 1741726954
+#time=1db92c8e9760c88
+"atiadlxx"="builtin"
+
+[Software\\Wine\\AppDefaults\\NieRAutomata.exe\\X11 Driver] 1741726954
+#time=1db92c8e975e884
+"LimitNumberOfResolutions"="32"
+
+[Software\\Wine\\AppDefaults\\Paradox Launcher.exe] 1741726955
+#time=1db92c8e9e5927e
+
+[Software\\Wine\\AppDefaults\\Pentiment.exe\\DllOverrides] 1741726954
+#time=1db92c8e975ed70
+"SpeechSynthesisWrapper"="disabled"
+
+[Software\\Wine\\AppDefaults\\rayne1.exe\\DllOverrides] 1741726954
+#time=1db92c8e975f266
+"d3d8"="native"
+
+[Software\\Wine\\AppDefaults\\rayne2.exe\\DllOverrides] 1741726954
+#time=1db92c8e975f4be
+"d3d8"="native"
+
+[Software\\Wine\\AppDefaults\\RDR2.exe\\DllOverrides] 1741726954
+#time=1db92c8e975f702
+"vulkan-1"="native"
+
+[Software\\Wine\\AppDefaults\\RelicCardinal.exe\\DllOverrides] 1741726954
+#time=1db92c8e9761714
+"atiadlxx"="builtin"
+
+[Software\\Wine\\AppDefaults\\RiftApart.exe\\DllOverrides] 1741726954
+#time=1db92c8e97623e4
+"atiadlxx"="builtin"
+
+[Software\\Wine\\AppDefaults\\s2_mp64_ship.exe\\DllOverrides] 1741726954
+#time=1db92c8e9760094
+"atiadlxx"="builtin"
+
+[Software\\Wine\\AppDefaults\\s2_sp64_ship.exe\\DllOverrides] 1741726954
+#time=1db92c8e975fe32
+"atiadlxx"="builtin"
+
+[Software\\Wine\\AppDefaults\\sekiro.exe\\X11 Driver] 1741726954
+#time=1db92c8e975e5dc
+"LimitNumberOfResolutions"="32"
+
+[Software\\Wine\\AppDefaults\\ShadowOfWar.exe\\DllOverrides] 1741726954
+#time=1db92c8e9760d28
+"amd_ags_x64"="disabled"
+"atiadlxx"="builtin"
+
+[Software\\Wine\\AppDefaults\\SpellForce.exe\\X11 Driver] 1741726954
+#time=1db92c8e975eb0e
+"LimitNumberOfResolutions"="16"
+
+[Software\\Wine\\AppDefaults\\Spider-Man.exe\\DllOverrides] 1741726954
+#time=1db92c8e9762178
+"atiadlxx"="builtin"
+
+[Software\\Wine\\AppDefaults\\starwarssquadrons.exe\\DllOverrides] 1741726954
+#time=1db92c8e9761c6e
+"atiadlxx"="builtin"
+
+[Software\\Wine\\AppDefaults\\TDUSC.exe\\DllOverrides] 1741726954
+#time=1db92c8e975fb9e
+"xinput1_3"="native,builtin"
+
+[Software\\Wine\\Debug] 1741726954
+#time=1db92c8e9724fda
+"RelayExclude"="ntdll.RtlEnterCriticalSection;ntdll.RtlTryEnterCriticalSection;ntdll.RtlLeaveCriticalSection;kernel32.48;kernel32.49;kernel32.94;kernel32.95;kernel32.96;kernel32.97;kernel32.98;kernel32.TlsGetValue;kernel32.TlsSetValue;kernel32.FlsGetValue;kernel32.FlsSetValue;kernel32.SetLastError"
+"RelayFromExclude"="winex11.drv;winemac.drv;user32;gdi32;advapi32;kernel32"
+
+[Software\\Wine\\DirectInput] 1746729604
+#time=1dbc0489d2c4b70
+"MouseWarpOverride"="enable"
+
+[Software\\Wine\\DllOverrides] 1741726954
+#time=1db92c8e975e014
+"api-ms-win-crt-conio-l1-1-0"="native,builtin"
+"api-ms-win-crt-heap-l1-1-0"="native,builtin"
+"api-ms-win-crt-locale-l1-1-0"="native,builtin"
+"api-ms-win-crt-math-l1-1-0"="native,builtin"
+"api-ms-win-crt-runtime-l1-1-0"="native,builtin"
+"api-ms-win-crt-stdio-l1-1-0"="native,builtin"
+"api-ms-win-crt-time-l1-1-0"="native,builtin"
+"atiadlxx"="disabled"
+"atl100"="native,builtin"
+"atl110"="native,builtin"
+"atl120"="native,builtin"
+"atl140"="native,builtin"
+"concrt140"="native,builtin"
+"msvcp100"="native,builtin"
+"msvcp110"="native,builtin"
+"msvcp120"="native,builtin"
+"msvcp140"="native,builtin"
+"msvcp140_1"="native,builtin"
+"msvcp140_2"="native,builtin"
+"msvcp140_atomic_wait"="native,builtin"
+"msvcp140_codecvt_ids"="native,builtin"
+"msvcr100"="native,builtin"
+"msvcr110"="native,builtin"
+"msvcr120"="native,builtin"
+"msvcr140"="native,builtin"
+"nvcuda"="disabled"
+"ucrtbase"="native,builtin"
+"vcomp100"="native,builtin"
+"vcomp110"="native,builtin"
+"vcomp120"="native,builtin"
+"vcomp140"="native,builtin"
+"vcruntime140"="native,builtin"
+"vcruntime140_1"="native,builtin"
+"winemenubuilder"=""
+
+[Software\\Wine\\Fonts] 1746800286
+#time=1dbc0ed2f1da38e
+"Codepages"="1252,437"
+"LogPixels"=dword:00000060
+
+[Software\\Wine\\Fonts\\External Fonts] 1746729604
+#time=1dbc0489d656462
+"@Droid Sans Fallback (TrueType)"="Z:\\run\\host\\fonts\\google-droid-sans-fonts\\DroidSansFallbackFull.ttf"
+"@Noto Sans CJK HK (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Regular.ttc"
+"@Noto Sans CJK HK Black (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Black.ttc"
+"@Noto Sans CJK HK Bold (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Bold.ttc"
+"@Noto Sans CJK HK DemiLight (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-DemiLight.ttc"
+"@Noto Sans CJK HK Light (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Light.ttc"
+"@Noto Sans CJK HK Medium (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Medium.ttc"
+"@Noto Sans CJK HK Thin (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Thin.ttc"
+"@Noto Sans CJK JP (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Regular.ttc"
+"@Noto Sans CJK JP Black (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Black.ttc"
+"@Noto Sans CJK JP Bold (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Bold.ttc"
+"@Noto Sans CJK JP DemiLight (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-DemiLight.ttc"
+"@Noto Sans CJK JP Light (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Light.ttc"
+"@Noto Sans CJK JP Medium (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Medium.ttc"
+"@Noto Sans CJK JP Thin (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Thin.ttc"
+"@Noto Sans CJK KR (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Regular.ttc"
+"@Noto Sans CJK KR Black (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Black.ttc"
+"@Noto Sans CJK KR Bold (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Bold.ttc"
+"@Noto Sans CJK KR DemiLight (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-DemiLight.ttc"
+"@Noto Sans CJK KR Light (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Light.ttc"
+"@Noto Sans CJK KR Medium (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Medium.ttc"
+"@Noto Sans CJK KR Thin (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Thin.ttc"
+"@Noto Sans CJK SC (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Regular.ttc"
+"@Noto Sans CJK SC Black (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Black.ttc"
+"@Noto Sans CJK SC Bold (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Bold.ttc"
+"@Noto Sans CJK SC DemiLight (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-DemiLight.ttc"
+"@Noto Sans CJK SC Light (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Light.ttc"
+"@Noto Sans CJK SC Medium (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Medium.ttc"
+"@Noto Sans CJK SC Thin (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Thin.ttc"
+"@Noto Sans CJK TC (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Regular.ttc"
+"@Noto Sans CJK TC Black (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Black.ttc"
+"@Noto Sans CJK TC Bold (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Bold.ttc"
+"@Noto Sans CJK TC DemiLight (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-DemiLight.ttc"
+"@Noto Sans CJK TC Light (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Light.ttc"
+"@Noto Sans CJK TC Medium (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Medium.ttc"
+"@Noto Sans CJK TC Thin (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Thin.ttc"
+"@Noto Sans Mono CJK HK (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Regular.ttc"
+"@Noto Sans Mono CJK HK Bold (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Bold.ttc"
+"@Noto Sans Mono CJK JP (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Regular.ttc"
+"@Noto Sans Mono CJK JP Bold (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Bold.ttc"
+"@Noto Sans Mono CJK KR (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Regular.ttc"
+"@Noto Sans Mono CJK KR Bold (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Bold.ttc"
+"@Noto Sans Mono CJK SC (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Regular.ttc"
+"@Noto Sans Mono CJK SC Bold (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Bold.ttc"
+"@Noto Sans Mono CJK TC (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Regular.ttc"
+"@Noto Sans Mono CJK TC Bold (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Bold.ttc"
+"@Noto Serif CJK HK (TrueType)"="Z:\\run\\host\\fonts\\google-noto-serif-cjk-vf-fonts\\NotoSerifCJK-VF.ttc"
+"@Noto Serif CJK JP (TrueType)"="Z:\\run\\host\\fonts\\google-noto-serif-cjk-vf-fonts\\NotoSerifCJK-VF.ttc"
+"@Noto Serif CJK KR (TrueType)"="Z:\\run\\host\\fonts\\google-noto-serif-cjk-vf-fonts\\NotoSerifCJK-VF.ttc"
+"@Noto Serif CJK SC (TrueType)"="Z:\\run\\host\\fonts\\google-noto-serif-cjk-vf-fonts\\NotoSerifCJK-VF.ttc"
+"@Noto Serif CJK TC (TrueType)"="Z:\\run\\host\\fonts\\google-noto-serif-cjk-vf-fonts\\NotoSerifCJK-VF.ttc"
+"Adwaita Mono (TrueType)"="Z:\\run\\host\\fonts\\adwaita-mono-fonts\\AdwaitaMono-Regular.ttf"
+"Adwaita Mono Bold (TrueType)"="Z:\\run\\host\\fonts\\adwaita-mono-fonts\\AdwaitaMono-Bold.ttf"
+"Adwaita Mono Bold Italic (TrueType)"="Z:\\run\\host\\fonts\\adwaita-mono-fonts\\AdwaitaMono-BoldItalic.ttf"
+"Adwaita Mono Italic (TrueType)"="Z:\\run\\host\\fonts\\adwaita-mono-fonts\\AdwaitaMono-Italic.ttf"
+"Adwaita Sans (TrueType)"="Z:\\run\\host\\fonts\\adwaita-sans-fonts\\AdwaitaSans-Regular.ttf"
+"Adwaita Sans Italic (TrueType)"="Z:\\run\\host\\fonts\\adwaita-sans-fonts\\AdwaitaSans-Italic.ttf"
+"C059-BdIta (TrueType)"="Z:\\run\\host\\fonts\\urw-base35\\C059-BdIta.otf"
+"C059-Bold (TrueType)"="Z:\\run\\host\\fonts\\urw-base35\\C059-Bold.otf"
+"C059-Italic (TrueType)"="Z:\\run\\host\\fonts\\urw-base35\\C059-Italic.otf"
+"C059-Roman (TrueType)"="Z:\\run\\host\\fonts\\urw-base35\\C059-Roman.otf"
+"Cantarell Bold (TrueType)"="Z:\\run\\host\\fonts\\abattis-cantarell-fonts\\Cantarell-Bold.otf"
+"Cantarell Extra Bold (TrueType)"="Z:\\run\\host\\fonts\\abattis-cantarell-fonts\\Cantarell-ExtraBold.otf"
+"Cantarell Light (TrueType)"="Z:\\run\\host\\fonts\\abattis-cantarell-fonts\\Cantarell-Light.otf"
+"Cantarell Regular (TrueType)"="Z:\\run\\host\\fonts\\abattis-cantarell-fonts\\Cantarell-Regular.otf"
+"Cantarell Thin (TrueType)"="Z:\\run\\host\\fonts\\abattis-cantarell-fonts\\Cantarell-Thin.otf"
+"D050000L (TrueType)"="Z:\\run\\host\\fonts\\urw-base35\\D050000L.otf"
+"DejaVu Sans (TrueType)"="Z:\\usr\\share\\fonts\\truetype\\dejavu\\DejaVuSans.ttf"
+"DejaVu Sans Bold (TrueType)"="Z:\\usr\\share\\fonts\\truetype\\dejavu\\DejaVuSans-Bold.ttf"
+"DejaVu Sans Mono (TrueType)"="Z:\\usr\\share\\fonts\\truetype\\dejavu\\DejaVuSansMono.ttf"
+"DejaVu Sans Mono Bold (TrueType)"="Z:\\usr\\share\\fonts\\truetype\\dejavu\\DejaVuSansMono-Bold.ttf"
+"DejaVu Serif (TrueType)"="Z:\\usr\\share\\fonts\\truetype\\dejavu\\DejaVuSerif.ttf"
+"DejaVu Serif Bold (TrueType)"="Z:\\usr\\share\\fonts\\truetype\\dejavu\\DejaVuSerif-Bold.ttf"
+"Droid Arabic Kufi (TrueType)"="Z:\\run\\host\\fonts\\google-droid-sans-fonts\\DroidKufi-Regular.ttf"
+"Droid Arabic Kufi Bold (TrueType)"="Z:\\run\\host\\fonts\\google-droid-sans-fonts\\DroidKufi-Bold.ttf"
+"Droid Sans (TrueType)"="Z:\\run\\host\\fonts\\google-droid-sans-fonts\\DroidSans.ttf"
+"Droid Sans Armenian (TrueType)"="Z:\\run\\host\\fonts\\google-droid-sans-fonts\\DroidSansArmenian.ttf"
+"Droid Sans Bold (TrueType)"="Z:\\run\\host\\fonts\\google-droid-sans-fonts\\DroidSans-Bold.ttf"
+"Droid Sans Devanagari (TrueType)"="Z:\\run\\host\\fonts\\google-droid-sans-fonts\\DroidSansDevanagari-Regular.ttf"
+"Droid Sans Ethiopic (TrueType)"="Z:\\run\\host\\fonts\\google-droid-sans-fonts\\DroidSansEthiopic-Regular.ttf"
+"Droid Sans Ethiopic Bold (TrueType)"="Z:\\run\\host\\fonts\\google-droid-sans-fonts\\DroidSansEthiopic-Bold.ttf"
+"Droid Sans Fallback (TrueType)"="Z:\\run\\host\\fonts\\google-droid-sans-fonts\\DroidSansFallbackFull.ttf"
+"Droid Sans Georgian (TrueType)"="Z:\\run\\host\\fonts\\google-droid-sans-fonts\\DroidSansGeorgian.ttf"
+"Droid Sans Hebrew (TrueType)"="Z:\\run\\host\\fonts\\google-droid-sans-fonts\\DroidSansHebrew-Regular.ttf"
+"Droid Sans Hebrew Bold (TrueType)"="Z:\\run\\host\\fonts\\google-droid-sans-fonts\\DroidSansHebrew-Bold.ttf"
+"Droid Sans Japanese (TrueType)"="Z:\\run\\host\\fonts\\google-droid-sans-fonts\\DroidSansJapanese.ttf"
+"Droid Sans Tamil (TrueType)"="Z:\\run\\host\\fonts\\google-droid-sans-fonts\\DroidSansTamil-Regular.ttf"
+"Droid Sans Tamil Bold (TrueType)"="Z:\\run\\host\\fonts\\google-droid-sans-fonts\\DroidSansTamil-Bold.ttf"
+"Droid Sans Thai (TrueType)"="Z:\\run\\host\\fonts\\google-droid-sans-fonts\\DroidSansThai.ttf"
+"Fira Code Bold (TrueType)"="Z:\\run\\host\\fonts\\fira-code\\FiraCode-Bold.ttf"
+"Fira Code Light (TrueType)"="Z:\\run\\host\\fonts\\fira-code\\FiraCode-Light.ttf"
+"Fira Code Medium (TrueType)"="Z:\\run\\host\\fonts\\fira-code\\FiraCode-Medium.ttf"
+"Fira Code Regular (TrueType)"="Z:\\run\\host\\fonts\\fira-code\\FiraCode-Regular.ttf"
+"Fira Code Retina (TrueType)"="Z:\\run\\host\\fonts\\fira-code\\FiraCode-Retina.ttf"
+"Fira Code SemiBold (TrueType)"="Z:\\run\\host\\fonts\\fira-code\\FiraCode-SemiBold.ttf"
+"Jomolhari (TrueType)"="Z:\\run\\host\\fonts\\jomolhari-fonts\\Jomolhari-alpha3c-0605331.ttf"
+"Lato Black (TrueType)"="Z:\\run\\host\\fonts\\lato-fonts\\Lato-Black.ttf"
+"Lato Black Italic (TrueType)"="Z:\\run\\host\\fonts\\lato-fonts\\Lato-BlackItalic.ttf"
+"Lato Bold (TrueType)"="Z:\\run\\host\\fonts\\lato-fonts\\Lato-Bold.ttf"
+"Lato Bold Italic (TrueType)"="Z:\\run\\host\\fonts\\lato-fonts\\Lato-BoldItalic.ttf"
+"Lato Hairline (TrueType)"="Z:\\run\\host\\fonts\\lato-fonts\\Lato-Hairline.ttf"
+"Lato Hairline Italic (TrueType)"="Z:\\run\\host\\fonts\\lato-fonts\\Lato-HairlineItalic.ttf"
+"Lato Heavy (TrueType)"="Z:\\run\\host\\fonts\\lato-fonts\\Lato-Heavy.ttf"
+"Lato Heavy Italic (TrueType)"="Z:\\run\\host\\fonts\\lato-fonts\\Lato-HeavyItalic.ttf"
+"Lato Italic (TrueType)"="Z:\\run\\host\\fonts\\lato-fonts\\Lato-Italic.ttf"
+"Lato Light (TrueType)"="Z:\\run\\host\\fonts\\lato-fonts\\Lato-Light.ttf"
+"Lato Light Italic (TrueType)"="Z:\\run\\host\\fonts\\lato-fonts\\Lato-LightItalic.ttf"
+"Lato Medium (TrueType)"="Z:\\run\\host\\fonts\\lato-fonts\\Lato-Medium.ttf"
+"Lato Medium Italic (TrueType)"="Z:\\run\\host\\fonts\\lato-fonts\\Lato-MediumItalic.ttf"
+"Lato Regular (TrueType)"="Z:\\run\\host\\fonts\\lato-fonts\\Lato-Regular.ttf"
+"Lato Semibold (TrueType)"="Z:\\run\\host\\fonts\\lato-fonts\\Lato-Semibold.ttf"
+"Lato Semibold Italic (TrueType)"="Z:\\run\\host\\fonts\\lato-fonts\\Lato-SemiboldItalic.ttf"
+"Lato Thin (TrueType)"="Z:\\run\\host\\fonts\\lato-fonts\\Lato-Thin.ttf"
+"Lato Thin Italic (TrueType)"="Z:\\run\\host\\fonts\\lato-fonts\\Lato-ThinItalic.ttf"
+"Liberation Mono (TrueType)"="Z:\\run\\host\\fonts\\liberation-mono-fonts\\LiberationMono-Regular.ttf"
+"Liberation Mono Bold (TrueType)"="Z:\\run\\host\\fonts\\liberation-mono-fonts\\LiberationMono-Bold.ttf"
+"Liberation Mono Bold Italic (TrueType)"="Z:\\run\\host\\fonts\\liberation-mono-fonts\\LiberationMono-BoldItalic.ttf"
+"Liberation Mono Italic (TrueType)"="Z:\\run\\host\\fonts\\liberation-mono-fonts\\LiberationMono-Italic.ttf"
+"Liberation Sans (TrueType)"="Z:\\run\\host\\fonts\\liberation-sans-fonts\\LiberationSans-Regular.ttf"
+"Liberation Sans Bold (TrueType)"="Z:\\run\\host\\fonts\\liberation-sans-fonts\\LiberationSans-Bold.ttf"
+"Liberation Sans Bold Italic (TrueType)"="Z:\\run\\host\\fonts\\liberation-sans-fonts\\LiberationSans-BoldItalic.ttf"
+"Liberation Sans Italic (TrueType)"="Z:\\run\\host\\fonts\\liberation-sans-fonts\\LiberationSans-Italic.ttf"
+"Liberation Serif (TrueType)"="Z:\\run\\host\\fonts\\liberation-serif-fonts\\LiberationSerif-Regular.ttf"
+"Liberation Serif Bold (TrueType)"="Z:\\run\\host\\fonts\\liberation-serif-fonts\\LiberationSerif-Bold.ttf"
+"Liberation Serif Bold Italic (TrueType)"="Z:\\run\\host\\fonts\\liberation-serif-fonts\\LiberationSerif-BoldItalic.ttf"
+"Liberation Serif Italic (TrueType)"="Z:\\run\\host\\fonts\\liberation-serif-fonts\\LiberationSerif-Italic.ttf"
+"Madan2 (TrueType)"="Z:\\run\\host\\fonts\\madan-fonts\\madan.ttf"
+"NimbusMonoPS-Bold (TrueType)"="Z:\\run\\host\\fonts\\urw-base35\\NimbusMonoPS-Bold.otf"
+"NimbusMonoPS-BoldItalic (TrueType)"="Z:\\run\\host\\fonts\\urw-base35\\NimbusMonoPS-BoldItalic.otf"
+"NimbusMonoPS-Italic (TrueType)"="Z:\\run\\host\\fonts\\urw-base35\\NimbusMonoPS-Italic.otf"
+"NimbusMonoPS-Regular (TrueType)"="Z:\\run\\host\\fonts\\urw-base35\\NimbusMonoPS-Regular.otf"
+"NimbusRoman-Bold (TrueType)"="Z:\\run\\host\\fonts\\urw-base35\\NimbusRoman-Bold.otf"
+"NimbusRoman-BoldItalic (TrueType)"="Z:\\run\\host\\fonts\\urw-base35\\NimbusRoman-BoldItalic.otf"
+"NimbusRoman-Italic (TrueType)"="Z:\\run\\host\\fonts\\urw-base35\\NimbusRoman-Italic.otf"
+"NimbusRoman-Regular (TrueType)"="Z:\\run\\host\\fonts\\urw-base35\\NimbusRoman-Regular.otf"
+"NimbusSans-Bold (TrueType)"="Z:\\run\\host\\fonts\\urw-base35\\NimbusSans-Bold.otf"
+"NimbusSans-BoldItalic (TrueType)"="Z:\\run\\host\\fonts\\urw-base35\\NimbusSans-BoldItalic.otf"
+"NimbusSans-Italic (TrueType)"="Z:\\run\\host\\fonts\\urw-base35\\NimbusSans-Italic.otf"
+"NimbusSans-Regular (TrueType)"="Z:\\run\\host\\fonts\\urw-base35\\NimbusSans-Regular.otf"
+"NimbusSansNarrow-Bold (TrueType)"="Z:\\run\\host\\fonts\\urw-base35\\NimbusSansNarrow-Bold.otf"
+"NimbusSansNarrow-BoldOblique (TrueType)"="Z:\\run\\host\\fonts\\urw-base35\\NimbusSansNarrow-BoldOblique.otf"
+"NimbusSansNarrow-Oblique (TrueType)"="Z:\\run\\host\\fonts\\urw-base35\\NimbusSansNarrow-Oblique.otf"
+"NimbusSansNarrow-Regular (TrueType)"="Z:\\run\\host\\fonts\\urw-base35\\NimbusSansNarrow-Regular.otf"
+"Noto Naskh Arabic Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoNaskhArabic[wght].ttf"
+"Noto Sans Arabic Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSansArabic[wght].ttf"
+"Noto Sans Armenian Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSansArmenian[wght].ttf"
+"Noto Sans Balinese Bold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansBalinese-Bold.ttf"
+"Noto Sans Balinese Medium (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansBalinese-Medium.ttf"
+"Noto Sans Balinese Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansBalinese-Regular.ttf"
+"Noto Sans Balinese SemiBold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansBalinese-SemiBold.ttf"
+"Noto Sans Bengali Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSansBengali[wght].ttf"
+"Noto Sans Black (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-Black.ttf"
+"Noto Sans Black Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-BlackItalic.ttf"
+"Noto Sans Bold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-Bold.ttf"
+"Noto Sans Bold Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-BoldItalic.ttf"
+"Noto Sans Canadian Aboriginal Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSansCanadianAboriginal[wght].ttf"
+"Noto Sans Cherokee Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSansCherokee[wght].ttf"
+"Noto Sans CJK HK (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Regular.ttc"
+"Noto Sans CJK HK Black (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Black.ttc"
+"Noto Sans CJK HK Bold (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Bold.ttc"
+"Noto Sans CJK HK DemiLight (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-DemiLight.ttc"
+"Noto Sans CJK HK Light (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Light.ttc"
+"Noto Sans CJK HK Medium (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Medium.ttc"
+"Noto Sans CJK HK Thin (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Thin.ttc"
+"Noto Sans CJK JP (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Regular.ttc"
+"Noto Sans CJK JP Black (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Black.ttc"
+"Noto Sans CJK JP Bold (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Bold.ttc"
+"Noto Sans CJK JP DemiLight (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-DemiLight.ttc"
+"Noto Sans CJK JP Light (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Light.ttc"
+"Noto Sans CJK JP Medium (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Medium.ttc"
+"Noto Sans CJK JP Thin (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Thin.ttc"
+"Noto Sans CJK KR (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Regular.ttc"
+"Noto Sans CJK KR Black (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Black.ttc"
+"Noto Sans CJK KR Bold (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Bold.ttc"
+"Noto Sans CJK KR DemiLight (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-DemiLight.ttc"
+"Noto Sans CJK KR Light (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Light.ttc"
+"Noto Sans CJK KR Medium (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Medium.ttc"
+"Noto Sans CJK KR Thin (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Thin.ttc"
+"Noto Sans CJK SC (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Regular.ttc"
+"Noto Sans CJK SC Black (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Black.ttc"
+"Noto Sans CJK SC Bold (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Bold.ttc"
+"Noto Sans CJK SC DemiLight (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-DemiLight.ttc"
+"Noto Sans CJK SC Light (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Light.ttc"
+"Noto Sans CJK SC Medium (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Medium.ttc"
+"Noto Sans CJK SC Thin (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Thin.ttc"
+"Noto Sans CJK TC (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Regular.ttc"
+"Noto Sans CJK TC Black (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Black.ttc"
+"Noto Sans CJK TC Bold (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Bold.ttc"
+"Noto Sans CJK TC DemiLight (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-DemiLight.ttc"
+"Noto Sans CJK TC Light (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Light.ttc"
+"Noto Sans CJK TC Medium (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Medium.ttc"
+"Noto Sans CJK TC Thin (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Thin.ttc"
+"Noto Sans Condensed (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-Condensed.ttf"
+"Noto Sans Condensed Black (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-CondensedBlack.ttf"
+"Noto Sans Condensed Black Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-CondensedBlackItalic.ttf"
+"Noto Sans Condensed Bold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-CondensedBold.ttf"
+"Noto Sans Condensed Bold Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-CondensedBoldItalic.ttf"
+"Noto Sans Condensed ExtraBold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-CondensedExtraBold.ttf"
+"Noto Sans Condensed ExtraBold Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-CondensedExtraBoldItalic.ttf"
+"Noto Sans Condensed ExtraLight (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-CondensedExtraLight.ttf"
+"Noto Sans Condensed ExtraLight Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-CondensedExtraLightItalic.ttf"
+"Noto Sans Condensed Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-CondensedItalic.ttf"
+"Noto Sans Condensed Light (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-CondensedLight.ttf"
+"Noto Sans Condensed Light Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-CondensedLightItalic.ttf"
+"Noto Sans Condensed Medium (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-CondensedMedium.ttf"
+"Noto Sans Condensed Medium Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-CondensedMediumItalic.ttf"
+"Noto Sans Condensed SemiBold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-CondensedSemiBold.ttf"
+"Noto Sans Condensed SemiBold Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-CondensedSemiBoldItalic.ttf"
+"Noto Sans Condensed Thin (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-CondensedThin.ttf"
+"Noto Sans Condensed Thin Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-CondensedThinItalic.ttf"
+"Noto Sans Devanagari Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSansDevanagari[wght].ttf"
+"Noto Sans Ethiopic Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSansEthiopic[wght].ttf"
+"Noto Sans ExtraBold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-ExtraBold.ttf"
+"Noto Sans ExtraBold Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-ExtraBoldItalic.ttf"
+"Noto Sans ExtraCondensed (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-ExtraCondensed.ttf"
+"Noto Sans ExtraCondensed Black (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-ExtraCondensedBlack.ttf"
+"Noto Sans ExtraCondensed Black Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-ExtraCondensedBlackItalic.ttf"
+"Noto Sans ExtraCondensed Bold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-ExtraCondensedBold.ttf"
+"Noto Sans ExtraCondensed Bold Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-ExtraCondensedBoldItalic.ttf"
+"Noto Sans ExtraCondensed ExtraBold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-ExtraCondensedExtraBold.ttf"
+"Noto Sans ExtraCondensed ExtraBold Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-ExtraCondensedExtraBoldItalic.ttf"
+"Noto Sans ExtraCondensed ExtraLight (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-ExtraCondensedExtraLight.ttf"
+"Noto Sans ExtraCondensed ExtraLight Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-ExtraCondensedExtraLightItalic.ttf"
+"Noto Sans ExtraCondensed Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-ExtraCondensedItalic.ttf"
+"Noto Sans ExtraCondensed Light (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-ExtraCondensedLight.ttf"
+"Noto Sans ExtraCondensed Light Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-ExtraCondensedLightItalic.ttf"
+"Noto Sans ExtraCondensed Medium (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-ExtraCondensedMedium.ttf"
+"Noto Sans ExtraCondensed Medium Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-ExtraCondensedMediumItalic.ttf"
+"Noto Sans ExtraCondensed SemiBold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-ExtraCondensedSemiBold.ttf"
+"Noto Sans ExtraCondensed SemiBold Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-ExtraCondensedSemiBoldItalic.ttf"
+"Noto Sans ExtraCondensed Thin (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-ExtraCondensedThin.ttf"
+"Noto Sans ExtraCondensed Thin Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-ExtraCondensedThinItalic.ttf"
+"Noto Sans ExtraLight (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-ExtraLight.ttf"
+"Noto Sans ExtraLight Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-ExtraLightItalic.ttf"
+"Noto Sans Georgian Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSansGeorgian[wght].ttf"
+"Noto Sans Gothic Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansGothic-Regular.ttf"
+"Noto Sans Gujarati Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSansGujarati[wght].ttf"
+"Noto Sans Gurmukhi Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSansGurmukhi[wght].ttf"
+"Noto Sans Hebrew Light (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSansHebrew[wght].ttf"
+"Noto Sans Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-Italic.ttf"
+"Noto Sans Javanese Bold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansJavanese-Bold.ttf"
+"Noto Sans Javanese Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansJavanese-Regular.ttf"
+"Noto Sans Kannada Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSansKannada[wght].ttf"
+"Noto Sans Khmer Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSansKhmer[wght].ttf"
+"Noto Sans Lao Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSansLao[wght].ttf"
+"Noto Sans Light (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-Light.ttf"
+"Noto Sans Light Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-LightItalic.ttf"
+"Noto Sans Math Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansMath-Regular.ttf"
+"Noto Sans Medium (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-Medium.ttf"
+"Noto Sans Medium Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-MediumItalic.ttf"
+"Noto Sans Meetei Mayek Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSansMeeteiMayek[wght].ttf"
+"Noto Sans Mono Black (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansMono-Black.ttf"
+"Noto Sans Mono Bold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansMono-Bold.ttf"
+"Noto Sans Mono CJK HK (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Regular.ttc"
+"Noto Sans Mono CJK HK Bold (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Bold.ttc"
+"Noto Sans Mono CJK JP (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Regular.ttc"
+"Noto Sans Mono CJK JP Bold (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Bold.ttc"
+"Noto Sans Mono CJK KR (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Regular.ttc"
+"Noto Sans Mono CJK KR Bold (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Bold.ttc"
+"Noto Sans Mono CJK SC (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Regular.ttc"
+"Noto Sans Mono CJK SC Bold (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Bold.ttc"
+"Noto Sans Mono CJK TC (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Regular.ttc"
+"Noto Sans Mono CJK TC Bold (TrueType)"="Z:\\run\\host\\fonts\\google-noto-sans-cjk-fonts\\NotoSansCJK-Bold.ttc"
+"Noto Sans Mono Condensed (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansMono-Condensed.ttf"
+"Noto Sans Mono Condensed Black (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansMono-CondensedBlack.ttf"
+"Noto Sans Mono Condensed Bold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansMono-CondensedBold.ttf"
+"Noto Sans Mono Condensed ExtraBold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansMono-CondensedExtraBold.ttf"
+"Noto Sans Mono Condensed ExtraLight (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansMono-CondensedExtraLight.ttf"
+"Noto Sans Mono Condensed Light (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansMono-CondensedLight.ttf"
+"Noto Sans Mono Condensed Medium (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansMono-CondensedMedium.ttf"
+"Noto Sans Mono Condensed SemiBold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansMono-CondensedSemiBold.ttf"
+"Noto Sans Mono Condensed Thin (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansMono-CondensedThin.ttf"
+"Noto Sans Mono ExtraBold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansMono-ExtraBold.ttf"
+"Noto Sans Mono ExtraCondensed (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansMono-ExtraCondensed.ttf"
+"Noto Sans Mono ExtraCondensed Black (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansMono-ExtraCondensedBlack.ttf"
+"Noto Sans Mono ExtraCondensed Bold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansMono-ExtraCondensedBold.ttf"
+"Noto Sans Mono ExtraCondensed ExtraBold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansMono-ExtraCondensedExtraBold.ttf"
+"Noto Sans Mono ExtraCondensed ExtraLight (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansMono-ExtraCondensedExtraLight.ttf"
+"Noto Sans Mono ExtraCondensed Light (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansMono-ExtraCondensedLight.ttf"
+"Noto Sans Mono ExtraCondensed Medium (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansMono-ExtraCondensedMedium.ttf"
+"Noto Sans Mono ExtraCondensed SemiBold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansMono-ExtraCondensedSemiBold.ttf"
+"Noto Sans Mono ExtraCondensed Thin (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansMono-ExtraCondensedThin.ttf"
+"Noto Sans Mono ExtraLight (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansMono-ExtraLight.ttf"
+"Noto Sans Mono Light (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansMono-Light.ttf"
+"Noto Sans Mono Medium (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansMono-Medium.ttf"
+"Noto Sans Mono Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansMono-Regular.ttf"
+"Noto Sans Mono SemiBold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansMono-SemiBold.ttf"
+"Noto Sans Mono SemiCondensed (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansMono-SemiCondensed.ttf"
+"Noto Sans Mono SemiCondensed Black (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansMono-SemiCondensedBlack.ttf"
+"Noto Sans Mono SemiCondensed Bold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansMono-SemiCondensedBold.ttf"
+"Noto Sans Mono SemiCondensed ExtraBold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansMono-SemiCondensedExtraBold.ttf"
+"Noto Sans Mono SemiCondensed ExtraLight (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansMono-SemiCondensedExtraLight.ttf"
+"Noto Sans Mono SemiCondensed Light (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansMono-SemiCondensedLight.ttf"
+"Noto Sans Mono SemiCondensed Medium (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansMono-SemiCondensedMedium.ttf"
+"Noto Sans Mono SemiCondensed SemiBold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansMono-SemiCondensedSemiBold.ttf"
+"Noto Sans Mono SemiCondensed Thin (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansMono-SemiCondensedThin.ttf"
+"Noto Sans Mono Thin (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansMono-Thin.ttf"
+"Noto Sans NKo Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansNKo-Regular.ttf"
+"Noto Sans Ol Chiki Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSansOlChiki[wght].ttf"
+"Noto Sans Oriya Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSansOriya[wght].ttf"
+"Noto Sans Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-Regular.ttf"
+"Noto Sans SemiBold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-SemiBold.ttf"
+"Noto Sans SemiBold Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-SemiBoldItalic.ttf"
+"Noto Sans SemiCondensed (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-SemiCondensed.ttf"
+"Noto Sans SemiCondensed Black (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-SemiCondensedBlack.ttf"
+"Noto Sans SemiCondensed Black Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-SemiCondensedBlackItalic.ttf"
+"Noto Sans SemiCondensed Bold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-SemiCondensedBold.ttf"
+"Noto Sans SemiCondensed Bold Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-SemiCondensedBoldItalic.ttf"
+"Noto Sans SemiCondensed ExtraBold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-SemiCondensedExtraBold.ttf"
+"Noto Sans SemiCondensed ExtraBold Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-SemiCondensedExtraBoldItalic.ttf"
+"Noto Sans SemiCondensed ExtraLight (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-SemiCondensedExtraLight.ttf"
+"Noto Sans SemiCondensed ExtraLight Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-SemiCondensedExtraLightItalic.ttf"
+"Noto Sans SemiCondensed Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-SemiCondensedItalic.ttf"
+"Noto Sans SemiCondensed Light (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-SemiCondensedLight.ttf"
+"Noto Sans SemiCondensed Light Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-SemiCondensedLightItalic.ttf"
+"Noto Sans SemiCondensed Medium (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-SemiCondensedMedium.ttf"
+"Noto Sans SemiCondensed Medium Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-SemiCondensedMediumItalic.ttf"
+"Noto Sans SemiCondensed SemiBold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-SemiCondensedSemiBold.ttf"
+"Noto Sans SemiCondensed SemiBold Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-SemiCondensedSemiBoldItalic.ttf"
+"Noto Sans SemiCondensed Thin (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-SemiCondensedThin.ttf"
+"Noto Sans SemiCondensed Thin Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-SemiCondensedThinItalic.ttf"
+"Noto Sans Sinhala Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSansSinhala[wght].ttf"
+"Noto Sans Sundanese Bold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansSundanese-Bold.ttf"
+"Noto Sans Sundanese Medium (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansSundanese-Medium.ttf"
+"Noto Sans Sundanese Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansSundanese-Regular.ttf"
+"Noto Sans Sundanese SemiBold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansSundanese-SemiBold.ttf"
+"Noto Sans Symbols 2 Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSansSymbols2-Regular.ttf"
+"Noto Sans Symbols Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSansSymbols[wght].ttf"
+"Noto Sans Syriac Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSansSyriac[wght].ttf"
+"Noto Sans Tamil Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSansTamil[wght].ttf"
+"Noto Sans Telugu Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSansTelugu[wght].ttf"
+"Noto Sans Thaana Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSansThaana[wght].ttf"
+"Noto Sans Thai Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSansThai[wght].ttf"
+"Noto Sans Thin (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-Thin.ttf"
+"Noto Sans Thin Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSans-ThinItalic.ttf"
+"Noto Serif Armenian Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSerifArmenian[wght].ttf"
+"Noto Serif Bengali Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSerifBengali[wght].ttf"
+"Noto Serif Black (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-Black.ttf"
+"Noto Serif Black Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-BlackItalic.ttf"
+"Noto Serif Bold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-Bold.ttf"
+"Noto Serif Bold Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-BoldItalic.ttf"
+"Noto Serif CJK HK (TrueType)"="Z:\\run\\host\\fonts\\google-noto-serif-cjk-vf-fonts\\NotoSerifCJK-VF.ttc"
+"Noto Serif CJK JP (TrueType)"="Z:\\run\\host\\fonts\\google-noto-serif-cjk-vf-fonts\\NotoSerifCJK-VF.ttc"
+"Noto Serif CJK KR (TrueType)"="Z:\\run\\host\\fonts\\google-noto-serif-cjk-vf-fonts\\NotoSerifCJK-VF.ttc"
+"Noto Serif CJK SC (TrueType)"="Z:\\run\\host\\fonts\\google-noto-serif-cjk-vf-fonts\\NotoSerifCJK-VF.ttc"
+"Noto Serif CJK TC (TrueType)"="Z:\\run\\host\\fonts\\google-noto-serif-cjk-vf-fonts\\NotoSerifCJK-VF.ttc"
+"Noto Serif Condensed (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-Condensed.ttf"
+"Noto Serif Condensed Black (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-CondensedBlack.ttf"
+"Noto Serif Condensed Black Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-CondensedBlackItalic.ttf"
+"Noto Serif Condensed Bold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-CondensedBold.ttf"
+"Noto Serif Condensed Bold Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-CondensedBoldItalic.ttf"
+"Noto Serif Condensed ExtraBold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-CondensedExtraBold.ttf"
+"Noto Serif Condensed ExtraBold Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-CondensedExtraBoldItalic.ttf"
+"Noto Serif Condensed ExtraLight (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-CondensedExtraLight.ttf"
+"Noto Serif Condensed ExtraLight Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-CondensedExtraLightItalic.ttf"
+"Noto Serif Condensed Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-CondensedItalic.ttf"
+"Noto Serif Condensed Light (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-CondensedLight.ttf"
+"Noto Serif Condensed Light Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-CondensedLightItalic.ttf"
+"Noto Serif Condensed Medium (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-CondensedMedium.ttf"
+"Noto Serif Condensed Medium Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-CondensedMediumItalic.ttf"
+"Noto Serif Condensed SemiBold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-CondensedSemiBold.ttf"
+"Noto Serif Condensed SemiBold Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-CondensedSemiBoldItalic.ttf"
+"Noto Serif Condensed Thin (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-CondensedThin.ttf"
+"Noto Serif Condensed Thin Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-CondensedThinItalic.ttf"
+"Noto Serif Devanagari Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSerifDevanagari[wght].ttf"
+"Noto Serif Ethiopic Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSerifEthiopic[wght].ttf"
+"Noto Serif ExtraBold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-ExtraBold.ttf"
+"Noto Serif ExtraBold Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-ExtraBoldItalic.ttf"
+"Noto Serif ExtraCondensed (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-ExtraCondensed.ttf"
+"Noto Serif ExtraCondensed Black (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-ExtraCondensedBlack.ttf"
+"Noto Serif ExtraCondensed Black Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-ExtraCondensedBlackItalic.ttf"
+"Noto Serif ExtraCondensed Bold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-ExtraCondensedBold.ttf"
+"Noto Serif ExtraCondensed Bold Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-ExtraCondensedBoldItalic.ttf"
+"Noto Serif ExtraCondensed ExtraBold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-ExtraCondensedExtraBold.ttf"
+"Noto Serif ExtraCondensed ExtraBold Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-ExtraCondensedExtraBoldItalic.ttf"
+"Noto Serif ExtraCondensed ExtraLight (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-ExtraCondensedExtraLight.ttf"
+"Noto Serif ExtraCondensed ExtraLight Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-ExtraCondensedExtraLightItalic.ttf"
+"Noto Serif ExtraCondensed Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-ExtraCondensedItalic.ttf"
+"Noto Serif ExtraCondensed Light (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-ExtraCondensedLight.ttf"
+"Noto Serif ExtraCondensed Light Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-ExtraCondensedLightItalic.ttf"
+"Noto Serif ExtraCondensed Medium (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-ExtraCondensedMedium.ttf"
+"Noto Serif ExtraCondensed Medium Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-ExtraCondensedMediumItalic.ttf"
+"Noto Serif ExtraCondensed SemiBold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-ExtraCondensedSemiBold.ttf"
+"Noto Serif ExtraCondensed SemiBold Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-ExtraCondensedSemiBoldItalic.ttf"
+"Noto Serif ExtraCondensed Thin (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-ExtraCondensedThin.ttf"
+"Noto Serif ExtraCondensed Thin Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-ExtraCondensedThinItalic.ttf"
+"Noto Serif ExtraLight (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-ExtraLight.ttf"
+"Noto Serif ExtraLight Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-ExtraLightItalic.ttf"
+"Noto Serif Georgian Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSerifGeorgian[wght].ttf"
+"Noto Serif Gujarati Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSerifGujarati[wght].ttf"
+"Noto Serif Gurmukhi Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSerifGurmukhi[wght].ttf"
+"Noto Serif Hebrew Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSerifHebrew[wght].ttf"
+"Noto Serif Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-Italic.ttf"
+"Noto Serif Kannada Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSerifKannada[wght].ttf"
+"Noto Serif Khmer Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSerifKhmer[wght].ttf"
+"Noto Serif Lao Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSerifLao[wght].ttf"
+"Noto Serif Light (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-Light.ttf"
+"Noto Serif Light Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-LightItalic.ttf"
+"Noto Serif Medium (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-Medium.ttf"
+"Noto Serif Medium Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-MediumItalic.ttf"
+"Noto Serif Oriya Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSerifOriya[wght].ttf"
+"Noto Serif Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-Regular.ttf"
+"Noto Serif SemiBold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-SemiBold.ttf"
+"Noto Serif SemiBold Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-SemiBoldItalic.ttf"
+"Noto Serif SemiCondensed (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-SemiCondensed.ttf"
+"Noto Serif SemiCondensed Black (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-SemiCondensedBlack.ttf"
+"Noto Serif SemiCondensed Black Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-SemiCondensedBlackItalic.ttf"
+"Noto Serif SemiCondensed Bold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-SemiCondensedBold.ttf"
+"Noto Serif SemiCondensed Bold Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-SemiCondensedBoldItalic.ttf"
+"Noto Serif SemiCondensed ExtraBold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-SemiCondensedExtraBold.ttf"
+"Noto Serif SemiCondensed ExtraBold Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-SemiCondensedExtraBoldItalic.ttf"
+"Noto Serif SemiCondensed ExtraLight (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-SemiCondensedExtraLight.ttf"
+"Noto Serif SemiCondensed ExtraLight Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-SemiCondensedExtraLightItalic.ttf"
+"Noto Serif SemiCondensed Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-SemiCondensedItalic.ttf"
+"Noto Serif SemiCondensed Light (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-SemiCondensedLight.ttf"
+"Noto Serif SemiCondensed Light Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-SemiCondensedLightItalic.ttf"
+"Noto Serif SemiCondensed Medium (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-SemiCondensedMedium.ttf"
+"Noto Serif SemiCondensed Medium Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-SemiCondensedMediumItalic.ttf"
+"Noto Serif SemiCondensed SemiBold (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-SemiCondensedSemiBold.ttf"
+"Noto Serif SemiCondensed SemiBold Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-SemiCondensedSemiBoldItalic.ttf"
+"Noto Serif SemiCondensed Thin (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-SemiCondensedThin.ttf"
+"Noto Serif SemiCondensed Thin Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-SemiCondensedThinItalic.ttf"
+"Noto Serif Sinhala Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSerifSinhala[wght].ttf"
+"Noto Serif Tamil Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSerifTamil-Italic[wght].ttf"
+"Noto Serif Tamil Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSerifTamil[wght].ttf"
+"Noto Serif Telugu Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSerifTelugu[wght].ttf"
+"Noto Serif Thai Regular (TrueType)"="Z:\\run\\host\\fonts\\google-noto-vf\\NotoSerifThai[wght].ttf"
+"Noto Serif Thin (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-Thin.ttf"
+"Noto Serif Thin Italic (TrueType)"="Z:\\run\\host\\fonts\\google-noto\\NotoSerif-ThinItalic.ttf"
+"Open Sans (TrueType)"="Z:\\run\\host\\fonts\\open-sans\\OpenSans-Regular.ttf"
+"Open Sans Bold (TrueType)"="Z:\\run\\host\\fonts\\open-sans\\OpenSans-Bold.ttf"
+"Open Sans Bold Italic (TrueType)"="Z:\\run\\host\\fonts\\open-sans\\OpenSans-BoldItalic.ttf"
+"Open Sans Extrabold (TrueType)"="Z:\\run\\host\\fonts\\open-sans\\OpenSans-ExtraBold.ttf"
+"Open Sans Extrabold Italic (TrueType)"="Z:\\run\\host\\fonts\\open-sans\\OpenSans-ExtraBoldItalic.ttf"
+"Open Sans Italic (TrueType)"="Z:\\run\\host\\fonts\\open-sans\\OpenSans-Italic.ttf"
+"Open Sans Light (TrueType)"="Z:\\run\\host\\fonts\\open-sans\\OpenSans-Light.ttf"
+"Open Sans Light Italic (TrueType)"="Z:\\run\\host\\fonts\\open-sans\\OpenSans-LightItalic.ttf"
+"Open Sans Semibold (TrueType)"="Z:\\run\\host\\fonts\\open-sans\\OpenSans-Semibold.ttf"
+"Open Sans Semibold Italic (TrueType)"="Z:\\run\\host\\fonts\\open-sans\\OpenSans-SemiboldItalic.ttf"
+"P052-Bold (TrueType)"="Z:\\run\\host\\fonts\\urw-base35\\P052-Bold.otf"
+"P052-BoldItalic (TrueType)"="Z:\\run\\host\\fonts\\urw-base35\\P052-BoldItalic.otf"
+"P052-Italic (TrueType)"="Z:\\run\\host\\fonts\\urw-base35\\P052-Italic.otf"
+"P052-Roman (TrueType)"="Z:\\run\\host\\fonts\\urw-base35\\P052-Roman.otf"
+"Padauk (TrueType)"="Z:\\run\\host\\fonts\\sil-padauk-fonts\\Padauk-Regular.ttf"
+"Padauk Bold (TrueType)"="Z:\\run\\host\\fonts\\sil-padauk-fonts\\Padauk-Bold.ttf"
+"PakType Naskh Basic (TrueType)"="Z:\\run\\host\\fonts\\paktype-naskh-basic-fonts\\PakTypeNaskhBasic.ttf"
+"PakType Naskh Basic Semi Wide (TrueType)"="Z:\\run\\host\\fonts\\paktype-naskh-basic-fonts\\PakTypeNaskhBasicSemiWide.ttf"
+"PakType Naskh Basic Wide (TrueType)"="Z:\\run\\host\\fonts\\paktype-naskh-basic-fonts\\PakTypeNaskhBasicWide.ttf"
+"RIT Meera New Regular (TrueType)"="Z:\\run\\host\\fonts\\rit-meera-new-fonts\\RIT-MeeraNew.otf"
+"RIT Rachana (TrueType)"="Z:\\run\\host\\fonts\\rit-rachana-fonts\\RIT-Rachana-Regular.otf"
+"RIT Rachana Bold (TrueType)"="Z:\\run\\host\\fonts\\rit-rachana-fonts\\RIT-Rachana-Bold.otf"
+"RIT Rachana Bold Italic (TrueType)"="Z:\\run\\host\\fonts\\rit-rachana-fonts\\RIT-Rachana-BoldItalic.otf"
+"RIT Rachana Italic (TrueType)"="Z:\\run\\host\\fonts\\rit-rachana-fonts\\RIT-Rachana-Italic.otf"
+"Standard Symbols PS (TrueType)"="Z:\\run\\host\\fonts\\urw-base35\\StandardSymbolsPS.otf"
+"STIX Two Math Regular (TrueType)"="Z:\\run\\host\\fonts\\stix-fonts\\STIXTwoMath-Regular.otf"
+"STIX Two Text Bold (TrueType)"="Z:\\run\\host\\fonts\\stix-fonts\\STIXTwoText-Bold.otf"
+"STIX Two Text Bold Italic (TrueType)"="Z:\\run\\host\\fonts\\stix-fonts\\STIXTwoText-BoldItalic.otf"
+"STIX Two Text Italic (TrueType)"="Z:\\run\\host\\fonts\\stix-fonts\\STIXTwoText-Italic.otf"
+"STIX Two Text Medium (TrueType)"="Z:\\run\\host\\fonts\\stix-fonts\\STIXTwoText-Medium.otf"
+"STIX Two Text Medium Italic (TrueType)"="Z:\\run\\host\\fonts\\stix-fonts\\STIXTwoText-MediumItalic.otf"
+"STIX Two Text Regular (TrueType)"="Z:\\run\\host\\fonts\\stix-fonts\\STIXTwoText-Regular.otf"
+"STIX Two Text SemiBold (TrueType)"="Z:\\run\\host\\fonts\\stix-fonts\\STIXTwoText-SemiBold.otf"
+"STIX Two Text SemiBold Italic (TrueType)"="Z:\\run\\host\\fonts\\stix-fonts\\STIXTwoText-SemiBoldItalic.otf"
+"Symbola (TrueType)"="Z:\\run\\host\\fonts\\gdouros-symbola\\Symbola.ttf"
+"Symbols Nerd Font (TrueType)"="Z:\\run\\host\\fonts\\nerd-fonts\\SymbolsNerdFont-Regular.ttf"
+"Symbols Nerd Font Mono (TrueType)"="Z:\\run\\host\\fonts\\nerd-fonts\\SymbolsNerdFontMono-Regular.ttf"
+"URWBookman-Demi (TrueType)"="Z:\\run\\host\\fonts\\urw-base35\\URWBookman-Demi.otf"
+"URWBookman-DemiItalic (TrueType)"="Z:\\run\\host\\fonts\\urw-base35\\URWBookman-DemiItalic.otf"
+"URWBookman-Light (TrueType)"="Z:\\run\\host\\fonts\\urw-base35\\URWBookman-Light.otf"
+"URWBookman-LightItalic (TrueType)"="Z:\\run\\host\\fonts\\urw-base35\\URWBookman-LightItalic.otf"
+"URWGothic-Book (TrueType)"="Z:\\run\\host\\fonts\\urw-base35\\URWGothic-Book.otf"
+"URWGothic-BookOblique (TrueType)"="Z:\\run\\host\\fonts\\urw-base35\\URWGothic-BookOblique.otf"
+"URWGothic-Demi (TrueType)"="Z:\\run\\host\\fonts\\urw-base35\\URWGothic-Demi.otf"
+"URWGothic-DemiOblique (TrueType)"="Z:\\run\\host\\fonts\\urw-base35\\URWGothic-DemiOblique.otf"
+"Vazirmatn Regular (TrueType)"="Z:\\run\\host\\fonts\\vazirmatn-vf-fonts\\Vazirmatn[wght].ttf"
+"Z003-MediumItalic (TrueType)"="Z:\\run\\host\\fonts\\urw-base35\\Z003-MediumItalic.otf"
+
+[Software\\Wine\\Fonts\\Replacements] 1741726954
+#time=1db92c8e97279ce
+"Palatino Linotype"="Times New Roman"
+"Segoe UI"="Times New Roman"
+"Verdana"="Times New Roman"
+
+[Software\\Wine\\MenuFiles] 1746729626
+#time=1dbc048aa24b57c
+"c:\\proton_shortcuts\\Area Forum.desktop"="C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Autodesk\\Autodesk FBX Converter x64 2013\\Area Forum.lnk"
+"c:\\proton_shortcuts\\Autodesk FBX Converter x64 2013.desktop"="C:\\users\\Public\\Desktop\\Autodesk FBX Converter x64 2013.lnk"
+"c:\\proton_shortcuts\\Autodesk FBX Web.desktop"="C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Autodesk\\Autodesk FBX Converter x64 2013\\Autodesk FBX Web.lnk"
+"c:\\proton_shortcuts\\Help.desktop"="C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Autodesk\\Autodesk FBX Converter x64 2013\\Help.lnk"
+"c:\\proton_shortcuts\\License.desktop"="C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Autodesk\\Autodesk FBX Converter x64 2013\\License.lnk"
+"c:\\proton_shortcuts\\readme.desktop"="C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Autodesk\\Autodesk FBX Converter x64 2013\\readme.lnk"
+"c:\\proton_shortcuts\\Uninstall.desktop"="C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Autodesk\\Autodesk FBX Converter x64 2013\\Uninstall.lnk"
+
+[Software\\Wine\\WineDbg] 1741726954
+#time=1db92c8e9725070
+"ShowCrashDialog"=dword:00000000
+
+[Software\\Wine\\X11 Driver] 1741726953
+#time=1db92c8e8f2db9c
+"KeyboardLayoutList"=str(7):"United States keyboard layout\0United States keyboard layout (phantom key version)\0United States keyboard layout (dvorak)\0United States International keyboard layout\0British keyboard layout\0German keyboard layout\0Swiss German keyboard layout\0Swiss French keyboard layout\0Swedish keyboard layout\0Estonian keyboard layout\0Norwegian keyboard layout\0Danish keyboard layout\0French keyboard layout\0Canadian French keyboard layout\0Canadian French keyboard layout (CA_fr)\0Canadian keyboard layout\0Belgian keyboard layout\0Portuguese keyboard layout\0Brazilian ABNT-2 keyboard layout\0Brazilian ABNT-2 keyboard layout ALT GR\0Finnish keyboard layout\0Bulgarian bds keyboard layout\0Bulgarian phonetic keyboard layout\0Belarusian keyboard layout\0Russian keyboard layout\0Russian keyboard layout (phantom key version)\0Russian keyboard layout KOI8-R\0Russian keyboard layout cp1251\0Russian phonetic keyboard layout\0Ukrainian keyboard layout KOI8-U\0Ukrainian keyboard layout (standard)\0Russian keyboard layout (standard)\0Spanish keyboard layout\0Italian keyboard layout\0Icelandic keyboard layout\0Hungarian keyboard layout\0Polish (programmer's) keyboard layout\0Slovenian keyboard layout\0Serbian keyboard layout sr\0Serbian keyboard layout us,sr\0Croatian keyboard layout\0Croatian keyboard layout (specific)\0Japanese 106 keyboard layout\0Japanese Mac keyboard layout\0Japanese pc98x1 keyboard layout\0Slovak keyboard layout\0Slovak and Czech keyboard layout without dead keys\0Czech keyboard layout\0Czech keyboard layout cz\0Czech keyboard layout cz_qwerty\0Latin American keyboard layout\0Lithuanian (Baltic) keyboard layout\0Turkish keyboard layout\0Turkish keyboard layout tr\0Turkish keyboard layout trf\0Israelian keyboard layout\0Israelian phonetic keyboard layout\0Israelian Saharon keyboard layout\0VNC keyboard layout\0Greek keyboard layout\0Thai (Kedmanee)  keyboard layout\0Dutch keyboard layout\0"
+
+[Volatile Environment] 1746729605
+#time=1dbc0489db9a022
+"APPDATA"="C:\\users\\steamuser\\AppData\\Roaming"
+"CLIENTNAME"="Console"
+"HOMEDRIVE"="C:"
+"HOMEPATH"="\\users\\steamuser"
+"HOMESHARE"=""
+"LOCALAPPDATA"="C:\\users\\steamuser\\AppData\\Local"
+"LOGONSERVER"="\\\\BAZZITE"
+"SESSIONNAME"="Console"
+"USERDOMAIN"="BAZZITE"
+"USERNAME"="steamuser"
+"USERPROFILE"="C:\\users\\steamuser"

@@ -1,0 +1,81 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+<!-- saved from url=(0024)http://docs.autodesk.com -->
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="product" content="FBX">
+      <meta name="release" content="2013">
+      <meta name="created" content="2012-02-23">
+      <meta name="topicid" content="GUID-66E97D4C-5801-4E48-824C-C3E1A78BC710">
+      <meta name="indexterm" content="Command line: take extractor">
+      <meta name="indexterm" content="Take extractor: command line options">
+      <meta name="topic-type" content="concept">
+      <meta name="parent-id" content="GUID-AAE019B0-8216-4574-BD41-546EFA372706">
+      <title>Take extractor</title>
+      <link rel="stylesheet" type="text/css" href="../style/adsk.cpm.css">
+      <link rel="stylesheet" type="text/css" href="../style/adsk.fbx.css"><script type="text/javascript" src="../scripts/adsk.strings.js"></script><script type="text/javascript" src="../scripts/adsk.common.js"></script><script type="text/javascript" src="../scripts/adsk.highlight.js"></script><script type="text/javascript" src="../scripts/common-processing.js"></script><script type="text/javascript" src="../scripts/ac_common.js"></script></head>
+   <body height="100%" onLoad="javascript:initFrame('files/GUID-66E97D4C-5801-4E48-824C-C3E1A78BC710.htm',                           'd30e3947','index.html',location.hash);                           javascript:initPage('Take extractor','FBX Converter');                           javascript:convSymbols();                           ">
+      <div class="head">
+         <div class="head-block">
+            <div class="nav-group">
+               <!--browse buttons-->
+               <div class="browse">
+                  <nobr>
+                     <div class="headNavLinkShowInToc">
+                        <div id="ShowTocTitle" style="display:none">Show in Contents</div><a href="GUID-66E97D4C-5801-4E48-824C-C3E1A78BC710.htm" target="content" class="headNavLink" onClick="javascript:showInContents('d30e3947');" onmouseover="showInfo(document.getElementById('ShowTocTitle').innerHTML);" onmouseout="hideInfo();"><img src="../images/show_in_contents.gif" border="0"></a></div>
+                     <div class="headNavLinkAddToFav">
+                        <div id="AddFavTitle" style="display:none">Add to Favorites</div><a href="GUID-66E97D4C-5801-4E48-824C-C3E1A78BC710.htm" class="headNavLink" onClick="javascript:top.HlpSys.favorites.addToFavorites(document);" onmouseover="showInfo(document.getElementById('AddFavTitle').innerHTML);" onmouseout="hideInfo();"><img src="../images/add_favorite.gif" border="0"></a></div>
+                     <div class="headNavLinkHome">
+                        <div id="homeTitle" style="display:none">Home: FBX Converter</div><a href="fbx_converter_splash.htm" target="content" class="headNavLink" onmouseover="showInfo(document.getElementById('homeTitle').innerHTML);" onmouseout="hideInfo();"><img src="../images/nav-home-xp.gif" border="0"></a></div>
+                     <div class="headNavLinkShare">
+                        <div id="shareTitle" style="display:none">Share</div><a href="#" target="content" class="headNavLink" onmouseover="showInfo(document.getElementById('shareTitle').innerHTML);" onmouseout="hideInfo();" onclick="window.location='mailto:?subject=Take extractor&amp;body=' + window.location; return false;"><img src="../images/nav-share.gif" border="0"></a></div><span class="home-button-separator">&nbsp;</span><div class="headNavLinkPrev">
+                        <div id="prevTitle" style="display:none">DXF import and export options</div><a href="GUID-56DABE07-1978-40F3-8C1E-DBA802A84635.htm" class="headNavLink" onmouseover="showInfo(document.getElementById('prevTitle').innerHTML);" onmouseout="hideInfo();"><img src="../images/nav-prev-xp.gif" border="0"></a></div>
+                     <div class="headNavLinkUp">
+                        <div id="parentTitle" style="display:none">Command line</div><a href="GUID-AAE019B0-8216-4574-BD41-546EFA372706.htm" class="headNavLink" onmouseover="showInfo(document.getElementById('parentTitle').innerHTML);" onmouseout="hideInfo();"><img src="../images/nav-up-xp.gif" border="0"></a></div>
+                     <div class="headNavLinkNext"><img src="../images/nav-null-xp.gif" border="0"></div>
+                  </nobr>
+               </div>
+               <!--end browse buttons-->
+            </div>
+            <div class="button-info"><span id="infoline">&nbsp;</span></div>
+            <div class="ancestry"><a href="GUID-AAE019B0-8216-4574-BD41-546EFA372706.htm">Command line</a>&nbsp;&gt;&nbsp;
+            </div>
+            <div class="head-text"><span class="anchor_wrapper"><a name="GUID-D81D551F-2347-4216-A6B3-8FEA99DA110C"></a></span><h1>Take extractor</h1>
+            </div>
+         </div>
+      </div>
+      <div class="head-margin">&nbsp;</div>
+      <div style="line-height: 0pt">&nbsp;</div>
+      <div class="head-margin">&nbsp;</div>
+      <div class="body_content"><span class="anchor_wrapper"><a name="GUID-66E97D4C-5801-4E48-824C-C3E1A78BC710"></a></span>
+         <!--Body--><p><span class="anchor_wrapper"><a name="GUID-ED8E338A-EDC5-4AE8-86BB-9CD8673253A2"></a></span>  
+         </p>
+         <p><span class="anchor_wrapper"><a name="GUID-6960740C-3E2E-4E26-BE6C-B0746E647563"></a></span> Activate the Take extractor option to copy takes from an FBX source file into an FBX destination file. For example, the command:
+            
+         </p>
+         <p><span class="anchor_wrapper"><a name="GUID-64590610-8452-43F4-8AC1-EDF852471AE6"></a></span> 
+            <div class="codeBlock"><pre>C:/MyDir/Test.fbx C:/MyDir/Take/Test.fbx /tk /f201300 {0,^new take name^,-ch}{3,^new take name^,-ch} </pre></div> 
+         </p>
+         <p><span class="anchor_wrapper"><a name="GUID-24C1A426-08B9-4A96-A8C2-55387D303819"></a></span>only extracts takes 0 and 3 from C:/MyDir/Test.fbx, to the C:/MyDir/Take/Test.fbx file. This will then rename take 0 and 3
+            to "new take name". The destination file will be FBX 2013 format since /f201300 can be /f201300 or /f201100 or /f201000 
+         </p>
+         <p><span class="anchor_wrapper"><a name="GUID-D1B86F5E-E4F0-4609-B48A-A65C6CF1B5FF"></a></span> No Characters are saved since -ch is found in every take option. 
+         </p><span class="anchor_wrapper"><a name="UL_5B46E18784544DEE95CD0102A708F1BE"></a></span><ul>
+            <li> To extract only one take per file, use a single take option. For example: 
+               <div class="codeBlock"><pre>{3,^new take name^,-ch} </pre></div> 
+            </li>
+            <li>To include all Characters in the saved file, use &lt;ch&gt;. For example: 
+               <div class="codeBlock"><pre>{3,^new take name^,ch} </pre></div> 
+            </li>
+            <li>To list all take indices and take names of a file, use /tkln. For example: 
+               <div class="codeBlock"><pre>C:/MyDir/Test.fbx /tkln</pre></div> 
+            </li>
+         </ul>
+         <p><span class="anchor_wrapper"><a name="GUID-73219FC6-2217-4398-AB6E-8FB8826C987D"></a></span> You can also use FBX Take Manager to extract takes. Visit <a href="http://www.autodesk.com/fbx">www.autodesk.com/fbx</a> to download the <span class="charspan-msgph">FBX Converter</span>. 
+         </p>
+         <div class="footer-block"><a href="javascript:doComments('../html/ac.cmtdialog.htm');"><span class="comments-link">Please send us your comment about this page</span></a></div><br></div>
+   </body>
+</html>
