@@ -1,0 +1,15 @@
+// Player sequence of SFX for Sneeze
+
+WaitAnimation: Char=Caster
+Message: Text=[CastName] ; Priority=1 ; Title=True ; Reflect=True
+SetupReflect: Delay=SFXLoaded
+PlayAnimation: Char=Caster ; Anim=MP_SPECIAL1
+StartThread
+	WaitAnimation: Char=Caster
+	PlayAnimation: Char=Caster ; Anim=Idle
+EndThread
+Wait: Time=9
+LoadSFX: SFX=Mucus ; Reflect=True
+WaitSFXLoaded: SFX=Mucus ; Reflect=True
+PlaySFX: SFX=Mucus ; Reflect=True
+WaitSFXDone: SFX=Mucus ; Reflect=True
