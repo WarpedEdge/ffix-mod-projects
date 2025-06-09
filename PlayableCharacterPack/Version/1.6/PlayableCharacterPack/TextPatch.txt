@@ -1,7 +1,0 @@
-// Update the help of "Power Up" to specify it applies to both Chakra and Repose
->DATABASE
-FindAndReplace
-Languages: US, UK
-[code=Condition] Database == 'SupportAbility' && IsHelpEntry && EntryId == 29 [/code]
-Find: Chakra
-Replace: Chakra and Repose
