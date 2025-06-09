@@ -1,0 +1,52 @@
+// Player sequence of SFX for Gwahaha!
+// Make it randomly miss 50% of the time
+
+WaitAnimation: Char=Caster
+StartThread: Condition=GetRandom(0, 100) < 50 ; Sync
+
+	SetupReflect
+    PlayAnimation: Char=Caster ; Anim=ANH_SUB_F0_BAK_TRIP1
+	Wait: Time=4
+	PlaySound: Sound=726 ; Volume=1 ; Once=False
+    WaitAnimation: Char=Caster
+    PlayAnimation: Char=Caster ; Anim=ANH_SUB_F0_BAK_TRIP2
+    WaitAnimation: Char=Caster
+    PlayAnimation: Char=Caster ; Anim=ANH_SUB_F0_BAK_TRIP3
+	Wait: Time=5
+	PlaySound: Sound=677 ; Volume=1 ; Once=False
+    WaitAnimation: Char=Caster
+    PlayAnimation: Char=Caster ; Anim=Idle
+
+ElseThread: Sync
+	PlayAnimation: Char=Caster ; Anim=ANH_SUB_F0_BAK_BTL_GWAHAHA1
+	Turn: Char=Caster ; BaseAngle=AllTargets ; Angle=0 ; Time=1
+	WaitAnimation: Char=Caster
+	PlayAnimation: Char=Caster ; Anim=ANH_SUB_F0_BAK_BTL_GWAHAHA2
+	Message: Text=[CastName] ; Priority=1 ; Title=True
+	MoveToTarget: Char=Caster ; Target=AllTargets ; Time=11 ; Distance=1024
+	WaitMove: Char=Caster
+	PlayAnimation: Char=Caster ; Anim=ANH_SUB_F0_BAK_BTL_GWAHAHA3
+	StartThread
+		SetupReflect
+		LoadSFX: SFX=SFX_Attack_Broadsword ; Reflect=True
+		Wait: Time=5 ; Reflect=True
+		WaitSFXLoaded: SFX=SFX_Attack_Broadsword ; Reflect=True
+		PlaySFX: SFX=SFX_Attack_Broadsword ; Reflect=True
+		WaitSFXDone: SFX=SFX_Attack_Broadsword ; Reflect=True
+	EndThread
+	StartThread
+		Wait: Time=6
+		PlaySound: Sound=673
+	EndThread
+	WaitAnimation: Char=Caster
+	PlayAnimation: Char=Caster ; Anim=MP_BACK
+	Turn: Char=Caster ; BaseAngle=Default ; Time=4
+	MoveToPosition: Char=Caster ; Time=4 ; AbsolutePosition=Default ; MoveHeight=true
+	WaitMove: Char=Caster
+	PlayAnimation: Char=Caster ; Anim=MP_IDLE_NORMAL
+	WaitAnimation: Char=Caster
+	PlayAnimation: Char=Caster ; Anim=Idle
+	WaitTurn: Char=Caster
+EndThread
+ActivateReflect
+WaitReflect
