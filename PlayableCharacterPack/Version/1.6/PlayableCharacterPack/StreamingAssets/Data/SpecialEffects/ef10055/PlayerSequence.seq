@@ -7,6 +7,7 @@ StartThread: Condition=GetRandom(0, 100) < 50 ; Sync
 	SetupReflect
     PlayAnimation: Char=Caster ; Anim=ANH_SUB_F0_BAK_TRIP1
 	Wait: Time=4
+	Message: Text="Owww!" ; Priority=1 ; Title=True
 	PlaySound: Sound=726 ; Volume=1 ; Once=False
     WaitAnimation: Char=Caster
     PlayAnimation: Char=Caster ; Anim=ANH_SUB_F0_BAK_TRIP2
