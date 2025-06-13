@@ -2,7 +2,7 @@
 //           Final Fantasy IX - Steam Version             //
 //========================================================//
 //                Playable Characters Pack                //
-//                      Version 1.5                       //
+//                      Version 1.6                       //
 //                by Tirlititi & WarpedEdge               //
 //========================================================//
 
@@ -31,8 +31,8 @@ Release 1.5 Adds the following characters with their own unique abilities and sk
 - Puck: Our little rat prince wielding rods, staves and swords
 - Blank - New Costume: Pluto Knight Armor
 
-Next Release will feature:
-- Mikoto: Female Terran like Zidane wielding Throwing Weapons
+Release 1.6 adds the following characters with their own unique abilities and skills:
+- Mikoto: Female Terran like Zidane wielding Throwing stars
 - Gerome: Male Terran like Zidane wielding Axes
 - Ruby: Tantalus crew member wielding Rackets
 - Baku: Leader of Tantalus wielding Swords
@@ -633,7 +633,7 @@ This mod has been made mainly with the tools Hades Workshop and Memoria.
 Hades Workshop is available on Qhimm's forum for instance: http://forums.qhimm.com/index.php?topic=14315.0
 Memoria is available on Github: https://github.com/Albeoris/Memoria/releases
 
-You can contact Tirlititi either at forums.qhimm.com or at steamcommunity.com
+You can contact Tirlititi either via Discord Moogles & Mods, forums.qhimm.com or at steamcommunity.com
 You can contact WarpedEdge via Discord Moogles & Mods
 Since it changes assets different than most other mods, this mod is compatible with them (eg. Moguri, Alternate Fantasy, PSX buttons...).
 

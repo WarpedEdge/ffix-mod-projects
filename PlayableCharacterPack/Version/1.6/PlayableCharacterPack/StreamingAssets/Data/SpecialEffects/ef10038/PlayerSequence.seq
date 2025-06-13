@@ -1,30 +1,40 @@
-// Player sequence of SFX Mikoto Throw Disc
+// Player sequence of custom SFX throwing shurikens (Mikoto's attack)
 
 WaitAnimation: Char=Caster
-LoadSFX: SFX=Throw_Disc
-PlayAnimation: Char=Caster ; Anim=MP_SET
+Message: Text=[CastName] ; Priority=1 ; Title=True ; Reflect=True
+SetupReflect: Delay=SFXLoaded
+Turn: Char=Caster ; BaseAngle=AllTargets ; Time=5
+LoadSFX: SFX=Throw_Disc ; Reflect=True
+WaitSFXLoaded: SFX=Throw_Disc ; Reflect=True
 WaitAnimation: Char=Caster
-StartThread
-	Wait: Time=4
-	WaitSFXLoaded: SFX=Throw_Disc
-	PlaySFX: SFX=Throw_Disc
-	PlaySound: Sound=WeaponAttack
-	StartThread: Condition=!IsAttackMiss
-		PlaySound: Sound=WeaponHit
-	EndThread
-	Wait: Time=4
-	WaitSFXDone: SFX=Throw_Disc
-EndThread
 PlayAnimation: Char=Caster ; Anim=MP_ATTACK
-WaitAnimation: Char=Caster
-StartThread: Condition=AreCasterAndTargetsEnemies ; Sync=True
-	MoveToPosition: Char=Caster ; AbsolutePosition=Default ; Anim=MP_BACK
-	Turn: Char=Caster ; BaseAngle=Default ; Time=2
-	WaitMove: Caster
+StartThread
+	WaitAnimation: Char=Caster
+	PlayAnimation: Char=Caster ; Anim=Idle
+	Turn: Char=Caster ; BaseAngle=Default ; Time=5
+	WaitTurn: Char=Caster
 EndThread
-StartThread: Condition=!AreCasterAndTargetsEnemies ; Sync=True
-	MoveToPosition: Char=Caster ; AbsolutePosition=Default ; Time=0
-	Turn: Char=Caster ; BaseAngle=Default ; Time=0
+Wait: Time=6
+PlaySFX: SFX=Throw_Disc ; HideMeshes=0,1 ; Reflect=True
+StartThread: Condition=CasterWeaponId == 10027
+	CreateVisualEffect: SFXModel=CustomEffects/ThrowHappo.sfxmodel ; Char=AllTargets ; Reflect=True
+ElseThread: Condition=CasterWeaponId == 10035
+	CreateVisualEffect: SFXModel=CustomEffects/ThrowShuriken.sfxmodel ; Char=AllTargets ; Reflect=True
+ElseThread: Condition=CasterWeaponId == 10036
+	CreateVisualEffect: SFXModel=CustomEffects/ThrowMagicShuriken.sfxmodel ; Char=AllTargets ; Reflect=True
+ElseThread: Condition=CasterWeaponId == 10037
+	CreateVisualEffect: SFXModel=CustomEffects/ThrowRogetsurin.sfxmodel ; Char=AllTargets ; Reflect=True
+ElseThread: Condition=CasterWeaponId == 10038
+	CreateVisualEffect: SFXModel=CustomEffects/ThrowCrystalCross.sfxmodel ; Char=AllTargets ; Reflect=True
+ElseThread: Condition=CasterWeaponId == 10039
+	CreateVisualEffect: SFXModel=CustomEffects/ThrowJuji.sfxmodel ; Char=AllTargets ; Reflect=True
+ElseThread: Condition=CasterWeaponId == 10040
+	CreateVisualEffect: SFXModel=CustomEffects/ThrowWingEdge.sfxmodel ; Char=AllTargets ; Reflect=True
+ElseThread: Condition=CasterWeaponId == 10041
+	CreateVisualEffect: SFXModel=CustomEffects/ThrowTerranStar.sfxmodel ; Char=AllTargets ; Reflect=True
+ElseThread
+	CreateVisualEffect: SFXModel=CustomEffects/ThrowHappo.sfxmodel ; Char=AllTargets ; Reflect=True
 EndThread
-PlayAnimation: Char=Caster ; Anim=Idle
-WaitTurn: Char=Caster
+WaitSFXDone: SFX=Throw_Disc ; Reflect=True
+ActivateReflect
+WaitReflect
