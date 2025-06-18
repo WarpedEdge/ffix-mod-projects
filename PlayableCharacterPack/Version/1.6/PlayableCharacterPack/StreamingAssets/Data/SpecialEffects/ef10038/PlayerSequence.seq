@@ -15,7 +15,7 @@ StartThread
 	WaitTurn: Char=Caster
 EndThread
 Wait: Time=6
-PlaySFX: SFX=Throw_Disc ; HideMeshes=0,1 ; Reflect=True
+PlaySFX: SFX=Throw_Disc ; HideMeshes=0, 1, 2; Reflect=True
 StartThread: Condition=CasterWeaponId == 10027
 	CreateVisualEffect: SFXModel=CustomEffects/ThrowHappo.sfxmodel ; Char=AllTargets ; Reflect=True
 ElseThread: Condition=CasterWeaponId == 10035
