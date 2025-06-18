@@ -17,9 +17,11 @@ Then set this mod's priority to be higher than the priority of the Moguri mod bu
 CHANGELOGS:
 -----------
 
-Release 0.5: Adds Kuja, Lani and Fratley as playable characters.
-
-Releases 1.0, 1.1 and 1.2: Adds unique abilities and equipments for Kuja, Lani and Fratley.
+Release 1.6 adds the following characters with their own unique abilities and skills:
+- Mikoto: Female Terran like Zidane wielding Throwing stars
+- Gerome: Male Terran like Zidane wielding Axes
+- Ruby: Tantalus crew member wielding Rackets
+- Baku: Leader of Tantalus wielding Swords
 
 Release 1.5 Adds the following characters with their own unique abilities and skills:
 - Haagen: Pluto Knight wielding Swords
@@ -31,11 +33,10 @@ Release 1.5 Adds the following characters with their own unique abilities and sk
 - Puck: Our little rat prince wielding rods, staves and swords
 - Blank - New Costume: Pluto Knight Armor
 
-Release 1.6 adds the following characters with their own unique abilities and skills:
-- Mikoto: Female Terran like Zidane wielding Throwing stars
-- Gerome: Male Terran like Zidane wielding Axes
-- Ruby: Tantalus crew member wielding Rackets
-- Baku: Leader of Tantalus wielding Swords
+Releases 1.0, 1.1 and 1.2: Adds unique abilities and equipments for Kuja, Lani and Fratley.
+
+Release 0.5: Adds Kuja, Lani and Fratley as playable characters.
+
 
 
 DOCUMENTATION:
