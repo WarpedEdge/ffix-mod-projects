@@ -1,0 +1,17 @@
+// Player sequence of SFX for Tactical Retreat
+
+WaitAnimation: Char=Caster
+Message: Text=My fury ends here... ; TextJP=熱血もここまでですー ; TextGR=Auch Vaterlandsliebe muß Grenzen kennen! ; TextFR=Ma passion, aussi, a des limites... ; TextIT=Io tolgo il disturbo! ; TextES=¡Retirada estratégicaaaa! ; Priority=1 ; Reflect
+SetupReflect
+PlayAnimation: Char=Caster ; Anim=MP_ESCAPE ; Loop
+WaitAnimation: Char=Caster
+MoveToPosition: Char=Caster ; RelativePosition=(0, 0, -2000) ; Time=20
+ShowMesh: Char=Caster ; Enable=False ; Time=20
+WaitMove: Caster
+EffectPoint: Char=AllTargets ; Type=Effect
+EffectPoint: Char=Everyone ; Type=Figure
+ActivateReflect
+WaitReflect
+MoveToPosition: Char=Caster ; AbsolutePosition=Default ; Time=0
+ShowMesh: Char=Caster ; Enable=True ; Time=0
+PlayAnimation: Char=Caster ; Anim=Idle
