@@ -8,22 +8,6 @@ Ability AsTarget WhenBattleScriptEnd EvenImmobilized
 [code=Condition] (EffectTargetFlags & CalcFlag_HpDamageOrHeal) == CalcFlag_HpAlteration [/code]
 [code=HPDamage] 10 * HPDamage [/code]
 
->SA 10002 Auto-Protect
-StatusInit AutoStatus Protect
-
->SA 10003 Auto-Shell
-StatusInit AutoStatus Shell
-
->SA 10004 Cheat Fate
-StatusInit ResistStatus Doom
-
->SA 10005 Fidget
-Ability EvenImmobilized
-[code=Condition] AbilityId == BattleAbilityId_Attack [/code]
-[code=CasterRow] CasterRow ^ 1 [/code]
-
->SA 10006 Catalysis -- TODO --
-
 >SA Global+ ############# Kuja ############# Kuja's attack is ranged
 Command EvenImmobilized
 [code=Condition] IsTheCaster [/code]
@@ -61,12 +45,12 @@ BattleResult WhenRewardSingle
 [code=Condition] CharacterIndex == 17 && Level > 5 && HP > 0 && !CheckAnyStatus(PlayerStatus, BattleStatus_BattleEnd) && (GetRandom(0, 100) < 50 || GetItemCount(10013) == 0) [/code]
 [code=BonusItemAdd] (GetItemCount(10013) < 10 || GetRandom(0, 100) < 50) ? 10013 : 10014 + GetRandom(0, 8) [/code]
 
->SA 10007 Pyrotechnics
+>SA 10002 Pyrotechnics
 Ability WhenCalcDamage EvenImmobilized
 [code=Condition] ScriptId == 10003 [/code]
 [code=Attack] 2 * Attack [/code]
 
->SA 10008 Chemistry
+>SA 10003 Chemistry
 BattleResult WhenRewardSingle
 [code=Condition] CharacterIndex == 17 && HP > 0 && !CheckAnyStatus(PlayerStatus, BattleStatus_BattleEnd) && GetRandom(0, 100) < 75 [/code]
 [code=BonusItemAdd] 10028 + GetRandom(0, 6) [/code]

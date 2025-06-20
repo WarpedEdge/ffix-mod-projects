@@ -61,7 +61,7 @@ namespace Memoria.Scripts.Battle
 			if (_v.Caster.IsPlayer)
 			{
 				PLAYER player = _v.Caster.Player;
-				foreach (SupportAbility saId in new[]{ (SupportAbility)10007, (SupportAbility)10008 })
+				foreach (SupportAbility saId in new[]{ (SupportAbility)10002, (SupportAbility)10003 })
 				{
 					Int32 saAbsoluteId = ff9abil.GetAbilityIdFromSupportAbility(saId);
 					Int32 curAp = ff9abil.FF9Abil_GetAp(player, saAbsoluteId);
