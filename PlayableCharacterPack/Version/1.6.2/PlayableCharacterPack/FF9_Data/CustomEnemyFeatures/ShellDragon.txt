@@ -1,0 +1,6 @@
+>SA 0 Snort Counter
+MorphFeature
+Ability AsTarget
+[code=Condition] IsCounterableCommand && CasterIsPlayer != TargetIsPlayer && GetRandom(0, 100) < 25 [/code]
+[code=Counter] 2 [/code]
+DisableSA 36 54 56

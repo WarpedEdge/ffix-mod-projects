@@ -1,0 +1,24 @@
+// Player sequence of SFX for Keen Eye
+
+WaitAnimation: Char=Caster
+Message: Text=[CastName] ; Priority=1 ; Title=True ; Reflect=True
+SetupReflect: Delay=SFXLoaded
+Turn: Char=Caster ; BaseAngle=AllTargets ; Time=5
+LoadSFX: SFX=Glowing_Eyes ; Reflect=True
+WaitSFXLoaded: SFX=Glowing_Eyes ; Reflect=True
+WaitAnimation: Char=Caster
+PlayAnimation: Char=Caster ; Anim=ANH_SUB_F0_BAK_BTL_KEEN_EYE1
+Wait: Time=6
+PlaySFX: SFX=Glowing_Eyes ; Reflect=True
+WaitSFXDone: SFX=Glowing_Eyes ; Reflect=True
+WaitAnimation: Char=Caster
+PlayAnimation: Char=Caster ; Anim=ANH_SUB_F0_BAK_BTL_KEEN_EYE2
+StartThread
+	WaitAnimation: Char=Caster
+	PlayAnimation: Char=Caster ; Anim=MP_IDLE_NORMAL
+	PlayAnimation: Char=Caster ; Anim=Idle
+	Turn: Char=Caster ; BaseAngle=Default ; Time=5
+	WaitTurn: Char=Caster
+EndThread
+ActivateReflect
+WaitReflect

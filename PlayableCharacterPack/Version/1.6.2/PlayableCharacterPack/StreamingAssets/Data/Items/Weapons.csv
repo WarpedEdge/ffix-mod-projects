@@ -1,0 +1,56 @@
+#! IncludeHitSfx
+#! IncludeCustomTexture
+# This file contains a set of game weapons.
+# -----------------------------------------------
+# Comment;Id;Category;StatusIndex;Model;ScriptId;Power;Elements;Rate;Offset1;Offset2;HitSfx;CustomTexture
+# String;Int32;Byte;Int32;String;Int32;Int32;Byte;Int32;Int16;Int16;Byte;String[]
+# -----------------------------------------------
+Battle Axe;10000;5;0;<null>;10000;24;0;0;0;0;13;
+Gem Axe;10001;5;0;<null>;10000;32;0;0;0;0;9;
+Peridot Axe;10002;5;0;<null>;10000;40;4;0;0;0;21;
+Ruby Axe;10003;5;0;<null>;10000;54;0;0;0;0;24;
+Pele;10004;5;0;<null>;10000;70;7;0;0;0;25;
+Topaz Axe;10005;5;29;<null>;10000;82;1;20;0;0;23;
+Staff of the Magi;10006;6;0;GEO_WEP_B1_086;1;50;64;0;0;0;75;CustomWeapons/SageStaff.png
+Iron Spear;10007;5;0;<null>;1;29;0;0;0;0;33;
+Pike;10008;5;0;GEO_WEP_B1_042;1;11;0;0;0;524;32;CustomWeapons/Pike.png
+Halberd;10009;5;0;GEO_WEP_B1_042;1;15;0;0;0;524;33;CustomWeapons/Halberd.png
+Fang Claws;10010;5;0;GEO_WEP_B1_056;1;10;0;0;-39;257;41;CustomWeapons/FangClaws.png
+Iron Claws;10011;5;0;GEO_WEP_B1_057;1;15;0;0;-39;257;1;CustomWeapons/IronClaws.png
+Blood Rippers;10012;5;0;GEO_WEP_B1_055;6;21;0;0;-39;257;19;CustomWeapons/BloodRippers.png
+Grenade;10013;4;0;;0;0;0;0;0;0;87;
+Fire Grenade;10014;4;0;;0;0;1;0;0;0;0;
+Ice Grenade;10015;4;0;;0;0;2;0;0;0;0;
+Thunder Grenade;10016;4;0;;0;0;4;0;0;0;0;
+Earth Grenade;10017;4;0;;0;0;8;0;0;0;0;
+Water Grenade;10018;4;0;;0;0;16;0;0;0;0;
+Wind Grenade;10019;4;0;;0;0;32;0;0;0;0;
+Holy Grenade;10020;4;0;;0;0;64;0;0;0;0;
+Shadow Grenade;10021;4;0;;0;0;128;0;0;0;0;
+Ice Pick;10022;5;17;GEO_WEP_B1_016;1;24;2;35;-32;200;20;CustomWeapons/IcePick.png
+Assassin's Dagger;10023;5;14;GEO_WEP_B1_015;1;55;128;35;-32;200;2;CustomWeapons/AssassinsDagger.png
+Valiant Knife;10024;5;0;GEO_WEP_B1_014;1;80;0;35;-32;200;11;CustomWeapons/ValiantKnife.png
+Burmecian Racket;10025;6;0;GEO_WEP_B1_065;3;10;32;0;79;262;51;CustomWeapons/BurmecianRacket.png
+Cleyran Racket;10026;6;0;GEO_WEP_B1_066;3;60;32;0;53;305;56;CustomWeapons/CleyranRacket.png
+Happo;10027;6;0;GEO_WEP_DFFOO_Happo;3;12;0;0;17;200;85;
+Petrify Grenade;10028;4;0;;0;0;0;0;0;0;0;
+Silence Grenade;10029;4;0;;0;0;0;0;0;0;0;
+Smoke Bomb;10030;4;0;;0;0;0;0;0;0;0;
+Trouble Bomb;10031;4;0;;0;0;0;0;0;0;0;
+Poison Grenade;10032;4;0;;0;0;0;0;0;0;0;
+Sleeping Powder;10033;4;0;;0;0;0;0;0;0;0;
+Shuriken;10035;6;0;GEO_WEP_DFFOO_Shuriken;3;16;16;0;17;200;85;
+Magic Shuriken;10036;6;0;GEO_WEP_DFFOO_MagicShuriken;3;19;4;0;17;200;85;
+Rogetsurin;10037;6;0;GEO_WEP_DFFOO_Rogetsurin;3;24;2;0;17;200;85;
+Crystal Cross;10038;6;0;GEO_WEP_DFFOO_CrystalCross;6;32;128;0;17;200;85;
+Juji;10039;6;0;GEO_WEP_DFFOO_Juji;3;35;64;0;17;200;85;
+Wing Edge;10040;6;0;GEO_WEP_DFFOO_WingEdge;3;40;8;0;17;200;85;
+Terran Star;10041;6;0;GEO_WEP_DFFOO_TerranStar;3;40;32;0;17;200;85;
+Bronze Axe;10042;5;0;GEO_WEP_DFFOO_BronzeAxe;1;12;0;0;0;0;13;
+Iron Axe;10043;5;0;GEO_WEP_DFFOO_IronAxe;1;16;0;0;0;0;10;
+War Axe;10044;5;0;GEO_WEP_DFFOO_WarAxe;1;23;0;0;0;0;23;
+Ogre Killer;10045;5;0;GEO_WEP_DFFOO_OgreKiller;1;40;0;0;0;0;8;
+Mythril Axe;10046;5;0;GEO_WEP_DFFOO_MythrilAxe;1;53;0;0;0;0;18;
+Mast Axe;10047;5;0;GEO_WEP_DFFOO_MastAxe;1;65;0;0;0;0;14;
+Rebel Axe;10048;5;0;GEO_WEP_DFFOO_RebelAxe;1;73;0;0;0;0;25;
+Megalith;10049;5;0;GEO_WEP_DFFOO_Megalith;1;84;0;0;0;0;25;

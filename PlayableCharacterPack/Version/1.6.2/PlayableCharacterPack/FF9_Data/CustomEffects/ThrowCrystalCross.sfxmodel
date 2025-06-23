@@ -1,0 +1,44 @@
+{
+	"MinimalDuration":"4",
+	"FBX":
+	[{
+		"Path":"battlemap/battlemodel/6/10005/10005",
+		"Start":"0",
+		"End":"4",
+		"Movement":
+		{
+			"Duration":"4",
+			"OriginX":"CasterMainX",
+			"OriginY":"CasterMainY + CasterHeight / 4",
+			"OriginZ":"CasterMainZ + 200",
+			"DestinationX":"TargetMainX",
+			"DestinationY":"TargetMainY + TargetHeight / 7",
+			"DestinationZ":"TargetMainZ",
+			"InterpolationTypeX":"Linear",
+			"InterpolationTypeY":"Linear",
+			"InterpolationTypeZ":"Linear"
+		},
+		"Rotation":
+		{
+			"Duration":"4",
+			"OriginX":"0",
+			"OriginY":"0",
+			"OriginZ":"84",
+			"DestinationX":"0",
+			"DestinationY":"360",
+			"DestinationZ":"96",
+			"InterpolationTypeX":"Linear",
+			"InterpolationTypeY":"Linear",
+			"InterpolationTypeZ":"Linear"
+		},
+		"Scaling":
+		{
+			"OriginX":"2",
+			"OriginY":"2",
+			"OriginZ":"2",
+			"DestinationX":"2",
+			"DestinationY":"2",
+			"DestinationZ":"2"
+		}
+	}]
+}
