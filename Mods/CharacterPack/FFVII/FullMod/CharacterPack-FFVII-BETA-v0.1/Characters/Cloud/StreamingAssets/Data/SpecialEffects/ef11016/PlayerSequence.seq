@@ -1,0 +1,47 @@
+// Player sequence of SFX Infinity's End
+
+WaitAnimation: Char=Caster
+Message: Text=[CastName] ; Priority=1 ; Title=True ; Reflect=True
+LoadSFX: SFX=Scoop_Art ; UseCamera=False
+PlayAnimation: Char=Caster ; Anim=ANH_MAIN_CLOUD_00_BTL_INFINITYS_END
+MoveToPosition: Char=Caster ; RelativePosition=(0, 300, 0) ; Time=5 ; MoveHeight=True
+Wait: Time=5
+MoveToPosition: Char=Caster ; RelativePosition=(0, -300, 0) ; Time=10 ; MoveHeight=True
+StartThread: Condition=AreCasterAndTargetsEnemies ; Sync=True
+	MoveToTarget: Char=Caster ; Target=AllTargets ; Distance=0 ; UseCollisionRadius=True ; Time=10
+	Turn: Char=Caster ; BaseAngle=AllTargets ; Time=10
+	WaitMove: Char=Caster
+EndThread
+StartThread: Condition=!AreCasterAndTargetsEnemies ; Sync=True
+	MoveToTarget: Char=Caster ; Target=AllTargets ; Offset=(0.0, 0.0, 800) ; Time=20
+	Turn: Char=Caster ; BaseAngle=AllTargets ; Time=0
+	MoveToTarget: Char=Caster ; Target=AllTargets ; Distance=400 ; UseCollisionRadius=True ; Time=10
+EndThread
+WaitMove: Char=Caster
+StartThread
+	Wait: Time=6
+	WaitSFXLoaded: SFX=Scoop_Art
+	PlaySFX: SFX=Scoop_Art ; SkipSequence=True ; JumpToFrame=28 ; HideMeshes=2,3,4 ; MeshColors=1:(0.0313725490, 0.9921568627, 0.0039215686)
+	PlaySound: Sound=2231
+	PlaySound: Sound=2232
+	
+	PlaySound: Sound=599
+	PlaySound: Sound=590
+	
+	EffectPoint: Char=AllTargets ; Type=Effect
+	Wait: Time=4
+	EffectPoint: Char=Everyone ; Type=Figure
+	WaitSFXDone: SFX=Scoop_Art
+EndThread
+WaitAnimation: Char=Caster
+StartThread: Condition=AreCasterAndTargetsEnemies ; Sync=True
+	MoveToPosition: Char=Caster ; AbsolutePosition=Default ; Anim=MP_BACK
+	Turn: Char=Caster ; BaseAngle=Default ; Time=4
+	WaitMove: Caster
+EndThread
+StartThread: Condition=!AreCasterAndTargetsEnemies ; Sync=True
+	MoveToPosition: Char=Caster ; AbsolutePosition=Default ; Time=0
+	Turn: Char=Caster ; BaseAngle=Default ; Time=0
+EndThread
+PlayAnimation: Char=Caster ; Anim=Idle
+WaitTurn: Char=Caster

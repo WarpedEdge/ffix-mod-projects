@@ -1,0 +1,73 @@
+// Player sequence of SFX Meteorain (4-6 hits)
+
+WaitAnimation: Char=Caster
+Message: Text=[CastName] ; Priority=1 ; Title=True ; Reflect=True
+SetupReflect: Delay=SFXLoaded
+StartThread: Condition=ItemUseId == 255 ; Sync=True
+	Channel
+	PlayAnimation: Char=Caster ; Anim=ANH_MAIN_CLOUD_00_BTL_METEORAIN
+	WaitAnimation: Char=Caster
+	StopChannel
+EndThread
+StartThread: Condition=ItemUseId != 255 ; Sync=True
+	PlayAnimation: Char=Caster ; Anim=MP_ITEM1
+	WaitAnimation: Char=Caster
+EndThread
+
+// 4-hits (34%)
+StartThread: Condition=GetRandom(0, 100) < 34 ; Sync=True
+	StartThread: LoopCount=4 ; Chain ; Sync=True
+		StartThread: Target=MatchingCondition(!IsPlayer && IsTargetable && HP>0) ; Sync=False
+			StartThread: Target=RandomTarget ; Sync=False
+				LoadSFX: SFX=Meteor__Success ; Reflect=True ; UseCamera=False
+				WaitSFXLoaded: SFX=Meteor__Success ; Reflect=True
+				PlaySFX: SFX=Meteor__Success ; Reflect=True ; SkipSequence=True ; HideMeshes=0,2,3,4,5,7,8,9,10,11,12; JumpToFrame=50
+				PlaySound: Sound=438
+				Wait: Time=16
+				EffectPoint: Char=AllTargets ; Type=Effect
+				EffectPoint: Char=Everyone ; Type=Figure
+			EndThread
+		EndThread
+		Wait: Time=10
+	EndThread
+EndThread
+// 5-hits
+ElseThread: Condition=GetRandom(0, 100) < 50 ; Sync=True
+	StartThread: LoopCount=5 ; Chain ; Sync=True
+		StartThread: Target=MatchingCondition(!IsPlayer && IsTargetable && HP>0) ; Sync=False
+			StartThread: Target=RandomTarget ; Sync=False
+				LoadSFX: SFX=Meteor__Success ; Reflect=True ; UseCamera=False
+				WaitSFXLoaded: SFX=Meteor__Success ; Reflect=True
+				PlaySFX: SFX=Meteor__Success ; Reflect=True ; SkipSequence=True ; HideMeshes=0,2,3,4,5,7,8,9,10,11,12; JumpToFrame=50
+				PlaySound: Sound=438
+				Wait: Time=14
+				EffectPoint: Char=AllTargets ; Type=Effect
+				EffectPoint: Char=Everyone ; Type=Figure
+			EndThread
+		EndThread
+		Wait: Time=10
+	EndThread
+EndThread
+// 6-hits
+ElseThread
+	StartThread: LoopCount=6 ; Chain ; Sync=True
+		StartThread: Target=MatchingCondition(!IsPlayer && IsTargetable && HP>0) ; Sync=False
+			StartThread: Target=RandomTarget ; Sync=False
+				LoadSFX: SFX=Meteor__Success ; Reflect=True ; UseCamera=False
+				WaitSFXLoaded: SFX=Meteor__Success ; Reflect=True
+				PlaySFX: SFX=Meteor__Success ; Reflect=True ; SkipSequence=True ; HideMeshes=0,2,3,4,5,7,8,9,10,11,12; JumpToFrame=50
+				PlaySound: Sound=438
+				Wait: Time=14
+				EffectPoint: Char=AllTargets ; Type=Effect
+				EffectPoint: Char=Everyone ; Type=Figure
+			EndThread
+		EndThread
+		Wait: Time=10
+	EndThread
+EndThread
+
+ActivateReflect
+WaitReflect
+PlayAnimation: Char=Caster ; Anim=Idle
+Turn: Char=Caster ; BaseAngle=Default ; Time=5
+WaitTurn: Char=Caster

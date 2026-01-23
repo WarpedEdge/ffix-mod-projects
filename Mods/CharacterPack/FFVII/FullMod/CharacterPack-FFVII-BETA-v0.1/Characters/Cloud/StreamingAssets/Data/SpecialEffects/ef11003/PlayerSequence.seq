@@ -1,0 +1,56 @@
+// Player sequence of SFX Cloud Braver
+
+WaitAnimation: Char=Caster
+Message: Text=[CastName] ; Priority=1 ; Title=True ; Reflect=True
+LoadSFX: SFX=Iai_Strike_1 ; UseCamera=False
+
+WaitAnimation: Char=Caster
+StartThread: Condition=AreCasterAndTargetsEnemies ; Sync=True
+	MoveToTarget: Char=Caster ; Target=AllTargets ; Distance=650 ; Offset=(0.0, 1000, 0.0) ; UseCollisionRadius=True ; Anim=MP_SET ; MoveHeight=True ; Time=1
+	Turn: Char=Caster ; BaseAngle=AllTargets ; Time=0
+	WaitMove: Char=Caster
+	MoveToTarget: Char=Caster ; Target=AllTargets ; Distance=300 ; Offset=(0.0, 500, 0.0) ; UseCollisionRadius=True ; Anim=MP_RUN ; MoveHeight=True ; Time=1
+	WaitMove: Char=Caster
+	MoveToTarget: Char=Caster ; Target=AllTargets ; Distance=0 ; UseCollisionRadius=True ; Anim=MP_RUN_TO_ATTACK
+	MoveToTarget: Char=Caster ; Target=AllTargets ; Distance=300 ; Offset=(0.0, 0.0, 0.0) ; UseCollisionRadius=True ; Anim=MP_RUN ; MoveHeight=True ; Time=1
+	WaitMove: Char=Caster
+EndThread
+StartThread: Condition=!AreCasterAndTargetsEnemies ; Sync=True
+	MoveToTarget: Char=Caster ; Target=AllTargets ; Offset=(0.0, 0.0, 1600) ; Time=0
+	Turn: Char=Caster ; BaseAngle=AllTargets ; Time=0
+	MoveToTarget: Char=Caster ; Target=AllTargets ; Distance=400 ; Offset=(0.0, 400, 0.0) ; UseCollisionRadius=True ; Anim=MP_RUN ; MoveHeight=True ; Time=4
+	WaitMove: Char=Caster
+	MoveToTarget: Char=Caster ; Target=AllTargets ; Distance=400 ; Offset=(0.0, 800, 0.0) ; UseCollisionRadius=True ; Anim=MP_RUN ; MoveHeight=True ; Time=4
+	WaitMove: Char=Caster
+	MoveToTarget: Char=Caster ; Target=AllTargets ; Distance=400 ; Offset=(0.0, 400 0.0) ; UseCollisionRadius=True ; Anim=MP_RUN ; MoveHeight=True ; Time=8
+	WaitMove: Char=Caster
+	MoveToTarget: Char=Caster ; Target=AllTargets ; Distance=400 ; Offset=(0.0, 0.0, 0.0) ; UseCollisionRadius=True ; Anim=MP_RUN_TO_ATTACK ; MoveHeight=True ; Time=4
+EndThread
+WaitMove: Char=Caster
+StartThread
+	Wait: Time=1
+	WaitSFXLoaded: SFX=Iai_Strike_1
+	PlaySFX: SFX=Iai_Strike_1 ; SkipSequence=True ; Reflect ; MeshColors=rgba(31, 20, 225, 1.0)
+	EffectPoint: Char=AllTargets ; Type=Effect
+	StartThread: Condition=IsAttackMiss
+		PlaySound: Sound=901
+	ElseThread
+		PlaySound: Sound=151
+	EndThread
+	Wait: Time=4
+	EffectPoint: Char=Everyone ; Type=Figure
+	WaitSFXDone: SFX=Iai_Strike_1
+EndThread
+PlayAnimation: Char=Caster ; Anim=MP_ATTACK
+WaitAnimation: Char=Caster
+StartThread: Condition=AreCasterAndTargetsEnemies ; Sync=True
+	MoveToPosition: Char=Caster ; AbsolutePosition=Default ; Anim=MP_BACK
+	Turn: Char=Caster ; BaseAngle=Default ; Time=4
+	WaitMove: Caster
+EndThread
+StartThread: Condition=!AreCasterAndTargetsEnemies ; Sync=True
+	MoveToPosition: Char=Caster ; AbsolutePosition=Default ; Time=0
+	Turn: Char=Caster ; BaseAngle=Default ; Time=0
+EndThread
+PlayAnimation: Char=Caster ; Anim=Idle
+WaitTurn: Char=Caster

@@ -1,0 +1,100 @@
+// Player sequence of SFX Omnislash V5 (6 hits, AOE)
+
+WaitAnimation: Char=Caster
+Message: Text=[CastName] ; Priority=1 ; Title=True ; Reflect=True
+LoadSFX: SFX=Raining_Swords ; UseCamera=False ; TargetPosition=(0, 0, 0)
+LoadSFX: SFX=Stock_Break_2 ; UseCamera=False
+// Prep: rise 800 and move forward 400 gradually while playing Omnislash1.
+PlayAnimation: Char=Caster ; Anim=ANH_MAIN_CLOUD_00_BTL_OMNISLASH1
+MoveToPosition: Char=Caster ; RelativePosition=(0.0, 400, 400) ; Time=10 ; MoveHeight=True
+WaitSFXLoaded: SFX=Raining_Swords
+Wait: Time=5
+PlaySFX: SFX=Raining_Swords ; SkipSequence=True ; JumpToFrame=55 ; HideMeshes=1,6
+StartThread
+	Wait: Time=19
+	PlaySound: Sound=1930 ; Volume=0.75
+	PlaySound: Sound=1932 ; Volume=0.75
+EndThread
+WaitMove: Char=Caster
+WaitAnimation: Char=Caster
+
+
+// Climhazzard_2 SFX During the slashes of Omnislash2
+LoadSFX: SFX=Climhazzard_2 ; UseCamera=False
+WaitSFXLoaded: SFX=Climhazzard_2
+PlayAnimation: Char=Caster ; Anim=ANH_MAIN_CLOUD_00_BTL_OMNISLASH2
+Wait: Time=5
+StartThread
+	StartThread: LoopCount=5 ; Chain ; Sync=True
+		PlaySFX: SFX=Climhazzard_2 ; SkipSequence=True ; MeshColors=(0.2, 0.2078431373, 0.9960784314)
+		Wait: Time=3
+		PlaySound: Sound=1185 ; Volume=0.5
+		PlaySound: Sound=1186 ; Volume=0.5
+		PlaySound: Sound=1187 ; Volume=0.5
+		PlaySound: Sound=1547 ; Volume=0.5
+		PlaySound: Sound=1548 ; Volume=0.5
+		PlaySound: Sound=1549 ; Volume=0.5
+		Wait: Time=1
+		EffectPoint: Char=AllTargets ; Type=Effect
+		Wait: Time=1
+		EffectPoint: Char=Everyone ; Type=Figure
+	EndThread
+EndThread
+StartThread
+	MoveToPosition: Char=Caster ; RelativePosition=(-500, 0, 0) ; Time=3
+	WaitMove: Char=Caster
+	Wait: Time=1
+	MoveToPosition: Char=Caster ; RelativePosition=(500, 0, 0) ; Time=3
+	WaitMove: Char=Caster
+	Wait: Time=1
+	MoveToPosition: Char=Caster ; RelativePosition=(-500, 0, -500) ; Time=3
+	WaitMove: Char=Caster
+	Wait: Time=1
+	MoveToPosition: Char=Caster ; RelativePosition=(-500, 0, 500) ; Time=3
+	WaitMove: Char=Caster
+	Wait: Time=1
+	MoveToPosition: Char=Caster ; RelativePosition=(-1000, 0, 0) ; Time=3
+	WaitMove: Char=Caster
+	MoveToPosition: Char=Caster ; RelativePosition=(1000, 0, -500) ; Time=0
+EndThread
+MoveToTarget: Char=Caster ; Target=AllTargets ; Distance=900 ; UseCollisionRadius=True ; Time=7
+WaitMove: Char=Caster
+WaitAnimation: Char=Caster
+
+// CHANGE LANCER TO SOMETHING ELSE FOR LAST HIT SO IT LOOKS AOE 
+// Final Hit of Omnislash3
+PlayAnimation: Char=Caster ; Anim=ANH_MAIN_CLOUD_00_BTL_OMNISLASH3
+StartThread
+	WaitSFXLoaded: SFX=Stock_Break_2
+	Wait: Time=10
+	PlaySFX: SFX=Stock_Break_2 ; SkipSequence=True
+	PlaySound: Sound=711 ; Volume=0.75
+	PlaySound: Sound=708 ; Volume=0.75
+	PlaySound: Sound=687 ; Volume=0.75
+	Wait: Time=1
+	EffectPoint: Char=AllTargets ; Type=Effect
+	Wait: Time=1
+	EffectPoint: Char=Everyone ; Type=Figure
+EndThread
+WaitMove: Char=Caster
+
+
+
+// Return to ground before the hit loop starts (keep forward offset).
+
+MoveToPosition: Char=Caster ; RelativePosition=(0.0, -400, 0) ; Time=10 ; MoveHeight=True
+WaitAnimation: Char=Caster
+
+
+StartThread: Condition=AreCasterAndTargetsEnemies ; Sync=True
+	MoveToPosition: Char=Caster ; AbsolutePosition=Default ; Anim=MP_BACK
+	Turn: Char=Caster ; BaseAngle=Default ; Time=4
+	WaitMove: Caster
+EndThread
+StartThread: Condition=!AreCasterAndTargetsEnemies ; Sync=True
+	MoveToPosition: Char=Caster ; AbsolutePosition=Default ; Time=0
+	Turn: Char=Caster ; BaseAngle=Default ; Time=0
+EndThread
+MoveToPosition: Char=Caster ; AbsolutePosition=Default ; Time=0
+PlayAnimation: Char=Caster ; Anim=Idle
+WaitTurn: Char=Caster

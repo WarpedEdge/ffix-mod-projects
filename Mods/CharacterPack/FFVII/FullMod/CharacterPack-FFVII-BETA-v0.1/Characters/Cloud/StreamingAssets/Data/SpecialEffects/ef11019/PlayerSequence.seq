@@ -1,0 +1,8 @@
+// Player sequence of SFX Cloud Counterstance
+
+WaitAnimation: Char=Caster
+Message: Text=[CastName] ; Priority=1 ; Title=True
+PlayAnimation: Char=Caster ; Anim=MP_IDLE_TO_DEF
+WaitAnimation: Char=Caster
+EffectPoint: Char=AllTargets ; Type=Effect
+PlayAnimation: Char=Caster ; Anim=MP_DEFENCE

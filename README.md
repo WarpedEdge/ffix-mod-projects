@@ -8,10 +8,15 @@ Just a public repo where I store all things related to my mod projects for anyon
 ### _Archive
 All old files that can at any time be subjected to be deleted
 
-### PlayableCharacterPack
-All files related to the mod PlayableCharacterPack. This includes finished, WIP, or concepts.
+### Mods
+The different mods I have released or currently working on
 
-The actual bundle of the mod that goes into your `Final Fantasy IX` folder will be in the `Versions` directory, but using the Memoria launcher to download it is the recommended way.
+### Resources
+General things I have worked on that other modders can also take advantage of
+
+
+### Tutorials
+For when I create written or video guides and give the same files I show in the Tutorial for follow-throughs
 
 ### WikiFiles
 All references that would be used in the `Wiki` section of this repo.

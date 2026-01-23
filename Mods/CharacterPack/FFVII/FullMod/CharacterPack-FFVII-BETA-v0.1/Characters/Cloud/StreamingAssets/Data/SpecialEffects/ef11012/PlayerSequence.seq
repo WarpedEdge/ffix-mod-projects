@@ -1,0 +1,40 @@
+// Player sequence of SFX Cloud Blade Beam
+
+StartThread: Condition=AbilityId == 11078 ; Sync=True
+	WaitAnimation: Char=Caster
+	Message: Text=[CastName] ; Priority=1 ; Title=True ; Reflect=True
+	SetupReflect: Delay=SFXLoaded
+	PlayAnimation: Char=Caster ; Anim=MP_SPECIAL1
+	StartThread
+		WaitAnimation: Char=Caster
+		PlayAnimation: Char=Caster ; Anim=Idle
+	EndThread
+	Wait: Time=25
+	LoadSFX: SFX=Jet_Fire ; Reflect=True ; UseCamera=False
+	WaitSFXLoaded: SFX=Jet_Fire ; Reflect=True
+	PlaySFX: SFX=Jet_Fire ; Reflect=True ; SkipSequence=True ; JumpToFrame=10 ; MeshColors=0:(3,0,1), 1:(3,0,1)
+	PlaySound: Sound=563 ; Volume=.5
+	PlaySound: Sound=556 ; Volume=.5
+	PlaySound: Sound=544 ; Volume=.5
+	PlaySound: Sound=594 ; Volume=.5
+	PlaySound: Sound=588 ; Volume=.5
+	PlaySound: Sound=579 ; Volume=.5
+	PlaySound: Sound=527 ; Volume=.5
+	PlaySound: Sound=521 ; Volume=.5
+	PlaySound: Sound=562 ; Volume=.5
+	EffectPoint: Char=AllTargets ; Type=Effect
+	Wait: Time=5
+	EffectPoint: Char=Everyone ; Type=Figure
+	WaitSFXDone: SFX=Jet_Fire ; Reflect=True
+EndThread
+ElseThread: Condition=AbilityId == 11085 ; Sync=True
+	LoadSFX: SFX=Aerial_Slash_Red_Dragon ; Reflect=True ; UseCamera=False
+	WaitSFXLoaded: SFX=Aerial_Slash_Red_Dragon ; Reflect=True
+	PlaySFX: SFX=Aerial_Slash_Red_Dragon ; Reflect=True ; SkipSequence=True ; JumpToFrame=10 ; MeshColors=0:(3,0,1), 1:(3,0,1)
+	PlaySound: Sound=641
+	EffectPoint: Char=AllTargets ; Type=Effect
+	EffectPoint: Char=Everyone ; Type=Figure
+	WaitSFXDone: SFX=Aerial_Slash_Red_Dragon ; Reflect=True
+EndThread
+
+WaitTurn: Char=Caster

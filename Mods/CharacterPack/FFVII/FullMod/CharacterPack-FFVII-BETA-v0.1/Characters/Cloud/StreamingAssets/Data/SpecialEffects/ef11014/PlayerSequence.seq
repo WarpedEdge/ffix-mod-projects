@@ -1,0 +1,30 @@
+// Player sequence of SFX Cloud Finishing Touch
+
+WaitAnimation: Char=Caster
+Message: Text=[CastName] ; Priority=1 ; Title=True ; Reflect=True
+SetupReflect: Delay=SFXLoaded
+LoadSFX: SFX=High_Wind ; Reflect=True ; UseCamera=False
+StartThread
+	PlayAnimation: Char=Caster ; Anim=ANH_MAIN_CLOUD_00_BTL_FINISHING_TOUCH ; Speed=1
+	MoveToPosition: Char=Caster ; RelativePosition=(0, 400, 0) ; MoveHeight=True ; Time=10
+	WaitMove: Char=Caster
+	MoveToPosition: Char=Caster ; RelativePosition=(0, -400, 0) ; MoveHeight=True ; Time=20
+	WaitMove: Char=Caster
+EndThread
+StartThread
+	Wait: Time=15
+	PlaySFX: SFX=High_Wind ; Reflect=True ; SkipSequence=True ; MeshColors=0:(0.065,0.820,0.780,1.0),2:(0.065,0.820,0.780,1.0),3:(0.065,0.820,0.780,1.0),4:(0.065,0.820,0.780,1.0),5:(0.065,0.820,0.780,1.0),8:(0.065,0.820,0.780,1.0)
+	PlaySound: Sound=1812
+	PlaySound: Sound=1813
+	PlaySound: Sound=1814
+	Wait: Time=15
+	EffectPoint: Char=AllTargets ; Type=Effect
+	EffectPoint: Char=Everyone ; Type=Figure
+	WaitSFXDone: SFX=High_Wind ; Reflect=True
+EndThread
+WaitAnimation: Char=Caster
+ActivateReflect
+WaitReflect
+PlayAnimation: Char=Caster ; Anim=Idle
+Turn: Char=Caster ; BaseAngle=Default ; Time=5
+WaitTurn: Char=Caster

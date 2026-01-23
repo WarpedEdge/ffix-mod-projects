@@ -1,0 +1,805 @@
+#####################################################################################################
+##                                  EMPTY MATERIA SLOT                                             ##
+#####################################################################################################
+
+>AA 11000 is Materia Void so it appears empty when not learned
+[code=Disable] 1 [/code]
+
+
+#####################################################################################################
+##                                  Restore Materia                                                ##
+#####################################################################################################
+
+>SA 12000 Cure
+
+# Empty Line above needed
+
+>SA 12001 Cura
+
+# Empty Line above needed
+
+>SA 12002 Regen
+
+# Empty Line above needed
+
+>SA 12003 Curaga
+
+# Empty Line above needed
+
+>SA Global+ ~~ Cure chain gating for spells not appearing when not learned or Restore Materia equipped ~~
+Permanent
+[code=Condition] !(AccessoryId == 11000 || HasLearntSupport(12000) || HasLearntSupport(12001) || HasLearntSupport(12002) || HasLearntSupport(12003)) [/code]
+[code=HardDisable] 12000 [/code]
+
+Permanent
+[code=Condition] !(HasLearntSupport(12001) || HasLearntSupport(12002) || HasLearntSupport(12003) || (AccessoryId == 11000 && HasLearntSupport(12000))) [/code]
+[code=BanishSAByLvl] 12000;3 [/code]
+
+Permanent
+[code=Condition] !(HasLearntSupport(12002) || HasLearntSupport(12003) || (AccessoryId == 11000 && HasLearntSupport(12001))) [/code]
+[code=BanishSAByLvl] 12000;2 [/code]
+
+Permanent
+[code=Condition] !(HasLearntSupport(12003) || (AccessoryId == 11000 && HasLearntSupport(12002))) [/code]
+[code=BanishSAByLvl] 12000;1 [/code]
+
+>AA 11001 ~~ Cure ~~
+[code=Patch] AccessoryId == 11000 || HasSA(12000) || HasSA(12001) || HasSA(12002) || HasSA(12003) ? ((AccessoryId == 11000 || HasSA(12000)) && HasSA(12032) ? 11033 : 11001) : 11000 [/code]
+
+>AA 11002 ~~ Cura ~~
+[code=Patch] HasSA(12001) || HasSA(12002) || HasSA(12003) || (AccessoryId == 11000 && HasLearntSupport(12000)) ? ((AccessoryId == 11000 || HasSA(12001)) && HasSA(12032) ? 11034 : 11002) : 11000 [/code]
+
+>AA 11003 ~~ Regen ~~
+[code=Patch] HasSA(12002) || HasSA(12003) || (AccessoryId == 11000 && HasLearntSupport(12001)) ? ((AccessoryId == 11000 || HasSA(12002)) && HasSA(12032) ? 11035 : 11003) : 11000 [/code]
+
+>AA 11004 ~~ Curaga ~~
+[code=Patch] HasSA(12003) || (AccessoryId == 11000 && HasLearntSupport(12002)) ? ((AccessoryId == 11000 || HasSA(12003)) && HasSA(12032) ? 11036 : 11004) : 11000 [/code]
+
+
+#####################################################################################################
+##                                  Heal Materia                                                   ##
+#####################################################################################################
+
+>SA 12004 Panacea
+
+# Empty Line above needed
+
+>SA 12005 Stona
+
+# Empty Line above needed
+
+>SA 12006 Esuna
+
+# Empty Line above needed
+
+>SA Global+ ~~ Heal chain gating for spells not appearing when not learned or Heal Materia equipped ~~
+Permanent
+[code=Condition] !(AccessoryId == 11001 || HasLearntSupport(12004) || HasLearntSupport(12005) || HasLearntSupport(12006)) [/code]
+[code=HardDisable] 12004 [/code]
+
+Permanent
+[code=Condition] !(HasLearntSupport(12005) || HasLearntSupport(12006) || (AccessoryId == 11001 && HasLearntSupport(12004))) [/code]
+[code=BanishSAByLvl] 12004;2 [/code]
+
+Permanent
+[code=Condition] !(HasLearntSupport(12006) || (AccessoryId == 11001 && HasLearntSupport(12005))) [/code]
+[code=BanishSAByLvl] 12004;1 [/code]
+
+>AA 11005 ~~ Panacea ~~
+[code=Patch] AccessoryId == 11001 || HasSA(12004) || HasSA(12005) || HasSA(12006) ? ((AccessoryId == 11001 || HasSA(12004)) && HasSA(12032) ? 11037 : 11005) : 11000 [/code]
+
+>AA 11006 ~~ Stona ~~
+[code=Patch] HasSA(12005) || HasSA(12006) || (AccessoryId == 11001 && HasLearntSupport(12004)) ? ((AccessoryId == 11001 || HasSA(12005)) && HasSA(12032) ? 11038 : 11006) : 11000 [/code]
+
+>AA 11007 ~~ Esuna ~~
+[code=Patch] HasSA(12006) || (AccessoryId == 11001 && HasLearntSupport(12005)) ? ((AccessoryId == 11001 || HasSA(12006)) && HasSA(12032) ? 11039 : 11007) : 11000 [/code]
+
+#####################################################################################################
+##                                  Barrier Materia                                                ##
+#####################################################################################################
+
+>SA 12007 Barrier
+
+# Empty Line above needed
+
+>SA 12008 MBarrier
+
+# Empty Line above needed
+
+>SA 12009 Reflect
+
+# Empty Line above needed
+
+>SA 12010 Wall
+
+# Empty Line above needed
+
+>SA Global+ ~~ Barrier chain gating for spells not appearing when not learned or Barrier Materia equipped ~~
+Permanent
+[code=Condition] !(AccessoryId == 11002 || HasLearntSupport(12007) || HasLearntSupport(12008) || HasLearntSupport(12009) || HasLearntSupport(12010)) [/code]
+[code=HardDisable] 12007 [/code]
+
+Permanent
+[code=Condition] !(HasLearntSupport(12008) || HasLearntSupport(12009) || HasLearntSupport(12010) || (AccessoryId == 11002 && HasLearntSupport(12007))) [/code]
+[code=BanishSAByLvl] 12007;3 [/code]
+
+Permanent
+[code=Condition] !(HasLearntSupport(12009) || HasLearntSupport(12010) || (AccessoryId == 11002 && HasLearntSupport(12008))) [/code]
+[code=BanishSAByLvl] 12007;2 [/code]
+
+Permanent
+[code=Condition] !(HasLearntSupport(12010) || (AccessoryId == 11002 && HasLearntSupport(12009))) [/code]
+[code=BanishSAByLvl] 12007;1 [/code]
+
+>AA 11008 ~~ Barrier ~~
+[code=Patch] AccessoryId == 11002 || HasSA(12007) || HasSA(12008) || HasSA(12009) || HasSA(12010) ? ((AccessoryId == 11002 || HasSA(12007)) && HasSA(12032) ? 11040 : 11008) : 11000 [/code]
+
+>AA 11009 ~~ MBarrier ~~
+[code=Patch] HasSA(12008) || HasSA(12009) || HasSA(12010) || (AccessoryId == 11002 && HasLearntSupport(12007)) ? ((AccessoryId == 11002 || HasSA(12008)) && HasSA(12032) ? 11041 : 11009) : 11000 [/code]
+
+>AA 11010 ~~ Reflect ~~
+[code=Patch] HasSA(12009) || HasSA(12010) || (AccessoryId == 11002 && HasLearntSupport(12008)) ? ((AccessoryId == 11002 || HasSA(12009)) && HasSA(12032) ? 11042 : 11010) : 11000 [/code]
+
+>AA 11011 ~~ Wall ~~
+[code=Patch] HasSA(12010) || (AccessoryId == 11002 && HasLearntSupport(12009)) ? ((AccessoryId == 11002 || HasSA(12010)) && HasSA(12032) ? 11043 : 11011) : 11000 [/code]
+
+#####################################################################################################
+##                                  Revive Materia                                                 ##
+#####################################################################################################
+
+>SA 12011 Raise
+
+# Empty Line above needed
+
+>SA 12012 Arise
+
+# Empty Line above needed
+
+>SA Global+ ~~ Revive chain gating for spells not appearing when not learned or Revive Materia equipped ~~
+Permanent
+[code=Condition] !(AccessoryId == 11003 || HasLearntSupport(12011) || HasLearntSupport(12012)) [/code]
+[code=HardDisable] 12011 [/code]
+
+Permanent
+[code=Condition] !(HasLearntSupport(12012) || (AccessoryId == 11003 && HasLearntSupport(12011))) [/code]
+[code=BanishSAByLvl] 12011;1 [/code]
+
+>AA 11012 ~~ Raise ~~
+[code=Patch] AccessoryId == 11003 || HasSA(12011) || HasSA(12012) ? ((AccessoryId == 11003 || HasSA(12011)) && HasSA(12032) ? 11044 : 11012) : 11000 [/code]
+
+>AA 11013 ~~ Arise ~~
+[code=Patch] HasSA(12012) || (AccessoryId == 11003 && HasLearntSupport(12011)) ? ((AccessoryId == 11003 || HasSA(12012)) && HasSA(12032) ? 11045 : 11013) : 11000 [/code]
+
+#####################################################################################################
+##                                  Time Materia                                                   ##
+#####################################################################################################
+
+>SA 12013 Haste
+
+# Empty Line above needed
+
+>SA 12014 Slow
+
+# Empty Line above needed
+
+>SA 12015 Stop
+
+# Empty Line above needed
+
+>SA Global+ ~~ Time chain gating for spells not appearing when not learned or Time Materia equipped ~~
+Permanent
+[code=Condition] !(AccessoryId == 11004 || HasLearntSupport(12013) || HasLearntSupport(12014) || HasLearntSupport(12015)) [/code]
+[code=HardDisable] 12013 [/code]
+
+Permanent
+[code=Condition] !(HasLearntSupport(12014) || HasLearntSupport(12015) || (AccessoryId == 11004 && HasLearntSupport(12013))) [/code]
+[code=BanishSAByLvl] 12013;2 [/code]
+
+Permanent
+[code=Condition] !(HasLearntSupport(12015) || (AccessoryId == 11004 && HasLearntSupport(12014))) [/code]
+[code=BanishSAByLvl] 12013;1 [/code]
+
+>AA 11014 ~~ Haste ~~
+[code=Patch] AccessoryId == 11004 || HasSA(12013) || HasSA(12014) || HasSA(12015) ? ((AccessoryId == 11004 || HasSA(12013)) && HasSA(12032) ? 11046 : 11014) : 11000 [/code]
+
+>AA 11015 ~~ Slow ~~
+[code=Patch] HasSA(12014) || HasSA(12015) || (AccessoryId == 11004 && HasLearntSupport(12013)) ? ((AccessoryId == 11004 || HasSA(12014)) && HasSA(12032) ? 11047 : 11015) : 11000 [/code]
+
+>AA 11016 ~~ Stop ~~
+[code=Patch] HasSA(12015) || (AccessoryId == 11004 && HasLearntSupport(12014)) ? ((AccessoryId == 11004 || HasSA(12015)) && HasSA(12032) ? 11048 : 11016) : 11000 [/code]
+
+#####################################################################################################
+##                                  Mystify Materia                                                ##
+#####################################################################################################
+
+>SA 12016 Confuse
+
+# Empty Line above needed
+
+>SA 12017 Berserk
+
+# Empty Line above needed
+
+>SA Global+ ~~ Mystify chain gating for spells not appearing when not learned or Mystify Materia equipped ~~
+Permanent
+[code=Condition] !(AccessoryId == 11005 || HasLearntSupport(12016) || HasLearntSupport(12017)) [/code]
+[code=HardDisable] 12016 [/code]
+
+Permanent
+[code=Condition] !(HasLearntSupport(12017) || (AccessoryId == 11005 && HasLearntSupport(12016))) [/code]
+[code=BanishSAByLvl] 12016;1 [/code]
+
+>AA 11017 ~~ Confuse ~~
+[code=Patch] AccessoryId == 11005 || HasSA(12016) || HasSA(12017) ? ((AccessoryId == 11005 || HasSA(12016)) && HasSA(12032) ? 11049 : 11017) : 11000 [/code]
+
+>AA 11018 ~~ Berserk ~~
+[code=Patch] HasSA(12017) || (AccessoryId == 11005 && HasLearntSupport(12016)) ? ((AccessoryId == 11005 || HasSA(12017)) && HasSA(12032) ? 11050 : 11018) : 11000 [/code]
+
+#####################################################################################################
+##                                  Fire Materia                                                   ##
+#####################################################################################################
+
+>SA 12018 Fire
+
+# Empty Line above needed
+
+>SA 12019 Fira
+
+# Empty Line above needed
+
+>SA 12020 Firaga
+
+# Empty Line above needed
+
+>SA Global+ ~~ Fire chain gating for spells not appearing when not learned or Fire Materia equipped ~~
+Permanent
+[code=Condition] !(AccessoryId == 11006 || HasLearntSupport(12018) || HasLearntSupport(12019) || HasLearntSupport(12020)) [/code]
+[code=HardDisable] 12018 [/code]
+
+Permanent
+[code=Condition] !(HasLearntSupport(12019) || HasLearntSupport(12020) || (AccessoryId == 11006 && HasLearntSupport(12018))) [/code]
+[code=BanishSAByLvl] 12018;2 [/code]
+
+Permanent
+[code=Condition] !(HasLearntSupport(12020) || (AccessoryId == 11006 && HasLearntSupport(12019))) [/code]
+[code=BanishSAByLvl] 12018;1 [/code]
+
+>AA 11019 ~~ Fire ~~
+[code=Patch] AccessoryId == 11006 || HasSA(12018) || HasSA(12019) || HasSA(12020) ? ((AccessoryId == 11006 || HasSA(12018)) && HasSA(12032) ? 11051 : 11019) : 11000 [/code]
+
+>AA 11020 ~~ Fira ~~
+[code=Patch] HasSA(12019) || HasSA(12020) || (AccessoryId == 11006 && HasLearntSupport(12018)) ? ((AccessoryId == 11006 || HasSA(12019)) && HasSA(12032) ? 11052 : 11020) : 11000 [/code]
+
+>AA 11021 ~~ Firaga ~~
+[code=Patch] HasSA(12020) || (AccessoryId == 11006 && HasLearntSupport(12019)) ? ((AccessoryId == 11006 || HasSA(12020)) && HasSA(12032) ? 11053 : 11021) : 11000 [/code]
+
+#####################################################################################################
+##                                  Ice Materia                                                    ##
+#####################################################################################################
+
+>SA 12021 Blizzard
+
+# Empty Line above needed
+
+>SA 12022 Blizzara
+
+# Empty Line above needed
+
+>SA 12023 Blizzaga
+
+# Empty Line above needed
+
+>SA Global+ ~~ Ice chain gating for spells not appearing when not learned or Ice Materia equipped ~~
+Permanent
+[code=Condition] !(AccessoryId == 11007 || HasLearntSupport(12021) || HasLearntSupport(12022) || HasLearntSupport(12023)) [/code]
+[code=HardDisable] 12021 [/code]
+
+Permanent
+[code=Condition] !(HasLearntSupport(12022) || HasLearntSupport(12023) || (AccessoryId == 11007 && HasLearntSupport(12021))) [/code]
+[code=BanishSAByLvl] 12021;2 [/code]
+
+Permanent
+[code=Condition] !(HasLearntSupport(12023) || (AccessoryId == 11007 && HasLearntSupport(12022))) [/code]
+[code=BanishSAByLvl] 12021;1 [/code]
+
+>AA 11022 ~~ Blizzard ~~
+[code=Patch] AccessoryId == 11007 || HasSA(12021) || HasSA(12022) || HasSA(12023) ? ((AccessoryId == 11007 || HasSA(12021)) && HasSA(12032) ? 11054 : 11022) : 11000 [/code]
+
+>AA 11023 ~~ Blizzara ~~
+[code=Patch] HasSA(12022) || HasSA(12023) || (AccessoryId == 11007 && HasLearntSupport(12021)) ? ((AccessoryId == 11007 || HasSA(12022)) && HasSA(12032) ? 11055 : 11023) : 11000 [/code]
+
+>AA 11024 ~~ Blizzaga ~~
+[code=Patch] HasSA(12023) || (AccessoryId == 11007 && HasLearntSupport(12022)) ? ((AccessoryId == 11007 || HasSA(12023)) && HasSA(12032) ? 11056 : 11024) : 11000 [/code]
+
+#####################################################################################################
+##                                  Thunder Materia                                                ##
+#####################################################################################################
+
+>SA 12024 Thunder
+
+# Empty Line above needed
+
+>SA 12025 Thundara
+
+# Empty Line above needed
+
+>SA 12026 Thundaga
+
+# Empty Line above needed
+
+>SA Global+ ~~ Thunder chain gating for spells not appearing when not learned or Thunder Materia equipped ~~
+Permanent
+[code=Condition] !(AccessoryId == 11008 || HasLearntSupport(12024) || HasLearntSupport(12025) || HasLearntSupport(12026)) [/code]
+[code=HardDisable] 12024 [/code]
+
+Permanent
+[code=Condition] !(HasLearntSupport(12025) || HasLearntSupport(12026) || (AccessoryId == 11008 && HasLearntSupport(12024))) [/code]
+[code=BanishSAByLvl] 12024;2 [/code]
+
+Permanent
+[code=Condition] !(HasLearntSupport(12026) || (AccessoryId == 11008 && HasLearntSupport(12025))) [/code]
+[code=BanishSAByLvl] 12024;1 [/code]
+
+>AA 11025 ~~ Thunder ~~
+[code=Patch] AccessoryId == 11008 || HasSA(12024) || HasSA(12025) || HasSA(12026) ? ((AccessoryId == 11008 || HasSA(12024)) && HasSA(12032) ? 11057 : 11025) : 11000 [/code]
+
+>AA 11026 ~~ Thundara ~~
+[code=Patch] HasSA(12025) || HasSA(12026) || (AccessoryId == 11008 && HasLearntSupport(12024)) ? ((AccessoryId == 11008 || HasSA(12025)) && HasSA(12032) ? 11058 : 11026) : 11000 [/code]
+
+>AA 11027 ~~ Thundaga ~~
+[code=Patch] HasSA(12026) || (AccessoryId == 11008 && HasLearntSupport(12025)) ? ((AccessoryId == 11008 || HasSA(12026)) && HasSA(12032) ? 11059 : 11027) : 11000 [/code]
+
+#####################################################################################################
+##                                  Contain Materia                                                ##
+#####################################################################################################
+
+>SA 12027 Freeze
+
+# Empty Line above needed
+
+>SA 12028 Break
+
+# Empty Line above needed
+
+>SA 12029 Tornado
+
+# Empty Line above needed
+
+>SA 12030 Flare
+
+# Empty Line above needed
+
+>AA 11028 ~~ Freeze ~~
+[code=Patch] AccessoryId == 11009 || HasSA(12027) || HasSA(12028) || HasSA(12029) || HasSA(12030) ? 11028 : 11000 [/code]
+
+>AA 11029 ~~ Break ~~
+[code=Patch] HasSA(12028) || HasSA(12029) || HasSA(12030) || (AccessoryId == 11009 && HasLearntSupport(12027)) ? 11029 : 11000 [/code]
+
+>AA 11030 ~~ Tornado ~~
+[code=Patch] HasSA(12029) || HasSA(12030) || (AccessoryId == 11009 && HasLearntSupport(12028)) ? 11030 : 11000 [/code]
+
+>AA 11031 ~~ Flare ~~
+[code=Patch] HasSA(12030) || (AccessoryId == 11009 && HasLearntSupport(12029)) ? 11031 : 11000 [/code]
+
+#####################################################################################################
+##                                  Ultima Materia                                                 ##
+#####################################################################################################
+
+>SA 12031 Ultima
+
+# Empty Line above needed
+
+>AA 11032 ~~ Ultima ~~
+[code=Patch] AccessoryId == 11010 || HasSA(12031) ? 11032 : 11000 [/code]
+
+#####################################################################################################
+##                                  All Materia                                                   ##
+#####################################################################################################
+
+>SA 12032 ALL Materia - Allows for all spells to be single-multi target
+
+# Empty Line above needed
+
+#####################################################################################################
+##                                  HP Absorb Materia                                              ##
+##################################################################################################### 
+
+>SA 12033 ~~ HP Absorb ~~
+Ability WhenBattleScriptEnd EvenImmobilized
+[code=Condition] (AbilityId == BattleAbilityId_Attack) && ((EffectTargetFlags & CalcFlag_HpDamageOrHeal) == CalcFlag_HpAlteration) [/code]
+[code=EffectCasterFlags] EffectCasterFlags | CalcFlag_HpDamageOrHeal [/code]
+[code=CasterHPDamage] HPDamage * 0.1 [/code]
+
+
+#####################################################################################################
+##                                  MP Absorb Materia                                              ##
+#####################################################################################################
+
+>SA 12034 ~~ MP Absorb ~~
+Ability WhenBattleScriptEnd EvenImmobilized
+[code=Condition] (AbilityId == BattleAbilityId_Attack) && ((EffectTargetFlags & CalcFlag_HpDamageOrHeal) == CalcFlag_HpAlteration) [/code]
+[code=EffectCasterFlags] EffectCasterFlags | CalcFlag_MpDamageOrHeal [/code]
+[code=CasterMPDamage] HPDamage * 0.01 [/code]
+
+#####################################################################################################
+##                                  MP Turbo Materia                                               ##
+#####################################################################################################
+
+>SA 12035 ~~ MP Turbo Lvl 1 ~~
+
+>SA 12036 ~~ MP Turbo Lvl 2 ~~
+
+>SA 12037 ~~ MP Turbo Lvl 3 ~~
+
+>SA 12038 ~~ MP Turbo MASTERED ~~
+
+>AA Global+ ~~ MP Turbo Mod ~~
+[code=Condition] AbilityId >= 11001 && AbilityId <= 11059 [/code]
+[code=MPCost] CasterHasSA(12038) ? ((MPCost * 150) + 99) / 100 : (CasterHasSA(12037) ? ((MPCost * 130) + 99) / 100 : (CasterHasSA(12036) ? ((MPCost * 120) + 99) / 100 : (CasterHasSA(12035) ? ((MPCost * 110) + 99) / 100 : MPCost))) [/code]
+[code=Power] CasterHasSA(12038) ? ((Power * 150) + 99) / 100 : (CasterHasSA(12037) ? ((Power * 130) + 99) / 100 : (CasterHasSA(12036) ? ((Power * 120) + 99) / 100 : (CasterHasSA(12035) ? ((Power * 110) + 99) / 100 : Power))) [/code]
+
+
+#####################################################################################################
+##                                  Magic Counter Materia                                          ##
+#####################################################################################################
+
+>SA 12039 ~~ Magic Counter Lvl 1 ~~
+Ability AsTarget
+[code=Condition] IsCounterableCommand && CasterIsPlayer != TargetIsPlayer && (AbilityCategory & 128) != 0 && GetRandom(0, 100) < 30 [/code]
+[code=ReturnMagic] 0 [/code]
+DisableSA 12039 12040 12041 12042 12043 12044 12045 12046
+
+>SA 12040 ~~ Magic Counter Lvl 2 ~~
+Ability AsTarget
+[code=Condition] IsCounterableCommand && CasterIsPlayer != TargetIsPlayer && (AbilityCategory & 128) != 0 && GetRandom(0, 100) < 50 [/code]
+[code=ReturnMagic] 0 [/code]
+DisableSA 12039 12040 12041 12042 12043 12044 12045 12046
+
+>SA 12041 ~~ Magic Counter Lvl 3 ~~
+Ability AsTarget
+[code=Condition] IsCounterableCommand && CasterIsPlayer != TargetIsPlayer && (AbilityCategory & 128) != 0 && GetRandom(0, 100) < 70 [/code]
+[code=ReturnMagic] 0 [/code]
+DisableSA 12039 12040 12041 12042 12043 12044 12045 12046
+
+>SA 12042 ~~ Magic Counter MASTERED ~~
+Ability AsTarget
+[code=Condition] IsCounterableCommand && CasterIsPlayer != TargetIsPlayer && (AbilityCategory & 128) != 0 && GetRandom(0, 100) < 100 [/code]
+[code=ReturnMagic] 0 [/code]
+DisableSA 12039 12040 12041 12042 12043 12044 12045 12046
+
+#####################################################################################################
+##                                  Counter Attack Materia                                         ##
+#####################################################################################################
+
+>SA 12043 ~~ Counter Lvl 1 ~~
+Ability AsTarget
+[code=Condition] IsCounterableCommand && CasterIsPlayer != TargetIsPlayer && (AbilityCategory & 8) != 0 && GetRandom(0, 100) < 30 [/code]
+[code=Counter] 176 [/code]
+DisableSA 12039 12040 12041 12042 12043 12044 12045 12046
+
+>SA 12044 ~~ Counter Lvl 2 ~~
+Ability AsTarget
+[code=Condition] IsCounterableCommand && CasterIsPlayer != TargetIsPlayer && (AbilityCategory & 8) != 0 && GetRandom(0, 100) < 50 [/code]
+[code=Counter] 176 [/code]
+DisableSA 12039 12040 12041 12042 12043 12044 12045 12046
+
+>SA 12045 ~~ Counter Lvl 3 ~~
+Ability AsTarget
+[code=Condition] IsCounterableCommand && CasterIsPlayer != TargetIsPlayer && (AbilityCategory & 8) != 0 && GetRandom(0, 100) < 70 [/code]
+[code=Counter] 176 [/code]
+DisableSA 12039 12040 12041 12042 12043 12044 12045 12046
+
+>SA 12046 ~~ Counter Lvl MASTERED ~~
+Ability AsTarget
+[code=Condition] IsCounterableCommand && CasterIsPlayer != TargetIsPlayer && (AbilityCategory & 8) != 0 && GetRandom(0, 100) < 100 [/code]
+[code=Counter] 176 [/code]
+DisableSA 12039 12040 12041 12042 12043 12044 12045 12046
+              
+#####################################################################################################
+##                                  Cover Materia                                                  ##
+#####################################################################################################
+
+>SA 12047 ~~ Cover Lvl 1 ~~
+Command
+[code=Condition] !IsTargeted && IsAllyOfTarget && CommandId == BattleCommandId_EnemyAtk && (AbilityCategory & 8) != 0 && IsSingleTarget && !CheckAnyStatus(CurrentStatus, BattleStatus_Heat) && GetRandom(0, 100) < 30 [/code]
+[code=TryCover] !CheckAnyStatus(TargetCurrentStatus, BattleStatus_Death | BattleStatus_Petrify) [/code]
+
+>SA 12048 ~~ Cover Lvl 2 ~~
+Command
+[code=Condition] !IsTargeted && IsAllyOfTarget && CommandId == BattleCommandId_EnemyAtk && (AbilityCategory & 8) != 0 && IsSingleTarget && !CheckAnyStatus(CurrentStatus, BattleStatus_Heat) && GetRandom(0, 100) < 50 [/code]
+[code=TryCover] !CheckAnyStatus(TargetCurrentStatus, BattleStatus_Death | BattleStatus_Petrify) [/code]
+
+>SA 12049 ~~ Cover Lvl 3 ~~
+Command
+[code=Condition] !IsTargeted && IsAllyOfTarget && CommandId == BattleCommandId_EnemyAtk && (AbilityCategory & 8) != 0 && IsSingleTarget && !CheckAnyStatus(CurrentStatus, BattleStatus_Heat) && GetRandom(0, 100) < 70 [/code]
+[code=TryCover] !CheckAnyStatus(TargetCurrentStatus, BattleStatus_Death | BattleStatus_Petrify) [/code]
+
+>SA 12050 ~~ Cover Lvl MASTERED ~~
+Command
+[code=Condition] !IsTargeted && IsAllyOfTarget && CommandId == BattleCommandId_EnemyAtk && (AbilityCategory & 8) != 0 && IsSingleTarget && !CheckAnyStatus(CurrentStatus, BattleStatus_Heat) [/code]
+[code=TryCover] !CheckAnyStatus(TargetCurrentStatus, BattleStatus_Death | BattleStatus_Petrify) [/code]
+
+#####################################################################################################
+##                                  HP Plus Materia                                                ##
+#####################################################################################################
+
+>SA 12051 ~~ HP Plus Lvl 1 (10%) ~~
+Permanent [code=MaxHP] MaxHP + (MaxHP * 1) / 10 [/code]
+
+>SA 12052 ~~ HP Plus Lvl 2 (20%) ~~
+Permanent [code=MaxHP] MaxHP + (MaxHP * 2) / 10 [/code]
+
+>SA 12053 ~~ HP Plus MASTERED (30%) ~~
+Permanent [code=MaxHP] MaxHP + (MaxHP * 3) / 10 [/code]
+
+
+#####################################################################################################
+##                                  MP Plus Materia                                                ##
+#####################################################################################################
+
+>SA 12054 ~~ MP Plus Lvl 1 (10%) ~~
+Permanent [code=MaxMP] MaxMP + (MaxMP * 1) / 10 [/code]
+
+>SA 12055 ~~ MP Plus Lvl 2 (20%) ~~
+Permanent [code=MaxMP] MaxMP + (MaxMP * 2) / 10 [/code]
+
+>SA 12056 ~~ MP Plus MASTERED (30%) ~~
+Permanent [code=MaxMP] MaxMP + (MaxMP * 3) / 10 [/code]
+
+#####################################################################################################
+##                                  Long Range Materia                                             ##
+#####################################################################################################
+
+>SA 12057 ~~ Long Range ~~
+Ability WhenBattleScriptStart EvenImmobilized
+[code=IsShortRanged] false [/code]
+
+#####################################################################################################
+##                                  EXP Plus Materia                                               ##
+#####################################################################################################
+
+>SA 12058 ~~ EXP Plus Lvl 1 (0x) ~~
+BattleResult [code=Condition] !HasSA(12059) && !HasSA(12060) [/code]
+[code=BonusExp] 0 [/code]
+
+>SA 12059 ~~ EXP Plus Lvl 2 (1.5x) ~~
+BattleResult [code=Condition] !HasSA(12060) [/code]
+[code=BonusExp] 1.5 * BonusExp [/code]
+
+>SA 12060 ~~ EXP Plus MASTERED (2x) ~~
+BattleResult [code=BonusExp] 2 * BonusExp [/code]
+
+
+#####################################################################################################
+##                                  Strength Up Materia                                            ##
+#####################################################################################################
+
+>SA 12061 ~~ Strength Up Lvl 1 ~~
+Permanent [code=Strength] Strength + (Strength * 5) / 100 [/code]
+
+>SA 12062 ~~ Strength Up Lvl 2 ~~
+Permanent [code=Strength] Strength + (Strength * 10) / 100 [/code]
+
+>SA 12063 ~~ Strength Up MASTERED ~~
+Permanent [code=Strength] Strength + (Strength * 15) / 100 [/code]
+
+
+#####################################################################################################
+##                                  Magic Up Materia                                               ##
+#####################################################################################################
+
+>SA 12064 ~~ Magic Up Lvl 1 ~~
+Permanent [code=Magic] Magic + (Magic * 5) / 100 [/code]
+
+>SA 12065 ~~ Magic Up Lvl 2 ~~
+Permanent [code=Magic] Magic + (Magic * 10) / 100 [/code]
+
+>SA 12066 ~~ Magic Up MASTERED ~~
+Permanent [code=Magic] Magic + (Magic * 15) / 100 [/code]
+
+#####################################################################################################
+##                                  Assess Materia                                                 ##
+#####################################################################################################
+
+>SA 12067 ~~ Assess ~~
+
+>AA 11060 ~~ Assess ~~
+[code=Patch] HasSA(12067) ? 11060 : 11000 [/code]
+
+#####################################################################################################
+##                                  Steal Materia                                                 ##
+#####################################################################################################
+
+>SA 12068 ~~ Steal ~~
+
+>AA 11061 ~~ Steal ~~
+[code=Patch] HasSA(12068) ? 11061 : 11000 [/code]
+
+#####################################################################################################
+##                                  Command Materia (Attack Replace)                               ##
+#####################################################################################################
+
+>SA Global+ ~~ Cut Materia Exclusivity ~~
+Permanent [code=Condition] HasSA(12069) [/code] [code=BanishSA] 12070 ; 12071 [/code]
+Permanent [code=Condition] HasSA(12070) [/code] [code=BanishSA] 12069 ; 12071 [/code]
+Permanent [code=Condition] HasSA(12071) [/code] [code=BanishSA] 12069 ; 12070 [/code]
+
+>SA 12069 ~~ D. Blow ~~
+
+>SA 12070 ~~ Double Cut ~~
+
+>SA 12071 ~~ Slash All ~~
+
+>CMD 1 ~~ Replace Attack with either Deathblow|Double Cut|Slash All~~
+[code=Patch] HasSA(12071) ? 11003 : (HasSA(12070) ? 11002 : (HasSA(12069) ? 11001 : 1)) [/code]
+
+#####################################################################################################
+##                                  Support Abilities (ALL)                                       ##
+#####################################################################################################
+
+>SA Global+ ~~ LIMIT consumes Trance ~~
+Ability WhenBattleScriptEnd
+[code=Condition] AbilityId == 11077 || AbilityId == 11078 || AbilityId == 11079 || AbilityId == 11080 || AbilityId == 11081 || AbilityId == 11082 || AbilityId == 11083 || AbilityId == 11084 [/code]
+[code=CasterTrance] 0 [/code]
+
+>SA 12072 ~~ Warmup ~~
+StatusInit AutoStatus Haste AutoStatus Regen
+
+>SA 12073 ~~ Lightfoot ~~
+StatusInit AutoStatus Float
+
+>SA 12074 ~~ Mirror Ward ~~
+StatusInit AutoStatus Reflect
+
+>SA 12075 ~~ Mercenary ~~
+Ability WhenCalcDamage EvenImmobilized
+[code=Condition] AbilityId == BattleAbilityId_Attack && CasterIsPlayer != TargetIsPlayer && ((TargetCategory & EnemyCategory_Dragon) != 0 || (TargetCategory & EnemyCategory_Soul) != 0 || (TargetCategory & EnemyCategory_Beast) != 0) [/code]
+[code=DamageModifierCount] DamageModifierCount + 1 [/code]
+
+>SA 12076 ~~ Bounty Hunter ~~
+Ability WhenCalcDamage EvenImmobilized
+[code=Condition] AbilityId == BattleAbilityId_Attack && CasterIsPlayer != TargetIsPlayer && ((TargetCategory & EnemyCategory_Humanoid) != 0 || (TargetCategory & EnemyCategory_Devil) != 0 || (TargetCategory & EnemyCategory_Undead) != 0) [/code]
+[code=DamageModifierCount] DamageModifierCount + 1 [/code]
+
+>SA 12077 ~~ Combat Medic ~~
+Ability WhenCalcDamage EvenImmobilized
+[code=Condition] AbilityId == BattleAbilityId_Attack && (TargetCategory & EnemyCategory_Undead) == 0 && !CheckAnyStatus(TargetCurrentStatus, BattleStatus_ZombieEffect) [/code]
+[code=EffectTargetFlags] EffectTargetFlags | CalcFlag_HpRecovery [/code]
+Ability AsTarget
+[code=Condition] CasterIsPlayer != TargetIsPlayer && (HPDamage != 0 || (EffectFlags & BattleCalcFlags_DirectHP) != 0) && TargetHP != 0 && CheckAnyStatus(TargetCurrentStatus, BattleStatus_LowHP) [/code]
+[code=TargetHP] TargetHP + TargetMaxHP / 2 [/code]
+
+>SA 12078 ~~ Field Medic ~~
+Ability WhenCalcDamage EvenImmobilized
+[code=Condition] ScriptId == 69 || ScriptId == 70 [/code]
+[code=Attack] 2 * Attack [/code]
+Ability AsTarget
+[code=Condition] IsCounterableCommand && CasterIsPlayer != TargetIsPlayer && (HPDamage != 0 || (EffectFlags & BattleCalcFlags_DirectHP) != 0) [/code]
+[code=AutoItem] GetItemCount(RegularItem_Potion) != 0 ? RegularItem_Potion : RegularItem_HiPotion [/code]
+
+>SA 12079 ~~ Instinct ~~
+BattleStart [code=BackAttack] 0 [/code]
+BattleStart [code=Preemptive] 85 [/code]
+
+>SA 12080 ~~ Payday ~~
+BattleResult WhenRewardAll
+[code=BonusGil] BonusGil + BonusGil / 2 [/code]
+[code=EachBonusItemCount] 2 * EachBonusItemCount [/code]
+
+>SA 12081 ~~ Mental Discipline ~~
+StatusInit ResistStatus Confuse ResistStatus Berserk ResistStatus Sleep
+
+>SA 12082 ~~ Sharp Senses ~~
+StatusInit ResistStatus Blind ResistStatus Slow ResistStatus Silence
+
+>SA 12083 ~~ Toxin Ward ~~
+StatusInit ResistStatus Poison ResistStatus Venom ResistStatus Virus ResistStatus Zombie
+
+>SA 12084 ~~ Seal Ward ~~
+StatusInit ResistStatus Petrify ResistStatus GradualPetrify ResistStatus Stop
+
+>SA 12085 ~~ Weatherproof ~~
+StatusInit ResistStatus Heat ResistStatus Freeze
+
+>SA 12086 ~~ Headstart ~~
+BattleResult [code=BonusAP] 2 * BonusAP [/code]
+
+>SA 12087 ~~ Gaia's Blessing - Handled by GaiBlessingScript.cs ~~ 
+
+>SA 12088 ~~ Adrenaline ~~
+Ability AsTarget WhenBattleScriptStart EvenImmobilized
+[code=TranceIncrease] 2 * TargetSpirit [/code]
+
+#####################################################################################################
+##                                  Equipment Related                                              ##
+#####################################################################################################
+
+>SA Global+ ~~ HP+3% Bronze Bangle ~~
+Permanent [code=Condition] WristId == 12016  [/code] [code=MaxHP] MaxHP + (MaxHP * 3) / 100 [/code]
+
+>SA Global+ ~~ HP+5% Iron Bangle ~~
+Permanent [code=Condition] WristId == 12017  [/code] [code=MaxHP] MaxHP + (MaxHP * 5) / 100 [/code]
+
+>SA Global+ ~~ MP+3% Mythril Bangle ~~
+Permanent [code=Condition] WristId == 12018  [/code] [code=MaxMP] MaxMP + (MaxMP * 3) / 100 [/code]
+
+>SA Global+ ~~ MP+5% Silver Armlet ~~
+Permanent [code=Condition] WristId == 12019  [/code] [code=MaxMP] MaxMP + (MaxMP * 5) / 100 [/code]
+
+>SA Global+ ~~ DEF+10% Diamond Bangle ~~
+Permanent [code=Condition] WristId == 12020  [/code] [code=Defence] Defence + (Defence * 10) / 100 [/code]
+
+>SA Global+ ~~ MAG+3% Rune Armlet ~~
+Permanent [code=Condition] WristId == 12021  [/code] [code=Magic] Magic + (Magic * 3) / 100 [/code]
+
+>SA Global+ ~~ DEF+10% Adaman Bangle ~~
+Permanent [code=Condition] WristId == 12022  [/code] [code=Defence] Defence + (Defence * 10) / 100 [/code]
+
+>SA Global+ ~~ SPR+10% Chocobracelet ~~
+Permanent [code=Condition] WristId == 12023  [/code] [code=Spirit] Spirit + (Spirit * 10) / 100 [/code]
+
+>SA Global+ ~~ MP+3% & MAG+3% Wizard Bracelet ~~
+Permanent [code=Condition] WristId == 12024  [/code] [code=MaxMP] MaxMP + (MaxMP * 3) / 100 [/code] [code=Magic] Magic + (Magic * 3) / 100 [/code]
+StatusInit [code=Condition] WristId == 12024  [/code] [code=BonusElement] BonusElement | EffectElement_Fire | EffectElement_Cold | EffectElement_Thunder [/code]
+
+>SA Global+ ~~ HP+3% & STR+3% Warrior Bangle ~~
+Permanent [code=Condition] WristId == 12025  [/code] [code=MaxHP] MaxHP + (MaxHP * 3) / 100 [/code] [code=Strength] Strength + (Strength * 3) / 100 [/code]
+StatusInit [code=Condition] WristId == 12025  [/code] AutoStatus Regen
+
+>SA Global+ ~~ HP+10% Gigas Armlet ~~
+Permanent [code=Condition] WristId == 12026  [/code] [code=MaxHP] MaxHP + (MaxHP * 10) / 100 [/code]
+
+>SA Global+ ~~ Start Protect Imperial Guard ~~
+StatusInit [code=Condition] WristId == 12027  [/code] AutoStatus Protect
+
+>SA Global+ ~~ Elem-Def: Fire, Ice, Thunder (50%) Dragon Armlet ~~
+StatusInit [code=Condition] WristId == 12028  [/code] [code=HalfElement] HalfElement | EffectElement_Fire | EffectElement_Cold | EffectElement_Thunder [/code]
+
+>SA Global+ ~~ Start Vanish Minerva Band ~~
+StatusInit [code=Condition] WristId == 12029  [/code] AutoStatus Vanish
+
+>SA Global+ ~~ Start Haste Escort Guard ~~
+StatusInit [code=Condition] WristId == 12030  [/code] AutoStatus Haste
+
+>SA Global+ ~~ DEF+10% Sector Guard Hat ~~
+Permanent [code=Condition] HeadId == 12033  [/code] [code=Defence] Defence + (Defence * 10) / 100 [/code]
+
+>SA Global+ ~~ SPR+10% Mythril Helm ~~
+Permanent [code=Condition] HeadId == 12035  [/code] [code=Spirit] Spirit + (Spirit * 10) / 100 [/code]
+
+>SA Global+ ~~ SPD+10% Carbon Bandana ~~
+Permanent [code=Condition] HeadId == 12036  [/code] [code=Speed] Speed + (Speed * 10) / 100 [/code]
+
+>SA Global+ ~~ HP+2% Sentry Helm ~~
+Permanent [code=Condition] HeadId == 12037  [/code] [code=MaxHP] MaxHP + (MaxHP * 2) / 100 [/code]
+
+>SA Global+ ~~ STR+5% SPD+5% MAG+5% SPR+5% 3rd Class Helm ~~
+Permanent [code=Condition] HeadId == 12038  [/code] [code=Strength] Strength + (Strength * 5) / 100 [/code] [code=Speed] Speed + (Speed * 5) / 100 [/code] [code=Magic] Magic + (Magic * 5) / 100 [/code] [code=Spirit] Spirit + (Spirit * 5) / 100 [/code]
+
+>SA Global+ ~~ Elem-Def: Shadow Wizard Hat ~~
+StatusInit [code=Condition] HeadId == 12039  [/code] [code=HalfElement] HalfElement | EffectElement_Darkness [/code]
+
+>SA Global+ ~~ Start Regen Warrior's Visor ~~
+StatusInit [code=Condition] HeadId == 12040  [/code] AutoStatus Regen
+
+>SA Global+ ~~ Start Protect Imperial Helm ~~
+StatusInit [code=Condition] HeadId == 12041  [/code] AutoStatus Protect
+
+>SA Global+ ~~ STR+3% SPD+3% MAG+3% SPR+3% 2nd Class Helm ~~
+Permanent [code=Condition] HeadId == 12042  [/code] [code=Strength] Strength + (Strength * 3) / 100 [/code] [code=Speed] Speed + (Speed * 3) / 100 [/code] [code=Magic] Magic + (Magic * 3) / 100 [/code] [code=Spirit] Spirit + (Spirit * 3) / 100 [/code]
+StatusInit [code=Condition] HeadId == 12042  [/code] [code=BonusElement] BonusElement | EffectElement_Fire | EffectElement_Thunder [/code]
+
+>SA Global+ ~~ STR+5% & SPD+10% Merc Headband ~~
+Permanent [code=Condition] HeadId == 12043  [/code] [code=Strength] Strength + (Strength * 5) / 100 [/code] [code=Speed] Speed + (Speed * 10) / 100 [/code]
+
+>SA Global+ ~~ DEF+10% Sector Guard Vest ~~
+Permanent [code=Condition] ArmorId == 12046  [/code] [code=Defence] Defence + (Defence * 10) / 100 [/code]
+
+>SA Global+ ~~ MAG+5% Mythril Armor ~~
+Permanent [code=Condition] ArmorId == 12048  [/code] [code=Magic] Magic + (Magic * 5) / 100 [/code]
+
+>SA Global+ ~~ DEF+10% Sentry Armor ~~
+Permanent [code=Condition] ArmorId == 12050  [/code] [code=Defence] Defence + (Defence * 10) / 100 [/code]
+
+>SA Global+ ~~ STR+5% & SPD+10% Merc Outfit ~~
+Permanent [code=Condition] ArmorId == 12056  [/code] [code=Strength] Strength + (Strength * 5) / 100 [/code] [code=Speed] Speed + (Speed * 10) / 100 [/code]

@@ -1,0 +1,27 @@
+#! IncludeCastingTitleType
+# This file contains character actions.
+# -----------------------------------------------
+# Comment;id;menuWindow;targets;defaultAlly;forDead;defaultOnDead;defaultCamera;animationId1;animationId2;scriptId;power;elements;rate;category;statusIndex;mp;type;commandTitle
+# String;Int32;UInt8;UInt8;Boolean;Boolean;Boolean;Boolean;Int16;UInt16;Int32;Int32;UInt8;Int32;UInt8;Int32;Int32;UInt8;UInt8
+# -----------------------------------------------
+Braver;11065;None(0);SingleEnemy(2);0;0;0;0;11003;10;11001;10;0;100;12;0;16;0;255;# Braver
+Focused Thrust;11066;None(0);SingleEnemy(2);0;0;0;0;11004;10;11002;12;0;0;12;0;22;0;255;# Focused Thrust
+Firebolt Blade;11067;None(0);SingleAny(0);0;0;0;0;11005;10;11003;15;5;0;20;0;27;0;255;# Firebolt Blade
+Operator Mode;11068;None(0);Self(13);1;0;0;0;11006;10;11004;0;0;0;4;0;0;0;255;# Operator Mode
+Punisher Mode;11069;None(0);Self(13);1;0;0;0;11006;10;11004;25;0;50;4;0;0;0;255;# Punisher Mode
+Counterstance;11070;None(0);Self(13);1;0;0;0;11019;10;11005;0;0;0;4;0;0;0;255;# Counterstance
+Punisher Counter;11071;None(0);SingleEnemy(2);0;0;0;0;11016;10;11006;11;0;0;12;0;0;0;0;# Punisher Counter
+Disorder;11072;None(0);SingleAny(0);0;0;0;0;11007;10;11007;15;0;0;12;0;35;0;255;# Disorder
+Triple Slash;11073;None(0);SingleEnemy(2);0;0;0;0;11008;10;19;8;0;0;12;0;45;0;255;# Triple Slash
+Prime Mode;11074;None(0);Self(13);1;0;0;0;11006;10;11008;50;0;75;4;0;75;0;255;# Prime Mode
+Primed Attack;11075;None(0);SingleEnemy(2);0;0;0;0;11009;10;11009;20;0;0;12;0;0;0;255;# Primed Attack
+Omnislash;11076;None(0);SingleEnemy(2);0;0;0;0;11010;10;19;6;0;0;12;0;150;0;255;# Omnislash
+Cross Slash;11077;None(0);SingleEnemy(2);0;0;0;0;11011;10;11010;9;0;0;12;0;20;0;255;# Cross Slash
+Blade Beam;11078;None(0);AllEnemy(8);0;0;0;0;11012;10;11011;15;0;0;20;0;30;0;255;# Blade Beam
+Climhazzard;11079;None(0);SingleEnemy(2);0;0;0;0;11013;10;11013;16;0;100;12;0;50;0;255;# Climhazzard
+Finishing Touch;11080;None(0);AllEnemy(8);0;0;0;0;11014;10;11014;12;0;50;20;0;45;0;255;# Finishing Touch
+Meteorain;11081;None(0);AllEnemy(8);0;0;0;0;11015;10;11015;8;0;0;20;0;75;0;255;# Meteorain
+Infinity's End;11082;None(0);SingleEnemy(2);0;0;0;0;11016;10;11016;25;0;0;12;0;80;0;255;# Infinity's End
+Ascension;11083;None(0);SingleEnemy(2);0;0;0;0;11017;10;19;8;0;0;12;0;175;0;255;# Ascension
+Omnislash V5;11084;None(0);AllEnemy(8);0;0;0;0;11018;10;19;10;0;0;12;0;200;0;255;# Omnislash V5
+Beam Echo;11085;None(0);AllEnemy(8);0;0;0;0;11012;10;11012;15;0;0;12;0;30;0;255;# Beam Echo

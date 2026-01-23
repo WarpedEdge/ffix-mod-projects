@@ -1,0 +1,19 @@
+// Player sequence of SFX Cloud Mode Toggle (Operator/Punisher)
+
+
+LoadSFX: SFX=Focus ; UseCamera=False
+WaitSFXLoaded: SFX=Focus
+
+PlayAnimation: Char=Caster ; Anim=ANH_MAIN_CLOUD_00_BTL_READY_MODE_TOGGLE
+PlaySFX: SFX=Focus ; SkipSequence:True
+PlaySound: Sound=548
+WaitAnimation: Char=Caster
+
+PlayAnimation: Char=Caster ; Anim=ANH_MAIN_CLOUD_00_BTL_MODE_TOGGLE_STAND
+WaitAnimation: Char=Caster
+WaitSFXDone: SFX=Focus
+
+
+PlayAnimation: Char=Caster ; Anim=Idle
+Turn: Char=Caster ; BaseAngle=Default ; Time=5
+WaitTurn: Char=Caster

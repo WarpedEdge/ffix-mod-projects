@@ -1,0 +1,48 @@
+// Player sequence of SFX Cloud Firebolt Blade
+
+WaitAnimation: Char=Caster
+Turn: Char=Caster ; BaseAngle=AllTargets ; Time=5
+Message: Text=[CastName] ; Priority=1 ; Title=True ; Reflect=True
+SetupReflect: Delay=SFXLoaded
+PlayAnimation: Char=Caster ; Anim=MP_SET
+WaitAnimation: Char=Caster
+MoveToTarget: Char=Caster ; Target=AllTargets ; Distance=600 ; UseCollisionRadius=True ; Anim=MP_RUN
+Turn: Char=Caster ; BaseAngle=AllTargets ; Time=10
+
+StartThread:
+	Wait: Time=5
+    LoadSFX: SFX=Fire_Sword ; Reflect=True ; UseCamera=False
+    WaitSFXLoaded: SFX=Fire_Sword ; Reflect=True
+    PlaySFX: SFX=Fire_Sword ; Reflect=True ; SkipSequence=True ; JumpToFrame=23
+    Wait: Time=5
+	
+	PlaySound: Sound=138
+	
+EndThread
+StartThread:
+	Wait: Time=10
+    LoadSFX: SFX=Thunder_Slash_1 ; Reflect=True ; UseCamera=False
+    WaitSFXLoaded: SFX=Thunder_Slash_1 ; Reflect=True
+    PlaySFX: SFX=Thunder_Slash_1 ; Reflect=True ; SkipSequence=True
+	PlaySound: Sound=14
+	PlaySound: Sound=4
+	PlaySound: Sound=76
+EndThread
+
+WaitMove: Char=Caster
+MoveToTarget: Char=Caster ; Target=AllTargets ; Distance=0 ; UseCollisionRadius=True ; Anim=MP_RUN_TO_ATTACK
+WaitMove: Char=Caster
+PlayAnimation: Char=Caster ; Anim=MP_ATTACK
+Wait: Time=5
+EffectPoint: Char=AllTargets ; Type=Effect
+EffectPoint: Char=Everyone ; Type=Figure
+PlayAnimation: Char=Caster ; Speed=0
+Wait: Time=20
+MoveToPosition: Char=Caster ; AbsolutePosition=Default ; Anim=MP_BACK
+Turn: Char=Caster ; BaseAngle=Default ; Time=4
+WaitMove: Caster
+PlayAnimation: Char=Caster ; Anim=Idle
+WaitTurn: Char=Caster
+WaitSFXDone: Reflect=True
+ActivateReflect
+WaitReflect

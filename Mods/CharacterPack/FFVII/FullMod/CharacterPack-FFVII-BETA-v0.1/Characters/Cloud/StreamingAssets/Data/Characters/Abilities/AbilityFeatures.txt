@@ -1,0 +1,160 @@
+#####################################################################################################
+##                                  Cloud Costumes                                                 ##
+#####################################################################################################
+
+>SA 11000 DFFOO Advent Children
+
+# Empty Line above needed
+
+>SA 11001 Chocobo GP
+
+# Empty Line above needed
+
+>SA 11002 OG Ninostyle
+
+# Empty Line above needed
+
+>SA 11003 Ever Crisis Infantryman
+
+# Empty Line above needed
+
+>SA 11004 Ever Crisis Dress
+
+# Empty Line above needed
+
+>SA 11005 Ever Crisis SOLDIER
+
+# Empty Line above needed
+
+>SA 11006 Ever Crisis Masamune
+
+# Empty Line above needed
+
+>SA 11007 Ever Crisis Battlefiend
+
+# Empty Line above needed
+
+>SA 11008 Ever Crisis Maritime Sailor
+
+# Empty Line above needed
+
+>SA 11009 Ever Crisis Rider
+
+# Empty Line above needed
+
+>SA 11010 Ever Crisis Mystic Coat
+
+# Empty Line above needed
+
+>SA 11011 Ever Crisis Bandaged Coat
+
+# Empty Line above needed
+
+>SA 11012 Ever Crisis Official Festive
+
+# Empty Line above needed
+
+>SA 11013 Ever Crisis Zidane
+
+# Empty Line above needed
+
+>SA 11014 Ever Crisis Saber Style
+
+# Empty Line above needed
+
+>SA 11015 Ever Crisis Glavenus Armor
+
+# Empty Line above needed
+
+>SA 11016 Ever Crisis Bahamut
+
+# Empty Line above needed
+
+>SA 11017 Ever Crisis Locke
+
+# Empty Line above needed
+
+>SA 11018 Ever Crisis Holiday
+
+# Empty Line above needed
+
+>SA 11019 Ever Crisis New Year
+
+# Empty Line above needed
+
+>SA 11020 Ever Crisis Erdrick's Armor
+
+# Empty Line above needed
+
+>SA 11021 Ever Crisis Advent Children
+
+# Empty Line above needed
+
+>SA 11022 Ever Crisis Equilibrium
+
+# Empty Line above needed
+
+>SA 11023 Ever Crisis Scanner Ensemble
+
+# Empty Line above needed
+
+#####################################################################################################
+##                                  Ex-SOLDIER CMD                                                 ##
+#####################################################################################################
+
+# Handles the skill swap in Ex-SOLDIER
+>AA 11068 ~~ Operator Mode Toggle ~~
+[code=Patch] CheckAnyStatus(GetUnitProperty(50, 'CurrentStatus'), BattleStatus_CustomStatus26) ? 11068 : 11069 [/code]
+
+>AA 11069 ~~ Punisher Mode Toggle ~~
+[code=Patch] CheckAnyStatus(GetUnitProperty(50, 'CurrentStatus'), BattleStatus_CustomStatus26) ? 11068 : 11069 [/code]
+
+>AA 11070 ~~ Counterstance ~~
+[code=Disable] CasterCharacterIndex == 50 ? !CheckAnyStatus(GetUnitProperty(50, 'CurrentStatus'), BattleStatus_CustomStatus26) : 1 [/code]
+
+>AA 11074 ~~ Prime Mode ~~
+[code=Disable] CasterCharacterIndex == 50 ? !CheckAnyStatus(GetUnitProperty(50, 'CurrentStatus'), BattleStatus_CustomStatus26) : 1 [/code]
+
+>CMD 4 ~~ Defend swaps to Counterstance when in Punisher Mode ~~
+[code=Patch] CharacterIndex == 50 ? (CheckAnyStatus(CurrentStatus, BattleStatus_CustomStatus26) ? 11005 : 4) : -1 [/code]
+
+>CMD 1 ~~ Attack swaps to Primed Attack when in Prime Mode ~~
+[code=Patch] (CharacterIndex == 50 && CheckAnyStatus(CurrentStatus, BattleStatus_CustomStatus28)) ? 11006 : (HasSA(12071) ? 11003 : (HasSA(12070) ? 11002 : (HasSA(12069) ? 11001 : -1))) [/code]
+
+>SA Global+ ~~ Primed Attack breaks damage limit ~~
+Ability WhenBattleScriptStart EvenImmobilized
+[code=Condition] AbilityId == 11075 [/code]
+[code=CasterMaxDamageLimit] 10 * CasterMaxDamageLimit + 9 [/code]
+Ability WhenEffectDone EvenImmobilized
+[code=Condition] AbilityId == 11075 [/code]
+[code=CasterMaxDamageLimit] CasterMaxDamageLimit / 10 [/code]
+
+>SA Global+ ~~ Infinity's End breaks damage limit ~~
+Ability WhenBattleScriptStart EvenImmobilized
+[code=Condition] AbilityId == 11082 [/code]
+[code=CasterMaxDamageLimit] 10 * CasterMaxDamageLimit + 9 [/code]
+Ability WhenEffectDone EvenImmobilized
+[code=Condition] AbilityId == 11082 [/code]
+[code=CasterMaxDamageLimit] CasterMaxDamageLimit / 10 [/code]
+
+#####################################################################################################
+##                                  Support Abilities (Cloud)                                     ##
+#####################################################################################################
+
+# Cloud starts with Operator Mode in battle
+>SA Global+ ~~ Cloud stance init ~~
+StatusInit [code=Condition] CharacterIndex == 50 && !HasSA(12089) [/code] InitialStatus CustomStatus25
+
+>SA Global+ ~~ Cloud stance init (Punisher Start) ~~
+StatusInit [code=Condition] CharacterIndex == 50 && HasSA(12089) [/code] InitialStatus CustomStatus26
+
+>SA Global+ ~~ Cloud start SA lockout ~~
+Permanent [code=Condition] HasSA(12089) [/code] [code=BanishSA] 12090 [/code]
+Permanent [code=Condition] HasSA(12090) [/code] [code=BanishSA] 12089 [/code]
+
+>SA 12089 ~~ Punisher Start ~~
+
+>SA 12090 ~~ Prime Start ~~
+StatusInit [code=Condition] CharacterIndex == 50 [/code] InitialStatus CustomStatus28
+
+>SA 12091 ~~ Relentless Punisher ~~

@@ -1,0 +1,7 @@
+# This file define basic parameters of characters.
+# -----------------------------------------------
+# Id;DefaultRow;DefaultWinPose;DefaultCategory;DefaultCommandSet;DefaultEquipmentSet;BattleParameterFormula;NameKeyword
+# Int32;Boolean;Boolean;UInt8;Int32;Int32;String;String
+# -----------------------------------------------
+# Swaps costumes based on SA equipped. 57 is default if none is equipped
+50;1;1;5;58;54;HasSA(11023) ? 81: (HasSA(11022) ? 80: (HasSA(11021) ? 79: (HasSA(11020) ? 78: (HasSA(11019) ? 77: (HasSA(11018) ? 76: (HasSA(11017) ? 75: (HasSA(11016) ? 74: (HasSA(11015) ? 73: (HasSA(11014) ? 72: (HasSA(11013) ? 71: (HasSA(11012) ? 70: (HasSA(11011) ? 69: (HasSA(11010) ? 68: (HasSA(11009) ? 67: (HasSA(11008) ? 66: (HasSA(11007) ? 65: (HasSA(11006) ? 64: (HasSA(11005) ? 63: (HasSA(11004) ? 62: (HasSA(11003) ? 61: (HasSA(11002) ? 60: (HasSA(11001) ? 59: (HasSA(11000) ? 58: 57)))))))))))))))))))))));CLOD;# Cloud

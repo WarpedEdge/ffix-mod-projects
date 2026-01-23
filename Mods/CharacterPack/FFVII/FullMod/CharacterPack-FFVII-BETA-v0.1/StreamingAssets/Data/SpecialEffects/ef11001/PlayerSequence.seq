@@ -1,0 +1,45 @@
+// Player sequence of SFX Deathblow
+
+WaitAnimation: Char=Caster
+LoadSFX: SFX=Player_Attack_Steiner
+MoveToTarget: Char=Caster ; Target=AllTargets ; Distance=-200 ; UseCollisionRadius=True ; Anim=MP_STEP_FORWARD
+WaitMove: Char=Caster
+PlayAnimation: Char=Caster ; Anim=MP_SPECIAL1
+Turn: Char=Caster ; BaseAngle=AllTargets ; Time=0
+
+Wait: Time=25
+StartThread
+    Wait: Time=1
+    WaitSFXLoaded: SFX=Player_Attack_Steiner
+    PlaySFX: SFX=Player_Attack_Steiner
+    WaitSFXDone: SFX=Player_Attack_Steiner
+EndThread
+
+
+StartThread: Condition=!IsAttackMiss
+    EffectPoint: Char=AllTargets ; Type=Effect
+    StartThread: Condition=IsAttackMiss
+        PlaySound: Sound=901
+    ElseThread
+        PlaySound: Sound=673
+    EndThread
+    Wait: Time=4
+    EffectPoint: Char=Everyone ; Type=Figure
+EndThread
+
+StartThread: Condition=IsAttackMiss
+    MoveToTarget: Char=AllTargets ; Target=AllTargets ; Distance=200 ; UseCollisionRadius=True ; Time=6
+    MoveToTarget: Char=AllTargets ; AbsolutePosition=Default ; Time=6
+EndThread
+
+WaitAnimation: Char=Caster
+StartThread: Condition=AreCasterAndTargetsEnemies ; Sync=True
+	MoveToPosition: Char=Caster ; AbsolutePosition=Default ; Anim=MP_BACK
+	Turn: Char=Caster ; BaseAngle=Default ; Time=4
+	WaitMove: Caster
+EndThread
+StartThread: Condition=!AreCasterAndTargetsEnemies ; Sync=True
+	MoveToPosition: Char=Caster ; AbsolutePosition=Default ; Time=0
+	Turn: Char=Caster ; BaseAngle=Default ; Time=0
+EndThread
+PlayAnimation: Char=Caster ; Anim=Idle

@@ -1,0 +1,10 @@
+# This file contains a set of SHP prototypes.
+# You must set at least 4 different SHP, used by statuses.
+# -----------------------------------------------
+# Comment;Id;Texture;TextureCount;ShaderIndex;CycleDuration
+# ;Int32;String;Int32;UInt8;Int32
+# -----------------------------------------------
+OperatorMode;12000;CustomTextures/OperatorMode/OperatorMode_%.png;24;0;36
+PunisherMode;12001;CustomTextures/PunisherMode/PunisherMode_%.png;24;0;36
+PrimeMode;12002;CustomTextures/PrimeMode/PrimeMode_%.png;24;0;36
+BeamEcho;12003;CustomTextures/BeamEcho/BeamEcho_%.png;5;0;9
